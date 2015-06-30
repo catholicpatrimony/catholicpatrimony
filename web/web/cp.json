@@ -1,0 +1,1914 @@
+cp = [
+    {
+        "classes": [
+            {
+                "id": "01",
+                "title": "Opening Rites",
+                "detail": "History of the Eucharistic Liturgy, Introductory Rites, Sign of the Cross, Opening Greeting, Penitential Act, Kyrie, Gloria",
+                "date": "1/17/2011",
+                "rssDate": "Mon, 17 Jan 2011 00:00:00 -0500",
+                "audio": "missal_class_for_jan17.MP3",
+                "handout_title": [
+                    "Opening Rites"
+                ],
+                "handout_file": [
+                    "Session01-OpeningRites.pdf"
+                ],
+                "newAudio": "01-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "01-Opening_Rites.pdf"
+                ],
+                "new_handout_title": [
+                    "Opening Rites"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/01-Opening_Rites.pdf"
+                ]
+            },
+            {
+                "id": "02",
+                "title": "Sacrosanctum Concilium",
+                "detail": "The Second Vatican Council's Sacrosanctum concilium and the Liturgy as a participation in Christ's own Priestly Service to the Father.",
+                "date": "1/24/2011",
+                "rssDate": "Mon, 24 Jan 2011 00:00:00 -0500",
+                "audio": "missal_class_for_jan24.MP3",
+                "handout_title": [
+                    "Sacrosanctum Concilium"
+                ],
+                "handout_file": [
+                    "Session02-SacrosanctumConcilium.pdf"
+                ],
+                "newAudio": "02-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "02-Sacrosanctum_Concilium.pdf"
+                ],
+                "new_handout_title": [
+                    "Sacrosanctum Concilium"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/02-Sacrosanctum_Concilium.pdf"
+                ]
+            },
+            {
+                "id": "03",
+                "title": "Liturgy of the Word",
+                "detail": "Liturgy of the Word, Gospel, Creed, \"consubstantial\"",
+                "date": "1/31/2011",
+                "rssDate": "Mon, 31 Jan 2011 00:00:00 -0500",
+                "audio": "missal_class_for_jan31.MP3",
+                "handout_title": [
+                    "Liturgy of the Word"
+                ],
+                "handout_file": [
+                    "Session03-LiturgyOfTheWord.pdf"
+                ],
+                "newAudio": "03-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "03-Liturgy_of_the_Word.pdf"
+                ],
+                "new_handout_title": [
+                    "Liturgy of the Word"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/03-Liturgy_of_the_Word.pdf"
+                ]
+            },
+            {
+                "id": "04",
+                "title": "Offertory and Roman Canon",
+                "detail": "Offertory Prayers, Roman Canon, \"precious chalice\", \"for many\"",
+                "date": "2/7/2011",
+                "rssDate": "Mon, 7 Feb 2011 00:00:00 -0500",
+                "audio": "missal_class_for_feb7.MP3",
+                "handout_title": [
+                    "Offertory and Roman Canon"
+                ],
+                "handout_file": [
+                    "Session04-OffertoryAndRomanCanon.pdf"
+                ],
+                "newAudio": "04-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "04-Offertory_and_Roman_Canon.pdf"
+                ],
+                "new_handout_title": [
+                    "Offertory and Roman Canon"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/04-Offertory_and_Roman_Canon.pdf"
+                ]
+            },
+            {
+                "id": "05",
+                "title": "Preface and Theology of Eucharist",
+                "detail": "Preface, \"and with your spirit\", Eucharistic Prayer Two, Real Presence",
+                "date": "2/14/2011",
+                "rssDate": "Mon, 14 Feb 2011 00:00:00 -0500",
+                "audio": "missal_class_for_feb14.MP3",
+                "handout_title": [
+                    "Preface and Theology of Eucharist"
+                ],
+                "handout_file": [
+                    "Session05-PrefaceAndTheologyOfEucharist.pdf"
+                ],
+                "newAudio": "05-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "05-Preface_and_Theology_of_Eucharist.pdf"
+                ],
+                "new_handout_title": [
+                    "Preface and Theology of Eucharist"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/05-Preface_and_Theology_of_Eucharist.pdf"
+                ]
+            },
+            {
+                "id": "06",
+                "title": "Theology of the Eucharist",
+                "detail": "The Eucharist as Sacrifice, Transubstantiation, Manner of Christ's Eucharistic Presence, Effects of Communion",
+                "date": "2/21/2011",
+                "rssDate": "Mon, 21 Feb 2011 00:00:00 -0500",
+                "audio": "missal_class_for_feb21.MP3",
+                "handout_title": [
+                    "Theology of Eucharist"
+                ],
+                "handout_file": [
+                    "Session06-TheologyOfTheEucharist.pdf"
+                ],
+                "newAudio": "06-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "06-Theology_of_Eucharist.pdf"
+                ],
+                "new_handout_title": [
+                    "Theology of Eucharist"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/06-Theology_of_Eucharist.pdf"
+                ]
+            },
+            {
+                "id": "07",
+                "title": "Liturgiam Authenticam and the Propers",
+                "detail": "Tying Up Loose Ends from Last Week, the Propers, and the Philosophy of Translation behind Liturgiam authenticam",
+                "date": "2/28/2011",
+                "rssDate": "Mon, 28 Feb 2011 00:00:00 -0500",
+                "audio": "missal_class_for_feb28.MP3",
+                "handout_title": [
+                    "Liturgiam Authenticam and the Propers",
+                    "Propers Handout"
+                ],
+                "handout_file": [
+                    "Session07-LiturgiamAuthenticamAndThePropers.pdf",
+                    "Session07-PropersHandout.pdf"
+                ],
+                "newAudio": "07-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "07-Liturgiam_Authenticam_and_the_Propers.pdf",
+                    "07-Propers_Handout.pdf"
+                ],
+                "new_handout_title": [
+                    "Liturgiam Authenticam and the Propers",
+                    "Propers Handout"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/07-Liturgiam_Authenticam_and_the_Propers.pdf",
+                    "/new_mass_translation/docs/07-Propers_Handout.pdf"
+                ]
+            },
+            {
+                "id": "08",
+                "title": "Sacramentum Caritatis",
+                "detail": "The 2007 Post-Synodal Exhortation Sacramentum caritatis, the Eucharist as what we believe, celebrate, and live.",
+                "date": "3/7/2011",
+                "rssDate": "Mon, 7 Mar 2011 00:00:00 -0500",
+                "audio": "missal_class_for_mar7.MP3",
+                "handout_title": [
+                    "Sacramentum Caritatis",
+                    "Overhead"
+                ],
+                "handout_file": [
+                    "Session08-SacramentumCaritatis.pdf",
+                    "Session08-Overhead.pdf"
+                ],
+                "newAudio": "08-new_mass_translation.mp3",
+                "new_handout_file": [
+                    "08-Sacramentum_Caritatis.pdf",
+                    "08-Overhead.pdf"
+                ],
+                "new_handout_title": [
+                    "Sacramentum Caritatis",
+                    "Overhead"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/new_mass_translation/docs/08-Sacramentum_Caritatis.pdf",
+                    "/new_mass_translation/docs/08-Overhead.pdf"
+                ]
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "new_mass_translation",
+            "title": "New Mass Translation"
+        }
+    },
+    {
+        "classes": [
+            {
+                "id": "01",
+                "title": "Fall Session 1 (2010)",
+                "handout_title": [
+                    "Introduction to Fathers"
+                ],
+                "handout_file": [
+                    "Fall Session 1 (Introduction to Fathers).doc"
+                ],
+                "new_handout_file": [
+                    "01-Introduction_to_Fathers.doc"
+                ],
+                "new_handout_title": [
+                    "Introduction to Fathers"
+                ],
+                "handout_links": [
+                    "/uncovering_riches/docs/01-Introduction_to_Fathers.doc"
+                ]
+            },
+            {
+                "id": "02",
+                "title": "Fall Session 2 (2010)",
+                "handout_title": [
+                    "Didache",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 2 (Didache).doc",
+                    "Fall Session 2 (Summary and Notes).doc"
+                ],
+                "new_handout_file": [
+                    "02-Didache.doc",
+                    "02-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Didache",
+                    "Summary and Notes"
+                ],
+                "handout_links": [
+                    "/uncovering_riches/docs/02-Didache.doc",
+                    "/uncovering_riches/docs/02-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "03",
+                "title": "Fall Session 3 (2010)",
+                "handout_title": [
+                    "First Clement",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 3 (First Clement).doc",
+                    "Fall Session 3 (Summary and Notes).doc"
+                ],
+                "new_handout_file": [
+                    "03-First_Clement.doc",
+                    "03-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "First Clement",
+                    "Summary and Notes"
+                ],
+                "handout_links": [
+                    "/uncovering_riches/docs/03-First_Clement.doc",
+                    "/uncovering_riches/docs/03-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "04",
+                "title": "Fall Session 4 (2010)",
+                "audio": "class_recording_for_oct27.MP3",
+                "handout_title": [
+                    "Ignatius to Eph, Rom",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 4 (Ignatius to Eph, Rom).doc",
+                    "Fall Session 4 (Summary and Notes).doc"
+                ],
+                "newAudio": "04-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "04-Ignatius_to_Eph,_Rom.doc",
+                    "04-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Ignatius to Eph, Rom",
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/04-Ignatius_to_Eph,_Rom.doc",
+                    "/uncovering_riches/docs/04-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "05",
+                "title": "Fall Session 5 (2010)",
+                "audio": "class_recording_for_nov3.MP3",
+                "handout_title": [
+                    "Ignatius to Philad, Smyr, Polyc",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 5 (Ignatius to Philad, Smyr, Polyc).doc",
+                    "Fall Session 5 (Summary and Notes).doc"
+                ],
+                "newAudio": "05-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "05-Ignatius_to_Philad,_Smyr,_Polyc.doc",
+                    "05-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Ignatius to Philad, Smyr, Polyc",
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/05-Ignatius_to_Philad,_Smyr,_Polyc.doc",
+                    "/uncovering_riches/docs/05-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "06",
+                "title": "Fall Session 6 (2010)",
+                "audio": "class_recording_for_nov10.MP3",
+                "handout_title": [
+                    "Martyrdom of Polycarp",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 6 (Martyrdom of Polycarp).doc",
+                    "Fall Session 6 (Summary and Notes).doc"
+                ],
+                "newAudio": "06-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "06-Martyrdom_of_Polycarp.doc",
+                    "06-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Martyrdom of Polycarp",
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/06-Martyrdom_of_Polycarp.doc",
+                    "/uncovering_riches/docs/06-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "07",
+                "title": "Fall Session 7 (2010)",
+                "audio": "class_recording_for_nov15.MP3",
+                "handout_title": [
+                    "Justin's First Apology",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 5 (Justin's First Apology).doc",
+                    "Fall Session 7 (Summary and Notes).doc"
+                ],
+                "newAudio": "07-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "07-Justin's_First_Apology.doc",
+                    "07-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Justin's First Apology",
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/07-Justin's_First_Apology.doc",
+                    "/uncovering_riches/docs/07-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "08",
+                "title": "Fall Session 8 (2010)",
+                "audio": "class_recording_for_nov22.MP3",
+                "handout_title": [
+                    "Irenaeus' AH",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Fall Session 8 (Irenaeus' AH).doc",
+                    "Fall Session 8 (Summary and Notes).doc"
+                ],
+                "newAudio": "08-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "08-Irenaeus'_AH.doc",
+                    "08-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Irenaeus' AH",
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/08-Irenaeus'_AH.doc",
+                    "/uncovering_riches/docs/08-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "09",
+                "title": "Fall Session 9 (2010)",
+                "handout_title": [
+                    "Tertullian and his Short Way with Heretics",
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Session 9 (Tertullian and his Short Way with Heretics).doc",
+                    "Session 9 (Summary and Notes).doc"
+                ],
+                "new_handout_file": [
+                    "09-Tertullian_and_his_Short_Way_with_Heretics.doc",
+                    "09-Summary_and_Notes.doc"
+                ],
+                "new_handout_title": [
+                    "Tertullian and his Short Way with Heretics",
+                    "Summary and Notes"
+                ],
+                "handout_links": [
+                    "/uncovering_riches/docs/09-Tertullian_and_his_Short_Way_with_Heretics.doc",
+                    "/uncovering_riches/docs/09-Summary_and_Notes.doc"
+                ]
+            },
+            {
+                "id": "10",
+                "title": "Winter Session 1 (2011)",
+                "audio": "class_recording_for_jan19.MP3",
+                "handout_title": [
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Winter Session 1 (Summary and Notes).pdf"
+                ],
+                "newAudio": "10-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "10-Summary_and_Notes.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/10-Summary_and_Notes.pdf"
+                ]
+            },
+            {
+                "id": "11",
+                "title": "Winter Session 2 (2011)",
+                "audio": "class_recording_for_jan26.MP3",
+                "handout_title": [
+                    "Summary and Notes",
+                    "Tertullian On Penitence"
+                ],
+                "handout_file": [
+                    "Winter Session 2 (Summary and Notes).pdf",
+                    "Winter Session 2 (Tertullian On Penitence).pdf"
+                ],
+                "newAudio": "11-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "11-Summary_and_Notes.pdf",
+                    "11-Tertullian_On_Penitence.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes",
+                    "Tertullian On Penitence"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/11-Summary_and_Notes.pdf",
+                    "/uncovering_riches/docs/11-Tertullian_On_Penitence.pdf"
+                ]
+            },
+            {
+                "id": "12",
+                "title": "Winter Session 3 (2011)",
+                "audio": "class_recording_for_feb9.MP3",
+                "handout_title": [
+                    "Summary and Notes"
+                ],
+                "handout_file": [
+                    "Winter Session 3 (Summary and Notes).pdf"
+                ],
+                "ignore": "Tertullian on the Trinity (Against Praxeas)",
+                "newAudio": "12-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "12-Summary_and_Notes.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/12-Summary_and_Notes.pdf"
+                ]
+            },
+            {
+                "id": "13",
+                "title": "Winter Session 4 (2011)",
+                "audio": "class_recording_for_feb16.MP3",
+                "handout_title": [
+                    "Summary and Notes",
+                    "Readings on and from Origen"
+                ],
+                "handout_file": [
+                    "Winter Session 4 (Summary and Notes).pdf",
+                    "Winter Session 4 (Readings on and from Origen).pdf"
+                ],
+                "newAudio": "13-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "13-Summary_and_Notes.pdf",
+                    "13-Readings_on_and_from_Origen.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes",
+                    "Readings on and from Origen"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/13-Summary_and_Notes.pdf",
+                    "/uncovering_riches/docs/13-Readings_on_and_from_Origen.pdf"
+                ]
+            },
+            {
+                "id": "14",
+                "title": "Winter Session 5 (2011)",
+                "audio": "class_recording_for_feb23.MP3",
+                "handout_title": [
+                    "Summary and Notes",
+                    "St. Cyprian"
+                ],
+                "handout_file": [
+                    "Winter Session 5 (Summary and Notes).pdf",
+                    "Winter Session 5 (St. Cyprian).pdf"
+                ],
+                "newAudio": "14-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "14-Summary_and_Notes.pdf",
+                    "14-St._Cyprian. Cyprian).pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes",
+                    "St. Cyprian"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/14-Summary_and_Notes.pdf",
+                    "/uncovering_riches/docs/14-St._Cyprian. Cyprian).pdf"
+                ]
+            },
+            {
+                "id": "15",
+                "title": "Winter Session 6 (2011)",
+                "audio": "class_recording_for_mar2.MP3",
+                "handout_title": [
+                    "Summary and Notes",
+                    "Life of Anthony"
+                ],
+                "handout_file": [
+                    "Winter Session 6 (Summary and Notes).pdf",
+                    "Winter Session 6 (Life of Anthony).pdf"
+                ],
+                "newAudio": "15-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "15-Summary_and_Notes.pdf",
+                    "15-Life_of_Anthony.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes",
+                    "Life of Anthony"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/15-Summary_and_Notes.pdf",
+                    "/uncovering_riches/docs/15-Life_of_Anthony.pdf"
+                ]
+            },
+            {
+                "id": "16",
+                "title": "Winter Session 7 (2011)",
+                "audio": "class_recording_for_mar9.MP3",
+                "handout_title": [
+                    "Summary and Notes",
+                    "Life of Constantine"
+                ],
+                "handout_file": [
+                    "Winter Session 7 (Summary and Notes).pdf",
+                    "Winter Session 7 (Life of Constantine).pdf"
+                ],
+                "newAudio": "16-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "16-Summary_and_Notes.pdf",
+                    "16-Life_of_Constantine.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes",
+                    "Life of Constantine"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/16-Summary_and_Notes.pdf",
+                    "/uncovering_riches/docs/16-Life_of_Constantine.pdf"
+                ]
+            },
+            {
+                "id": "17",
+                "title": "Winter Session 8 (2011)",
+                "audio": "class_recording_for_mar16.MP3",
+                "handout_title": [
+                    "Summary and Notes",
+                    "Nicene Symbol, Athanasius"
+                ],
+                "handout_file": [
+                    "Winter Session 8 (Summary and Notes).pdf",
+                    "Winter Session 8 (Nicene Symbol, Athanasius).pdf"
+                ],
+                "newAudio": "17-uncovering_riches.mp3",
+                "new_handout_file": [
+                    "17-Summary_and_Notes.pdf",
+                    "17-Nicene_Symbol,_Athanasius.pdf"
+                ],
+                "new_handout_title": [
+                    "Summary and Notes",
+                    "Nicene Symbol, Athanasius"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/uncovering_riches/docs/17-Summary_and_Notes.pdf",
+                    "/uncovering_riches/docs/17-Nicene_Symbol,_Athanasius.pdf"
+                ]
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "uncovering_riches",
+            "title": "Uncovering the Riches of our Catholic Patrimony"
+        }
+    },
+    {
+        "classes": [
+            {
+                "id": "01",
+                "title": "Science and Theism",
+                "date": "11/17/2012",
+                "rssDate": "Sat, 17 Nov 2012 00:00:00 -0500",
+                "audio": "Apol. Class for 11-27-2012 (Theism and Science).MP3",
+                "newAudio": "01-apologetics.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "02",
+                "title": "Evidence for Christ",
+                "date": "1/17/2013",
+                "rssDate": "Thu, 17 Jan 2013 00:00:00 -0500",
+                "audio": "Apol. Class for 1-17-2013 (Evidence for Christ).MP3",
+                "newAudio": "02-apologetics.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "03",
+                "title": "John and Evidence for the Church",
+                "date": "1/24/2013",
+                "rssDate": "Thu, 24 Jan 2013 00:00:00 -0500",
+                "audio": "Apol. Class for 1-24-2013 (John and Evidence for the Church).MP3",
+                "newAudio": "03-apologetics.mp3",
+                "volume_boost": "1"
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "apologetics",
+            "title": "Apologetics"
+        }
+    },
+    {
+        "classes": [
+            {
+                "id": "01",
+                "title": "a more",
+                "audio": "01_ad_deum.mp3",
+                "handout_title": [
+                    "1a-title",
+                    "1b-title"
+                ],
+                "handout_file": [
+                    "1a.txt",
+                    "1b.txt"
+                ],
+                "newAudio": "01-test.mp3",
+                "new_handout_file": [
+                    "01-1a-title.txt",
+                    "01-1b-title.txt"
+                ],
+                "new_handout_title": [
+                    "1a-title",
+                    "1b-title"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/test/docs/01-1a-title.txt",
+                    "/test/docs/01-1b-title.txt"
+                ]
+            },
+            {
+                "id": "02",
+                "title": "b",
+                "audio": "02_quia_tu_es.mp3",
+                "handout_title": "2a-title",
+                "newAudio": "02-test.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "03",
+                "title": "c",
+                "audio": "03_et_introibo.mp3",
+                "handout_title": [
+                    "3a-title",
+                    "3b-title"
+                ],
+                "handout_file": [
+                    "3a.txt",
+                    "3b.txt"
+                ],
+                "newAudio": "03-test.mp3",
+                "new_handout_file": [
+                    "03-3a-title.txt",
+                    "03-3b-title.txt"
+                ],
+                "new_handout_title": [
+                    "3a-title",
+                    "3b-title"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/test/docs/03-3a-title.txt",
+                    "/test/docs/03-3b-title.txt"
+                ]
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "test",
+            "title": "test",
+            "description": "testing description",
+            "publish": "FALSE"
+        }
+    },
+    {
+        "classes": [
+            {
+                "id": "01",
+                "title": "1st Session: The Economy of Salvation (Introduction)",
+                "detail": "The word \"economy\" in its specialized theological sense is looked at and a general overview of the entire course is set out...we also begin to speak about Adam",
+                "date": "10/15/2014",
+                "rssDate": "Wed, 15 Oct 2014 00:00:00 -0400",
+                "audio": "BibleStudyEconomyofSalvationSession1Introduction.MP3",
+                "handout_title": [
+                    "Introduction"
+                ],
+                "handout_file": [
+                    "Session1introduction.pdf"
+                ],
+                "newAudio": "01-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "01-Introduction.pdf"
+                ],
+                "new_handout_title": [
+                    "Introduction"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/01-Introduction.pdf"
+                ]
+            },
+            {
+                "id": "02",
+                "title": "2nd Session: Adam as Type (Adam 1 of 1)",
+                "detail": "We study the first man as the pattern for all mediators in the economy of salvation, culminating in the supreme mediator, Christ Jesus",
+                "date": "10/22/2014",
+                "rssDate": "Wed, 22 Oct 2014 00:00:00 -0400",
+                "audio": "2.mp3",
+                "handout_title": [
+                    "Adam handout (1 of 1)"
+                ],
+                "handout_file": [
+                    "Session2Adam.pdf"
+                ],
+                "newAudio": "02-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "02-Adam_handout_(1_of_1).pdf"
+                ],
+                "new_handout_title": [
+                    "Adam handout (1 of 1)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/02-Adam_handout_(1_of_1).pdf"
+                ]
+            },
+            {
+                "id": "03",
+                "title": "3rd Session: Noah as Recapitulation and Foreshadow (Noah 1 of 1)",
+                "detail": "We study how the figure of Noah both points back to Adam and forward to Jesus Christ",
+                "date": "10/29/2014",
+                "rssDate": "Wed, 29 Oct 2014 00:00:00 -0400",
+                "audio": "3-economy.mp3",
+                "handout_title": [
+                    "Noah handout (1 of 1)",
+                    "Noah slides (1 of 1)"
+                ],
+                "handout_file": [
+                    "Session3Noah.pdf",
+                    "Session3Noahpwrpt.pdf"
+                ],
+                "newAudio": "03-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "03-Noah_handout_(1_of_1).pdf",
+                    "03-Noah_slides_(1_of_1).pdf"
+                ],
+                "new_handout_title": [
+                    "Noah handout (1 of 1)",
+                    "Noah slides (1 of 1)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/03-Noah_handout_(1_of_1).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/03-Noah_slides_(1_of_1).pdf"
+                ]
+            },
+            {
+                "id": "04",
+                "title": "4th Session: Abraham and the City of God (Abraham 1 of 5)",
+                "detail": "Within the framework of the Augustinian idea of the Two Cities, we explore the nature of the blessing of Abraham against the background of the Tower of Babel ",
+                "date": "11/5/2014",
+                "rssDate": "Wed, 5 Nov 2014 00:00:00 -0500",
+                "audio": "4-economy.mp3",
+                "handout_title": [
+                    "Abraham handout (1 of 5)",
+                    "Abraham slides (1 of 5)"
+                ],
+                "handout_file": [
+                    "Session4Abraham1.pdf",
+                    "Session4Abraham1pwrpt.pdf"
+                ],
+                "newAudio": "04-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "04-Abraham_handout_(1_of_5).pdf",
+                    "04-Abraham_slides_(1_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Abraham handout (1 of 5)",
+                    "Abraham slides (1 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/04-Abraham_handout_(1_of_5).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/04-Abraham_slides_(1_of_5).pdf"
+                ]
+            },
+            {
+                "id": "05",
+                "title": "5th Session: Abraham and the Genesis Annunciation (Abraham 2 of 5)",
+                "detail": "We explore how the three angels who visit Abraham in Gen 18 foreshadow the Trinity and the Incarnation",
+                "date": "11/12/2014",
+                "rssDate": "Wed, 12 Nov 2014 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession5Abraham2.MP3",
+                "handout_title": [
+                    "Abraham handout (2 of 5)",
+                    "Abraham slides (2 of 5)"
+                ],
+                "handout_file": [
+                    "Session5Abraham2.pdf",
+                    "Session5Abraham2pwrpt.pdf"
+                ],
+                "newAudio": "05-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "05-Abraham_handout_(2_of_5).pdf",
+                    "05-Abraham_slides_(2_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Abraham handout (2 of 5)",
+                    "Abraham slides (2 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/05-Abraham_handout_(2_of_5).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/05-Abraham_slides_(2_of_5).pdf"
+                ]
+            },
+            {
+                "id": "06",
+                "title": "6th Session: The Binding of Isaac and the Promise Fulfilled (Abraham 3 of 5)",
+                "detail": "We study how Abraham's intention to sacrifice Isaac is a prophetic foreshadow of the sacrifice of Christ which in turn is the fulfillment of the blessing of Abraham",
+                "date": "11/19/2014",
+                "rssDate": "Wed, 19 Nov 2014 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession6Abraham3.MP3",
+                "handout_title": [
+                    "Abraham handout (3 of 5)",
+                    "Abraham slides (3 of 5)"
+                ],
+                "handout_file": [
+                    "Session6Abraham3.pdf",
+                    "Session6Abraham3pwrpt.pdf"
+                ],
+                "newAudio": "06-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "06-Abraham_handout_(3_of_5).pdf",
+                    "06-Abraham_slides_(3_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Abraham handout (3 of 5)",
+                    "Abraham slides (3 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/06-Abraham_handout_(3_of_5).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/06-Abraham_slides_(3_of_5).pdf"
+                ]
+            },
+            {
+                "id": "07",
+                "title": "7th Session: Excursus...The Seed Threatened (Abraham 4 of 5)",
+                "detail": "We study how the Protoevangelium with its theme of the Seed of the Woman is the controlling idea for all of Genesis and even the rest of the Bible",
+                "date": "12/3/2014",
+                "rssDate": "Wed, 3 Dec 2014 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession7Abraham4.MP3",
+                "handout_title": [
+                    "Abraham handout (4 of 5)",
+                    "Abraham slides (4 of 5)"
+                ],
+                "handout_file": [
+                    "Session7Abraham4.pdf",
+                    "Session7Abraham4pwrpt.pdf"
+                ],
+                "newAudio": "07-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "07-Abraham_handout_(4_of_5).pdf",
+                    "07-Abraham_slides_(4_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Abraham handout (4 of 5)",
+                    "Abraham slides (4 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/07-Abraham_handout_(4_of_5).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/07-Abraham_slides_(4_of_5).pdf"
+                ]
+            },
+            {
+                "id": "08",
+                "title": "8th Session: Abraham Across Salvation History (Abraham 5 of 5)",
+                "detail": "We study Abraham as a heavenly intercessor and Mary's Magnificat as a summary of Salvation History",
+                "date": "12/10/2014",
+                "rssDate": "Wed, 10 Dec 2014 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession8Abraham5.MP3",
+                "handout_title": [
+                    "Abraham handout (5 of 5)"
+                ],
+                "handout_file": [
+                    "Session8Abraham5.pdf"
+                ],
+                "newAudio": "08-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "08-Abraham_handout_(5_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Abraham handout (5 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/08-Abraham_handout_(5_of_5).pdf"
+                ]
+            },
+            {
+                "id": "09",
+                "title": "9th Session: The Day of the Church (Moses 1 of 5)",
+                "detail": "The Sinai event is looked at as foundational to Christianity as well as Judaism",
+                "date": "1/15/2015",
+                "rssDate": "Thu, 15 Jan 2015 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession9Moses1.MP3",
+                "handout_title": [
+                    "Moses handout (1 of 5)",
+                    "Moses slides (1 of 5)"
+                ],
+                "handout_file": [
+                    "Session9Moses1.pdf",
+                    "Session9Moses1pwrpt.pdf"
+                ],
+                "newAudio": "09-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "09-Moses_handout_(1_of_5).pdf",
+                    "09-Moses_slides_(1_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Moses handout (1 of 5)",
+                    "Moses slides (1 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/09-Moses_handout_(1_of_5).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/09-Moses_slides_(1_of_5).pdf"
+                ]
+            },
+            {
+                "id": "10",
+                "title": "10th Session: The Law of Life (Moses 2 of 5)",
+                "detail": "The inner sanctifying dimension of the Mosaic Law is looked at",
+                "date": "1/21/2015",
+                "rssDate": "Wed, 21 Jan 2015 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession10Moses2.MP3",
+                "handout_title": [
+                    "Moses slides (2 of 5)"
+                ],
+                "handout_file": [
+                    "Session10Moses2pwrpt.pdf"
+                ],
+                "newAudio": "10-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "10-Moses_slides_(2_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Moses slides (2 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/10-Moses_slides_(2_of_5).pdf"
+                ]
+            },
+            {
+                "id": "11",
+                "title": "11th Session: The Giver of the Law of Life (Moses 3 of 5)",
+                "detail": "Here we explore the relationship between the New Law of the gospel and the Old Mosaic Law and how all those under the old dispensation who were sanctified were sanctified by Christ",
+                "date": "2/4/2015",
+                "rssDate": "Wed, 4 Feb 2015 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession11Moses3.MP3",
+                "handout_title": [
+                    "Moses slides (3 of 5)"
+                ],
+                "handout_file": [
+                    "Session11Moses3pwrpt.pdf"
+                ],
+                "newAudio": "11-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "11-Moses_slides_(3_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Moses slides (3 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/11-Moses_slides_(3_of_5).pdf"
+                ]
+            },
+            {
+                "id": "12",
+                "title": "12th Session: The Blood of the Covenant (Moses 4 of 5)",
+                "detail": "We study the covenant made in Exodus 24 and it's ultimate fulfillment in the Eucharistic Sacrifice of the New Covenant",
+                "date": "2/11/2015",
+                "rssDate": "Wed, 11 Feb 2015 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession12Moses4.MP3",
+                "handout_title": [
+                    "Moses handout (4 of 5)",
+                    "Moses slides (4 of 5)"
+                ],
+                "handout_file": [
+                    "Session12Moses4.pdf",
+                    "Session12Moses4pwrpt.pdf"
+                ],
+                "newAudio": "12-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "12-Moses_handout_(4_of_5).pdf",
+                    "12-Moses_slides_(4_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Moses handout (4 of 5)",
+                    "Moses slides (4 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/12-Moses_handout_(4_of_5).pdf",
+                    "/Bible_Study_Economy_of_Salvation/docs/12-Moses_slides_(4_of_5).pdf"
+                ]
+            },
+            {
+                "id": "13",
+                "title": "13th Session: Moses as Mediator in the One Mediator (Moses 5 of 5)",
+                "detail": "We discuss created secondary causes of grace and also explore the nature of anthropopathic language about God",
+                "date": "2/25/2015",
+                "rssDate": "Wed, 25 Feb 2015 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession13Moses5.MP3",
+                "handout_title": [
+                    "Moses handout (5 of 5)"
+                ],
+                "handout_file": [
+                    "Session13Moses5.pdf"
+                ],
+                "newAudio": "13-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "13-Moses_handout_(5_of_5).pdf"
+                ],
+                "new_handout_title": [
+                    "Moses handout (5 of 5)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/13-Moses_handout_(5_of_5).pdf"
+                ]
+            },
+            {
+                "id": "14",
+                "title": "14th Session: The Davidic Covenant (David 1 of 3)",
+                "detail": "We discuss the covenant God makes with king David and the very important Messianic prophecy of 2Sam 7",
+                "date": "3/4/2015",
+                "rssDate": "Wed, 4 Mar 2015 00:00:00 -0500",
+                "audio": "BibleStudyEconomyofSalvationSession14David1.MP3",
+                "handout_title": [
+                    "David (1 of 3)"
+                ],
+                "handout_file": [
+                    "Session14David1.pdf"
+                ],
+                "newAudio": "14-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "14-David_(1_of_3).pdf"
+                ],
+                "new_handout_title": [
+                    "David (1 of 3)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/14-David_(1_of_3).pdf"
+                ]
+            },
+            {
+                "id": "15",
+                "title": "15th Session: David's Messianic Psalter (David 2 of 3)",
+                "detail": "We discuss the prophetic nature of the Psalter",
+                "date": "3/11/2015",
+                "rssDate": "Wed, 11 Mar 2015 00:00:00 -0400",
+                "audio": "BibleStudyEconomyofSalvationSession15David2.MP3",
+                "handout_title": [
+                    "David (2 of 3)"
+                ],
+                "handout_file": [
+                    "Session15David2.pdf"
+                ],
+                "newAudio": "15-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "15-David_(2_of_3).pdf"
+                ],
+                "new_handout_title": [
+                    "David (2 of 3)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/15-David_(2_of_3).pdf"
+                ]
+            },
+            {
+                "id": "16",
+                "title": "16th Session: David's Failure and Jesus' Success (David 3 of 3)",
+                "detail": "We read about King David's sin of adultery and murder and the failure in general of the Old Testament People of God and how this points in a surprising way to Jesus",
+                "date": "3/18/2015",
+                "rssDate": "Wed, 18 Mar 2015 00:00:00 -0400",
+                "audio": "BibleStudyEconomyofSalvationSession16David3.MP3",
+                "handout_title": [
+                    "David (3 of 3)"
+                ],
+                "handout_file": [
+                    "Session16David3.pdf"
+                ],
+                "newAudio": "16-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "16-David_(3_of_3).pdf"
+                ],
+                "new_handout_title": [
+                    "David (3 of 3)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/16-David_(3_of_3).pdf"
+                ]
+            },
+            {
+                "id": "17",
+                "title": "17th Session: Prophetic Vision of the New Covenant (Prophets 1 of 3)",
+                "detail": "We look at Isaiah and Jeremiah's prophecies concerning the New Covenant",
+                "date": "3/25/2015",
+                "rssDate": "Wed, 25 Mar 2015 00:00:00 -0400",
+                "audio": "BibleStudyEconomyofSalvationSession17Prophets1.MP3",
+                "handout_title": [
+                    "Prophets (1 of 3)"
+                ],
+                "handout_file": [
+                    "Session17Prophets1.pdf"
+                ],
+                "newAudio": "17-Bible_Study_Economy_of_Salvation.mp3",
+                "new_handout_file": [
+                    "17-Prophets_(1_of_3).pdf"
+                ],
+                "new_handout_title": [
+                    "Prophets (1 of 3)"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Bible_Study_Economy_of_Salvation/docs/17-Prophets_(1_of_3).pdf"
+                ]
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "Bible_Study_Economy_of_Salvation",
+            "title": "Bible Study - Economy of Salvation",
+            "include_zips": "FALSE"
+        }
+    },
+    {
+        "classes": [
+            {
+                "id": "29",
+                "title": "Holy Thursday - Evening Mass of the Lord\u2019s Supper",
+                "detail": "The Institution of the Eucharist and the Priesthood and Our Lord's Humility and Love",
+                "date": "4/2/2015",
+                "rssDate": "Thu, 2 Apr 2015 00:00:00 -0400",
+                "audio": "HomilyforHolyThursday2015.wav",
+                "newAudio": "29-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "28",
+                "updated_on": "4/4/2015 21:08:00",
+                "updated_on_date": "2015-04-05T01:08:00+0000",
+                "title": "Palm Sunday of the Lord's Passion",
+                "detail": "The Lord's Passion as the Last Lenten Examination of Conscience",
+                "date": "3/29/2015",
+                "rssDate": "Sun, 29 Mar 2015 00:00:00 -0400",
+                "audio": "HomilyforPalmSunday2015",
+                "volume_boost": "6",
+                "newAudio": "28-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "27",
+                "title": "Feast of the Annunciation",
+                "detail": "Jesus Living in Mary",
+                "date": "3/25/2015",
+                "rssDate": "Wed, 25 Mar 2015 00:00:00 -0400",
+                "audio": "HomilyforFeastofAnnunciation2015",
+                "newAudio": "27-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "26",
+                "title": "Fifth Sunday of Lent 2015",
+                "detail": "Catholic Social Teaching: Lighting a Candle",
+                "date": "3/22/2015",
+                "rssDate": "Sun, 22 Mar 2015 00:00:00 -0400",
+                "audio": "HomilyforFifthSundayofLent2015.MP3",
+                "handout_title": [
+                    "Homily Text for Fifth Sunday of Lent 2015",
+                    "Compendium of the Social Doctrine of the Church"
+                ],
+                "handout_file": [
+                    "HomilyTextforFifthSundayofLent2015.pdf",
+                    "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
+                ],
+                "newAudio": "26-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "26-Homily_Text_for_Fifth_Sunday_of_Lent_2015.pdf",
+                    "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Fifth Sunday of Lent 2015",
+                    "Compendium of the Social Doctrine of the Church"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/26-Homily_Text_for_Fifth_Sunday_of_Lent_2015.pdf",
+                    "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
+                ]
+            },
+            {
+                "id": "25",
+                "title": "Feast of St. Joseph 2015",
+                "detail": "St. Joseph: Model of Stability",
+                "date": "3/19/2015",
+                "rssDate": "Thu, 19 Mar 2015 00:00:00 -0400",
+                "audio": "HomilyforFeastofStJoseph2015.MP3",
+                "newAudio": "25-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "24",
+                "title": "Fourth Sunday of Lent 2015",
+                "detail": "Appreciating Anew Good Friday and Easter Sunday",
+                "date": "3/15/2015",
+                "rssDate": "Sun, 15 Mar 2015 00:00:00 -0400",
+                "audio": "HomilyforFourthSundayofLent2015.MP3",
+                "handout_title": [
+                    "Minimal Facts Argument for the Resurrection of Christ",
+                    "Peter Kreeft's Argument for the Resurrection of Christ"
+                ],
+                "handout_file": [
+                    "MinimalFactsArgumentforResurrection.pdf",
+                    "PeterKreeftontheResurrection.pdf"
+                ],
+                "newAudio": "24-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "24-Minimal_Facts_Argument_for_the_Resurrection_of_Christ.pdf",
+                    "24-Peter_Kreeft's_Argument_for_the_Resurrection_of_Christ.pdf"
+                ],
+                "new_handout_title": [
+                    "Minimal Facts Argument for the Resurrection of Christ",
+                    "Peter Kreeft's Argument for the Resurrection of Christ"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/24-Minimal_Facts_Argument_for_the_Resurrection_of_Christ.pdf",
+                    "/Sunday_Homilies/docs/24-Peter_Kreeft's_Argument_for_the_Resurrection_of_Christ.pdf"
+                ]
+            },
+            {
+                "id": "23",
+                "title": "Third Sunday of Lent 2015",
+                "detail": "Zeal and Love as the Fulfillment of the Law",
+                "date": "3/8/2015",
+                "rssDate": "Sun, 8 Mar 2015 00:00:00 -0500",
+                "audio": "HomilyforThirdSundayofLent2015.MP3",
+                "handout_title": [
+                    "Interview with the Brother of Two of the 21 Coptic Christian Martyrs"
+                ],
+                "handout_file": [
+                    "Interviewwithbrotheroftwoofthe21CopticChristianmartyrs.pdf"
+                ],
+                "newAudio": "23-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "23-Interview_with_the_Brother_of_Two_of_the_21_Coptic_Christian_Martyrs.pdf"
+                ],
+                "new_handout_title": [
+                    "Interview with the Brother of Two of the 21 Coptic Christian Martyrs"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/23-Interview_with_the_Brother_of_Two_of_the_21_Coptic_Christian_Martyrs.pdf"
+                ]
+            },
+            {
+                "id": "22",
+                "title": "Second Sunday of Lent 2015",
+                "detail": "The Transfiguration: Easter Sunday Comes after Good Friday",
+                "date": "3/1/2015",
+                "rssDate": "Sun, 1 Mar 2015 00:00:00 -0500",
+                "audio": "HomilyforSecondSundayofLent2015.MP3",
+                "handout_title": [
+                    "Homily Outline for Second Sunday of Lent 2015"
+                ],
+                "handout_file": [
+                    "HomilyOutlineforSecondSundayofLent2015.pdf"
+                ],
+                "newAudio": "22-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "22-Homily_Outline_for_Second_Sunday_of_Lent_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Outline for Second Sunday of Lent 2015"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/22-Homily_Outline_for_Second_Sunday_of_Lent_2015.pdf"
+                ]
+            },
+            {
+                "id": "21",
+                "title": "First Sunday of Lent 2015",
+                "detail": "Diabolical Temptation and Habitual Sin",
+                "date": "2/23/2015",
+                "rssDate": "Mon, 23 Feb 2015 00:00:00 -0500",
+                "audio": "HomilyforFirstSundayofLent2015.MP3",
+                "handout_title": [
+                    "Homily Outline for First Sunday of Lent 2015",
+                    "St. Macarius and the Devil",
+                    "Remedies Against Habitual Sins"
+                ],
+                "handout_file": [
+                    "HomilyOutlineforFirstSundayofLent2015.pdf",
+                    "StMacariusandtheDevil.pdf",
+                    "Remediesagainstbadhabits.pdf"
+                ],
+                "newAudio": "21-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "21-Homily_Outline_for_First_Sunday_of_Lent_2015.pdf",
+                    "21-St._Macarius_and_the_Devil.pdf",
+                    "21-Remedies_Against_Habitual_Sins.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Outline for First Sunday of Lent 2015",
+                    "St. Macarius and the Devil",
+                    "Remedies Against Habitual Sins"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/21-Homily_Outline_for_First_Sunday_of_Lent_2015.pdf",
+                    "/Sunday_Homilies/docs/21-St._Macarius_and_the_Devil.pdf",
+                    "/Sunday_Homilies/docs/21-Remedies_Against_Habitual_Sins.pdf"
+                ]
+            },
+            {
+                "id": "20",
+                "title": "Sixth Sunday in Ordinary Time 2015",
+                "detail": "The Healing of Our Leprosy: A Meditation on the Passion of Christ",
+                "date": "2/15/2015",
+                "rssDate": "Sun, 15 Feb 2015 00:00:00 -0500",
+                "audio": "HomilyforSixthSundayinOrdinaryTime2015.MP3",
+                "handout_title": [
+                    "Homily Outline for Sixth Sunday in Ordinary Time 2015"
+                ],
+                "handout_file": [
+                    "HomilyOutlineforSixthSundayinOrdinaryTime2015.pdf"
+                ],
+                "newAudio": "20-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "20-Homily_Outline_for_Sixth_Sunday_in_Ordinary_Time_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Outline for Sixth Sunday in Ordinary Time 2015"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/20-Homily_Outline_for_Sixth_Sunday_in_Ordinary_Time_2015.pdf"
+                ]
+            },
+            {
+                "id": "19",
+                "title": "Fifth Sunday in Ordinary Time 2015",
+                "detail": "The Gospel as Central to Our Lives",
+                "date": "2/8/2015",
+                "rssDate": "Sun, 8 Feb 2015 00:00:00 -0500",
+                "audio": "HomilyforFifthSundayinOrdinaryTime2015.MP3",
+                "newAudio": "19-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "18",
+                "title": "Forth Sunday in Ordinary Time 2015",
+                "detail": "Celibacy and Marriage",
+                "date": "2/1/2015",
+                "rssDate": "Sun, 1 Feb 2015 00:00:00 -0500",
+                "audio": "HomilyforFourthSundayinOrdinaryTime2015.MP3",
+                "handout_title": [
+                    "Homily Text for Fourth Sunday in Ordinary Time 2015 [Short Version]",
+                    "Homily Text for Fourth Sunday in Ordinary Time 2015 [Extended Version]"
+                ],
+                "handout_file": [
+                    "HomilyTextforFourthSundayinOrdinaryTime2015.pdf",
+                    "HomilyTextforFourthSundayinOrdinaryTime2015[Extended].pdf"
+                ],
+                "newAudio": "18-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Short_Version].pdf",
+                    "18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Extended_Version].pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Fourth Sunday in Ordinary Time 2015 [Short Version]",
+                    "Homily Text for Fourth Sunday in Ordinary Time 2015 [Extended Version]"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Short_Version].pdf",
+                    "/Sunday_Homilies/docs/18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Extended_Version].pdf"
+                ]
+            },
+            {
+                "id": "17",
+                "title": "Third Sunday in Ordinary Time 2015",
+                "detail": "National Catholic Schools Week",
+                "date": "1/25/2015",
+                "rssDate": "Sun, 25 Jan 2015 00:00:00 -0500",
+                "audio": "HomilyforThirdSundayinOrdinaryTime2015.MP3",
+                "handout_title": [
+                    "Homily Text for Third Sunday in Ordinary Time 2015"
+                ],
+                "handout_file": [
+                    "HomilyTextforThirdSundayinOrdinaryTime2015.pdf"
+                ],
+                "newAudio": "17-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "17-Homily_Text_for_Third_Sunday_in_Ordinary_Time_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Third Sunday in Ordinary Time 2015"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/17-Homily_Text_for_Third_Sunday_in_Ordinary_Time_2015.pdf"
+                ]
+            },
+            {
+                "id": "16",
+                "title": "Second Sunday in Ordinary Time 2015",
+                "detail": "Human Sexuality and the Christian Vocation to Chastity",
+                "date": "1/18/2015",
+                "rssDate": "Sun, 18 Jan 2015 00:00:00 -0500",
+                "audio": "HomilyforSecondSundayinOrdinaryTime2015.MP3",
+                "handout_title": [
+                    "Homily Text for Second Sunday in Ordinary Time 2015"
+                ],
+                "handout_file": [
+                    "HomilyTextforSecondSundayinOrdinaryTime2015.pdf"
+                ],
+                "newAudio": "16-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "16-Homily_Text_for_Second_Sunday_in_Ordinary_Time_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Second Sunday in Ordinary Time 2015"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/16-Homily_Text_for_Second_Sunday_in_Ordinary_Time_2015.pdf"
+                ]
+            },
+            {
+                "id": "15",
+                "title": "The Baptism of the Lord 2015",
+                "detail": "The Suffering of Christ and the Christian Understanding of Human Suffering",
+                "date": "1/11/2015",
+                "rssDate": "Sun, 11 Jan 2015 00:00:00 -0500",
+                "audio": "HomilyforBaptismoftheLord2015.MP3",
+                "newAudio": "15-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "14",
+                "title": "The Feast of the Epiphany of the Lord 2015",
+                "detail": "The Epiphany of the Lord Hidden in the Eucharist",
+                "date": "1/4/2015",
+                "rssDate": "Sun, 4 Jan 2015 00:00:00 -0500",
+                "audio": "HomilyforEpiphany2015.MP3",
+                "newAudio": "14-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "13",
+                "title": "The Feast of Mary, The Holy Mother of God 2015",
+                "detail": "The Mother of God at the Beginning and Foundation of the Christian Faith",
+                "date": "1/1/2015",
+                "rssDate": "Thu, 1 Jan 2015 00:00:00 -0500",
+                "audio": "HomilyforFeastofMaryMotherofGod2015.MP3",
+                "handout_title": [
+                    "Homily Text for the Feast of Mary, Mother of God 2015"
+                ],
+                "handout_file": [
+                    "HomilyTextforFeastofMaryMotherofGod2015.pdf"
+                ],
+                "newAudio": "13-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "13-Homily_Text_for_the_Feast_of_Mary,_Mother_of_God_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for the Feast of Mary, Mother of God 2015"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/13-Homily_Text_for_the_Feast_of_Mary,_Mother_of_God_2015.pdf"
+                ]
+            },
+            {
+                "id": "12",
+                "title": "The Feast of the Holy Family 2014",
+                "detail": "The Sacrifices We Make for Our Families and the One Atoning Sacrifice of Christ",
+                "date": "12/28/2014",
+                "rssDate": "Sun, 28 Dec 2014 00:00:00 -0500",
+                "audio": "HomilyforFeastofHolyFamily2014.MP3",
+                "handout_title": [
+                    "Homily Text for the Feast of the Holy Family 2014"
+                ],
+                "handout_file": [
+                    "HomilyTextforFeastofHolyFamily2014.pdf"
+                ],
+                "newAudio": "12-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "12-Homily_Text_for_the_Feast_of_the_Holy_Family_2014.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for the Feast of the Holy Family 2014"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/12-Homily_Text_for_the_Feast_of_the_Holy_Family_2014.pdf"
+                ]
+            },
+            {
+                "id": "11",
+                "title": "The Feast of the Nativity (Christmas) 2014",
+                "detail": "The Incarnation as God's Justice in the Context of His Freedom and Love",
+                "date": "12/25/2014",
+                "rssDate": "Thu, 25 Dec 2014 00:00:00 -0500",
+                "audio": "HomilyforFeastofChristmas2014.MP3",
+                "handout_title": [
+                    "Homily Text for Text for the Feast of the Nativity 2014"
+                ],
+                "handout_file": [
+                    "HomilyTextforFeastofChristmas2014.pdf"
+                ],
+                "newAudio": "11-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "11-Homily_Text_for_Text_for_the_Feast_of_the_Nativity_2014.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Text for the Feast of the Nativity 2014"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/11-Homily_Text_for_Text_for_the_Feast_of_the_Nativity_2014.pdf"
+                ]
+            },
+            {
+                "id": "10",
+                "title": "Fourth Sunday in Advent 2014",
+                "detail": "Mary's 'Fiat' and Her Unique Role in the Incarnation",
+                "date": "12/21/2014",
+                "rssDate": "Sun, 21 Dec 2014 00:00:00 -0500",
+                "audio": "HomilyforFourthSundayofAdvent2014.MP3",
+                "handout_title": [
+                    "Homily Text for Fourth Sunday of Advent 2014"
+                ],
+                "handout_file": [
+                    "HomilyTextforFourthSundayinAdvent2014.pdf"
+                ],
+                "newAudio": "10-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "10-Homily_Text_for_Fourth_Sunday_of_Advent_2014.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Fourth Sunday of Advent 2014"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/10-Homily_Text_for_Fourth_Sunday_of_Advent_2014.pdf"
+                ]
+            },
+            {
+                "id": "09",
+                "title": "Third Sunday in Advent 2014",
+                "detail": "Gaudete Sunday and the Fulfilment of Messianic Prophecy",
+                "date": "12/14/2014",
+                "rssDate": "Sun, 14 Dec 2014 00:00:00 -0500",
+                "audio": "HomilyforThirdSundayofAdvent2014.MP3",
+                "handout_title": [
+                    "Homily Text for Third Sunday of Advent 2014"
+                ],
+                "handout_file": [
+                    "HomilyTextforThirdSundayinAdvent2014.pdf"
+                ],
+                "newAudio": "09-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "09-Homily_Text_for_Third_Sunday_of_Advent_2014.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Third Sunday of Advent 2014"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/09-Homily_Text_for_Third_Sunday_of_Advent_2014.pdf"
+                ]
+            },
+            {
+                "id": "08",
+                "title": "The Feast of the Immaculate Conception 2014",
+                "detail": "Mary Was Never the Devil's Friend",
+                "date": "12/8/2014",
+                "rssDate": "Mon, 8 Dec 2014 00:00:00 -0500",
+                "audio": "HomilyforFeastofImmaculateConception2014.MP3",
+                "handout_title": [
+                    "Homily Outline for the Feast of the Immaculate Conception 2014"
+                ],
+                "handout_file": [
+                    "HomilyOutlineforFeastofImmaculateConception2014.pdf"
+                ],
+                "newAudio": "08-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "08-Homily_Outline_for_the_Feast_of_the_Immaculate_Conception_2014.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Outline for the Feast of the Immaculate Conception 2014"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/08-Homily_Outline_for_the_Feast_of_the_Immaculate_Conception_2014.pdf"
+                ]
+            },
+            {
+                "id": "07",
+                "title": "Second Sunday in Advent 2014",
+                "detail": "Preparing for the Advent of Christ in the Sacrament of Penance and the Near Occasion of Sin",
+                "date": "12/7/2014",
+                "rssDate": "Sun, 7 Dec 2014 00:00:00 -0500",
+                "audio": "HomilyforSecondSundayofAdvent2014.MP3",
+                "handout_title": [
+                    "Homily Text for Second Sunday of Advent 2014"
+                ],
+                "handout_file": [
+                    "HomilyTextforSecondSundayofAdvent2014.pdf"
+                ],
+                "newAudio": "07-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "07-Homily_Text_for_Second_Sunday_of_Advent_2014.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Second Sunday of Advent 2014"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/07-Homily_Text_for_Second_Sunday_of_Advent_2014.pdf"
+                ]
+            },
+            {
+                "id": "06",
+                "title": "First Sunday in Advent 2014",
+                "detail": "The Christmas God Created",
+                "date": "11/30/2014",
+                "rssDate": "Sun, 30 Nov 2014 00:00:00 -0500",
+                "audio": "HomilyforFirstSundayofAdvent20014.MP3",
+                "newAudio": "06-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "05",
+                "title": "34th Sunday in Ordinary Time 2014",
+                "detail": "The Social Kingship of Christ and Voting with a Christian Conscience",
+                "date": "11/23/2014",
+                "rssDate": "Sun, 23 Nov 2014 00:00:00 -0500",
+                "audio": "Homilyfor34thSundayOrdinaryTime.MP3",
+                "handout_title": [
+                    "Homily Text for the Feast of Christ the King 2014",
+                    "Humanum YouTube Channel"
+                ],
+                "handout_file": [
+                    "HomilyTextforChristtheKing.pdf",
+                    "https://www.youtube.com/channel/UCwmvD_-GE_rT2gNIc8h6jtA"
+                ],
+                "newAudio": "05-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "05-Homily_Text_for_the_Feast_of_Christ_the_King_2014.pdf",
+                    "https://www.youtube.com/channel/UCwmvD_-GE_rT2gNIc8h6jtA"
+                ],
+                "new_handout_title": [
+                    "Homily Text for the Feast of Christ the King 2014",
+                    "Humanum YouTube Channel"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/05-Homily_Text_for_the_Feast_of_Christ_the_King_2014.pdf",
+                    "https://www.youtube.com/channel/UCwmvD_-GE_rT2gNIc8h6jtA"
+                ]
+            },
+            {
+                "id": "04",
+                "title": "33rd Sunday in Ordinary Time 2014",
+                "detail": "The Buried Talent and the Christian Vocation to a Share in the Master's Joy",
+                "date": "11/16/2014",
+                "rssDate": "Sun, 16 Nov 2014 00:00:00 -0500",
+                "audio": "Homilyfor33rdSundayOrdinaryTime.MP3",
+                "newAudio": "04-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "03",
+                "title": "Dedication of St. John Lateran 2014",
+                "detail": "The Extra-local Nature of the Church and Giving to the CMA",
+                "date": "11/9/2014",
+                "rssDate": "Sun, 9 Nov 2014 00:00:00 -0500",
+                "audio": "HomilyforDedicationofStJohnLateran.MP3",
+                "newAudio": "03-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            },
+            {
+                "id": "02",
+                "title": "All Souls Day 2014",
+                "detail": "Purgatory and Indulgences",
+                "date": "11/2/2014",
+                "rssDate": "Sun, 2 Nov 2014 00:00:00 -0400",
+                "audio": "2014-11-02.mp3",
+                "handout_title": [
+                    "Praying for the Dead on Sunday"
+                ],
+                "handout_file": [
+                    "Praying for the Dead on Sunday.pdf"
+                ],
+                "newAudio": "02-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "02-Praying_for_the_Dead_on_Sunday.pdf"
+                ],
+                "new_handout_title": [
+                    "Praying for the Dead on Sunday"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/02-Praying_for_the_Dead_on_Sunday.pdf"
+                ]
+            },
+            {
+                "id": "01",
+                "title": "29th Sunday in Ordinary Time 2014",
+                "detail": "The Church's Mission and the Relationship between the Church and the State",
+                "date": "10/19/2014",
+                "rssDate": "Sun, 19 Oct 2014 00:00:00 -0400",
+                "audio": "ot_29.mp3",
+                "newAudio": "01-Sunday_Homilies.mp3",
+                "volume_boost": "1"
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "Sunday_Homilies",
+            "title": "Homilies for Sundays and Major Feast Days",
+            "include_zips": "FALSE",
+            "separate_menu": "TRUE",
+            "rename_audio": "TRUE",
+            "reverse_order": "TRUE"
+        }
+    },
+    {
+        "classes": [
+            {
+                "id": "01",
+                "title": "From Pope to Parish: The Structure of the Catholic Church",
+                "detail": "This class has two sections. The first explores the authoritative weight of various Magisterial teachings while the second more major section explores the structure of the Church from its highest authority to the local parish level. ",
+                "date": "2/18/2015",
+                "rssDate": "Wed, 18 Feb 2015 00:00:00 -0500",
+                "audio": "FromPopetoParish.MP3",
+                "handout_title": [
+                    "From Pope to Parish Outline (18 pages)",
+                    "From Pope to Parish Power Point"
+                ],
+                "handout_file": [
+                    "FromPopetoParish.pdf",
+                    "FromPopetoParishpwrpt.pdf"
+                ],
+                "newAudio": "01-misc.mp3",
+                "new_handout_file": [
+                    "01-From_Pope_to_Parish_Outline_(18_pages).pdf",
+                    "01-From_Pope_to_Parish_Power_Point.pdf"
+                ],
+                "new_handout_title": [
+                    "From Pope to Parish Outline (18 pages)",
+                    "From Pope to Parish Power Point"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/misc/docs/01-From_Pope_to_Parish_Outline_(18_pages).pdf",
+                    "/misc/docs/01-From_Pope_to_Parish_Power_Point.pdf"
+                ]
+            },
+            {
+                "id": "02",
+                "title": "Teachers Retreat: The Moral Foundation of the Intellectual Life",
+                "detail": "This is a reflection on the importantce of the moral life in relation to the pursuit of truth",
+                "date": "3/20/2015",
+                "rssDate": "Fri, 20 Mar 2015 00:00:00 -0400",
+                "audio": "LentenTeacherRetreatMoralLifeandIntellectualLife.MP3",
+                "handout_title": [
+                    "Handout for Teachers Retreat"
+                ],
+                "handout_file": [
+                    "LentenTeacherRetreatatStMary2015.pdf"
+                ],
+                "newAudio": "02-misc.mp3",
+                "new_handout_file": [
+                    "02-Handout_for_Teachers_Retreat.pdf"
+                ],
+                "new_handout_title": [
+                    "Handout for Teachers Retreat"
+                ],
+                "volume_boost": "1",
+                "handout_links": [
+                    "/misc/docs/02-Handout_for_Teachers_Retreat.pdf"
+                ]
+            },
+            {
+                "id": "03",
+                "title": "Teachers Retreat: The Centrality of Holy Communion to the Spiritual Life",
+                "detail": "This is largely a reflection on Pope St. Pius' X's Magisterial document on the daily reception of Holy Communion",
+                "date": "3/20/2015",
+                "rssDate": "Fri, 20 Mar 2015 00:00:00 -0400",
+                "audio": "LentenTeacherRetreatCentralityofEucharisttoSpiritualLife.MP3",
+                "newAudio": "03-misc.mp3",
+                "volume_boost": "1"
+            }
+        ],
+        "seriesData": {
+            "normalized_name": "misc",
+            "title": "Misc. Lectures"
+        }
+    }
+]

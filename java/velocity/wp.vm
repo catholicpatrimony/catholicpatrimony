@@ -1,0 +1,49 @@
+#define( $f_handouts )
+  <span style="padding-right: 12px; white-space: nowrap;">
+    <a href="http://tedesche.s3.amazonaws.com/${seriesData.normalized_name}/generated/docs/${p_handout_file}">${p_handout_title}</a>
+    #if( $p_handout_file.toString().contains('.pdf') )
+      <img src="http://tedesche.s3.amazonaws.com/images/pdficon.gif" />
+    #end
+    #if( $p_handout_file.toString().contains('.doc') )
+      <img src="http://tedesche.s3.amazonaws.com/images/docicon.png" />
+    #end
+  </span>
+#end
+<br /><br />
+<div style="font-weight: bold">Bundled Downloads</div>
+<div style="margin-left: 20px">
+Download all audio files as a zip <a href="http://tedesche.s3.amazonaws.com/${seriesData.normalized_name}/generated/${seriesData.normalized_name}-audio.zip">here</a>.
+<br />
+Download all doc files as a zip <a href="http://tedesche.s3.amazonaws.com/${seriesData.normalized_name}/generated/${seriesData.normalized_name}-docs.zip">here</a>.
+<br />
+Download the audio files by using the podcast file <a href="http://www.catholicpatrimony.com/cp/${seriesData.normalized_name}/podcast.xml">here</a>.
+</div>
+#foreach( $class in $classes )
+  <br />
+  <div><strong>
+  #if (!$seriesData.normalized_name.equals("uncovering_riches"))
+    $foreach.count - 
+  #end
+  ${class.title}</strong></div>
+  #if ($class.detail)
+    <div>${class.detail}<div>
+  #end
+  <div style="max-width=: 70%;">
+  #if ($class.audio)
+    <span style="padding-right: 12px; white-space: nowrap;"><a href="http://tedesche.s3.amazonaws.com/${seriesData.normalized_name}/generated/audio/${class.newAudio}">Audio (MP3)</a><img src="http://www.catholicpatrimony.com/img/audio.png" width="20"/></span>
+  #end
+  #if ($class.handout_file)
+    #if($class.handout_file.size() > 1)
+      #foreach( $handout_file in $class.handout_file)
+        #set( $p_handout_title = $class.handout_title[$foreach.index] )
+        #set( $p_handout_file =  $class.new_handout_file[$foreach.index] )
+        $f_handouts
+      #end
+    #else
+      #set( $p_handout_title =  $class.handout_title )
+      #set( $p_handout_file =  $class.new_handout_file )
+      $f_handouts
+    #end
+  #end
+  </div>
+#end

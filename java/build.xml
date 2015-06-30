@@ -1,0 +1,55 @@
+<project xmlns:ivy="antlib:org.apache.ivy.ant" name="hello-ivy" default="run">
+
+  <property file="local.properties" />
+
+  <property name="ivy.install.version" value="2.3.0" />
+  <property name="ivy.jar.dir" value="${basedir}/ivy" />
+  <property name="ivy.jar.file" value="${ivy.jar.dir}/ivy.jar" />
+
+  <property name="groovy.jar.dir" value="${groovy.home}/lib" />
+
+  <path id="runtime.classpath">
+    <fileset dir="lib" includes="*.jar"/>
+  </path>
+
+  <target name="init.tasks">
+
+    <path id="ivy.lib.path">
+      <fileset dir="${ivy.jar.dir}" includes="*.jar"/>
+    </path>
+
+    <path id="groovy.lib.classpath">
+      <fileset dir="${groovy.jar.dir}" includes="*.jar"/>
+    </path>
+
+    <taskdef resource="org/apache/ivy/ant/antlib.xml"
+      uri="antlib:org.apache.ivy.ant" classpathref="ivy.lib.path"/>
+
+    <taskdef name="groovy"
+             classname="org.codehaus.groovy.ant.Groovy"
+             classpathref="groovy.lib.classpath"/>
+  </target>
+
+  <target name="init" depends="init.tasks">
+  </target>
+    
+
+    <!-- ================================= 
+          target: resolve              
+         ================================= -->
+  <target name="resolve" depends="init" >
+    <ivy:resolve />
+    <ivy:retrieve />
+    <copy file="vcs_lib/opencsv-2.3.jar" todir="lib" />
+  </target>
+
+
+  <target name="groovy" depends="init">
+    <!--
+    <groovy src="src/com/catholicpatrimony/HttpTest.groovy" classpathref="runtime.classpath" />
+    -->
+    <groovy src="src/com/catholicpatrimony/GDocTransformerGr.groovy" classpathref="runtime.classpath" />
+  </target>
+
+</project>
+

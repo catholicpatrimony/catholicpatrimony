@@ -1,0 +1,57 @@
+Index: index.html
+===================================================================
+--- index.html	(revision 80)
++++ index.html	(working copy)
+@@ -15,6 +15,8 @@
+     <!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+ 
++    <link rel="stylesheet" href="web/cp.css">
++
+     <!-- Latest compiled and minified JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ 
+Index: web/cal.html
+===================================================================
+--- web/cal.html	(revision 0)
++++ web/cal.html	(working copy)
+@@ -0,0 +1 @@
++<iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=350&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=a229b0lba3fr2abhcb1c7altt0%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FNew_York" style=" border-width:0 " width="400" height="350" frameborder="0" scrolling="no"></iframe>
+Index: web/cp.css
+===================================================================
+--- web/cp.css	(revision 0)
++++ web/cp.css	(working copy)
+@@ -0,0 +1,19 @@
++/* Responsive iFrame */
++ 
++.responsive-iframe-container {
++    position: relative;
++    padding-bottom: 56.25%;
++    padding-top: 30px;
++    height: 0;
++    overflow: hidden;
++}
++ 
++.responsive-iframe-container iframe,  
++.vresponsive-iframe-container object, 
++.vresponsive-iframe-container embed {
++    position: absolute;
++    top: 0;
++    left: 0;
++    width: 100%;
++    height: 100%;
++}
+Index: web/main.html
+===================================================================
+--- web/main.html	(revision 80)
++++ web/main.html	(working copy)
+@@ -5,7 +5,7 @@
+   </div>
+   <br />
+   <br />
+-  <div class="">
+-<iframe src="https://www.google.com/calendar/embed?title=Schedule%20for%20Bible%20Class&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=a229b0lba3fr2abhcb1c7altt0%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FNew_York" style=" border-width:0 " width="300" height="300" frameborder="0" scrolling="no"></iframe>
++  <div class="responsive-iframe-container">
++    <iframe src="https://www.google.com/calendar/embed?title=Schedule%20for%20Bible%20Class&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=300&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=a229b0lba3fr2abhcb1c7altt0%40group.calendar.google.com&amp;color=%2323164E&amp;ctz=America%2FNew_York" style=" border-width:0 " width="300" height="300" frameborder="0" scrolling="no"></iframe>
+   </div>
+ </div>

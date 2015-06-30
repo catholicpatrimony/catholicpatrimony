@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>CatholicPatrimony.com - $seriesData.title</title>
+    <link>http://www.catholicpatrimony.com/</link>
+    #if ($seriesData.description)
+      <description>${seriesData.description}</description>
+    #end
+    <language>en-us</language>
+    <webMaster>dtedesche@gmail.com (David Tedesche)</webMaster>
+    <managingEditor>dtedesche@gmail.com (David Tedesche)</managingEditor>
+    <image>
+      <url>http://www.catholicpatrimony.com/img/restoring.jpg</url>
+      <title>Sacred Art</title>
+      <link>http://www.catholicpatrimony.com</link>
+    </image>
+    <itunes:owner>
+      <itunes:email>dtedesche@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christian" />
+    </itunes:category>
+    <itunes:keywords>Catholic Patrimony Bible Apologetics Church Fathers Liturgy</itunes:keywords>
+    <itunes:image href="http://www.catholicpatrimony.com/img/christ_hagia.jpg"/>
+    #if ($seriesData.description)
+      <itunes:summary>${seriesData.description}</itunes:summary>
+    #end
+    <atom:link href="http://www.catholicpatrimony.com/$seriesData.normalized_name/podcast.xml" rel="self" type="application/rss+xml" />
+
+#foreach( $class in $classes )
+  #if ($class.audio)
+    <item>
+      <title>${class.id}-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+      #if ($class.detail)
+        <description>${class.detail}</description>
+      #end
+      <pubDate>${class.rssDate}</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+      #if ($class.detail)
+        <itunes:summary>$class.detail</itunes:summary>
+      #end
+      <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+  #end
+#end
+  </channel>
+</rss>

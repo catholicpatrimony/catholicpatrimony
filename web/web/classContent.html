@@ -18,15 +18,22 @@
     <div style="max-width=: 70%;">
     -->
     <div>
+      <span style="padding-right: 12px; white-space: nowrap;">
+        <a href="" ng-click="sessionClicked($index);" style="text-decoration:none" ng-if="enableComments">
+          Comments<img src="web/img/disqus-social-icon-blue-white.png" width="20"/>
+        </a>
+      </span>
       <span ng-if="c.newAudio" style="padding-right: 12px; white-space: nowrap;">
-        <a href="/{{sd.normalized_name}}/audio/{{c.newAudio}}">Audio (MP3)</a>
-        <img src="http://www.catholicpatrimony.com/img/headphone4_16.png" width="20"/>
+        <a href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none">
+          Audio (MP3)<img src="http://www.catholicpatrimony.com/img/headphone4_16.png" width="20"/>
+        </a>
       </span>
       <span ng-repeat="f in c.handout_links" style="padding-right: 12px; white-space: nowrap;">
-        <a href="{{f}}">{{c.new_handout_title[$index]}}</a>
-        <img ng-if="f.indexOf('.pdf') != -1" src="/img/pdficon.gif" />
-        <img ng-if="f.indexOf('.doc') != -1" src="/img/docicon.png" />
-        <img ng-if="f.indexOf('.ppt') != -1" src="/img/document_powerpoint.png" />
+        <a href="{{f}}" style="text-decoration:none">{{c.new_handout_title[$index]}}
+          <img ng-if="f.indexOf('.pdf') != -1" src="/img/pdficon.gif" />
+          <img ng-if="f.indexOf('.doc') != -1" src="/img/docicon.png" />
+          <img ng-if="f.indexOf('.ppt') != -1" src="/img/document_powerpoint.png" />
+        </a>
       </span>
     </div>
   </div>

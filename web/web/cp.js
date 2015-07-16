@@ -8,17 +8,17 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
       .when('/', {
         reloadOnSearch: false,
         controller:'MainController',
-        templateUrl:'web/main.html'
+        templateUrl:'web/main.html?v=2'
       })
       .when('/class', {
         reloadOnSearch: true,
         controller:'ClassController',
-        templateUrl:'web/classContent.html'
+        templateUrl:'web/classContent.html?v=2'
       })
       .when('/session', {
         reloadOnSearch: true,
         controller:'SessionController',
-        templateUrl:'web/session.html'
+        templateUrl:'web/session.html?v=2'
       })
       .otherwise({
         redirectTo:'/'

@@ -83,8 +83,9 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
     }
     $log.debug('enableComments: ' + $scope.enableComments);
 
-    $scope.sessionClicked = function(sessionId) {
-      $location.path('/session').search({'classId' : $scope.classId, 'sessionId': sessionId});
+    $scope.sessionClicked = function(c) {
+      $scope.c = c;
+      $location.path('/session').search({'classId' : $scope.classId, 'sessionId': c.id});
     }
   })
   .controller('SessionController', function($scope, $location, $routeParams, $log) {
@@ -101,7 +102,11 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
       $log.debug('found idx');
       selectClass($scope, $routeParams.classId);
       if ($routeParams['sessionId'] != null) {
-        $scope.c = $scope.classes[$routeParams['sessionId']];
+        for (var i=0; i < $scope.classes.length; i++) {
+          if ($scope.classes[i].id == $routeParams['sessionId']) {
+            $scope.c = $scope.classes[i];
+          }
+        }
         $scope.myDisqus_identifier = 'cp.com.session_' + $routeParams['classId'] + '_' + $routeParams['sessionId'];
         $scope.myDisqus_title = $scope.c.title;
         $scope.myDisqus_url = $location.absUrl();

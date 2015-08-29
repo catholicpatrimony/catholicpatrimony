@@ -1910,5 +1910,35 @@ cp = [
             "normalized_name": "misc",
             "title": "Misc. Lectures"
         }
+    }, {
+        "seriesData": {
+            "customTemplate": "TRUE",
+            "normalized_name": "2015_Fathers",
+            "title": "2015 Fathers back atya",
+            "include_zips": "FALSE"
+        }
     }
 ]
+/*
+        "classes": [
+            {
+                "id": "01",
+                "title": "Fall Session 1 (2015)",
+                "handout_title": [
+                    "new Introduction to Fathers"
+                ],
+                "handout_file": [
+                    "Fall Session 1 (Introduction to Fathers).doc"
+                ],
+                "new_handout_file": [
+                    "01-Introduction_to_Fathers.doc"
+                ],
+                "new_handout_title": [
+                    "Introduction to Fathers"
+                ],
+                "handout_links": [
+                    "/uncovering_riches/docs/01-Introduction_to_Fathers.doc"
+                ]
+            },
+        ],
+ */

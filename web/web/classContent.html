@@ -1,9 +1,11 @@
 <div ng-if="sd" class="container">
-  <div style="font-weight: bold">Bundled Downloads</div>
+  <p ng-if="sd.customTemplate" ng-include="'web/' + sd.normalized_name + '.html'">{{sd.normalized_name}}.html</p>
+
+  <div ng-if="classes" style="font-weight: bold">Bundled Downloads</div>
   <div style="margin-left: 20px">
     <div ng-if="sd.includeZips">Download all audio files as a zip <a href="/{{sd.normalized_name}}/{{sd.normalized_name}}-audio.zip">here</a>.</div>
     <div ng-if="sd.includeZips">Download all doc files as a zip <a href="/{{sd.normalized_name}}/{{sd.normalized_name}}-docs.zip">here</a>.</div>
-    <div>Download the audio files by using the podcast file: <a href="/{{sd.normalized_name}}/podcast.xml">raw xml</a></div>
+    <div ng-if="classes">Download the audio files by using the podcast file: <a href="/{{sd.normalized_name}}/podcast.xml">raw xml</a></div>
 <!--
   or <a href="itms://www.catholicpatrimony.com/{{sd.normalized_name}}/podcast.xml">open in iTunes</a>.
 -->
@@ -14,6 +16,8 @@
       <strong>{{c.title}}</strong>
     </div>
     <span ng-if="c.detail">{{c.detail}}</span><br ng-if="c.detail"/>
+
+    
     <!--
     <div style="max-width=: 70%;">
     -->

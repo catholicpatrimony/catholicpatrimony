@@ -52,15 +52,15 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
         cp[i].seriesData.includeZips = true;
       }
     }
-    $scope.dropDownClicked = function(idx) {
+    $scope.dropDownClicked = function(course) {
       setClass($scope, "dropDown");
-      $location.path('/class').search({'classId' : idx});
+      $location.path('/class').search({'course' : course});
     }
-    $scope.topLevelClassClicked = function(idx) {
+    $scope.topLevelClassClicked = function(course) {
       setClass($scope, "topLevelClass");
-      $location.path('/class').search({'classId' : idx});
+      $location.path('/class').search({'course' : course});
     }
-    $scope.aboutClicked = function(idx) {
+    $scope.aboutClicked = function(course) {
       setClass($scope, "about");
       //$location.path('');
     }
@@ -72,9 +72,9 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
     $log.debug('in ClassController');
     $scope.cp = cp;
     $log.debug($routeParams);
-    if ($routeParams['classId'] != null) {
-      $log.debug('found idx');
-      selectClass($scope, $routeParams.classId);
+    if ($routeParams['course'] != null) {
+      $log.debug('found course');
+      selectClass($scope, $routeParams.course);
     }
     if ($routeParams['enableComments'] != null) {
       $scope.enableComments = true;
@@ -85,7 +85,7 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
 
     $scope.sessionClicked = function(c) {
       $scope.c = c;
-      $location.path('/session').search({'classId' : $scope.classId, 'sessionId': c.id});
+      $location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
     }
   })
   .controller('SessionController', function($scope, $location, $routeParams, $log) {
@@ -94,20 +94,20 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
     $scope.cp = cp;
     $log.debug($routeParams);
     /*
-    if ($routeParams['classId'] != null) {
+    if ($routeParams['course'] != null) {
       $scope.session = 
     }
     */
-    if ($routeParams['classId'] != null) {
-      $log.debug('found idx');
-      selectClass($scope, $routeParams.classId);
+    if ($routeParams['course'] != null) {
+      $log.debug('found course');
+      selectClass($scope, $routeParams.course);
       if ($routeParams['sessionId'] != null) {
         for (var i=0; i < $scope.classes.length; i++) {
           if ($scope.classes[i].id == $routeParams['sessionId']) {
             $scope.c = $scope.classes[i];
           }
         }
-        $scope.myDisqus_identifier = 'cp.com.session_' + $routeParams['classId'] + '_' + $routeParams['sessionId'];
+        $scope.myDisqus_identifier = 'cp.com.session_' + $routeParams['course'] + '_' + $routeParams['sessionId'];
         $scope.myDisqus_title = $scope.c.title;
         $scope.myDisqus_url = $location.absUrl();
         $log.debug($scope.myDisqus_identifier);
@@ -122,15 +122,19 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
     }
   })
 
-var selectClass = function(scope, idx) {
+var selectClass = function(scope, course) {
   /*
   $log.debug(idx);
   $log.debug(scope.cp[idx]);
   */
-  scope.classId = idx;
-  scope.seriesSelected = cp[idx];
-  scope.sd = cp[idx].seriesData;
-  scope.classes = cp[idx].classes;
+  scope.course = course;
+  for (var i=0; i < cp.length; i++) {
+    if (cp[i].seriesData.normalized_name == course) {
+      scope.seriesSelected = cp[i];
+    }
+  }
+  scope.sd = scope.seriesSelected.seriesData;
+  scope.classes = scope.seriesSelected.classes;
 }
 
 var setClass = function(scope, tlm) {

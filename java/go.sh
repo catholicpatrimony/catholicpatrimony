@@ -4,10 +4,11 @@ do
 sudo ntpdate ntp.ubuntu.com
 date;
 
+  cp -uR ./orig.google_drive/* ./orig
   # pull down latest from tedesche
   # this works - ignore the "skipping over directories" message.  At one point the file name was too long.  nope that wasn't it either - it was the uppercase MP3
-  s3cmd sync -r s3://tedesche/  ./orig/
-  date;
+  #s3cmd sync -r s3://tedesche/  ./orig/
+  #date;
 
   # run groovy
   ant groovy; 

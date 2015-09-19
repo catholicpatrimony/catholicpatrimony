@@ -1913,32 +1913,23 @@ cp = [
     }, {
         "seriesData": {
             "customTemplate": "TRUE",
-            "normalized_name": "2015_Fathers",
-            "title": "2015 Fathers back atya",
+            "normalized_name": "daily_homilies",
+            "title": "Daily Homilies",
+            "separate_menu": "TRUE",
             "include_zips": "FALSE"
-        }
-    }
-]
-/*
-        "classes": [
+        }, "classes": [
             {
                 "id": "01",
-                "title": "Fall Session 1 (2015)",
-                "handout_title": [
-                    "new Introduction to Fathers"
-                ],
-                "handout_file": [
-                    "Fall Session 1 (Introduction to Fathers).doc"
-                ],
-                "new_handout_file": [
-                    "01-Introduction_to_Fathers.doc"
-                ],
-                "new_handout_title": [
-                    "Introduction to Fathers"
-                ],
-                "handout_links": [
-                    "/uncovering_riches/docs/01-Introduction_to_Fathers.doc"
+                "title": "dont_display",
+                "date": "7/3/2015",
+                "rssDate": "Fri, 07 JUL 2015 00:00:00 -0400",
+                "liturgical_day": [
+                  "St. Thomas the Apostle",
+                  "Friday of the Third Week of Ordinary Time"
                 ]
             },
         ],
+    }
+]
+/*
  */

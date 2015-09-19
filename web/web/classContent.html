@@ -1,4 +1,5 @@
 <div ng-if="sd" class="container">
+  <h3>{{sd.title}}</h3>
   <p ng-if="sd.customTemplate" ng-include="'web/' + sd.normalized_name + '.html'">{{sd.normalized_name}}.html</p>
 
   <div ng-if="classes" style="font-weight: bold">Bundled Downloads</div>

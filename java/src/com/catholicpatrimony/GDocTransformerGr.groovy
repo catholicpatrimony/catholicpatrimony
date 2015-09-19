@@ -29,7 +29,7 @@ date;
 def ops = []
 ops.add("print");
 ops.add("audio");
-//ops.add("zip");
+ops.add("zip");
 ops.add("docs");
 ops.add("json");
 //ops.add("wp");
@@ -57,7 +57,11 @@ https://docs.google.com/spreadsheet/pub?key=0AkWmZX8HtwWHdENUNFcxdG9XdzBTaWhlVkZ
 
 def jsonClassArr = []
 //for (gid in 5) {
-for (gid in 0..6) {
+// get these new gids from going to the spreadsheet and:
+//  - File -> "Publish to the web..."
+//  - Drop down "Entire Document" and select individuals
+//for (gid in [0, 1, 2, 3, 4, 5, 6, 469482974, 827677169]) {
+for (gid in [827677169, 855509258, 6, 5, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 
@@ -204,7 +208,7 @@ for (gid in 0..6) {
           println ("c.audio: ${c.audio}");
           println ("createAudio: ${createAudio}");
           if (c.volume_boost == null) {
-            c.volume_boost = "1";
+            c.volume_boost = "4";
           }
           println ("c.volume_boost: ${c.volume_boost}");
 

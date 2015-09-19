@@ -34,6 +34,7 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
   })
   .controller('MenuController', function($scope, $location, $routeParams, $log) {
     $scope.cp = cp;
+    $scope.uncovering_2015_schedule = uncovering_2015_schedule;
     $scope.dropDownMenu = [];
     $scope.topLevelMenu = [];
     for (var i=0; i < cp.length; i++) {

@@ -1,6 +1,6 @@
 //angular.module('cpApp', ['ngRoute', 'ngDisqus'] //, function($compileProvider) {
   //}
-angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
+angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus'])
   .config(function($routeProvider, $compileProvider, $locationProvider ) {
   //.config(function($routeProvider, $compileProvider, $locationProvider, $disqusProvider ) {
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|itms):/);
@@ -32,7 +32,23 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
     $locationProvider.hashPrefix('!');
     //$disqusProvider.setShortname('catholicpatrimony');
   })
-  .controller('MenuController', function($scope, $location, $routeParams, $log) {
+  .controller('MenuController', function($scope, $location, $routeParams, $log, $sce) {
+    $log.debug('defining trustSrc');
+    $scope.trustSrc = function(src) {
+      try {
+        //$log.debug('trustSrc: ' + src);
+        return $sce.trustAsResourceUrl(src);
+      } catch (e) {
+      }
+    }
+    $scope.gdoc_loaded = function() {
+      var f = function(id)
+      {
+          document.getElementById(id).style.display = "none";
+      };
+      f("header");
+      f("footer");
+    };
     $scope.cp = cp;
     $scope.uncovering_2015_schedule = uncovering_2015_schedule;
     $scope.dropDownMenu = [];
@@ -89,7 +105,7 @@ angular.module('cpApp', ['ngRoute', 'angularUtils.directives.dirDisqus'])
       $location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
     }
   })
-  .controller('SessionController', function($scope, $location, $routeParams, $log) {
+  .controller('SessionController', function($scope, $location, $routeParams, $log, $sce) {
     $scope.myDisqus_contentLoaded = false;
     $log.debug('in SessionController');
     $scope.cp = cp;

@@ -77,7 +77,8 @@ cp = [
             "separate_menu": "FALSE",
             "rename_audio": "TRUE",
             "reverse_order": "FALSE",
-            "customTemplate": "TRUE"
+            "customTemplate": "TRUE",
+            "gdoc_above_classes": "https://docs.google.com/document/d/1MDe6SKkZZW75JyL4IgBNOXmmBG7Siikn85vAjpo6BCw/pub"
         }
     },
     {

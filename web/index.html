@@ -14,6 +14,9 @@
 
     <!-- Optional: Include the jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--
+    <script src="web/ui-bootstrap-0.13.4.min.js"></script>
+    -->
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -30,6 +33,7 @@
     -->
     <script src="web/dirDisqus.js"></script>
     <script src="web/angular-route.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular-sanitize.js"></script>
     <script src="web/cp.json"></script>
     <script src="web/cp.js?v=3"></script>
     <script src="web/uncovering_2015_schedule.js?v=1"></script>
@@ -67,8 +71,7 @@
       </div><!-- /.container-fluid -->
     </nav>
   
-    <div ng-view></div>
-
+    <span ng-view></span>
 
     <footer class="footer">
       <div class="container">

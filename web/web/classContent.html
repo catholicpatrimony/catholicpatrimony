@@ -1,6 +1,6 @@
 <div ng-if="sd" class="container">
   <h3>{{sd.title}}</h3>
-  <p ng-if="sd.customTemplate" ng-include="'web/' + sd.normalized_name + '.html'">{{sd.normalized_name}}.html</p>
+  <p ng-if="sd.gdoc_above_classes" ng-include="trustSrc(sd.gdoc_above_classes)" onload="gdoc_loaded();"></p>
 
   <div ng-if="classes" style="font-weight: bold">Bundled Downloads</div>
   <div style="margin-left: 20px">

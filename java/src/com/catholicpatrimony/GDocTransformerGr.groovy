@@ -61,7 +61,8 @@ def jsonClassArr = []
 //  - File -> "Publish to the web..."
 //  - Drop down "Entire Document" and select individuals
 //for (gid in [0, 1, 2, 3, 4, 5, 6, 469482974, 827677169]) {
-for (gid in [827677169, 855509258, 6, 5, 4, 3, 2, 0, 1]) {
+//for (gid in [827677169, 855509258, 6, 5, 4, 3, 2, 0, 1]) {
+for (gid in [827677169, 6, 5, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 

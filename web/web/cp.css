@@ -29,3 +29,7 @@ a, u {
 a:hover {
     text-decoration: none;
 }
+
+.cp-icon {
+  margin-left: 10px;
+}

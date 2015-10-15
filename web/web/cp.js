@@ -152,6 +152,27 @@ var selectClass = function(scope, course) {
   }
   scope.sd = scope.seriesSelected.seriesData;
   scope.classes = scope.seriesSelected.classes;
+  /* the reason I'm doing this here is because firefox is line breaking the
+   * straight template solution (which I left commented out in classContent.html */
+  for (var i=0; i < scope.classes.length; i++) {
+    var fileicons = [];
+    var c = scope.classes[i];
+    c.fileicons = fileicons;
+    if ('new_handout_file' in c) {
+      for (var j=0; j < c.new_handout_file.length; j++) {
+        var nhf = c.new_handout_file[j];
+        if (nhf.indexOf('.pdf') > -1) {
+          fileicons[j] = 'pdficon.gif';
+        } else if (nhf.indexOf('.doc') > -1) {
+          fileicons[j] = 'docicon.png';
+        } else if (nhf.indexOf('.ppt') > -1) {
+          fileicons[j] = 'document_powerpoint.png';
+        } else if (nhf.indexOf('http') > -1) {
+          fileicons[j] = 'Link_symbol_16.png';
+        }
+      }
+    }
+  }
 }
 
 var setClass = function(scope, tlm) {

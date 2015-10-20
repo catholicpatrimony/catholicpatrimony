@@ -28,12 +28,12 @@ date;
 */
 def ops = []
 ops.add("print");
-ops.add("audio");
-ops.add("zip");
-ops.add("docs");
+//ops.add("audio");
+//ops.add("zip");
+//ops.add("docs");
 ops.add("json");
 //ops.add("wp");
-ops.add("podcast");
+//ops.add("podcast");
 
 def mockRun = false;
 
@@ -62,7 +62,7 @@ def jsonClassArr = []
 //  - Drop down "Entire Document" and select individuals
 //for (gid in [0, 1, 2, 3, 4, 5, 6, 469482974, 827677169]) {
 //for (gid in [827677169, 855509258, 6, 5, 4, 3, 2, 0, 1]) {
-for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
+for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 

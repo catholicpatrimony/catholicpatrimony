@@ -3,7 +3,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   var sd = $scope.sd;
   for (var i=0; i < $scope.classes; i++) {
     var c = $scope.classes=[i];
-    $log.debug(
+    //$log.debug(
     Date.parse();
   }
   // make sure cp.json has the raw data and is loaded first

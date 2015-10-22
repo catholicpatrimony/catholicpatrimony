@@ -737,7 +737,8 @@ cp = [
             "separate_menu": "TRUE",
             "rename_audio": "TRUE",
             "reverse_order": "TRUE",
-            "publish": "FALSE"
+            "publish": "FALSE",
+            "customTemplate": "TRUE"
         }
     },
     {
@@ -1227,7 +1228,7 @@ cp = [
             },
             {
                 "id": "29",
-                "title": "Holy Thursday - Evening Mass of the Lord’s Supper 2015",
+                "title": "Holy Thursday - Evening Mass of the Lord\u2019s Supper 2015",
                 "detail": "The Institution of the Eucharist and the Priesthood and Our Lord's Humility and Love",
                 "date": "4/2/2015",
                 "rssDate": "Thu, 2 Apr 2015 00:00:00 +0000",
@@ -1744,7 +1745,7 @@ cp = [
             {
                 "id": "01",
                 "title": "1st Session: The Economy of Salvation (Introduction)",
-                "detail": "The word "economy" in its specialized theological sense is looked at and a general overview of the entire course is set out...we also begin to speak about Adam",
+                "detail": "The word \"economy\" in its specialized theological sense is looked at and a general overview of the entire course is set out...we also begin to speak about Adam",
                 "date": "10/15/2014",
                 "rssDate": "Wed, 15 Oct 2014 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession1Introduction.MP3",
@@ -2129,7 +2130,7 @@ cp = [
             {
                 "id": "18",
                 "title": "18th Session: Ezekiel's Vision of the Valley of Dry Bones (Prophets 2 of 3)",
-                "detail": "We ask the question, "How literally should we interpret the prophets vision of an eschatological return of the exiles to Palestine and the reunion of the Northern and Southern Kingdoms?"",
+                "detail": "We ask the question, \"How literally should we interpret the prophets vision of an eschatological return of the exiles to Palestine and the reunion of the Northern and Southern Kingdoms?\"",
                 "date": "4/8/2015",
                 "rssDate": "Wed, 8 Apr 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession18Prophets2.wav",
@@ -2315,7 +2316,7 @@ cp = [
             {
                 "id": "03",
                 "title": "Liturgy of the Word",
-                "detail": "Liturgy of the Word, Gospel, Creed, "consubstantial"",
+                "detail": "Liturgy of the Word, Gospel, Creed, \"consubstantial\"",
                 "date": "1/31/2011",
                 "rssDate": "Mon, 31 Jan 2011 00:00:00 +0000",
                 "audio": "missal_class_for_jan31.MP3",
@@ -2336,7 +2337,7 @@ cp = [
             {
                 "id": "04",
                 "title": "Offertory and Roman Canon",
-                "detail": "Offertory Prayers, Roman Canon, "precious chalice", "for many"",
+                "detail": "Offertory Prayers, Roman Canon, \"precious chalice\", \"for many\"",
                 "date": "2/7/2011",
                 "rssDate": "Mon, 7 Feb 2011 00:00:00 +0000",
                 "audio": "missal_class_for_feb7.MP3",
@@ -2357,7 +2358,7 @@ cp = [
             {
                 "id": "05",
                 "title": "Preface and Theology of Eucharist",
-                "detail": "Preface, "and with your spirit", Eucharistic Prayer Two, Real Presence",
+                "detail": "Preface, \"and with your spirit\", Eucharistic Prayer Two, Real Presence",
                 "date": "2/14/2011",
                 "rssDate": "Mon, 14 Feb 2011 00:00:00 +0000",
                 "audio": "missal_class_for_feb14.MP3",

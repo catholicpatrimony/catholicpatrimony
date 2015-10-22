@@ -1,6 +1,6 @@
 //angular.module('cpApp', ['ngRoute', 'ngDisqus'] //, function($compileProvider) {
   //}
-angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus'])
+var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus'])
   .config(function($routeProvider, $compileProvider, $locationProvider ) {
   //.config(function($routeProvider, $compileProvider, $locationProvider, $disqusProvider ) {
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|itms):/);

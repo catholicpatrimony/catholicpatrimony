@@ -51,7 +51,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         }
       }
       //day = new Date(day.UTC() - (24 * 60 * 60 * 1000));
-      var previousDay = new Date();
+      var previousDay = new Date(day.getTime());
       previousDay.setDate(day.getDate() - 1);
       day = previousDay;
     }
@@ -65,8 +65,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     var day = twoSundaysAgo;
     for (var i=0; i < 14; i++) {
       last2weekDates[i] = day;
-      var dayStr = (day.getMonth() + 1) + '/' + day.getDate() + '/' + day.getFullYear();
-      $log.debug('dayStr: ' + dayStr);
+      var dayStr = $scope.getDayStr(day);
       last2weekAudios[i] = {
         'cpObj': homiliesByStringifiedDate[dayStr],
         'dayStr' : dayStr,
@@ -77,7 +76,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       } else {
         secondWeek[i - 7] = last2weekAudios[i];
       }
-      var nextDay = new Date();
+      var nextDay = new Date(day.getTime());
       nextDay.setDate(day.getDate() + 1);
       day = nextDay;
     }
@@ -88,12 +87,21 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $log.debug(last2weekDates);
   }
 
+  $scope.getDayStr = function(day) {
+    var dayStr = (day.getMonth() + 1) + '/' + day.getDate() + '/' + day.getFullYear();
+    $log.debug('dayStr: ' + dayStr);
+    return dayStr;
+  }
+
   $scope.set2weeks(new Date());
 
   $scope.back = function() {
-    var another2sundaysBack = new Date();
-    another2sundaysBack.setDate($scope.firstWeek[0].dateObj.getDate() - 14);
-    $scope.set2weeks(another2sundaysBack);
+    var anotherTwoWeeksBack = new Date($scope.secondWeek[1].dateObj.getTime());
+    $log.debug('$scope.secondWeek[1].dateObj: ' + $scope.getDayStr($scope.secondWeek[1].dateObj));
+    $log.debug('anotherTwoWeeksBack 1: ' + $scope.getDayStr(anotherTwoWeeksBack));
+    anotherTwoWeeksBack.setDate(anotherTwoWeeksBack.getDate() - 14);
+    $log.debug('anotherTwoWeeksBack 2: ' + $scope.getDayStr(anotherTwoWeeksBack));
+    $scope.set2weeks(anotherTwoWeeksBack);
     $log.debug('back()');
   }
 

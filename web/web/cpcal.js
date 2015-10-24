@@ -106,6 +106,9 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   }
 
   $scope.forward = function() {
+    var twoweeksforward = new Date($scope.secondWeek[1].dateObj.getTime());
+    twoweeksforward.setDate(twoweeksforward.getDate() + 14);
+    $scope.set2weeks(twoweeksforward);
     $log.debug('forward()');
   }
 

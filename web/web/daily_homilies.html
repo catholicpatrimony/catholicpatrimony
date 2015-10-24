@@ -1,14 +1,14 @@
 <div ng-controller="DailyHomiliesController">
-  <table width="100%">
+  <table width="100%" border="1">
     <tr>
-      <td>
-        <a href="" ng-click="back();" style="text-decoration: none;">&lt;---</a>
+      <td ng-click="back();" style="cursor: pointer; text-align: center;">
+        <a href="" style="text-decoration: none;">&lt;---</a>
       </td>
       <td colspan="5" style="text-align: center;">
         {{yearStr}}<br />{{monthStr}}
       </td>
-      <td style="align: right; float: right;">
-        <a href="" ng-click="forward();" style="text-decoration: none;">---&gt;</a>
+      <td ng-click="forward();" style="cursor: pointer; text-align: center;">
+        <a href="" style="text-decoration: none;">---&gt;</a>
       </td>
     </tr>
     <tr>
@@ -17,8 +17,28 @@
       </td>
     </tr>
     <tr>
+      <td ng-repeat="d in firstWeek" width="14.29%" style="text-align: center;">
+        <span ng-if="d.cpObj != null" ng-click="showDay(d);" style="cursor: pointer;">
+          something
+        </span>
+        <span ng-if="d.cpObj == null">
+          &nbsp;
+        </span>
+      </td>
+    </tr>
+    <tr>
       <td ng-repeat="d in secondWeek" style="text-align: center;">
         {{d.dayStr}}
+      </td>
+    </tr>
+    <tr>
+      <td ng-repeat="d in secondWeek" width="14.29%" style="text-align: center;">
+        <span ng-if="d.cpObj != null">
+          something
+        </span>
+        <span ng-if="d.cpObj == null">
+          &nbsp;
+        </span>
       </td>
     </tr>
   </table>

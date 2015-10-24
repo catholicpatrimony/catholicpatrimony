@@ -140,6 +140,9 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   $scope.showDay = function(d) {
     $log.debug('showDay(d): ');
     $log.debug(d);
+
+    $scope.showingDay = true;
+    $scope.day2show = d;
   }
 
 });

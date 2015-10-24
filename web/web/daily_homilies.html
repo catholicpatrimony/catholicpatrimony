@@ -19,7 +19,7 @@
     <tr>
       <td ng-repeat="d in firstWeek" width="14.29%" style="text-align: center;">
         <span ng-if="d.cpObj != null" ng-click="showDay(d);" style="cursor: pointer;">
-          something
+          -&gt;&lt;-
         </span>
         <span ng-if="d.cpObj == null">
           &nbsp;
@@ -42,4 +42,7 @@
       </td>
     </tr>
   </table>
+  <div ng-if="showingDay">
+    {{day2show.cpObj.audio}}
+  </div>
 </div>

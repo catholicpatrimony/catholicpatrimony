@@ -1,3 +1,23 @@
 <div ng-controller="DailyHomiliesController">
-  hello
+  <table>
+    <tr>
+      <td>
+        <a href="" ng-click="back();">back</a>
+      </td>
+      <td colspan="5">&nbsp;</td>
+      <td style="align: right; float: right;">
+        <a href="" ng-click="forward();">forward</a>
+      </td>
+    </tr>
+    <tr>
+      <td ng-repeat="d in firstWeek">
+        {{d.dayStr}}
+      </td>
+    </tr>
+    <tr>
+      <td ng-repeat="d in secondWeek">
+        {{d.dayStr}}
+      </td>
+    </tr>
+  </table>
 </div>

@@ -69,13 +69,13 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
         cp[i].seriesData.includeZips = true;
       }
     }
-    $scope.dropDownClicked = function(course) {
-      setClass($scope, "dropDown");
-      $location.path('/class').search({'course' : course});
+    $scope.dropDownClicked = function(c) {
+      setClass($scope, "dropDown", c);
+      $location.path('/class').search({'course' : c.seriesData.normalized_name});
     }
-    $scope.topLevelClassClicked = function(course) {
-      setClass($scope, "topLevelClass");
-      $location.path('/class').search({'course' : course});
+    $scope.topLevelClassClicked = function(c) {
+      setClass($scope, "topLevelClass", c);
+      $location.path('/class').search({'course' : c.seriesData.normalized_name});
     }
     $scope.aboutClicked = function(course) {
       setClass($scope, "about");
@@ -147,6 +147,7 @@ var selectClass = function(scope, course) {
   scope.course = course;
   for (var i=0; i < cp.length; i++) {
     if (cp[i].seriesData.normalized_name == course) {
+      cp[i].active = true;
       scope.seriesSelected = cp[i];
     }
   }
@@ -175,7 +176,7 @@ var selectClass = function(scope, course) {
   }
 }
 
-var setClass = function(scope, tlm) {
+var setClass = function(scope, tlm, c) {
   scope.aboutClass="";
   scope.dropDownClass="";
   scope.topLevelClass="";
@@ -186,6 +187,11 @@ var setClass = function(scope, tlm) {
   } else if (tlm == "topLevelClass") {
     scope.topLevelClass="active";
   }
+  if (scope.activeClass != null) {
+    scope.activeClass.active = false;
+  }
+  scope.activeClass = c;
+  c.active = true;
 
   /*
   $log.debug("scope.aboutClass: " + scope.aboutClass  );

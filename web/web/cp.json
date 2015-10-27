@@ -326,7 +326,11 @@ cp = [
                 "date": "9/30/2015",
                 "rssDate": "Wed, 30 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y26WeekOrdTWed(StJerome).wav",
-                "newAudio": "59-daily_homilies.mp3"
+                "newAudio": "59-daily_homilies.mp3",
+                "liturgical_day": [
+                    "Wednesday in the 26th Week of Ordinary Time",
+                    "St. Jerome"
+                ],
             },
             {
                 "id": "58",

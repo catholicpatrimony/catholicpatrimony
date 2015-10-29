@@ -2,13 +2,13 @@
   <table width="100%" border="1">
     <tr>
       <td ng-click="back();" style="cursor: pointer; text-align: center;">
-        <a href="" style="text-decoration: none;">&lt;---</a>
+        <span style="text-decoration: none;">&lt;---</span>
       </td>
       <td colspan="5" style="text-align: center;">
         {{yearStr}}<br />{{monthStr}}
       </td>
       <td ng-click="forward();" style="cursor: pointer; text-align: center;">
-        <a href="" style="text-decoration: none;">---&gt;</a>
+        <span href="" style="text-decoration: none;">---&gt;</span>
       </td>
     </tr>
     <tr>
@@ -17,7 +17,7 @@
       </td>
     </tr>
     <tr>
-      <td ng-repeat="d in firstWeek" width="14.29%" style="text-align: center;">
+      <td ng-repeat="d in firstWeek" width="14.29%" style="text-align: center; padding: 5px;">
         <p ng-include="'web/daily_day.html'"></p>
       </td>
     </tr>
@@ -32,7 +32,25 @@
       </td>
     </tr>
   </table>
+  <br />
+  <br />
   <div ng-if="showingDay">
+    <!--
     {{day2show.cpObj.audio}}
+    -->
+    <div>
+      <strong>{{day2show.dateStr}}</strong>
+    </div>
+    <!--
+    <div>
+      <strong>{{day2show.litdaySelected}}</strong>
+    </div>
+    -->
+    <div>
+      <span ng-repeat="ld in day2show.cpObj.liturgical_day">
+        <span ng-if="$index != 0" > / </span>
+        <span> {{ld}} </span>
+    </div>
+    <span ng-include="'web/audio_and_docs.html'"></span>
   </div>
 </div>

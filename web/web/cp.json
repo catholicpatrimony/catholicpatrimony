@@ -158,32 +158,58 @@ cp = [
                 "title": "Unit 5 - The Martyrdom of Polycarp",
                 "date": "10/21/2015",
                 "rssDate": "Wed, 21 Oct 2015 00:00:00 +0000",
+                "audio": "UncoveringUnit5MPolyc2015-16.wav",
                 "handout_title": [
                     "The Martyrdom of Polycarp - Primer",
                     "The Martyrdom of Polycarp - Text",
-                    "The Martyrdom of Polycarp - Notes"
+                    "The Martyrdom of Polycarp - Notes",
+                    "The Martyrdom of Polycarp - Quiz"
                 ],
                 "handout_file": [
                     "Unit5_MartyrdomPolycarp_Primer.pdf",
                     "Unit5_MartyrdomPolycarp_Text.pdf",
-                    "Unit5_MartyrdomPolycarp_Notes.pdf"
+                    "Unit5_MartyrdomPolycarp_Notes.pdf",
+                    "Unit5_MartyrdomPolycarp_Quiz.pdf"
                 ],
+                "newAudio": "06-uncovering_2015.mp3",
                 "new_handout_file": [
                     "06-The_Martyrdom_of_Polycarp_-_Primer.pdf",
                     "06-The_Martyrdom_of_Polycarp_-_Text.pdf",
-                    "06-The_Martyrdom_of_Polycarp_-_Notes.pdf"
+                    "06-The_Martyrdom_of_Polycarp_-_Notes.pdf",
+                    "06-The_Martyrdom_of_Polycarp_-_Quiz.pdf"
                 ],
                 "new_handout_title": [
                     "The Martyrdom of Polycarp - Primer",
                     "The Martyrdom of Polycarp - Text",
-                    "The Martyrdom of Polycarp - Notes"
+                    "The Martyrdom of Polycarp - Notes",
+                    "The Martyrdom of Polycarp - Quiz"
                 ]
             },
             {
                 "id": "07",
                 "title": "Unit 6 - Justin's First Apology",
                 "date": "10/29/2015",
-                "rssDate": "Thu, 29 Oct 2015 00:00:00 +0000"
+                "rssDate": "Thu, 29 Oct 2015 00:00:00 +0000",
+                "handout_title": [
+                    "Justin's First Apology - Primer",
+                    "Justin's First Apology - Text",
+                    "Justin's First Apology - Notes"
+                ],
+                "handout_file": [
+                    "Unit6_JustinApology_Primer.pdf",
+                    "Unit6_JustinApology_Text_Edited.pdf",
+                    "Unit6_JustinApology_Notes.pdf"
+                ],
+                "new_handout_file": [
+                    "07-Justin's_First_Apology_-_Primer.pdf",
+                    "07-Justin's_First_Apology_-_Text.pdf",
+                    "07-Justin's_First_Apology_-_Notes.pdf"
+                ],
+                "new_handout_title": [
+                    "Justin's First Apology - Primer",
+                    "Justin's First Apology - Text",
+                    "Justin's First Apology - Notes"
+                ]
             },
             {
                 "id": "08",
@@ -276,13 +302,17 @@ cp = [
                 "id": "10",
                 "title": "Unit 5 - The Martyrdom of Polycarp - Wednesday's Class",
                 "date": "10/21/2015",
-                "rssDate": "Wed, 21 Oct 2015 00:00:00 +0000"
+                "rssDate": "Wed, 21 Oct 2015 00:00:00 +0000",
+                "audio": "TyburnPatrologyUnit5Wed.wav",
+                "newAudio": "10-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "11",
                 "title": "Unit 5 - The Martyrdom of Polycarp - Thursday's Class",
                 "date": "10/22/2015",
-                "rssDate": "Thu, 22 Oct 2015 00:00:00 +0000"
+                "rssDate": "Thu, 22 Oct 2015 00:00:00 +0000",
+                "audio": "TyburnPatrologyUnit5Thurs.wav",
+                "newAudio": "11-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "12",
@@ -326,17 +356,21 @@ cp = [
                 "date": "9/30/2015",
                 "rssDate": "Wed, 30 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y26WeekOrdTWed(StJerome).wav",
-                "newAudio": "59-daily_homilies.mp3",
                 "liturgical_day": [
                     "Wednesday in the 26th Week of Ordinary Time",
                     "St. Jerome"
                 ],
+                "newAudio": "59-daily_homilies.mp3"
             },
             {
                 "id": "58",
                 "date": "9/29/2015",
                 "rssDate": "Tue, 29 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y26WeekOrdTTues(MichaelGabrielRaphael).wav",
+                "liturgical_day": [
+                    "Tuesday in the 26th Week of Ordinary Time",
+                    "Michael, Gabriel, and Raphael"
+                ],
                 "newAudio": "58-daily_homilies.mp3"
             },
             {
@@ -344,6 +378,10 @@ cp = [
                 "date": "10/1/2015",
                 "rssDate": "Thu, 1 Oct 2015 00:00:00 +0000",
                 "audio": "DH2015Y26WeekOrdTThurs(StTherese).wav",
+                "liturgical_day": [
+                    "Thursday in the 26th Week of Ordinary Time",
+                    "St. Therese"
+                ],
                 "newAudio": "57-daily_homilies.mp3"
             },
             {
@@ -351,6 +389,10 @@ cp = [
                 "date": "10/2/2015",
                 "rssDate": "Fri, 2 Oct 2015 00:00:00 +0000",
                 "audio": "DH2015Y26WeekOrdTFri(GuardianAngels).wav",
+                "liturgical_day": [
+                    "Friday in the 26th Week of Ordinary Time",
+                    "Guardian Angels"
+                ],
                 "newAudio": "56-daily_homilies.mp3"
             },
             {
@@ -358,6 +400,7 @@ cp = [
                 "date": "9/15/2015",
                 "rssDate": "Tue, 15 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y24WeekOrdTTues.wav",
+                "liturgical_day": "Tuesday in the 24th Week of Ordinary Time",
                 "newAudio": "55-daily_homilies.mp3"
             },
             {
@@ -365,6 +408,7 @@ cp = [
                 "date": "9/18/2015",
                 "rssDate": "Fri, 18 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y24WeekOrdTFri.wav",
+                "liturgical_day": "Friday in the 24th Week of Ordinary Time",
                 "newAudio": "54-daily_homilies.mp3"
             },
             {
@@ -372,6 +416,7 @@ cp = [
                 "date": "9/9/2015",
                 "rssDate": "Wed, 9 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y23WeekOrdTWed.wav",
+                "liturgical_day": "Wednesday in the 23rd Week of Ordinary Time",
                 "newAudio": "53-daily_homilies.mp3"
             },
             {
@@ -379,6 +424,10 @@ cp = [
                 "date": "9/8/2015",
                 "rssDate": "Tue, 8 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y23WeekOrdTTues(NativityofMary).wav",
+                "liturgical_day": [
+                    "Tuesday in the 23rd Week of Ordinary Time",
+                    "Nativity of Mary"
+                ],
                 "newAudio": "52-daily_homilies.mp3"
             },
             {
@@ -386,6 +435,7 @@ cp = [
                 "date": "9/10/2015",
                 "rssDate": "Thu, 10 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y23WeekOrdTThurs.wav",
+                "liturgical_day": "Thursday in the 23rd Week of Ordinary Time",
                 "newAudio": "51-daily_homilies.mp3"
             },
             {
@@ -393,6 +443,7 @@ cp = [
                 "date": "9/12/2015",
                 "rssDate": "Sat, 12 Sep 2015 00:00:00 +0000",
                 "audio": "DH2015Y23WeekOrdTSat.wav",
+                "liturgical_day": "Saturday in the 23rd Week of Ordinary Time",
                 "newAudio": "50-daily_homilies.mp3"
             },
             {
@@ -435,6 +486,7 @@ cp = [
                 "date": "8/27/2015",
                 "rssDate": "Thu, 27 Aug 2015 00:00:00 +0000",
                 "audio": "DH2015Y21WeekOrdTThurs(StMonica).wav",
+                "liturgical_day": "St. Monica",
                 "newAudio": "44-daily_homilies.mp3"
             },
             {
@@ -442,6 +494,7 @@ cp = [
                 "date": "8/28/2015",
                 "rssDate": "Fri, 28 Aug 2015 00:00:00 +0000",
                 "audio": "DH2015Y21WeekOrdTFri(StAugustine).wav",
+                "liturgical_day": "St. Augustine",
                 "newAudio": "43-daily_homilies.mp3"
             },
             {
@@ -554,6 +607,7 @@ cp = [
                 "date": "7/16/2015",
                 "rssDate": "Thu, 16 Jul 2015 00:00:00 +0000",
                 "audio": "DH2015Y15WeekOrdTThurs(LadyofMtCarmel).wav",
+                "liturgical_day": "Our Lady of Mount Carmel",
                 "newAudio": "26-daily_homilies.mp3"
             },
             {
@@ -624,6 +678,10 @@ cp = [
                 "date": "7/3/2015",
                 "rssDate": "Fri, 3 Jul 2015 00:00:00 +0000",
                 "audio": "DH2015Y13WeekOrdTFri(FeastofThomasApostle).wav",
+                "liturgical_day": [
+                    "Friday in the 13th Week of Ordinary Time",
+                    "St Thomas the Apostle"
+                ],
                 "newAudio": "15-daily_homilies.mp3"
             },
             {
@@ -632,7 +690,7 @@ cp = [
                 "rssDate": "Wed, 24 Jun 2015 00:00:00 +0000",
                 "audio": "DH2015Y12WeekOrdTWed(SolemnityofBirthofJohnBaptist).wav",
                 "liturgical_day": [
-                    "Wednesday in the 12th Week in Ordinary Time",
+                    "Wednesday in the 12th Week of Ordinary Time",
                     "Solemnity of Birth of John Baptist"
                 ],
                 "newAudio": "14-daily_homilies.mp3"
@@ -712,7 +770,6 @@ cp = [
                 "date": "6/2/2015",
                 "rssDate": "Tue, 2 Jun 2015 00:00:00 +0000",
                 "audio": "DH2015Y09WeekOrdTTues.wav",
-                "liturgical_day": "Tuesday of the 9th Week In Ordinary Time",
                 "newAudio": "03-daily_homilies.mp3"
             },
             {
@@ -720,14 +777,12 @@ cp = [
                 "date": "6/4/2015",
                 "rssDate": "Thu, 4 Jun 2015 00:00:00 +0000",
                 "audio": "DH2015Y09WeekOrdTThurs.wav",
-                "liturgical_day": "Wednesday of the 9th Week In Ordinary Time",
                 "newAudio": "02-daily_homilies.mp3"
             },
             {
                 "date": "6/5/2015",
                 "rssDate": "Fri, 5 Jun 2015 00:00:00 +0000",
                 "audio": "DH2015Y09WeekOrdTFri.wav",
-                "liturgical_day": "Friday of the 9th Week In Ordinary Time",
                 "newAudio": "null-daily_homilies.mp3"
             },
             {
@@ -846,6 +901,27 @@ cp = [
     },
     {
         "classes": [
+            {
+                "id": "53",
+                "title": "30th Sunday in Ordinary Time 2015",
+                "detail": "The Christian Response to the Question of Immigrants and Refugees",
+                "date": "10/25/2015",
+                "rssDate": "Sun, 25 Oct 2015 00:00:00 +0000",
+                "audio": "SH30SunOrdT2015.wav",
+                "handout_title": [
+                    "Homily Text for 30th Sunday in Ordinary Time 2015"
+                ],
+                "handout_file": [
+                    "SHT2015Y30SunOrdT.pdf"
+                ],
+                "newAudio": "53-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "53-Homily_Text_for_30th_Sunday_in_Ordinary_Time_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for 30th Sunday in Ordinary Time 2015"
+                ]
+            },
             {
                 "id": "52",
                 "title": "29th Sunday in Ordinary TIme 2015",

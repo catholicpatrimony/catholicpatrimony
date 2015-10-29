@@ -1,9 +1,8 @@
-<span ng-if="d.cpObj != null" ng-click="showDay(d);" style="cursor: pointer;">
-  <span ng-repeat="ld in d.cpObj.liturgical_day">
-    {{ld}}
-    <hr />
-  </span>
-  -&gt;&lt;-
+<span ng-if="d.cpObj != null"  style="cursor: pointer;">
+  <div ng-repeat="ld in d.cpObj.liturgical_day" ng-click="showDay(d, ld);">
+    <hr ng-if="$index != 0" />
+    <span>{{ld}}</span>
+  </div>
 </span>
 <span ng-if="d.cpObj == null">
   &nbsp;

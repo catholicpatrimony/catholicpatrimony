@@ -1,13 +1,21 @@
 cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter) {
   //TODO - 
-  //  BUGS:
-  //    your date math doesn't work.
   //
   //  FEATURES:
-  //    1) allow for paging through weeks
   //    2) have a date picker?
-  //   
-  //    in both cases, pick the date off the url
+  //    3) pick the date off the url
+  $scope.parseLiturgicalDay = function(homiliesByName, ld, c) {
+    homiliesByName[ld] = c;
+    /*
+    //DH2015Y13WeekOrdTFri(FeastofThomasApostle).wav
+    if (//DH20[0-9]{2}Y([0-9]{1-2}) ) {
+      if (OrdT) {
+      }
+      if (Tues) {
+      }
+    }
+    */
+  };
 
   //$log.debug('Dailies');
   var sd = $scope.sd;
@@ -21,12 +29,11 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       homiliesByStringifiedDate[c.date] = c;
     }
     if ('liturgical_day' in c) {
-      if (c.liturgical_day instanceof Array) {
-        for (var j=0; j < c.liturgical_day.length; j++) {
-          homiliesByName[c.liturgical_day[j]] = c;
-        }
-      } else {
-        homiliesByName[c.liturgical_day] = c;
+      if (!(c.liturgical_day instanceof Array)) {
+        c.liturgical_day = [c.liturgical_day];
+      }
+      for (var j=0; j < c.liturgical_day.length; j++) {
+        $scope.parseLiturgicalDay(homiliesByName, c.liturgical_day[j], c);
       }
     }
   }
@@ -34,6 +41,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   //$log.debug(homiliesByName);
   //$log.debug('homiliesByStringifiedDate: ');
   //$log.debug(homiliesByStringifiedDate);
+
 
   $scope.set2weeks = function(day) {
     var twoSundaysAgo = null;
@@ -137,12 +145,14 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     //$log.debug('forward()');
   }
 
-  $scope.showDay = function(d) {
+  $scope.showDay = function(d, ld) {
     $log.debug('showDay(d): ');
     $log.debug(d);
 
+    d.litdaySelected = ld;
     $scope.showingDay = true;
     $scope.day2show = d;
+    $scope.c = d.cpObj;
   }
 
 });

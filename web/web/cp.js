@@ -1,6 +1,6 @@
 //angular.module('cpApp', ['ngRoute', 'ngDisqus'] //, function($compileProvider) {
   //}
-angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus'])
+var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus'])
   .config(function($routeProvider, $compileProvider, $locationProvider ) {
   //.config(function($routeProvider, $compileProvider, $locationProvider, $disqusProvider ) {
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|itms):/);
@@ -33,6 +33,52 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
     //$disqusProvider.setShortname('catholicpatrimony');
   })
   .controller('MenuController', function($scope, $location, $routeParams, $log, $sce) {
+    $scope.selectClassByName = function(courseName) {
+      for (var i=0; i < $scope.cp.length; i++) {
+        if (cp[i].seriesData.normalized_name == courseName) {
+          $scope.selectClass(cp[i]);
+        }
+      }
+    }
+    $scope.classSelected = function(c) {
+      $scope.selectClass(c);
+      $location.path('/class').search({'course' : c.seriesData.normalized_name});
+    }
+    $scope.selectClass = function(c) {
+      /* the reason I'm doing this here is because firefox is line breaking the
+       * straight template solution (which I left commented out in classContent.html */
+      for (var i=0; i < c.classes.length; i++) {
+        var c2 = c.classes[i];
+        c2.fileicons = [];
+        if ('new_handout_file' in c2) {
+          for (var j=0; j < c2.new_handout_file.length; j++) {
+            var nhf = c2.new_handout_file[j];
+            if (nhf.indexOf('.pdf') > -1) {
+              c2.fileicons[j] = 'pdficon.gif';
+            } else if (nhf.indexOf('.doc') > -1) {
+              c2.fileicons[j] = 'docicon.png';
+            } else if (nhf.indexOf('.ppt') > -1) {
+              c2.fileicons[j] = 'document_powerpoint.png';
+            } else if (nhf.indexOf('http') > -1) {
+              c2.fileicons[j] = 'Link_symbol_16.png';
+            }
+          }
+        }
+      }
+      if ($scope.seriesSelected != null) {
+        $scope.seriesSelected.active = false;
+      }
+      c.active = true;
+      $scope.seriesSelected = c;
+      $scope.sd = c.seriesData;
+      $scope.classes = c.classes;
+    }
+    $scope.goHome = function() {
+      if ($scope.seriesSelected != null) {
+        $scope.seriesSelected.active = false;
+      }
+      $location.path('/');
+    }
     $log.debug('defining trustSrc');
     $scope.trustSrc = function(src) {
       try {
@@ -42,15 +88,13 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
       }
     }
     $scope.gdoc_loaded = function() {
-      var f = function(id)
-      {
+      var f = function(id) {
           document.getElementById(id).style.display = "none";
       };
       f("header");
       f("footer");
     };
     $scope.cp = cp;
-    $scope.uncovering_2015_schedule = uncovering_2015_schedule;
     $scope.dropDownMenu = [];
     $scope.topLevelMenu = [];
     for (var i=0; i < cp.length; i++) {
@@ -69,19 +113,6 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
         cp[i].seriesData.includeZips = true;
       }
     }
-    $scope.dropDownClicked = function(course) {
-      setClass($scope, "dropDown");
-      $location.path('/class').search({'course' : course});
-    }
-    $scope.topLevelClassClicked = function(course) {
-      setClass($scope, "topLevelClass");
-      $location.path('/class').search({'course' : course});
-    }
-    $scope.aboutClicked = function(course) {
-      setClass($scope, "about");
-      //$location.path('');
-    }
-    $log.debug(cp);
   })
   .controller('MainController', function($scope, $location, $routeParams, $log) {
   })
@@ -91,7 +122,7 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
     $log.debug($routeParams);
     if ($routeParams['course'] != null) {
       $log.debug('found course');
-      selectClass($scope, $routeParams.course);
+      $scope.selectClassByName($routeParams.course);
     }
     if ($routeParams['enableComments'] != null) {
       $scope.enableComments = true;
@@ -117,7 +148,7 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
     */
     if ($routeParams['course'] != null) {
       $log.debug('found course');
-      selectClass($scope, $routeParams.course);
+      $scope.selectClassByName($routeParams['course']);
       if ($routeParams['sessionId'] != null) {
         for (var i=0; i < $scope.classes.length; i++) {
           if ($scope.classes[i].id == $routeParams['sessionId']) {
@@ -137,59 +168,4 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
         $scope.myDisqus_contentLoaded = true;
       }
     }
-  })
-
-var selectClass = function(scope, course) {
-  /*
-  $log.debug(idx);
-  $log.debug(scope.cp[idx]);
-  */
-  scope.course = course;
-  for (var i=0; i < cp.length; i++) {
-    if (cp[i].seriesData.normalized_name == course) {
-      scope.seriesSelected = cp[i];
-    }
-  }
-  scope.sd = scope.seriesSelected.seriesData;
-  scope.classes = scope.seriesSelected.classes;
-  /* the reason I'm doing this here is because firefox is line breaking the
-   * straight template solution (which I left commented out in classContent.html */
-  for (var i=0; i < scope.classes.length; i++) {
-    var fileicons = [];
-    var c = scope.classes[i];
-    c.fileicons = fileicons;
-    if ('new_handout_file' in c) {
-      for (var j=0; j < c.new_handout_file.length; j++) {
-        var nhf = c.new_handout_file[j];
-        if (nhf.indexOf('.pdf') > -1) {
-          fileicons[j] = 'pdficon.gif';
-        } else if (nhf.indexOf('.doc') > -1) {
-          fileicons[j] = 'docicon.png';
-        } else if (nhf.indexOf('.ppt') > -1) {
-          fileicons[j] = 'document_powerpoint.png';
-        } else if (nhf.indexOf('http') > -1) {
-          fileicons[j] = 'Link_symbol_16.png';
-        }
-      }
-    }
-  }
-}
-
-var setClass = function(scope, tlm) {
-  scope.aboutClass="";
-  scope.dropDownClass="";
-  scope.topLevelClass="";
-  if (tlm == "about") {
-    scope.aboutClass="active";
-  } else if (tlm == "dropDown") {
-    scope.dropDownClass="active";
-  } else if (tlm == "topLevelClass") {
-    scope.topLevelClass="active";
-  }
-
-  /*
-  $log.debug("scope.aboutClass: " + scope.aboutClass  );
-  $log.debug("scope.dropDownClass: "+   scope.dropDownClass  );
-  $log.debug("scope.topLevelClass: "+  scope.topLevelClass  );
-  */
-}
+  });

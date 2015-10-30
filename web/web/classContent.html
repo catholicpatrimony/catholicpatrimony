@@ -1,6 +1,7 @@
 <div ng-if="sd" class="container">
   <h3>{{sd.title}}</h3>
   <p ng-if="sd.gdoc_above_classes" ng-include="trustSrc(sd.gdoc_above_classes)" onload="gdoc_loaded();"></p>
+  <p ng-if="sd.customTemplate" ng-include="'web/' + sd.normalized_name + '.html'">{{sd.normalized_name}}.html</p>
 
   <div ng-if="classes" style="font-weight: bold">Bundled Downloads</div>
   <div style="margin-left: 20px">
@@ -11,61 +12,25 @@
   or <a href="itms://www.catholicpatrimony.com/{{sd.normalized_name}}/podcast.xml">open in iTunes</a>.
 -->
   </div>
-  <div ng-repeat="c in classes">
+  <div ng-repeat="c in classes" ng-if="sd.normalized_name != 'daily_homilies'">
     <br />
     <div>
       <strong>{{c.title}}</strong>
     </div>
     <span ng-if="c.detail">{{c.detail}}</span><br ng-if="c.detail"/>
 
-    
-    <!--
-    <div style="max-width=: 70%;">
-    -->
-      <div ng-if="c.newAudio" class="row">
-        <div class="col-xs-1 col-md-1">
-          <a class="cp-icon" href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none">
-            <img src="http://www.catholicpatrimony.com/img/headphone4_16.png" width="16"/>
-          </a>
-        </div>
-        <div class="col-xs-10 col-md-10">
-          <a href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none">
-            Audio (MP3)
-          </a>
-        </div>
+    <span ng-include="'web/audio_and_docs.html'"></span>
+    <div class="row">
+      <div class="col-xs-1 col-md-1">
+        <a href="" class="cp-icon" ng-click="sessionClicked(c);" style="text-decoration:none">
+          <img src="web/img/disqus-social-icon-blue-white.png" width="16"/>
+        </a>
       </div>
-      <div ng-if="!c.newAudio" style="padding-left: 12px; padding-right: 12px; white-space: nowrap;">
-        Audio coming soon
+      <div class="col-xs-10 col-md-10">
+        <a href="" ng-click="sessionClicked(c);" style="text-decoration:none">
+          Comments
+        </a>
       </div>
-      <div ng-repeat="f in c.handout_links" class="row">
-        <div class="col-xs-1 col-md-1">
-          <a class="cp-icon" href="{{f}}" style="text-decoration:none">
-            <img src="web/img/{{c.fileicons[$index]}}" width="16" />
-            <!--
-            <img ng-if="f.indexOf('http') != -1" src="web/img/Link_symbol_16.png"  width="16"/>
-            <img ng-if="f.indexOf('.pdf') != -1" src="web/img/pdficon.gif"  width="16" />
-            <img ng-if="f.indexOf('.doc') != -1" src="web/img/docicon.png"  width="16" />
-            <img ng-if="f.indexOf('.ppt') != -1" src="web/img/document_powerpoint.png" width="16" />
-            -->
-          </a>
-        </div>
-        <div class="col-xs-10 col-md-10">
-          <a href="{{f}}" style="text-decoration:none">
-            {{c.new_handout_title[$index]}}
-          </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-1 col-md-1">
-          <a href="" class="cp-icon" ng-click="sessionClicked(c);" style="text-decoration:none">
-            <img src="web/img/disqus-social-icon-blue-white.png" width="16"/>
-          </a>
-        </div>
-        <div class="col-xs-10 col-md-10">
-          <a href="" ng-click="sessionClicked(c);" style="text-decoration:none">
-            Comments
-          </a>
-        </div>
-      </div>
+    </div>
   </div>
 </div>

@@ -9,24 +9,7 @@
     <!--
     <div style="max-width=: 70%;">
     -->
-    <div ng-if="c.newAudio" style="padding-left: 12px; padding-right: 12px; white-space: nowrap;">
-      <a href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none">
-        <img src="http://www.catholicpatrimony.com/img/headphone4_16.png" width="16"/>
-        Audio (MP3)
-      </a>
-    </div>
-    <div ng-repeat="f in c.handout_links" style="padding-left: 12px; padding-right: 12px; white-space: nowrap;">
-      
-      <a href="{{f}}" style="text-decoration:none">
-     
-        <img ng-if="f.indexOf('http') != -1" src="web/img/Link_symbol_16.png"  width="16"/>
-        <img ng-if="f.indexOf('.pdf') != -1" src="web/img/pdficon.gif"  width="16" />
-        <img ng-if="f.indexOf('.doc') != -1" src="web/img/docicon.png"  width="16" />
-        <img ng-if="f.indexOf('.ppt') != -1" src="web/img/document_powerpoint.png" width="16" />
-        {{c.new_handout_title[$index]}}
-      </a>
-      <br />
-    </div>
+    <span ng-include="'web/audio_and_docs.html'"></span>
     <dir-disqus disqus-shortname="catholicpatrimony"
          disqus-identifier="{{ myDisqus_identifier }}"
          disqus-title="{{ myDisqus_title }}"

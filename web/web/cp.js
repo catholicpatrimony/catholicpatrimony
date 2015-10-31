@@ -93,6 +93,7 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       };
       f("header");
       f("footer");
+      //$log.debug('gdoc_loaded');
     };
     $scope.cp = cp;
     $scope.dropDownMenu = [];

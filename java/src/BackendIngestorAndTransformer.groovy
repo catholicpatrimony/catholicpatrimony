@@ -11,21 +11,6 @@ import org.apache.commons.lang.StringUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import groovy.json.*;
 
-/*
-s3cmd sync -r s3://tedesche/  ./orig/
-date;
-
-# run groovy
-ant groovy; 
-date;
-
-# push latest to www.catholicpatrimony.com
-s3cmd sync -P --guess-mime-type ./build/ s3://www.catholicpatrimony.com/
-date;
-
-s3cmd sync -P --guess-mime-type ../web/web/cp.json s3://www.catholicpatrimony.com/web/
-date;
-*/
 def ops = []
 ops.add("print");
 //ops.add("audio");
@@ -297,8 +282,7 @@ for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
 }
 def jsonStr = new JsonBuilder( jsonClassArr ).toPrettyString()
 jsonStr = "cp = " + jsonStr;
-//new File("build/web/cp.json").withWriter { out -> out.write(jsonStr) };
-new File("../web/web/cp.json").withWriter { out -> out.write(jsonStr) };
+new File("../web/cp.json").withWriter { out -> out.write(jsonStr) };
 
 def String proc(def cmd) {
   println cmd;

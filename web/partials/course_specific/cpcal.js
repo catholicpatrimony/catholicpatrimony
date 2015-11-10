@@ -1,9 +1,9 @@
-cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter) {
+cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter, $uibModal) {
   //TODO - 
   //
   //  FEATURES:
-  //    2) have a date picker?
-  //    3) pick the date off the url
+  //    2 -have a date picker?
+  //    3 - pick the date off the url
   $scope.parseLiturgicalDay = function(homiliesByName, ld, c) {
     homiliesByName[ld] = c;
     /*
@@ -153,6 +153,35 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.showingDay = true;
     $scope.day2show = d;
     $scope.c = d.cpObj;
+
+    var modalInstance = $uibModal.open({
+      animation: true,
+      templateUrl: 'partials/course_specific/daily_modal.html',
+      controller: 'ModalInstanceCtrl',
+      size: 'lg',
+      //bindToController: true
+      resolve: {
+        parentScope: function() {
+          return $scope;
+        }
+      }
+    });
   }
 
+});
+
+cpApp.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, parentScope) {
+//cpApp.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance) {
+
+  $scope.c = parentScope.c;
+  $scope.day2show = parentScope.day2show;
+  $scope.sd = parentScope.sd;
+
+  $scope.ok = function () {
+    $uibModalInstance.close();
+  };
+
+  $scope.cancel = function () {
+    $uibModalInstance.dismiss('cancel');
+  };
 });

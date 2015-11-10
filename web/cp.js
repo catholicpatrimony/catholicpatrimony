@@ -1,6 +1,6 @@
 //angular.module('cpApp', ['ngRoute', 'ngDisqus'] //, function($compileProvider) {
   //}
-var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus'])
+var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus', 'ui.bootstrap'])
   .config(function($routeProvider, $compileProvider, $locationProvider ) {
   //.config(function($routeProvider, $compileProvider, $locationProvider, $disqusProvider ) {
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|itms):/);
@@ -8,17 +8,17 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       .when('/', {
         reloadOnSearch: false,
         controller:'MainController',
-        templateUrl:'web/main.html?v=2'
+        templateUrl:'partials/main.html?v=2'
       })
       .when('/class', {
         reloadOnSearch: true,
         controller:'ClassController',
-        templateUrl:'web/classContent.html?v=2'
+        templateUrl:'partials/courseContent.html?v=2'
       })
       .when('/session', {
         reloadOnSearch: true,
         controller:'SessionController',
-        templateUrl:'web/session.html?v=2'
+        templateUrl:'partials/session.html?v=2'
       })
       .otherwise({
         redirectTo:'/'

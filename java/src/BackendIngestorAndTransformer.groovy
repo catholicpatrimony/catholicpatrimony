@@ -1,4 +1,5 @@
-import groovyx.net.http.*; import static groovyx.net.http.ContentType.*;
+import groovyx.net.http.*; 
+import static groovyx.net.http.ContentType.*;
 import static groovyx.net.http.Method.*;
 import au.com.bytecode.opencsv.CSVParser;
 import org.apache.commons.io.FileUtils;

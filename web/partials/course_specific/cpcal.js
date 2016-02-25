@@ -4,8 +4,13 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   //  FEATURES:
   //    2 -have a date picker?
   //    3 - pick the date off the url
-  $scope.parseLiturgicalDay = function(homiliesByName, ld, c) {
-    homiliesByName[ld] = c;
+  $scope.parseLiturgicalDay = function(homiliesByName, c, j) {
+    //$log.debug(c);
+    if (c['liturgical_year'] && j == 0) {
+      homiliesByName[c.liturgical_day[j] + '-' + c.liturgical_year] = c;
+    } else {
+      homiliesByName[c.liturgical_day[j]] = c;
+    }
     /*
     //DH2015Y13WeekOrdTFri(FeastofThomasApostle).wav
     if (//DH20[0-9]{2}Y([0-9]{1-2}) ) {
@@ -33,7 +38,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         c.liturgical_day = [c.liturgical_day];
       }
       for (var j=0; j < c.liturgical_day.length; j++) {
-        $scope.parseLiturgicalDay(homiliesByName, c.liturgical_day[j], c);
+        $scope.parseLiturgicalDay(homiliesByName, c, j);
       }
     }
   }

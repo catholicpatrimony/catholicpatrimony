@@ -1,22 +1,28 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
+html, body {
+  height: 100%;
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+  margin-bottom: 0px;
 }
 
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  position: absolute;
+  height: 60px; 
+  width: 100%;
+  background-color: #f5f5f5;
+}
 
 /* Custom page CSS
 -------------------------------------------------- */
@@ -30,3 +36,4 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+

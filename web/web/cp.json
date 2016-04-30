@@ -5,7 +5,7 @@ cp = [
                 "id": "01",
                 "title": "Unit 1 - Introduction to the Fathers",
                 "date": "9/9/2015",
-                "rssDate": "Wed, 9 Sep 2015 00:00:00 -0400",
+                "rssDate": "Wed, 9 Sep 2015 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit1Introduction2015-16.wav",
                 "handout_title": [
                     "Introduction to the Fathers",
@@ -24,7 +24,6 @@ cp = [
                     "Introduction to the Fathers",
                     "Pliny's Letter to Trajan"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/01-Introduction_to_the_Fathers.pdf",
                     "/uncovering_2015/docs/01-Pliny's_Letter_to_Trajan.pdf"
@@ -34,7 +33,7 @@ cp = [
                 "id": "02",
                 "title": "Unit 2 - The Didache",
                 "date": "9/16/2015",
-                "rssDate": "Wed, 16 Sep 2015 00:00:00 -0400",
+                "rssDate": "Wed, 16 Sep 2015 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit2Didache2015-16.wav",
                 "handout_title": [
                     "The Didache - Primer",
@@ -61,7 +60,6 @@ cp = [
                     "The Didache - Notes",
                     "The Didache, appendix - The Development of the Eucharist within the First Century"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/02-The_Didache_-_Primer.pdf",
                     "/uncovering_2015/docs/02-The_Didache_-_Text.pdf",
@@ -73,7 +71,7 @@ cp = [
                 "id": "03",
                 "title": "Unit 3 - First Clement",
                 "date": "10/1/2015",
-                "rssDate": "Thu, 1 Oct 2015 00:00:00 -0400",
+                "rssDate": "Thu, 1 Oct 2015 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit3FirstClement2015-16.wav",
                 "handout_title": [
                     "First Clement - Primer",
@@ -100,7 +98,6 @@ cp = [
                     "First Clement - Notes",
                     "First Clement - Quiz"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/03-First_Clement_-_Primer.pdf",
                     "/uncovering_2015/docs/03-First_Clement_-_Text.pdf",
@@ -112,7 +109,7 @@ cp = [
                 "id": "04",
                 "title": "Unit 4A - St. Ignatius to the Ephesians and Romans",
                 "date": "10/7/2015",
-                "rssDate": "Wed, 7 Oct 2015 00:00:00 -0400",
+                "rssDate": "Wed, 7 Oct 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit4AIgnEphRom2015-16.wav",
                 "handout_title": [
                     "St. Ignatius to the Ephesians and Romans - Primer",
@@ -139,7 +136,6 @@ cp = [
                     "St. Ignatius to the Ephesians and Romans - Notes",
                     "St. Ignatius to the Ephesians and Romans - Quiz"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/04-St._Ignatius_to_the_Ephesians_and_Romans_-_Primer.pdf",
                     "/uncovering_2015/docs/04-St._Ignatius_to_the_Ephesians_and_Romans_-_Text.pdf",
@@ -151,7 +147,7 @@ cp = [
                 "id": "05",
                 "title": "Unit 4B - St. Ignatius to the Philadelphians, Smyrnaeans, and Polycarp",
                 "date": "10/14/2015",
-                "rssDate": "Wed, 14 Oct 2015 00:00:00 -0400",
+                "rssDate": "Wed, 14 Oct 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit4BIgnPhilSmyrPolyc2015-16.wav",
                 "handout_title": [
                     "St. Ignatius to the Philadelphians, Smyrnaeans, and Polycarp - Primer",
@@ -178,7 +174,6 @@ cp = [
                     "St. Ignatius to the Philadelphians, Smyrnaeans, and Polycarp - Notes",
                     "St. Ignatius to the Philadelphians, Smyrnaeans, and Polycarp - Quiz"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/05-St._Ignatius_to_the_Philadelphians,_Smyrnaeans,_and_Polycarp_-_Primer.pdf",
                     "/uncovering_2015/docs/05-St._Ignatius_to_the_Philadelphians,_Smyrnaeans,_and_Polycarp_-_Text.pdf",
@@ -190,7 +185,7 @@ cp = [
                 "id": "06",
                 "title": "Unit 5 - The Martyrdom of Polycarp",
                 "date": "10/21/2015",
-                "rssDate": "Wed, 21 Oct 2015 00:00:00 -0400",
+                "rssDate": "Wed, 21 Oct 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit5MPolyc2015-16.wav",
                 "handout_title": [
                     "The Martyrdom of Polycarp - Primer",
@@ -217,7 +212,6 @@ cp = [
                     "The Martyrdom of Polycarp - Notes",
                     "The Martyrdom of Polycarp - Quiz"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/06-The_Martyrdom_of_Polycarp_-_Primer.pdf",
                     "/uncovering_2015/docs/06-The_Martyrdom_of_Polycarp_-_Text.pdf",
@@ -229,7 +223,7 @@ cp = [
                 "id": "07",
                 "title": "Unit 6 - Justin's First Apology",
                 "date": "10/29/2015",
-                "rssDate": "Thu, 29 Oct 2015 00:00:00 -0400",
+                "rssDate": "Thu, 29 Oct 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit6Justin2015-16.wav",
                 "handout_title": [
                     "Justin's First Apology - Primer",
@@ -260,7 +254,6 @@ cp = [
                     "Justin's First Apology - Quiz",
                     "First Quarter Exam Preparation Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/07-Justin's_First_Apology_-_Primer.pdf",
                     "/uncovering_2015/docs/07-Justin's_First_Apology_-_Text.pdf",
@@ -273,13 +266,13 @@ cp = [
                 "id": "08",
                 "title": "First Quarter Review",
                 "date": "11/4/2015",
-                "rssDate": "Wed, 4 Nov 2015 00:00:00 -0500"
+                "rssDate": "Wed, 4 Nov 2015 00:00:00 +0000"
             },
             {
                 "id": "09",
                 "title": "Unit 7 - The Martyrs of Lyons",
                 "date": "11/11/2015",
-                "rssDate": "Wed, 11 Nov 2015 00:00:00 -0500",
+                "rssDate": "Wed, 11 Nov 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit7MartyrsLyons2015-16.wav",
                 "handout_title": [
                     "The Martyrs of Lyons - Primer",
@@ -302,7 +295,6 @@ cp = [
                     "The Martyrs of Lyons - Text",
                     "The Martyrs of Lyons - Quiz"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/09-The_Martyrs_of_Lyons_-_Primer.pdf",
                     "/uncovering_2015/docs/09-The_Martyrs_of_Lyons_-_Text.pdf",
@@ -313,7 +305,7 @@ cp = [
                 "id": "10",
                 "title": "Unit 8 - St. Irenaeus' Against Heresies ",
                 "date": "12/2/2015",
-                "rssDate": "Wed, 2 Dec 2015 00:00:00 -0500",
+                "rssDate": "Wed, 2 Dec 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit8IrenaeusAH2015-16.wav",
                 "handout_title": [
                     "Irenaeus' Against the Heresies - Primer",
@@ -340,7 +332,6 @@ cp = [
                     "Irenaeus' Against the Heresies - Notes",
                     "Irenaeus' Against the Heresies - Quiz"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/10-Irenaeus'_Against_the_Heresies_-_Primer.pdf",
                     "/uncovering_2015/docs/10-Irenaeus'_Against_the_Heresies_-_Text.pdf",
@@ -352,7 +343,7 @@ cp = [
                 "id": "11",
                 "title": "Unit 9 - Tertullian's Prescription Against Heresies",
                 "date": "12/9/2015",
-                "rssDate": "Wed, 9 Dec 2015 00:00:00 -0500",
+                "rssDate": "Wed, 9 Dec 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit9TertPrescription2015-16.wav",
                 "handout_title": [
                     "Tertullian's Prescription Against Heresies - Text"
@@ -367,7 +358,6 @@ cp = [
                 "new_handout_title": [
                     "Tertullian's Prescription Against Heresies - Text"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/11-Tertullian's_Prescription_Against_Heresies_-_Text.pdf"
                 ]
@@ -376,7 +366,7 @@ cp = [
                 "id": "12",
                 "title": "Unit 10 - Tertullian's On Penitence",
                 "date": "12/16/2015",
-                "rssDate": "Wed, 16 Dec 2015 00:00:00 -0500",
+                "rssDate": "Wed, 16 Dec 2015 00:00:00 +0000",
                 "audio": "UncoveringUnit10TertPenitence2015-16.wav",
                 "handout_title": [
                     "Tertullian's On Penitence - Text"
@@ -391,7 +381,6 @@ cp = [
                 "new_handout_title": [
                     "Tertullian's On Penitence - Text"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/12-Tertullian's_On_Penitence_-_Text.pdf"
                 ]
@@ -400,7 +389,7 @@ cp = [
                 "id": "13",
                 "title": "Unit 11 - Eusebius on the Two Theodoti and Tertullian's Against Praxeas",
                 "date": "1/6/2016",
-                "rssDate": "Wed, 6 Jan 2016 00:00:00 -0500",
+                "rssDate": "Wed, 6 Jan 2016 00:00:00 +0000",
                 "handout_title": [
                     "Eusebius on the Two Theodoti and Tertullian's Against Praxeas - Text",
                     "Eusebius on the Two Theodoti and Tertullian's Against Praxeas - Notes"
@@ -426,25 +415,23 @@ cp = [
                 "id": "14",
                 "title": "Unit 12 - Monarchianism and Trinitarianism Overview",
                 "date": "1/13/2016",
-                "rssDate": "Wed, 13 Jan 2016 00:00:00 -0500",
+                "rssDate": "Wed, 13 Jan 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit12MonTrin.wav",
-                "newAudio": "14-uncovering_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "14-uncovering_2015.mp3"
             },
             {
                 "id": "15",
                 "title": "Second Quarter Review",
                 "date": "1/20/2016",
-                "rssDate": "Wed, 20 Jan 2016 00:00:00 -0500",
+                "rssDate": "Wed, 20 Jan 2016 00:00:00 +0000",
                 "audio": "UncoveringRiches2ndQReview2015-16.wav",
-                "newAudio": "15-uncovering_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "15-uncovering_2015.mp3"
             },
             {
                 "id": "16",
                 "title": "Unit 13 - Eusebius on Origen and Origen's On Prayer",
                 "date": "1/27/2016",
-                "rssDate": "Wed, 27 Jan 2016 00:00:00 -0500",
+                "rssDate": "Wed, 27 Jan 2016 00:00:00 +0000",
                 "audio": "UncoveringUnit13Origen2015-16.wav",
                 "handout_title": [
                     "Eusebius on Origen and Origen's On Prayer - Text"
@@ -459,7 +446,6 @@ cp = [
                 "new_handout_title": [
                     "Eusebius on Origen and Origen's On Prayer - Text"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_2015/docs/16-Eusebius_on_Origen_and_Origen's_On_Prayer_-_Text.pdf"
                 ]
@@ -468,10 +454,89 @@ cp = [
                 "id": "17",
                 "title": "Unit 14 - St. Cyprian's The Unity of the Catholic Church",
                 "date": "2/11/2016",
-                "rssDate": "Thu, 11 Feb 2016 00:00:00 -0500",
+                "rssDate": "Thu, 11 Feb 2016 00:00:00 +0000",
                 "audio": "UncoveringUnit14CyprianUnity2015-16.wav",
-                "newAudio": "17-uncovering_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "17-uncovering_2015.mp3"
+            },
+            {
+                "id": "18",
+                "title": "Unit 15 - Eusebius' Life of Constantine",
+                "date": "2/25/2016",
+                "rssDate": "Thu, 25 Feb 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit15LifeConstantine2015-16.wav",
+                "handout_title": [
+                    "Eusebius' Life of Constantine - Text",
+                    "Eusebius' Life of Constantine - Outline"
+                ],
+                "handout_file": [
+                    "Unit15_EusebiusLifeConstantine_Text.pdf",
+                    "Unit15_EusebiusLifeConstantine_Outline.pdf"
+                ],
+                "newAudio": "18-uncovering_2015.mp3",
+                "new_handout_file": [
+                    "18-Eusebius'_Life_of_Constantine_-_Text.pdf",
+                    "18-Eusebius'_Life_of_Constantine_-_Outline.pdf"
+                ],
+                "new_handout_title": [
+                    "Eusebius' Life of Constantine - Text",
+                    "Eusebius' Life of Constantine - Outline"
+                ],
+                "handout_links": [
+                    "/uncovering_2015/docs/18-Eusebius'_Life_of_Constantine_-_Text.pdf",
+                    "/uncovering_2015/docs/18-Eusebius'_Life_of_Constantine_-_Outline.pdf"
+                ]
+            },
+            {
+                "id": "19",
+                "title": "Unit 16 - Athanasius' On the Council of Nicaea",
+                "date": "3/2/2016",
+                "rssDate": "Wed, 2 Mar 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit16AthanasiusNicaea2015-16.wav",
+                "newAudio": "19-uncovering_2015.mp3"
+            },
+            {
+                "id": "20",
+                "title": "Unit 17 - Athanasius' Life of Anthony",
+                "date": "3/16/2016",
+                "rssDate": "Wed, 16 Mar 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit17LifeAnthony.wav",
+                "newAudio": "20-uncovering_2015.mp3"
+            },
+            {
+                "id": "21",
+                "title": "Unit 18 - Basil's On the Holy Spirit",
+                "date": "3/23/2016",
+                "rssDate": "Wed, 23 Mar 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit18BasilHolySpirit.wav",
+                "newAudio": "21-uncovering_2015.mp3"
+            },
+            {
+                "id": "22",
+                "title": "Unit 19 - Gregory Nazianzen, Letter 101 and Funeral Oration"
+            },
+            {
+                "id": "23",
+                "title": "Third Quarter Review",
+                "date": "3/30/2016",
+                "rssDate": "Wed, 30 Mar 2016 00:00:00 +0000",
+                "audio": "UncoveringRiches3rdQReview2015-16.wav",
+                "newAudio": "23-uncovering_2015.mp3"
+            },
+            {
+                "id": "24",
+                "title": "Unit 20 - Egeria's Diary",
+                "date": "4/6/2016",
+                "rssDate": "Wed, 6 Apr 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit20EgeriaDiary.wav",
+                "newAudio": "24-uncovering_2015.mp3"
+            },
+            {
+                "id": "25",
+                "title": "Unit 21 - St. Jerome's On the Perpetual Virginity of Mary",
+                "date": "4/13/2016",
+                "rssDate": "Wed, 13 Apr 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit21JeromePerpVirg.wav",
+                "newAudio": "25-uncovering_2015.mp3"
             }
         ],
         "seriesData": {
@@ -491,208 +556,193 @@ cp = [
                 "id": "01",
                 "title": "Unit 1 - Introduction to the Fathers",
                 "date": "9/9/2015",
-                "rssDate": "Wed, 9 Sep 2015 00:00:00 -0400",
+                "rssDate": "Wed, 9 Sep 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit1Thurs2015-16.wav",
-                "newAudio": "01-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "01-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "02",
                 "title": "Unit 2 - The Didache - Wednesday's class",
                 "date": "9/16/2015",
-                "rssDate": "Wed, 16 Sep 2015 00:00:00 -0400",
+                "rssDate": "Wed, 16 Sep 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit2Weds2015-16.wav",
-                "newAudio": "02-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "02-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "03",
                 "title": "Unit 2 - The Didache - Thursday's class",
                 "date": "9/17/2015",
-                "rssDate": "Thu, 17 Sep 2015 00:00:00 -0400",
+                "rssDate": "Thu, 17 Sep 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit2Thurs2015-16.wav",
-                "newAudio": "03-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "03-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "04",
                 "title": "Unit 3 - First Clement - Wednesday's Class",
                 "date": "9/30/2015",
-                "rssDate": "Wed, 30 Sep 2015 00:00:00 -0400",
+                "rssDate": "Wed, 30 Sep 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit3Wed2015-16.wav",
-                "newAudio": "04-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "04-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "05",
                 "title": "Unit 3 - First Clement - Thursday's Class",
                 "date": "10/1/2015",
-                "rssDate": "Thu, 1 Oct 2015 00:00:00 -0400"
+                "rssDate": "Thu, 1 Oct 2015 00:00:00 +0000"
             },
             {
                 "id": "06",
                 "title": "Unit 4A - St. Ignatius to the Ephesians and Romans - Wednesday's Class",
                 "date": "10/7/2015",
-                "rssDate": "Wed, 7 Oct 2015 00:00:00 -0400"
+                "rssDate": "Wed, 7 Oct 2015 00:00:00 +0000"
             },
             {
                 "id": "07",
                 "title": "Unit 4A - St. Ignatius to the Ephesians and Romans - Thursday's Class",
                 "date": "10/8/2015",
-                "rssDate": "Thu, 8 Oct 2015 00:00:00 -0400"
+                "rssDate": "Thu, 8 Oct 2015 00:00:00 +0000"
             },
             {
                 "id": "08",
                 "title": "Unit 4B - St. Ignatius to the Philadelphians, Smyrnaeans, Polycarp - Wednesday's Class",
                 "date": "10/14/2015",
-                "rssDate": "Wed, 14 Oct 2015 00:00:00 -0400"
+                "rssDate": "Wed, 14 Oct 2015 00:00:00 +0000"
             },
             {
                 "id": "09",
                 "title": "Unit 4B - St. Ignatius to the Philadelphians, Smyrnaeans, Polycarp - Thursday's Class",
                 "date": "10/15/2015",
-                "rssDate": "Thu, 15 Oct 2015 00:00:00 -0400",
+                "rssDate": "Thu, 15 Oct 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit4BThurs.wav",
-                "newAudio": "09-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "09-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "10",
                 "title": "Unit 5 - The Martyrdom of Polycarp - Wednesday's Class",
                 "date": "10/21/2015",
-                "rssDate": "Wed, 21 Oct 2015 00:00:00 -0400",
+                "rssDate": "Wed, 21 Oct 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit5Wed.wav",
-                "newAudio": "10-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "10-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "11",
                 "title": "Unit 5 - The Martyrdom of Polycarp - Thursday's Class",
                 "date": "10/22/2015",
-                "rssDate": "Thu, 22 Oct 2015 00:00:00 -0400",
+                "rssDate": "Thu, 22 Oct 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit5Thurs.wav",
-                "newAudio": "11-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "11-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "12",
                 "title": "Unit 6 - Justin's First Apology - Wednesday's Class",
                 "date": "10/28/2015",
-                "rssDate": "Wed, 28 Oct 2015 00:00:00 -0400",
+                "rssDate": "Wed, 28 Oct 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit6Wed.wav",
-                "newAudio": "12-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "12-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "13",
                 "title": "Unit 6 - Justin's First Apology - Thursday's Class",
                 "date": "10/29/2015",
-                "rssDate": "Thu, 29 Oct 2015 00:00:00 -0400",
+                "rssDate": "Thu, 29 Oct 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit6Thurs.wav",
-                "newAudio": "13-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "13-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "14",
                 "title": "First Quarter Review and Exam - Wednesday's Class",
                 "date": "11/4/2015",
-                "rssDate": "Wed, 4 Nov 2015 00:00:00 -0500",
+                "rssDate": "Wed, 4 Nov 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyFirstQuarterReview.wav",
-                "newAudio": "14-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "14-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "15",
                 "title": "First Quarter Review and Exam - Thursday's Class",
                 "date": "11/5/2015",
-                "rssDate": "Thu, 5 Nov 2015 00:00:00 -0500"
+                "rssDate": "Thu, 5 Nov 2015 00:00:00 +0000"
             },
             {
                 "id": "16",
                 "title": "Unit 7 - The Martyrs of Lyons - Thursday's Class",
                 "date": "11/12/2015",
-                "rssDate": "Thu, 12 Nov 2015 00:00:00 -0500",
+                "rssDate": "Thu, 12 Nov 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit7Thurs2015-16.wav",
-                "newAudio": "16-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "16-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "17",
                 "title": "Unit 8 - St. Irenaeus' Against Heresies - Wednesday's Class",
                 "date": "12/2/2015",
-                "rssDate": "Wed, 2 Dec 2015 00:00:00 -0500"
+                "rssDate": "Wed, 2 Dec 2015 00:00:00 +0000"
             },
             {
                 "id": "18",
                 "title": "Unit 8 - St. Irenaeus' Against Heresies - Thursday's Class",
                 "date": "12/3/2015",
-                "rssDate": "Thu, 3 Dec 2015 00:00:00 -0500",
+                "rssDate": "Thu, 3 Dec 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit8Thurs2015-16.wav",
-                "newAudio": "18-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "18-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "19",
                 "title": "Unit 9 - Tertullian's Prescription Against Heresies - Thursday's Class",
                 "date": "12/10/2015",
-                "rssDate": "Thu, 10 Dec 2015 00:00:00 -0500",
+                "rssDate": "Thu, 10 Dec 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit9Thurs.wav",
-                "newAudio": "19-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "19-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "20",
                 "title": "Unit 10 - Tertullian's On Penitence - Wednesday's Class",
                 "date": "12/16/2015",
-                "rssDate": "Wed, 16 Dec 2015 00:00:00 -0500",
+                "rssDate": "Wed, 16 Dec 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit10Wed2015-16.wav",
-                "newAudio": "20-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "20-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "21",
                 "title": "Unit 10 - Tertullian's On Penitence - Thursday's Class",
                 "date": "12/17/2015",
-                "rssDate": "Thu, 17 Dec 2015 00:00:00 -0500",
+                "rssDate": "Thu, 17 Dec 2015 00:00:00 +0000",
                 "audio": "TyburnPatrologyUnit10Thurs2015-16.wav",
-                "newAudio": "21-tyburn_patrology_2015.mp3",
-                "volume_boost": "1"
+                "newAudio": "21-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "22",
                 "title": "Unit 11 - Eusebius on the Two Theodoti and Tertullian's Against Praxeas - Wednesday's Class",
                 "date": "1/6/2016",
-                "rssDate": "Wed, 6 Jan 2016 00:00:00 -0500"
+                "rssDate": "Wed, 6 Jan 2016 00:00:00 +0000"
             },
             {
                 "id": "23",
                 "title": "Unit 11 - Eusebius on the Two Theodoti and Tertullian's Against Praxeas - Thursday's Class",
                 "date": "1/7/2016",
-                "rssDate": "Thu, 7 Jan 2016 00:00:00 -0500"
+                "rssDate": "Thu, 7 Jan 2016 00:00:00 +0000"
             },
             {
                 "id": "24",
                 "title": "Unit 12 - Monarchianism and Trinitarianism Overview - Wednesday's Class",
                 "date": "1/13/2016",
-                "rssDate": "Wed, 13 Jan 2016 00:00:00 -0500"
+                "rssDate": "Wed, 13 Jan 2016 00:00:00 +0000"
             },
             {
                 "id": "25",
                 "title": "Unit 12 - Monarchianism and Trinitarianism Overview - Thursday's Class",
                 "date": "1/14/2016",
-                "rssDate": "Thu, 14 Jan 2016 00:00:00 -0500"
+                "rssDate": "Thu, 14 Jan 2016 00:00:00 +0000"
             },
             {
                 "id": "26",
                 "title": "Second Quarter Review and Exam - Wednesday's Class",
                 "date": "1/20/2016",
-                "rssDate": "Wed, 20 Jan 2016 00:00:00 -0500"
+                "rssDate": "Wed, 20 Jan 2016 00:00:00 +0000"
             },
             {
                 "id": "27",
                 "title": "Second Quarter Review and Exam - Thursday's Class",
                 "date": "1/21/2016",
-                "rssDate": "Thu, 21 Jan 2016 00:00:00 -0500"
+                "rssDate": "Thu, 21 Jan 2016 00:00:00 +0000"
             }
         ],
         "seriesData": {
@@ -712,7 +762,7 @@ cp = [
                 "title": "From Pope to Parish: The Structure of the Catholic Church",
                 "detail": "This class has two sections. The first explores the authoritative weight of various Magisterial teachings while the second more major section explores the structure of the Church from its highest authority to the local parish level. ",
                 "date": "2/18/2015",
-                "rssDate": "Wed, 18 Feb 2015 00:00:00 -0500",
+                "rssDate": "Wed, 18 Feb 2015 00:00:00 +0000",
                 "audio": "FromPopetoParish.MP3",
                 "handout_title": [
                     "From Pope to Parish Outline (18 pages)",
@@ -731,7 +781,6 @@ cp = [
                     "From Pope to Parish Outline (18 pages)",
                     "From Pope to Parish Power Point"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/misc/docs/01-From_Pope_to_Parish_Outline_(18_pages).pdf",
                     "/misc/docs/01-From_Pope_to_Parish_Power_Point.pdf"
@@ -742,7 +791,7 @@ cp = [
                 "title": "Teachers Retreat: The Moral Foundation of the Intellectual Life",
                 "detail": "This is a reflection on the importantce of the moral life in relation to the pursuit of truth",
                 "date": "3/20/2015",
-                "rssDate": "Fri, 20 Mar 2015 00:00:00 -0400",
+                "rssDate": "Fri, 20 Mar 2015 00:00:00 +0000",
                 "audio": "LentenTeacherRetreatMoralLifeandIntellectualLife.MP3",
                 "handout_title": [
                     "Handout for Teachers Retreat"
@@ -757,7 +806,6 @@ cp = [
                 "new_handout_title": [
                     "Handout for Teachers Retreat"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/misc/docs/02-Handout_for_Teachers_Retreat.pdf"
                 ]
@@ -767,70 +815,81 @@ cp = [
                 "title": "Teachers Retreat: The Centrality of Holy Communion to the Spiritual Life",
                 "detail": "This is largely a reflection on Pope St. Pius X's Magisterial document on the daily reception of Holy Communion",
                 "date": "3/20/2015",
-                "rssDate": "Fri, 20 Mar 2015 00:00:00 -0400",
+                "rssDate": "Fri, 20 Mar 2015 00:00:00 +0000",
                 "audio": "LentenTeacherRetreatCentralityofEucharisttoSpiritualLife.MP3",
-                "newAudio": "03-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "03-misc.mp3"
             },
             {
                 "id": "04",
                 "title": "First Saturday Talk for July 2015: The Supreme Court Decision Concerning Same Sex Marriage",
                 "detail": "This is a reflection on our proper response as Catholics to Obergefell v. Hodges",
                 "date": "7/4/2015",
-                "rssDate": "Sat, 4 Jul 2015 00:00:00 -0400",
+                "rssDate": "Sat, 4 Jul 2015 00:00:00 +0000",
                 "audio": "FirstSaturdayTalkJuly2015SupremeCourtDecisionSameSexMarriage.wav",
-                "newAudio": "04-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "04-misc.mp3"
             },
             {
                 "id": "05",
                 "title": "First Saturday Talk for August 2015: The Supreme Court Decision Revisted",
                 "detail": "There is more discussion here about homosexuality and the nature of marriage",
                 "date": "8/1/2015",
-                "rssDate": "Sat, 1 Aug 2015 00:00:00 -0400",
+                "rssDate": "Sat, 1 Aug 2015 00:00:00 +0000",
                 "audio": "FirstSarurdayTalkAugust2015SameSexMarriage.wav",
-                "newAudio": "05-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "05-misc.mp3"
             },
             {
                 "id": "06",
                 "title": "First Saturday Talk for October 2015: Abortion and Our Lady of Fatima",
                 "detail": "In light of Respect Life Month, the psychological dynamic behind abortion is disscused here in relation to Our Lady of Fatima",
                 "date": "10/4/2015",
-                "rssDate": "Sun, 4 Oct 2015 00:00:00 -0400",
+                "rssDate": "Sun, 4 Oct 2015 00:00:00 +0000",
                 "audio": "FS2015YOctAbortionMotives.wav",
-                "newAudio": "06-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "06-misc.mp3"
             },
             {
                 "id": "07",
                 "title": "Introduction to Moral Theology - Class 2/4",
                 "detail": "Unfortunately, the first class of this series was not recorded. In this second class of the series, we finish off St. Paul's moral vision in Romans and then we cover the second, third, and fourth chapters of Pinckaer's book, Morality: The Catholic View. We cover St. Augustine and St. Thomas on the virtues and the gifts of the Holy Spirit. ",
                 "date": "10/13/2015",
-                "rssDate": "Tue, 13 Oct 2015 00:00:00 -0400",
+                "rssDate": "Tue, 13 Oct 2015 00:00:00 +0000",
                 "audio": "IntroMorals2015.wav",
-                "newAudio": "07-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "07-misc.mp3"
             },
             {
                 "id": "08",
                 "title": "First Saturday Talk for December 2015: St. Nicholas of Myra and the Cosmic Battle between Light and Darkness",
                 "detail": "All of human history is a battle between light and darkness. This is the lesson of Fatima. St. Nicholas of Myra, the real \"Santa Claus\" is discussed in relation to this theme. ",
                 "date": "12/2/2015",
-                "rssDate": "Wed, 2 Dec 2015 00:00:00 -0500",
+                "rssDate": "Wed, 2 Dec 2015 00:00:00 +0000",
                 "audio": "FS2015YDecApocalypticStNicholas.wav",
-                "newAudio": "08-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "08-misc.mp3"
             },
             {
                 "id": "09",
                 "title": "First Saturday Talk for January 2016: The Gospel as Proclaimed by the Church as Our Criterion for Discerning Truth",
                 "detail": "There were deceivers in St. John's day and there are deceivers today. How can the average Catholic discern who is teaching the truth and who is teaching falsehood? And how can we ourselves not become a deceiver?  ",
                 "date": "1/2/2016",
-                "rssDate": "Sat, 2 Jan 2016 00:00:00 -0500",
+                "rssDate": "Sat, 2 Jan 2016 00:00:00 +0000",
                 "audio": "FS2016YJanDiscerningHeresy.wav",
-                "newAudio": "09-misc.mp3",
-                "volume_boost": "1"
+                "newAudio": "09-misc.mp3"
+            },
+            {
+                "id": "10",
+                "title": "First Saturday Talk for March 2016: The Fires of Hell and Contrition",
+                "detail": "The idea of hell-fire often strikes many as grotesque and cruel. Hell-fire, though, is real, and it exists as an expression of God\u2019s mercy. This is so because the threat of hell-fire is often the only thing that reaches the hardened sinner and brings his hard heart to contrition.",
+                "date": "3/5/2016",
+                "rssDate": "Sat, 5 Mar 2016 00:00:00 +0000",
+                "audio": "FS2016YMarchFireofHellContrition.wav",
+                "newAudio": "10-misc.mp3"
+            },
+            {
+                "id": "11",
+                "title": "First Saturday Talk for April 2016: Post-abortive Women, God's Unconditional Love, the Need to Make Atonement",
+                "detail": "Project Rachel ministers to those women who are suffering emotional and psychological effects from an abortion. Such women often need to understand in an existential manner God's unconditional love for them and the fact that His forgiveness is given on the basis of his mercy and not our worth. And yet such women often have legitimate desires to make atonement for their sins. In ministering to these women, how can both of these seemingly irreconcilable needs be met? ",
+                "date": "4/2/2016",
+                "rssDate": "Sat, 2 Apr 2016 00:00:00 +0000",
+                "audio": "FS2016YAprilPostAbortWomenUncLoveAtone.wav",
+                "newAudio": "11-misc.mp3"
             }
         ],
         "seriesData": {
@@ -841,11 +900,231 @@ cp = [
     {
         "classes": [
             {
+                "id": "83",
+                "title": "Fourth Sunday of Easter 2016",
+                "detail": "World Day of Prayer for Vocations and Priestly Vocations",
+                "date": "4/17/2016",
+                "rssDate": "Sun, 17 Apr 2016 00:00:00 +0000",
+                "audio": "SH04SunEaster2016.wav",
+                "newAudio": "83-Sunday_Homilies.mp3",
+                "duration": "00:10:44.48",
+                "length": "2578560",
+                "link2mp3": "/Sunday_Homilies/audio/83-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "82",
+                "title": "Divine Mercy Sunday 2016",
+                "detail": "Divine Mercy and Project Rachel",
+                "date": "4/4/2016",
+                "rssDate": "Mon, 4 Apr 2016 00:00:00 +0000",
+                "audio": "HomilyDivineMercy2016.wav",
+                "handout_title": [
+                    "Homily Text for Divine Mercy Sunday 2016",
+                    "Abortion and Excommunication Handout"
+                ],
+                "handout_file": [
+                    "HomilyTextDivineMercy2016.pdf",
+                    "AbortionExcomDivineMercy2016.pdf"
+                ],
+                "newAudio": "82-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "82-Homily_Text_for_Divine_Mercy_Sunday_2016.pdf",
+                    "82-Abortion_and_Excommunication_Handout.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Divine Mercy Sunday 2016",
+                    "Abortion and Excommunication Handout"
+                ],
+                "duration": "00:09:28.06",
+                "length": "2273408",
+                "link2mp3": "/Sunday_Homilies/audio/82-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/82-Homily_Text_for_Divine_Mercy_Sunday_2016.pdf",
+                    "/Sunday_Homilies/docs/82-Abortion_and_Excommunication_Handout.pdf"
+                ]
+            },
+            {
+                "id": "81",
+                "title": "Easter Sunday 2016",
+                "detail": "A Modern Parable for Easter Sunday",
+                "date": "3/27/2016",
+                "rssDate": "Sun, 27 Mar 2016 00:00:00 +0000",
+                "audio": "HomilyEasterSunday2016.wav",
+                "handout_title": [
+                    "Homily Text for Easter Sunday 2016"
+                ],
+                "handout_file": [
+                    "HomilyTextforEasterSunday2016.pdf"
+                ],
+                "newAudio": "81-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "81-Homily_Text_for_Easter_Sunday_2016.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Easter Sunday 2016"
+                ],
+                "duration": "00:10:30.90",
+                "length": "2525312",
+                "link2mp3": "/Sunday_Homilies/audio/81-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/81-Homily_Text_for_Easter_Sunday_2016.pdf"
+                ]
+            },
+            {
+                "id": "80",
+                "title": "Good Friday 2016",
+                "detail": "When Good Friday Falls on the Annunciaton and the feast of St. Dismas",
+                "date": "3/25/2016",
+                "rssDate": "Fri, 25 Mar 2016 00:00:00 +0000",
+                "audio": "HomilyGoodFriday2016.wav",
+                "newAudio": "80-Sunday_Homilies.mp3",
+                "duration": "00:08:45.56",
+                "length": "2103424",
+                "link2mp3": "/Sunday_Homilies/audio/80-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "79",
+                "title": "Holy Thursday - Evening Mass of the Lord\u2019s Supper 2016",
+                "detail": "The Eucharistic Sacrifice, the Priesthood, Humility and Service",
+                "date": "3/24/2016",
+                "rssDate": "Thu, 24 Mar 2016 00:00:00 +0000",
+                "audio": "HomilyHolyThursday2016.wav",
+                "newAudio": "79-Sunday_Homilies.mp3",
+                "duration": "00:07:31.52",
+                "length": "1806464",
+                "link2mp3": "/Sunday_Homilies/audio/79-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "78",
+                "title": "Palm Sunday of the Lord's Passion 2016",
+                "detail": "St. Dismas and the Happy Death",
+                "date": "3/20/2016",
+                "rssDate": "Sun, 20 Mar 2016 00:00:00 +0000",
+                "audio": "SHPalmSunday2016.wav",
+                "handout_title": [
+                    "Homily Text for Palm Sunday 2016",
+                    "Prayer to St. Dismas and Acts of Faith, Hope, etc."
+                ],
+                "handout_file": [
+                    "HomilyTextPalmSunday2016.pdf",
+                    "PrayerStDismasActsofFaithetc.pdf"
+                ],
+                "newAudio": "78-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "78-Homily_Text_for_Palm_Sunday_2016.pdf",
+                    "78-Prayer_to_St._Dismas_and_Acts_of_Faith,_Hope,_etc..pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for Palm Sunday 2016",
+                    "Prayer to St. Dismas and Acts of Faith, Hope, etc."
+                ],
+                "duration": "00:11:34.57",
+                "length": "2779264",
+                "link2mp3": "/Sunday_Homilies/audio/78-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/78-Homily_Text_for_Palm_Sunday_2016.pdf",
+                    "/Sunday_Homilies/docs/78-Prayer_to_St._Dismas_and_Acts_of_Faith,_Hope,_etc..pdf"
+                ]
+            },
+            {
+                "id": "77",
+                "title": "Feast of St. Joseph 2016",
+                "detail": "Fathers as Constructive Builders in the World",
+                "date": "3/19/2016",
+                "rssDate": "Sat, 19 Mar 2016 00:00:00 +0000",
+                "audio": "HomilyFeastStJoseph2016.wav",
+                "newAudio": "77-Sunday_Homilies.mp3",
+                "duration": "00:08:35.58",
+                "length": "2062464",
+                "link2mp3": "/Sunday_Homilies/audio/77-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "76",
+                "title": "Fourth Sunday of Lent 2016",
+                "detail": "What Sins Will Send Me to Hell?",
+                "date": "3/6/2016",
+                "rssDate": "Sun, 6 Mar 2016 00:00:00 +0000",
+                "audio": "SH04SunLent2016.wav",
+                "handout_title": [
+                    "Mortal Sin, Conditions and Examples"
+                ],
+                "handout_file": [
+                    "An Examen, mortal sins only (2pagesStF).pdf"
+                ],
+                "newAudio": "76-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "76-Mortal_Sin,_Conditions_and_Examples.pdf"
+                ],
+                "new_handout_title": [
+                    "Mortal Sin, Conditions and Examples"
+                ],
+                "duration": "00:13:57.32",
+                "length": "3350656",
+                "link2mp3": "/Sunday_Homilies/audio/76-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/76-Mortal_Sin,_Conditions_and_Examples.pdf"
+                ]
+            },
+            {
+                "id": "75",
+                "title": "Third Sunday of Lent 2016",
+                "detail": "A Meditation on Hell and the Need for Repentance",
+                "date": "2/28/2016",
+                "rssDate": "Sun, 28 Feb 2016 00:00:00 +0000",
+                "audio": "SH03SunLent2016.wav",
+                "handout_title": [
+                    "Homily Text for the Third Sunday of Lent 2016",
+                    "An Examen for Mortal Sin (two pages)",
+                    "An Examen for Mortal Sin (five pages)",
+                    "An Examen for Mortal Sin and Venial Sin (ten pages)"
+                ],
+                "handout_file": [
+                    "HomilyTextThirdSundayLent2016.pdf",
+                    "An Examen, mortal sins only (2 pages).pdf",
+                    "An Examen, mortal sins only (5 pages).pdf",
+                    "An Examen, both mortal and venial sins (10 pages).pdf"
+                ],
+                "newAudio": "75-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "75-Homily_Text_for_the_Third_Sunday_of_Lent_2016.pdf",
+                    "75-An_Examen_for_Mortal_Sin_(two_pages).pdf",
+                    "75-An_Examen_for_Mortal_Sin_(five_pages).pdf",
+                    "75-An_Examen_for_Mortal_Sin_and_Venial_Sin_(ten_pages).pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for the Third Sunday of Lent 2016",
+                    "An Examen for Mortal Sin (two pages)",
+                    "An Examen for Mortal Sin (five pages)",
+                    "An Examen for Mortal Sin and Venial Sin (ten pages)"
+                ],
+                "duration": "00:10:36.80",
+                "length": "2547840",
+                "link2mp3": "/Sunday_Homilies/audio/75-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/75-Homily_Text_for_the_Third_Sunday_of_Lent_2016.pdf",
+                    "/Sunday_Homilies/docs/75-An_Examen_for_Mortal_Sin_(two_pages).pdf",
+                    "/Sunday_Homilies/docs/75-An_Examen_for_Mortal_Sin_(five_pages).pdf",
+                    "/Sunday_Homilies/docs/75-An_Examen_for_Mortal_Sin_and_Venial_Sin_(ten_pages).pdf"
+                ]
+            },
+            {
+                "id": "74",
+                "title": "Second Sunday of Lent 2016",
+                "detail": "Embrace the Darkness of Penance and Escape the Darkness of Hell",
+                "date": "2/21/2016",
+                "rssDate": "Sun, 21 Feb 2016 00:00:00 +0000",
+                "audio": "SH02SunLent2016.wav",
+                "newAudio": "74-Sunday_Homilies.mp3",
+                "duration": "00:10:11.94",
+                "length": "2449536",
+                "link2mp3": "/Sunday_Homilies/audio/74-Sunday_Homilies.mp3"
+            },
+            {
                 "id": "73",
                 "title": "First Sunday of Lent 2016",
                 "detail": "How to Avoid Getting Tricked by the Devil",
                 "date": "2/14/2016",
-                "rssDate": "Sun, 14 Feb 2016 00:00:00 -0500",
+                "rssDate": "Sun, 14 Feb 2016 00:00:00 +0000",
                 "audio": "SH01SunLent2016.wav",
                 "handout_title": [
                     "Homily Text for the First Sunday of Lent 2016"
@@ -860,7 +1139,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for the First Sunday of Lent 2016"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:09.90",
+                "length": "2441344",
+                "link2mp3": "/Sunday_Homilies/audio/73-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/73-Homily_Text_for_the_First_Sunday_of_Lent_2016.pdf"
                 ]
@@ -870,27 +1151,31 @@ cp = [
                 "title": "5th Sunday in Ordinary Time 2016",
                 "detail": "Understanding the Proper Relationship between Holy Communion and Confession",
                 "date": "2/7/2016",
-                "rssDate": "Sun, 7 Feb 2016 00:00:00 -0500",
+                "rssDate": "Sun, 7 Feb 2016 00:00:00 +0000",
                 "audio": "SH05SunOrdT2016.wav",
                 "newAudio": "72-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:30.87",
+                "length": "2525312",
+                "link2mp3": "/Sunday_Homilies/audio/72-Sunday_Homilies.mp3"
             },
             {
                 "id": "71",
                 "title": "4th Sunday in Ordinary Time 2016",
                 "detail": "Our Prophetic Witness and Gossip",
                 "date": "1/31/2016",
-                "rssDate": "Sun, 31 Jan 2016 00:00:00 -0500",
+                "rssDate": "Sun, 31 Jan 2016 00:00:00 +0000",
                 "audio": "SH04SunOrdT2016.wav",
                 "newAudio": "71-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:55.26",
+                "length": "2621568",
+                "link2mp3": "/Sunday_Homilies/audio/71-Sunday_Homilies.mp3"
             },
             {
                 "id": "70",
                 "title": "3rd Sunday in Ordinary Time 2016",
                 "detail": "The Pro-Life Movement and Politics",
                 "date": "1/24/2016",
-                "rssDate": "Sun, 24 Jan 2016 00:00:00 -0500",
+                "rssDate": "Sun, 24 Jan 2016 00:00:00 +0000",
                 "audio": "SH03SunOrdT2016.wav",
                 "handout_title": [
                     "Homily Text for the 3rd Sunday in Ordinary Time 2016"
@@ -905,7 +1190,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for the 3rd Sunday in Ordinary Time 2016"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:07.86",
+                "length": "2433152",
+                "link2mp3": "/Sunday_Homilies/audio/70-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/70-Homily_Text_for_the_3rd_Sunday_in_Ordinary_Time_2016.pdf"
                 ]
@@ -915,17 +1202,19 @@ cp = [
                 "title": "2nd Sunday in Ordinary Time 2016",
                 "detail": "The Graces of Marriage",
                 "date": "1/17/2016",
-                "rssDate": "Sun, 17 Jan 2016 00:00:00 -0500",
+                "rssDate": "Sun, 17 Jan 2016 00:00:00 +0000",
                 "audio": "SH02SunOrdT2016.wav",
                 "newAudio": "69-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:55.62",
+                "length": "2623616",
+                "link2mp3": "/Sunday_Homilies/audio/69-Sunday_Homilies.mp3"
             },
             {
                 "id": "68",
                 "title": "The Feast of the Baptism of the Lord 2016",
                 "detail": "Baptism as Fulfilled in an Interior Personal Relationship with God",
                 "date": "1/10/2016",
-                "rssDate": "Sun, 10 Jan 2016 00:00:00 -0500",
+                "rssDate": "Sun, 10 Jan 2016 00:00:00 +0000",
                 "audio": "HomilyforBaptismoftheLord2016.wav",
                 "handout_title": [
                     "Images of Paintings of the Baptism of the Lord Referred to in the Homily"
@@ -940,7 +1229,9 @@ cp = [
                 "new_handout_title": [
                     "Images of Paintings of the Baptism of the Lord Referred to in the Homily"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:17.31",
+                "length": "2709632",
+                "link2mp3": "/Sunday_Homilies/audio/68-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/68-Images_of_Paintings_of_the_Baptism_of_the_Lord_Referred_to_in_the_Homily.pdf"
                 ]
@@ -950,17 +1241,19 @@ cp = [
                 "title": "The Feast of the Epiphany of the Lord 2016",
                 "detail": "Never Take the Light of Christ for Granted",
                 "date": "1/3/2016",
-                "rssDate": "Sun, 3 Jan 2016 00:00:00 -0500",
+                "rssDate": "Sun, 3 Jan 2016 00:00:00 +0000",
                 "audio": "HomilyEpiphany2016.wav",
                 "newAudio": "67-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:09:44.17",
+                "length": "2336896",
+                "link2mp3": "/Sunday_Homilies/audio/67-Sunday_Homilies.mp3"
             },
             {
                 "id": "66",
                 "title": "The Feast of Mary, The Holy Mother of God 2016",
                 "detail": "Devotion to the Mother of God and the Power of the Rosary",
                 "date": "1/1/2016",
-                "rssDate": "Fri, 1 Jan 2016 00:00:00 -0500",
+                "rssDate": "Fri, 1 Jan 2016 00:00:00 +0000",
                 "audio": "HomilyforFeastMotherofGod2016.wav",
                 "handout_title": [
                     "Homily Outline for the Feast of Mary, Mother of God 2016",
@@ -979,7 +1272,9 @@ cp = [
                     "Homily Outline for the Feast of Mary, Mother of God 2016",
                     "St. Louis de Montfort's \"shorter\" method of praying the Rosary"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:36.51",
+                "length": "2547840",
+                "link2mp3": "/Sunday_Homilies/audio/66-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/66-Homily_Outline_for_the_Feast_of_Mary,_Mother_of_God_2016.pdf",
                     "/Sunday_Homilies/docs/66-St._Louis_de_Montfort's_\"shorter\"_method_of_praying_the_Rosary.pdf"
@@ -990,7 +1285,7 @@ cp = [
                 "title": "The Feast of the Holy Family 2015",
                 "detail": "The Eucharist as Central to the Family",
                 "date": "12/27/2015",
-                "rssDate": "Sun, 27 Dec 2015 00:00:00 -0500",
+                "rssDate": "Sun, 27 Dec 2015 00:00:00 +0000",
                 "audio": "HomilyforHolyFamily2015.wav",
                 "handout_title": [
                     "Homily Text for the Feast of the Holy Family 2015"
@@ -1005,7 +1300,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for the Feast of the Holy Family 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:05:15.67",
+                "length": "1262688",
+                "link2mp3": "/Sunday_Homilies/audio/65-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/65-Homily_Text_for_the_Feast_of_the_Holy_Family_2015.pdf"
                 ]
@@ -1015,7 +1312,7 @@ cp = [
                 "title": "The Feast of the Nativity (Christmas) 2015",
                 "detail": "When God Visits Us",
                 "date": "12/25/2015",
-                "rssDate": "Fri, 25 Dec 2015 00:00:00 -0500",
+                "rssDate": "Fri, 25 Dec 2015 00:00:00 +0000",
                 "audio": "HomilyforChristmas2015.wav",
                 "handout_title": [
                     "Homily Text for the Feast of the Nativity 2015"
@@ -1030,7 +1327,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for the Feast of the Nativity 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:16.64",
+                "length": "2467968",
+                "link2mp3": "/Sunday_Homilies/audio/64-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/64-Homily_Text_for_the_Feast_of_the_Nativity_2015.pdf"
                 ]
@@ -1040,47 +1339,55 @@ cp = [
                 "title": "Fourth Sunday in Advent 2015",
                 "detail": "The 'Hail Mary' and the Blessed Virgin as Preceding Christ",
                 "date": "12/20/2015",
-                "rssDate": "Sun, 20 Dec 2015 00:00:00 -0500",
+                "rssDate": "Sun, 20 Dec 2015 00:00:00 +0000",
                 "audio": "SHAdvent4Sun2015.wav",
                 "newAudio": "63-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:10.62",
+                "length": "2443392",
+                "link2mp3": "/Sunday_Homilies/audio/63-Sunday_Homilies.mp3"
             },
             {
                 "id": "62",
                 "title": "Third Sunday in Advent 2015",
                 "detail": "Jesus' Winnowing Fan and Joy",
                 "date": "12/13/2015",
-                "rssDate": "Sun, 13 Dec 2015 00:00:00 -0500",
+                "rssDate": "Sun, 13 Dec 2015 00:00:00 +0000",
                 "audio": "SHAdvent3Sun2015.wav",
                 "newAudio": "62-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:08:42.80",
+                "length": "2093184",
+                "link2mp3": "/Sunday_Homilies/audio/62-Sunday_Homilies.mp3"
             },
             {
                 "id": "61",
                 "title": "The Feast of the Immaculate Conception 2015",
                 "detail": "The Immaculate Conception and God's Preventative Mercy in Our Lives",
                 "date": "12/8/2015",
-                "rssDate": "Tue, 8 Dec 2015 00:00:00 -0500",
+                "rssDate": "Tue, 8 Dec 2015 00:00:00 +0000",
                 "audio": "HomilyforIC2015.wav",
                 "newAudio": "61-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:09:12.75",
+                "length": "2211968",
+                "link2mp3": "/Sunday_Homilies/audio/61-Sunday_Homilies.mp3"
             },
             {
                 "id": "60",
                 "title": "Second Sunday in Advent 2015",
                 "detail": "St. Nicholas and Giving to the Poor",
                 "date": "12/6/2015",
-                "rssDate": "Sun, 6 Dec 2015 00:00:00 -0500",
+                "rssDate": "Sun, 6 Dec 2015 00:00:00 +0000",
                 "audio": "SHAdvent2Sun2015.wav",
                 "newAudio": "60-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:54.92",
+                "length": "2621568",
+                "link2mp3": "/Sunday_Homilies/audio/60-Sunday_Homilies.mp3"
             },
             {
                 "id": "59",
                 "title": "First Sunday in Advent 2015",
                 "detail": "Celebrating Advent and Christmas in a Sober Manner",
                 "date": "11/29/2015",
-                "rssDate": "Sun, 29 Nov 2015 00:00:00 -0500",
+                "rssDate": "Sun, 29 Nov 2015 00:00:00 +0000",
                 "audio": "SHAdvent1Sun2015.wav",
                 "volume_boost": "1",
                 "handout_title": [
@@ -1096,28 +1403,34 @@ cp = [
                 "new_handout_title": [
                     "Homily Outline for First Sunday in Advent 2015"
                 ],
+                "duration": "00:11:28.52",
+                "length": "2754688",
+                "link2mp3": "/Sunday_Homilies/audio/59-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/59-Homily_Outline_for_First_Sunday_in_Advent_2015.pdf"
                 ]
             },
             {
                 "id": "58",
-                "updated_on": "11/26/2015",
-                "updated_on_date": "2015-11-26T05:00:00+0000",
+                "updated_on": "11/26/2015 0:00:00",
+                "updated_on_date": "2015-11-26T00:00:00+0000",
                 "title": "The Feast of Christ the King 2015",
                 "detail": "The Social Kingship of Christ: How to Mix Religion and Politics",
                 "date": "11/22/2015",
-                "rssDate": "Sun, 22 Nov 2015 00:00:00 -0500",
+                "rssDate": "Sun, 22 Nov 2015 00:00:00 +0000",
                 "audio": "SH34SunOrdT2015ChristKing-2.wav",
                 "volume_boost": "1",
-                "newAudio": "58-Sunday_Homilies.mp3"
+                "newAudio": "58-Sunday_Homilies.mp3",
+                "duration": "00:11:11.82",
+                "length": "2689152",
+                "link2mp3": "/Sunday_Homilies/audio/58-Sunday_Homilies.mp3"
             },
             {
                 "id": "57",
                 "title": "33rd Sunday in Ordinary Time 2015",
                 "detail": "Meditating on Scripture as a Vehicle to Heaven ",
                 "date": "11/15/2015",
-                "rssDate": "Sun, 15 Nov 2015 00:00:00 -0500",
+                "rssDate": "Sun, 15 Nov 2015 00:00:00 +0000",
                 "audio": "SH33SunOrdT2015.wav",
                 "volume_boost": "1",
                 "handout_title": [
@@ -1137,6 +1450,9 @@ cp = [
                     "Homily Outline for 33rd Sunday in Ordinary Time 2015",
                     "Handout on Lectio divina"
                 ],
+                "duration": "00:12:28.02",
+                "length": "2992256",
+                "link2mp3": "/Sunday_Homilies/audio/57-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/57-Homily_Outline_for_33rd_Sunday_in_Ordinary_Time_2015.pdf",
                     "/Sunday_Homilies/docs/57-Handout_on_Lectio_divina.pdf"
@@ -1147,41 +1463,50 @@ cp = [
                 "title": "32nd Sunday in Ordinary Time 2015",
                 "detail": "Human Freedom Transcends Bad Circumstances",
                 "date": "11/8/2015",
-                "rssDate": "Sun, 8 Nov 2015 00:00:00 -0500",
+                "rssDate": "Sun, 8 Nov 2015 00:00:00 +0000",
                 "audio": "SH32SunOrdT2015.wav",
                 "volume_boost": "1",
-                "newAudio": "56-Sunday_Homilies.mp3"
+                "newAudio": "56-Sunday_Homilies.mp3",
+                "duration": "00:09:18.54",
+                "length": "2234496",
+                "link2mp3": "/Sunday_Homilies/audio/56-Sunday_Homilies.mp3"
             },
             {
                 "id": "55",
-                "updated_on": "11/6/2015",
-                "updated_on_date": "2015-11-06T05:00:00+0000",
+                "updated_on": "11/6/2015 0:00:00",
+                "updated_on_date": "2015-11-06T00:00:00+0000",
                 "title": "All Souls Day 2014",
                 "detail": "Purgatory and the Principle of Lex orandi, lex credendi",
                 "date": "11/2/2015",
-                "rssDate": "Mon, 2 Nov 2015 00:00:00 -0500",
+                "rssDate": "Mon, 2 Nov 2015 00:00:00 +0000",
                 "audio": "HomilyforAllSouls2015.wav",
                 "volume_boost": "1",
-                "newAudio": "55-Sunday_Homilies.mp3"
+                "newAudio": "55-Sunday_Homilies.mp3",
+                "duration": "00:06:40.94",
+                "length": "3209344",
+                "link2mp3": "/Sunday_Homilies/audio/55-Sunday_Homilies.mp3"
             },
             {
                 "id": "54",
-                "updated_on": "11/6/2015",
-                "updated_on_date": "2015-11-06T05:00:00+0000",
+                "updated_on": "11/6/2015 0:00:00",
+                "updated_on_date": "2015-11-06T00:00:00+0000",
                 "title": "The Feast of All Saints 2015",
                 "detail": "The Path of Sainthood is the Path of Human Happiness",
                 "date": "11/1/2015",
-                "rssDate": "Sun, 1 Nov 2015 00:00:00 -0400",
+                "rssDate": "Sun, 1 Nov 2015 00:00:00 +0000",
                 "audio": "SH31SunOrdT2015AllSaints.wav",
                 "volume_boost": "1",
-                "newAudio": "54-Sunday_Homilies.mp3"
+                "newAudio": "54-Sunday_Homilies.mp3",
+                "duration": "00:08:57.04",
+                "length": "4296832",
+                "link2mp3": "/Sunday_Homilies/audio/54-Sunday_Homilies.mp3"
             },
             {
                 "id": "53",
                 "title": "30th Sunday in Ordinary Time 2015",
                 "detail": "The Christian Response to the Question of Immigrants and Refugees",
                 "date": "10/25/2015",
-                "rssDate": "Sun, 25 Oct 2015 00:00:00 -0400",
+                "rssDate": "Sun, 25 Oct 2015 00:00:00 +0000",
                 "audio": "SH30SunOrdT2015.wav",
                 "handout_title": [
                     "Homily Text for 30th Sunday in Ordinary Time 2015"
@@ -1196,7 +1521,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 30th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:09:37.93",
+                "length": "2312320",
+                "link2mp3": "/Sunday_Homilies/audio/53-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/53-Homily_Text_for_30th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1206,27 +1533,31 @@ cp = [
                 "title": "29th Sunday in Ordinary TIme 2015",
                 "detail": "The Spousal Relationship and the Sacrificial Love of Christ",
                 "date": "10/18/2015",
-                "rssDate": "Sun, 18 Oct 2015 00:00:00 -0400",
+                "rssDate": "Sun, 18 Oct 2015 00:00:00 +0000",
                 "audio": "SH29SunOrdT2015.wav",
                 "newAudio": "52-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:11:39.32",
+                "length": "2797696",
+                "link2mp3": "/Sunday_Homilies/audio/52-Sunday_Homilies.mp3"
             },
             {
                 "id": "51",
                 "title": "28th Sunday in Ordinary Time 2015",
                 "detail": "Our Children and Judgment Day",
                 "date": "10/11/2015",
-                "rssDate": "Sun, 11 Oct 2015 00:00:00 -0400",
+                "rssDate": "Sun, 11 Oct 2015 00:00:00 +0000",
                 "audio": "SH28SunOrdT2015.wav",
                 "newAudio": "51-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:07:43.76",
+                "length": "1855616",
+                "link2mp3": "/Sunday_Homilies/audio/51-Sunday_Homilies.mp3"
             },
             {
                 "id": "50",
                 "title": "27th Sunday in Ordinary Time 2015",
                 "detail": "Marriage, Divorce and Children",
                 "date": "10/4/2015",
-                "rssDate": "Sun, 4 Oct 2015 00:00:00 -0400",
+                "rssDate": "Sun, 4 Oct 2015 00:00:00 +0000",
                 "audio": "SH27SunOrdT2015.wav",
                 "handout_title": [
                     "Homily Text for 27th Sunday in Ordinary Time 2015"
@@ -1241,7 +1572,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 27th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:14.19",
+                "length": "2697344",
+                "link2mp3": "/Sunday_Homilies/audio/50-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/50-Homily_Text_for_27th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1251,17 +1584,19 @@ cp = [
                 "title": "24th Sunday in Ordinary Time 2015",
                 "detail": "Should Christians Tithe? ",
                 "date": "9/13/2015",
-                "rssDate": "Sun, 13 Sep 2015 00:00:00 -0400",
+                "rssDate": "Sun, 13 Sep 2015 00:00:00 +0000",
                 "audio": "HomilyforTwentyFourthSundayinOrdinaryTime2015.wav",
                 "newAudio": "49-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:55.28",
+                "length": "2621568",
+                "link2mp3": "/Sunday_Homilies/audio/49-Sunday_Homilies.mp3"
             },
             {
                 "id": "48",
                 "title": "23rd Sunday in Ordinary Time 2015",
                 "detail": "Mental Prayer",
                 "date": "9/6/2015",
-                "rssDate": "Sun, 6 Sep 2015 00:00:00 -0400",
+                "rssDate": "Sun, 6 Sep 2015 00:00:00 +0000",
                 "audio": "HomilyforTwentyThirdSundayinOrdinaryTime2015",
                 "handout_title": [
                     "Homily Outline for 23rd Sunday in Ordinary Time, including a list of books useful for meditation"
@@ -1276,7 +1611,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Outline for 23rd Sunday in Ordinary Time, including a list of books useful for meditation"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:27.25",
+                "length": "2510976",
+                "link2mp3": "/Sunday_Homilies/audio/48-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/48-Homily_Outline_for_23rd_Sunday_in_Ordinary_Time,_including_a_list_of_books_useful_for_meditation.pdf"
                 ]
@@ -1286,7 +1623,7 @@ cp = [
                 "title": "19th Sunday in Ordinary Time 2015",
                 "detail": "The Eucharist III: The Main Purpose of the Eucharist as Spiritual Strength",
                 "date": "8/9/2015",
-                "rssDate": "Sun, 9 Aug 2015 00:00:00 -0400",
+                "rssDate": "Sun, 9 Aug 2015 00:00:00 +0000",
                 "audio": "HomilyforNineteenthSundayinOrdinaryTime2015.wav",
                 "handout_title": [
                     "Homily Text for 19th Sunday in Ordinary Time 2015"
@@ -1301,7 +1638,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 19th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:09:39.73",
+                "length": "2320512",
+                "link2mp3": "/Sunday_Homilies/audio/47-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/47-Homily_Text_for_19th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1311,7 +1650,7 @@ cp = [
                 "title": "18th Sunday in Ordinary Time 2015",
                 "detail": "The Eucharist II: The Food That Endures for Eternal Life",
                 "date": "8/2/2015",
-                "rssDate": "Sun, 2 Aug 2015 00:00:00 -0400",
+                "rssDate": "Sun, 2 Aug 2015 00:00:00 +0000",
                 "audio": "HomilyforEighteenthSundayinOrdinaryTime2015.wav",
                 "handout_title": [
                     "Homily Text for 18th Sunday in Ordinary Time 2015"
@@ -1326,7 +1665,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 18th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:09:47.98",
+                "length": "2353280",
+                "link2mp3": "/Sunday_Homilies/audio/46-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/46-Homily_Text_for_18th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1336,7 +1677,7 @@ cp = [
                 "title": "17th Sunday in Ordinary Time 2015",
                 "detail": "The Eucharist I: Can We Be Fed in the Catholic Church? ",
                 "date": "7/26/2015",
-                "rssDate": "Sun, 26 Jul 2015 00:00:00 -0400",
+                "rssDate": "Sun, 26 Jul 2015 00:00:00 +0000",
                 "audio": "HomilyforSeventeenthSundayinOrdinaryTime2015.wav",
                 "handout_title": [
                     "Homily Text for 17th Sunday in Ordinary Time 2015"
@@ -1351,7 +1692,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 17th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:08:28.90",
+                "length": "2035840",
+                "link2mp3": "/Sunday_Homilies/audio/45-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/45-Homily_Text_for_17th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1361,7 +1704,7 @@ cp = [
                 "title": "15th Sunday in Ordinary Time 2015",
                 "detail": "The Virtue of Hope and Our Material Possessions",
                 "date": "7/12/2015",
-                "rssDate": "Sun, 12 Jul 2015 00:00:00 -0400",
+                "rssDate": "Sun, 12 Jul 2015 00:00:00 +0000",
                 "audio": "HomilyforFifteenthSundayinOrdinaryTime2015.wav",
                 "handout_title": [
                     "Homily Text for 15th Sunday in Ordinary Time 2015"
@@ -1376,7 +1719,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 15th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:07:58.02",
+                "length": "1912960",
+                "link2mp3": "/Sunday_Homilies/audio/44-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/44-Homily_Text_for_15th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1386,7 +1731,7 @@ cp = [
                 "title": "14th Sunday in Ordinary Time 2015",
                 "detail": "A Homily on Homilies: a Look Back and a Look Forward",
                 "date": "7/5/2015",
-                "rssDate": "Sun, 5 Jul 2015 00:00:00 -0400",
+                "rssDate": "Sun, 5 Jul 2015 00:00:00 +0000",
                 "audio": "HomilyforFourteenthSundayinOrdinaryTime2015.wav",
                 "handout_title": [
                     "Homily Text for 14th Sunday in Ordinary Time 2015"
@@ -1401,7 +1746,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 14th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:08:11.72",
+                "length": "1968256",
+                "link2mp3": "/Sunday_Homilies/audio/43-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/43-Homily_Text_for_14th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1411,7 +1758,7 @@ cp = [
                 "title": "13th Sunday in Ordinary Time 2015",
                 "detail": "Laudato Si and Our Care for the Environment",
                 "date": "6/28/2015",
-                "rssDate": "Sun, 28 Jun 2015 00:00:00 -0400",
+                "rssDate": "Sun, 28 Jun 2015 00:00:00 +0000",
                 "audio": "HomilyforThirteenthSundayinOrdinaryTime2015.mp3",
                 "handout_title": [
                     "Homily Text for 13th Sunday in Ordinary Time 2015"
@@ -1426,7 +1773,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 13th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:08:36.15",
+                "length": "2066560",
+                "link2mp3": "/Sunday_Homilies/audio/42-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/42-Homily_Text_for_13th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1436,7 +1785,7 @@ cp = [
                 "title": "11th Sunday in Ordinary Time 2015",
                 "detail": "Catholic Social Teaching and the Principle of Solidarity ",
                 "date": "6/15/2015",
-                "rssDate": "Mon, 15 Jun 2015 00:00:00 -0400",
+                "rssDate": "Mon, 15 Jun 2015 00:00:00 +0000",
                 "audio": "Homilyfor11thSundayOrdinaryTime2015.wav",
                 "handout_title": [
                     "Homily Text for 11th Sunday in Ordinary Time 2015"
@@ -1451,7 +1800,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for 11th Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:08:03.32",
+                "length": "1933440",
+                "link2mp3": "/Sunday_Homilies/audio/41-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/41-Homily_Text_for_11th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1461,17 +1812,19 @@ cp = [
                 "title": "The Feast of the Sacred Heart 2015",
                 "detail": "The Sacred Heart and God the Philanthropist",
                 "date": "6/12/2015",
-                "rssDate": "Fri, 12 Jun 2015 00:00:00 -0400",
+                "rssDate": "Fri, 12 Jun 2015 00:00:00 +0000",
                 "audio": "HomilyforSacredHeart2015.wav",
                 "newAudio": "40-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:04:03.08",
+                "length": "972928",
+                "link2mp3": "/Sunday_Homilies/audio/40-Sunday_Homilies.mp3"
             },
             {
                 "id": "39",
                 "title": "The Feast of Corpus Christi 2015",
                 "detail": "The Unbroken Belief of the Church in the Real Presence",
                 "date": "6/7/2015",
-                "rssDate": "Sun, 7 Jun 2015 00:00:00 -0400",
+                "rssDate": "Sun, 7 Jun 2015 00:00:00 +0000",
                 "audio": "HomilyforCorpusChristi2015.wav",
                 "handout_title": [
                     "Homily Text for Corpus Christi 2015",
@@ -1490,7 +1843,9 @@ cp = [
                     "Homily Text for Corpus Christi 2015",
                     "Story from the Desert Fathers Used in Copus Christi Homily 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:13:10.38",
+                "length": "3162240",
+                "link2mp3": "/Sunday_Homilies/audio/39-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/39-Homily_Text_for_Corpus_Christi_2015.pdf",
                     "/Sunday_Homilies/docs/39-Story_from_the_Desert_Fathers_Used_in_Copus_Christi_Homily_2015.pdf"
@@ -1501,7 +1856,7 @@ cp = [
                 "title": "The Feast of the Most Holy Trinity 2015",
                 "detail": "The Blessed Trinity and Marriage and the Family",
                 "date": "5/31/2015",
-                "rssDate": "Sun, 31 May 2015 00:00:00 -0400",
+                "rssDate": "Sun, 31 May 2015 00:00:00 +0000",
                 "audio": "HomilyforTrinitySunday2015noon.wav",
                 "handout_title": [
                     "Homily Text for Trinity Sunday 2015"
@@ -1516,7 +1871,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Trinity Sunday 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:12:38.24",
+                "length": "3033216",
+                "link2mp3": "/Sunday_Homilies/audio/38-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/38-Homily_Text_for_Trinity_Sunday_2015.pdf"
                 ]
@@ -1526,27 +1883,32 @@ cp = [
                 "title": "The Feast of Pentecost 2015",
                 "detail": "The Pentecostal Grace, our Witness, and Blessed Oscar Romero",
                 "date": "5/24/2015",
-                "rssDate": "Sun, 24 May 2015 00:00:00 -0400",
+                "rssDate": "Sun, 24 May 2015 00:00:00 +0000",
                 "audio": "HomilyforPentecost2015.wav",
                 "volume_boost": "6",
-                "newAudio": "37-Sunday_Homilies.mp3"
+                "newAudio": "37-Sunday_Homilies.mp3",
+                "duration": "00:13:46.06",
+                "length": "3305600",
+                "link2mp3": "/Sunday_Homilies/audio/37-Sunday_Homilies.mp3"
             },
             {
                 "id": "36",
                 "title": "Ascension Thursday 2015",
                 "detail": "Jesus as Near to Us in Our Neighbor",
                 "date": "5/14/2015",
-                "rssDate": "Thu, 14 May 2015 00:00:00 -0400",
+                "rssDate": "Thu, 14 May 2015 00:00:00 +0000",
                 "audio": "HomilyforAscensionThursday2015.wav",
                 "newAudio": "36-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:08:10.38",
+                "length": "1962112",
+                "link2mp3": "/Sunday_Homilies/audio/36-Sunday_Homilies.mp3"
             },
             {
                 "id": "35",
                 "title": "Sixth Sunday of Easter 2015",
                 "detail": "Friendship and the Moral Good",
                 "date": "5/10/2015",
-                "rssDate": "Sun, 10 May 2015 00:00:00 -0400",
+                "rssDate": "Sun, 10 May 2015 00:00:00 +0000",
                 "audio": "HomilyforSixthSundayofEaster2015.wav",
                 "handout_title": [
                     "Homily Text for Sixth Sunday of Easter 2015"
@@ -1561,7 +1923,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Sixth Sunday of Easter 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:12:12.01",
+                "length": "2928768",
+                "link2mp3": "/Sunday_Homilies/audio/35-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/35-Homily_Text_for_Sixth_Sunday_of_Easter_2015.pdf"
                 ]
@@ -1571,7 +1935,7 @@ cp = [
                 "title": "Fifth Sunday of Easter 2015",
                 "detail": "The Centrality of Conscience in the Spiritual and Moral Life",
                 "date": "5/3/2015",
-                "rssDate": "Sun, 3 May 2015 00:00:00 -0400",
+                "rssDate": "Sun, 3 May 2015 00:00:00 +0000",
                 "audio": "HomilyforFifthSundayofEaster2015.wav",
                 "handout_title": [
                     "Homily Text for Fifth Sunday of Easter 2015",
@@ -1590,7 +1954,9 @@ cp = [
                     "Homily Text for Fifth Sunday of Easter 2015",
                     "The Marshmallow Test (YouTube)"
                 ],
-                "volume_boost": "1",
+                "duration": "00:12:30.61",
+                "length": "3004544",
+                "link2mp3": "/Sunday_Homilies/audio/34-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/34-Homily_Text_for_Fifth_Sunday_of_Easter_2015.pdf",
                     "http://www.youtube.com/watch?v=QX_oy9614HQ"
@@ -1601,7 +1967,7 @@ cp = [
                 "title": "Fourth Sunday of Easter 2015",
                 "detail": "The Gospel of Jesus Christ and the Importance of the Priesthood",
                 "date": "4/26/2015",
-                "rssDate": "Sun, 26 Apr 2015 00:00:00 -0400",
+                "rssDate": "Sun, 26 Apr 2015 00:00:00 +0000",
                 "audio": "HomilyforFourthSundayofEaster2015.wav",
                 "handout_title": [
                     "Homily Text for Fourth Sunday of Easter 2015"
@@ -1616,7 +1982,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Fourth Sunday of Easter 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:13:55.66",
+                "length": "3344512",
+                "link2mp3": "/Sunday_Homilies/audio/33-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/33-Homily_Text_for_Fourth_Sunday_of_Easter_2015.pdf"
                 ]
@@ -1626,69 +1994,82 @@ cp = [
                 "title": "Third Sunday of Easter 2015",
                 "detail": "Our Expectations and the Grace of Easter",
                 "date": "4/19/2015",
-                "rssDate": "Sun, 19 Apr 2015 00:00:00 -0400",
+                "rssDate": "Sun, 19 Apr 2015 00:00:00 +0000",
                 "audio": "HomilyforThirdSundayofEaster2015.wav",
                 "newAudio": "32-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:12:24.80",
+                "length": "2979968",
+                "link2mp3": "/Sunday_Homilies/audio/32-Sunday_Homilies.mp3"
             },
             {
                 "id": "31",
                 "title": "Divine Mercy Sunday 2015",
                 "detail": "All the Riches of Christ's Atonement Present to Us Every Moment of Our Lives",
                 "date": "4/12/2015",
-                "rssDate": "Sun, 12 Apr 2015 00:00:00 -0400",
+                "rssDate": "Sun, 12 Apr 2015 00:00:00 +0000",
                 "audio": "HomilyforDivineSunday2015.wav",
                 "newAudio": "31-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:10:12.66",
+                "length": "2451584",
+                "link2mp3": "/Sunday_Homilies/audio/31-Sunday_Homilies.mp3"
             },
             {
                 "id": "30",
                 "title": "Easter Sunday 2015",
                 "detail": "The Pasch",
                 "date": "4/5/2015",
-                "rssDate": "Sun, 5 Apr 2015 00:00:00 -0400",
+                "rssDate": "Sun, 5 Apr 2015 00:00:00 +0000",
                 "audio": "HomilyforEasterSunday2015.wav",
                 "newAudio": "30-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:09:34.88",
+                "length": "2300032",
+                "link2mp3": "/Sunday_Homilies/audio/30-Sunday_Homilies.mp3"
             },
             {
                 "id": "29",
                 "title": "Holy Thursday - Evening Mass of the Lord\u2019s Supper 2015",
                 "detail": "The Institution of the Eucharist and the Priesthood and Our Lord's Humility and Love",
                 "date": "4/2/2015",
-                "rssDate": "Thu, 2 Apr 2015 00:00:00 -0400",
+                "rssDate": "Thu, 2 Apr 2015 00:00:00 +0000",
                 "audio": "HomilyforHolyThursday2015.wav",
                 "newAudio": "29-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:13:06.39",
+                "length": "3145856",
+                "link2mp3": "/Sunday_Homilies/audio/29-Sunday_Homilies.mp3"
             },
             {
                 "id": "28",
                 "updated_on": "4/4/2015 21:08:00",
-                "updated_on_date": "2015-04-05T01:08:00+0000",
+                "updated_on_date": "2015-04-04T21:08:00+0000",
                 "title": "Palm Sunday of the Lord's Passion 2015",
                 "detail": "The Lord's Passion as the Last Lenten Examination of Conscience",
                 "date": "3/29/2015",
-                "rssDate": "Sun, 29 Mar 2015 00:00:00 -0400",
+                "rssDate": "Sun, 29 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforPalmSunday2015",
                 "volume_boost": "6",
-                "newAudio": "28-Sunday_Homilies.mp3"
+                "newAudio": "28-Sunday_Homilies.mp3",
+                "duration": "00:06:56.26",
+                "length": "1667200",
+                "link2mp3": "/Sunday_Homilies/audio/28-Sunday_Homilies.mp3"
             },
             {
                 "id": "27",
                 "title": "Feast of the Annunciation 2015",
                 "detail": "Jesus Living in Mary",
                 "date": "3/25/2015",
-                "rssDate": "Wed, 25 Mar 2015 00:00:00 -0400",
+                "rssDate": "Wed, 25 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforFeastofAnnunciation2015",
                 "newAudio": "27-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:05:36.94",
+                "length": "1349760",
+                "link2mp3": "/Sunday_Homilies/audio/27-Sunday_Homilies.mp3"
             },
             {
                 "id": "26",
                 "title": "Fifth Sunday of Lent 2015",
                 "detail": "Catholic Social Teaching: Lighting a Candle",
                 "date": "3/22/2015",
-                "rssDate": "Sun, 22 Mar 2015 00:00:00 -0400",
+                "rssDate": "Sun, 22 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforFifthSundayofLent2015.MP3",
                 "handout_title": [
                     "Homily Text for Fifth Sunday of Lent 2015",
@@ -1707,7 +2088,9 @@ cp = [
                     "Homily Text for Fifth Sunday of Lent 2015",
                     "Compendium of the Social Doctrine of the Church"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:46.74",
+                "length": "2827583",
+                "link2mp3": "/Sunday_Homilies/audio/26-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/26-Homily_Text_for_Fifth_Sunday_of_Lent_2015.pdf",
                     "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
@@ -1718,17 +2101,19 @@ cp = [
                 "title": "Feast of St. Joseph 2015",
                 "detail": "St. Joseph: Model of Stability",
                 "date": "3/19/2015",
-                "rssDate": "Thu, 19 Mar 2015 00:00:00 -0400",
+                "rssDate": "Thu, 19 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforFeastofStJoseph2015.MP3",
                 "newAudio": "25-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:11:01.16",
+                "length": "2645279",
+                "link2mp3": "/Sunday_Homilies/audio/25-Sunday_Homilies.mp3"
             },
             {
                 "id": "24",
                 "title": "Fourth Sunday of Lent 2015",
                 "detail": "Appreciating Anew Good Friday and Easter Sunday",
                 "date": "3/15/2015",
-                "rssDate": "Sun, 15 Mar 2015 00:00:00 -0400",
+                "rssDate": "Sun, 15 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforFourthSundayofLent2015.MP3",
                 "handout_title": [
                     "Minimal Facts Argument for the Resurrection of Christ",
@@ -1747,7 +2132,9 @@ cp = [
                     "Minimal Facts Argument for the Resurrection of Christ",
                     "Peter Kreeft's Argument for the Resurrection of Christ"
                 ],
-                "volume_boost": "1",
+                "duration": "00:12:27.39",
+                "length": "2990207",
+                "link2mp3": "/Sunday_Homilies/audio/24-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/24-Minimal_Facts_Argument_for_the_Resurrection_of_Christ.pdf",
                     "/Sunday_Homilies/docs/24-Peter_Kreeft's_Argument_for_the_Resurrection_of_Christ.pdf"
@@ -1758,7 +2145,7 @@ cp = [
                 "title": "Third Sunday of Lent 2015",
                 "detail": "Zeal and Love as the Fulfillment of the Law",
                 "date": "3/8/2015",
-                "rssDate": "Sun, 8 Mar 2015 00:00:00 -0500",
+                "rssDate": "Sun, 8 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforThirdSundayofLent2015.MP3",
                 "handout_title": [
                     "Interview with the Brother of Two of the 21 Coptic Christian Martyrs"
@@ -1773,7 +2160,9 @@ cp = [
                 "new_handout_title": [
                     "Interview with the Brother of Two of the 21 Coptic Christian Martyrs"
                 ],
-                "volume_boost": "1",
+                "duration": "00:12:29.61",
+                "length": "2999039",
+                "link2mp3": "/Sunday_Homilies/audio/23-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/23-Interview_with_the_Brother_of_Two_of_the_21_Coptic_Christian_Martyrs.pdf"
                 ]
@@ -1783,7 +2172,7 @@ cp = [
                 "title": "Second Sunday of Lent 2015",
                 "detail": "The Transfiguration: Easter Sunday Comes after Good Friday",
                 "date": "3/1/2015",
-                "rssDate": "Sun, 1 Mar 2015 00:00:00 -0500",
+                "rssDate": "Sun, 1 Mar 2015 00:00:00 +0000",
                 "audio": "HomilyforSecondSundayofLent2015.MP3",
                 "handout_title": [
                     "Homily Outline for Second Sunday of Lent 2015"
@@ -1798,7 +2187,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Outline for Second Sunday of Lent 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:14.22",
+                "length": "2697503",
+                "link2mp3": "/Sunday_Homilies/audio/22-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/22-Homily_Outline_for_Second_Sunday_of_Lent_2015.pdf"
                 ]
@@ -1808,7 +2199,7 @@ cp = [
                 "title": "First Sunday of Lent 2015",
                 "detail": "Diabolical Temptation and Habitual Sin",
                 "date": "2/23/2015",
-                "rssDate": "Mon, 23 Feb 2015 00:00:00 -0500",
+                "rssDate": "Mon, 23 Feb 2015 00:00:00 +0000",
                 "audio": "HomilyforFirstSundayofLent2015.MP3",
                 "handout_title": [
                     "Homily Outline for First Sunday of Lent 2015",
@@ -1831,7 +2222,9 @@ cp = [
                     "St. Macarius and the Devil",
                     "Remedies Against Habitual Sins"
                 ],
-                "volume_boost": "1",
+                "duration": "00:13:22.11",
+                "length": "3209087",
+                "link2mp3": "/Sunday_Homilies/audio/21-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/21-Homily_Outline_for_First_Sunday_of_Lent_2015.pdf",
                     "/Sunday_Homilies/docs/21-St._Macarius_and_the_Devil.pdf",
@@ -1843,7 +2236,7 @@ cp = [
                 "title": "Sixth Sunday in Ordinary Time 2015",
                 "detail": "The Healing of Our Leprosy: A Meditation on the Passion of Christ",
                 "date": "2/15/2015",
-                "rssDate": "Sun, 15 Feb 2015 00:00:00 -0500",
+                "rssDate": "Sun, 15 Feb 2015 00:00:00 +0000",
                 "audio": "HomilyforSixthSundayinOrdinaryTime2015.MP3",
                 "handout_title": [
                     "Homily Outline for Sixth Sunday in Ordinary Time 2015"
@@ -1858,7 +2251,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Outline for Sixth Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:57.30",
+                "length": "2869823",
+                "link2mp3": "/Sunday_Homilies/audio/20-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/20-Homily_Outline_for_Sixth_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1868,17 +2263,19 @@ cp = [
                 "title": "Fifth Sunday in Ordinary Time 2015",
                 "detail": "The Gospel as Central to Our Lives",
                 "date": "2/8/2015",
-                "rssDate": "Sun, 8 Feb 2015 00:00:00 -0500",
+                "rssDate": "Sun, 8 Feb 2015 00:00:00 +0000",
                 "audio": "HomilyforFifthSundayinOrdinaryTime2015.MP3",
                 "newAudio": "19-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:12:36.09",
+                "length": "3024959",
+                "link2mp3": "/Sunday_Homilies/audio/19-Sunday_Homilies.mp3"
             },
             {
                 "id": "18",
                 "title": "Forth Sunday in Ordinary Time 2015",
                 "detail": "Celibacy and Marriage",
                 "date": "2/1/2015",
-                "rssDate": "Sun, 1 Feb 2015 00:00:00 -0500",
+                "rssDate": "Sun, 1 Feb 2015 00:00:00 +0000",
                 "audio": "HomilyforFourthSundayinOrdinaryTime2015.MP3",
                 "handout_title": [
                     "Homily Text for Fourth Sunday in Ordinary Time 2015 [Short Version]",
@@ -1897,7 +2294,9 @@ cp = [
                     "Homily Text for Fourth Sunday in Ordinary Time 2015 [Short Version]",
                     "Homily Text for Fourth Sunday in Ordinary Time 2015 [Extended Version]"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:20.17",
+                "length": "2481311",
+                "link2mp3": "/Sunday_Homilies/audio/18-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Short_Version].pdf",
                     "/Sunday_Homilies/docs/18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Extended_Version].pdf"
@@ -1908,7 +2307,7 @@ cp = [
                 "title": "Third Sunday in Ordinary Time 2015",
                 "detail": "National Catholic Schools Week",
                 "date": "1/25/2015",
-                "rssDate": "Sun, 25 Jan 2015 00:00:00 -0500",
+                "rssDate": "Sun, 25 Jan 2015 00:00:00 +0000",
                 "audio": "HomilyforThirdSundayinOrdinaryTime2015.MP3",
                 "handout_title": [
                     "Homily Text for Third Sunday in Ordinary Time 2015"
@@ -1923,7 +2322,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Third Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:04:31.70",
+                "length": "1087391",
+                "link2mp3": "/Sunday_Homilies/audio/17-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/17-Homily_Text_for_Third_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1933,7 +2334,7 @@ cp = [
                 "title": "Second Sunday in Ordinary Time 2015",
                 "detail": "Human Sexuality and the Christian Vocation to Chastity",
                 "date": "1/18/2015",
-                "rssDate": "Sun, 18 Jan 2015 00:00:00 -0500",
+                "rssDate": "Sun, 18 Jan 2015 00:00:00 +0000",
                 "audio": "HomilyforSecondSundayinOrdinaryTime2015.MP3",
                 "handout_title": [
                     "Homily Text for Second Sunday in Ordinary Time 2015"
@@ -1948,7 +2349,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Second Sunday in Ordinary Time 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:43.42",
+                "length": "2814335",
+                "link2mp3": "/Sunday_Homilies/audio/16-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/16-Homily_Text_for_Second_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -1958,27 +2361,31 @@ cp = [
                 "title": "The Baptism of the Lord 2015",
                 "detail": "The Suffering of Christ and the Christian Understanding of Human Suffering",
                 "date": "1/11/2015",
-                "rssDate": "Sun, 11 Jan 2015 00:00:00 -0500",
+                "rssDate": "Sun, 11 Jan 2015 00:00:00 +0000",
                 "audio": "HomilyforBaptismoftheLord2015.MP3",
                 "newAudio": "15-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:11:11.79",
+                "length": "2687807",
+                "link2mp3": "/Sunday_Homilies/audio/15-Sunday_Homilies.mp3"
             },
             {
                 "id": "14",
                 "title": "The Feast of the Epiphany of the Lord 2015",
                 "detail": "The Epiphany of the Lord Hidden in the Eucharist",
                 "date": "1/4/2015",
-                "rssDate": "Sun, 4 Jan 2015 00:00:00 -0500",
+                "rssDate": "Sun, 4 Jan 2015 00:00:00 +0000",
                 "audio": "HomilyforEpiphany2015.MP3",
                 "newAudio": "14-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:06:45.13",
+                "length": "1621151",
+                "link2mp3": "/Sunday_Homilies/audio/14-Sunday_Homilies.mp3"
             },
             {
                 "id": "13",
                 "title": "The Feast of Mary, The Holy Mother of God 2015",
                 "detail": "The Mother of God at the Beginning and Foundation of the Christian Faith",
                 "date": "1/1/2015",
-                "rssDate": "Thu, 1 Jan 2015 00:00:00 -0500",
+                "rssDate": "Thu, 1 Jan 2015 00:00:00 +0000",
                 "audio": "HomilyforFeastofMaryMotherofGod2015.MP3",
                 "handout_title": [
                     "Homily Text for the Feast of Mary, Mother of God 2015"
@@ -1993,7 +2400,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for the Feast of Mary, Mother of God 2015"
                 ],
-                "volume_boost": "1",
+                "duration": "00:07:44.59",
+                "length": "1858943",
+                "link2mp3": "/Sunday_Homilies/audio/13-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/13-Homily_Text_for_the_Feast_of_Mary,_Mother_of_God_2015.pdf"
                 ]
@@ -2003,7 +2412,7 @@ cp = [
                 "title": "The Feast of the Holy Family 2014",
                 "detail": "The Sacrifices We Make for Our Families and the One Atoning Sacrifice of Christ",
                 "date": "12/28/2014",
-                "rssDate": "Sun, 28 Dec 2014 00:00:00 -0500",
+                "rssDate": "Sun, 28 Dec 2014 00:00:00 +0000",
                 "audio": "HomilyforFeastofHolyFamily2014.MP3",
                 "handout_title": [
                     "Homily Text for the Feast of the Holy Family 2014"
@@ -2018,7 +2427,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for the Feast of the Holy Family 2014"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:37.94",
+                "length": "2552351",
+                "link2mp3": "/Sunday_Homilies/audio/12-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/12-Homily_Text_for_the_Feast_of_the_Holy_Family_2014.pdf"
                 ]
@@ -2028,7 +2439,7 @@ cp = [
                 "title": "The Feast of the Nativity (Christmas) 2014",
                 "detail": "The Incarnation as God's Justice in the Context of His Freedom and Love",
                 "date": "12/25/2014",
-                "rssDate": "Thu, 25 Dec 2014 00:00:00 -0500",
+                "rssDate": "Thu, 25 Dec 2014 00:00:00 +0000",
                 "audio": "HomilyforFeastofChristmas2014.MP3",
                 "handout_title": [
                     "Homily Text for Text for the Feast of the Nativity 2014"
@@ -2043,7 +2454,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Text for the Feast of the Nativity 2014"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:42.59",
+                "length": "2570975",
+                "link2mp3": "/Sunday_Homilies/audio/11-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/11-Homily_Text_for_Text_for_the_Feast_of_the_Nativity_2014.pdf"
                 ]
@@ -2053,7 +2466,7 @@ cp = [
                 "title": "Fourth Sunday in Advent 2014",
                 "detail": "Mary's 'Fiat' and Her Unique Role in the Incarnation",
                 "date": "12/21/2014",
-                "rssDate": "Sun, 21 Dec 2014 00:00:00 -0500",
+                "rssDate": "Sun, 21 Dec 2014 00:00:00 +0000",
                 "audio": "HomilyforFourthSundayofAdvent2014.MP3",
                 "handout_title": [
                     "Homily Text for Fourth Sunday of Advent 2014"
@@ -2068,7 +2481,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Fourth Sunday of Advent 2014"
                 ],
-                "volume_boost": "1",
+                "duration": "00:13:19.63",
+                "length": "3199199",
+                "link2mp3": "/Sunday_Homilies/audio/10-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/10-Homily_Text_for_Fourth_Sunday_of_Advent_2014.pdf"
                 ]
@@ -2078,7 +2493,7 @@ cp = [
                 "title": "Third Sunday in Advent 2014",
                 "detail": "Gaudete Sunday and the Fulfilment of Messianic Prophecy",
                 "date": "12/14/2014",
-                "rssDate": "Sun, 14 Dec 2014 00:00:00 -0500",
+                "rssDate": "Sun, 14 Dec 2014 00:00:00 +0000",
                 "audio": "HomilyforThirdSundayofAdvent2014.MP3",
                 "handout_title": [
                     "Homily Text for Third Sunday of Advent 2014"
@@ -2093,7 +2508,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Third Sunday of Advent 2014"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:58.86",
+                "length": "2876063",
+                "link2mp3": "/Sunday_Homilies/audio/09-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/09-Homily_Text_for_Third_Sunday_of_Advent_2014.pdf"
                 ]
@@ -2103,7 +2520,7 @@ cp = [
                 "title": "The Feast of the Immaculate Conception 2014",
                 "detail": "Mary Was Never the Devil's Friend",
                 "date": "12/8/2014",
-                "rssDate": "Mon, 8 Dec 2014 00:00:00 -0500",
+                "rssDate": "Mon, 8 Dec 2014 00:00:00 +0000",
                 "audio": "HomilyforFeastofImmaculateConception2014.MP3",
                 "handout_title": [
                     "Homily Outline for the Feast of the Immaculate Conception 2014"
@@ -2118,7 +2535,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Outline for the Feast of the Immaculate Conception 2014"
                 ],
-                "volume_boost": "1",
+                "duration": "00:08:11.28",
+                "length": "1965791",
+                "link2mp3": "/Sunday_Homilies/audio/08-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/08-Homily_Outline_for_the_Feast_of_the_Immaculate_Conception_2014.pdf"
                 ]
@@ -2128,7 +2547,7 @@ cp = [
                 "title": "Second Sunday in Advent 2014",
                 "detail": "Preparing for the Advent of Christ in the Sacrament of Penance and the Near Occasion of Sin",
                 "date": "12/7/2014",
-                "rssDate": "Sun, 7 Dec 2014 00:00:00 -0500",
+                "rssDate": "Sun, 7 Dec 2014 00:00:00 +0000",
                 "audio": "HomilyforSecondSundayofAdvent2014.MP3",
                 "handout_title": [
                     "Homily Text for Second Sunday of Advent 2014"
@@ -2143,7 +2562,9 @@ cp = [
                 "new_handout_title": [
                     "Homily Text for Second Sunday of Advent 2014"
                 ],
-                "volume_boost": "1",
+                "duration": "00:10:03.09",
+                "length": "2412959",
+                "link2mp3": "/Sunday_Homilies/audio/07-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/07-Homily_Text_for_Second_Sunday_of_Advent_2014.pdf"
                 ]
@@ -2153,17 +2574,19 @@ cp = [
                 "title": "First Sunday in Advent 2014",
                 "detail": "The Christmas God Created",
                 "date": "11/30/2014",
-                "rssDate": "Sun, 30 Nov 2014 00:00:00 -0500",
+                "rssDate": "Sun, 30 Nov 2014 00:00:00 +0000",
                 "audio": "HomilyforFirstSundayofAdvent20014.MP3",
                 "newAudio": "06-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:08:12.83",
+                "length": "1971935",
+                "link2mp3": "/Sunday_Homilies/audio/06-Sunday_Homilies.mp3"
             },
             {
                 "id": "05",
                 "title": "The Feast of Christ the King 2014",
                 "detail": "The Social Kingship of Christ and Voting with a Christian Conscience",
                 "date": "11/23/2014",
-                "rssDate": "Sun, 23 Nov 2014 00:00:00 -0500",
+                "rssDate": "Sun, 23 Nov 2014 00:00:00 +0000",
                 "audio": "Homilyfor34thSundayOrdinaryTime.MP3",
                 "handout_title": [
                     "Homily Text for the Feast of Christ the King 2014",
@@ -2182,7 +2605,9 @@ cp = [
                     "Homily Text for the Feast of Christ the King 2014",
                     "Humanum YouTube Channel"
                 ],
-                "volume_boost": "1",
+                "duration": "00:11:13.49",
+                "length": "2694623",
+                "link2mp3": "/Sunday_Homilies/audio/05-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/05-Homily_Text_for_the_Feast_of_Christ_the_King_2014.pdf",
                     "https://www.youtube.com/channel/UCwmvD_-GE_rT2gNIc8h6jtA"
@@ -2193,27 +2618,31 @@ cp = [
                 "title": "33rd Sunday in Ordinary Time 2014",
                 "detail": "The Buried Talent and the Christian Vocation to a Share in the Master's Joy",
                 "date": "11/16/2014",
-                "rssDate": "Sun, 16 Nov 2014 00:00:00 -0500",
+                "rssDate": "Sun, 16 Nov 2014 00:00:00 +0000",
                 "audio": "Homilyfor33rdSundayOrdinaryTime.MP3",
                 "newAudio": "04-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:07:11.67",
+                "length": "1727327",
+                "link2mp3": "/Sunday_Homilies/audio/04-Sunday_Homilies.mp3"
             },
             {
                 "id": "03",
                 "title": "Dedication of St. John Lateran 2014",
                 "detail": "The Extra-local Nature of the Church and Giving to the CMA",
                 "date": "11/9/2014",
-                "rssDate": "Sun, 9 Nov 2014 00:00:00 -0500",
+                "rssDate": "Sun, 9 Nov 2014 00:00:00 +0000",
                 "audio": "HomilyforDedicationofStJohnLateran.MP3",
                 "newAudio": "03-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:12:08.08",
+                "length": "2912927",
+                "link2mp3": "/Sunday_Homilies/audio/03-Sunday_Homilies.mp3"
             },
             {
                 "id": "02",
                 "title": "All Souls Day 2014",
                 "detail": "Purgatory and Indulgences",
                 "date": "11/2/2014",
-                "rssDate": "Sun, 2 Nov 2014 00:00:00 -0400",
+                "rssDate": "Sun, 2 Nov 2014 00:00:00 +0000",
                 "audio": "2014-11-02.mp3",
                 "handout_title": [
                     "Praying for the Dead on Sunday"
@@ -2228,7 +2657,9 @@ cp = [
                 "new_handout_title": [
                     "Praying for the Dead on Sunday"
                 ],
-                "volume_boost": "1",
+                "duration": "00:09:18.65",
+                "length": "2235263",
+                "link2mp3": "/Sunday_Homilies/audio/02-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/02-Praying_for_the_Dead_on_Sunday.pdf"
                 ]
@@ -2238,10 +2669,12 @@ cp = [
                 "title": "29th Sunday in Ordinary Time 2014",
                 "detail": "The Church's Mission and the Relationship between the Church and the State",
                 "date": "10/19/2014",
-                "rssDate": "Sun, 19 Oct 2014 00:00:00 -0400",
+                "rssDate": "Sun, 19 Oct 2014 00:00:00 +0000",
                 "audio": "ot_29.mp3",
                 "newAudio": "01-Sunday_Homilies.mp3",
-                "volume_boost": "1"
+                "duration": "00:12:57.33",
+                "length": "3109919",
+                "link2mp3": "/Sunday_Homilies/audio/01-Sunday_Homilies.mp3"
             }
         ],
         "seriesData": {
@@ -2260,7 +2693,7 @@ cp = [
                 "title": "1st Session: The Economy of Salvation (Introduction)",
                 "detail": "The word \"economy\" in its specialized theological sense is looked at and a general overview of the entire course is set out...we also begin to speak about Adam",
                 "date": "10/15/2014",
-                "rssDate": "Wed, 15 Oct 2014 00:00:00 -0400",
+                "rssDate": "Wed, 15 Oct 2014 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession1Introduction.MP3",
                 "handout_title": [
                     "Introduction"
@@ -2275,7 +2708,9 @@ cp = [
                 "new_handout_title": [
                     "Introduction"
                 ],
-                "volume_boost": "1",
+                "duration": "01:09:31.01",
+                "length": "4362240",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/01-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/01-Introduction.pdf"
                 ]
@@ -2285,7 +2720,7 @@ cp = [
                 "title": "2nd Session: Adam as Type (Adam 1 of 1)",
                 "detail": "We study the first man as the pattern for all mediators in the economy of salvation, culminating in the supreme mediator, Christ Jesus",
                 "date": "10/22/2014",
-                "rssDate": "Wed, 22 Oct 2014 00:00:00 -0400",
+                "rssDate": "Wed, 22 Oct 2014 00:00:00 +0000",
                 "audio": "2.mp3",
                 "handout_title": [
                     "Adam handout (1 of 1)"
@@ -2300,7 +2735,9 @@ cp = [
                 "new_handout_title": [
                     "Adam handout (1 of 1)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:32:30.07",
+                "length": "22200960",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/02-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/02-Adam_handout_(1_of_1).pdf"
                 ]
@@ -2310,7 +2747,7 @@ cp = [
                 "title": "3rd Session: Noah as Recapitulation and Foreshadow (Noah 1 of 1)",
                 "detail": "We study how the figure of Noah both points back to Adam and forward to Jesus Christ",
                 "date": "10/29/2014",
-                "rssDate": "Wed, 29 Oct 2014 00:00:00 -0400",
+                "rssDate": "Wed, 29 Oct 2014 00:00:00 +0000",
                 "audio": "3-economy.mp3",
                 "handout_title": [
                     "Noah handout (1 of 1)",
@@ -2329,7 +2766,9 @@ cp = [
                     "Noah handout (1 of 1)",
                     "Noah slides (1 of 1)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:23:37.56",
+                "length": "20070816",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/03-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/03-Noah_handout_(1_of_1).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/03-Noah_slides_(1_of_1).pdf"
@@ -2340,7 +2779,7 @@ cp = [
                 "title": "4th Session: Abraham and the City of God (Abraham 1 of 5)",
                 "detail": "Within the framework of the Augustinian idea of the Two Cities, we explore the nature of the blessing of Abraham against the background of the Tower of Babel ",
                 "date": "11/5/2014",
-                "rssDate": "Wed, 5 Nov 2014 00:00:00 -0500",
+                "rssDate": "Wed, 5 Nov 2014 00:00:00 +0000",
                 "audio": "4-economy.mp3",
                 "handout_title": [
                     "Abraham handout (1 of 5)",
@@ -2359,7 +2798,9 @@ cp = [
                     "Abraham handout (1 of 5)",
                     "Abraham slides (1 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:23:21.57",
+                "length": "20006880",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/04-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/04-Abraham_handout_(1_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/04-Abraham_slides_(1_of_5).pdf"
@@ -2370,7 +2811,7 @@ cp = [
                 "title": "5th Session: Abraham and the Genesis Annunciation (Abraham 2 of 5)",
                 "detail": "We explore how the three angels who visit Abraham in Gen 18 foreshadow the Trinity and the Incarnation",
                 "date": "11/12/2014",
-                "rssDate": "Wed, 12 Nov 2014 00:00:00 -0500",
+                "rssDate": "Wed, 12 Nov 2014 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession5Abraham2.MP3",
                 "handout_title": [
                     "Abraham handout (2 of 5)",
@@ -2389,7 +2830,9 @@ cp = [
                     "Abraham handout (2 of 5)",
                     "Abraham slides (2 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:29:47.18",
+                "length": "21549312",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/05-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/05-Abraham_handout_(2_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/05-Abraham_slides_(2_of_5).pdf"
@@ -2400,7 +2843,7 @@ cp = [
                 "title": "6th Session: The Binding of Isaac and the Promise Fulfilled (Abraham 3 of 5)",
                 "detail": "We study how Abraham's intention to sacrifice Isaac is a prophetic foreshadow of the sacrifice of Christ which in turn is the fulfillment of the blessing of Abraham",
                 "date": "11/19/2014",
-                "rssDate": "Wed, 19 Nov 2014 00:00:00 -0500",
+                "rssDate": "Wed, 19 Nov 2014 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession6Abraham3.MP3",
                 "handout_title": [
                     "Abraham handout (3 of 5)",
@@ -2419,7 +2862,9 @@ cp = [
                     "Abraham handout (3 of 5)",
                     "Abraham slides (3 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:22:30.35",
+                "length": "19802016",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/06-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/06-Abraham_handout_(3_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/06-Abraham_slides_(3_of_5).pdf"
@@ -2430,7 +2875,7 @@ cp = [
                 "title": "7th Session: Excursus...The Seed Threatened (Abraham 4 of 5)",
                 "detail": "We study how the Protoevangelium with its theme of the Seed of the Woman is the controlling idea for all of Genesis and even the rest of the Bible",
                 "date": "12/3/2014",
-                "rssDate": "Wed, 3 Dec 2014 00:00:00 -0500",
+                "rssDate": "Wed, 3 Dec 2014 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession7Abraham4.MP3",
                 "handout_title": [
                     "Abraham handout (4 of 5)",
@@ -2449,7 +2894,9 @@ cp = [
                     "Abraham handout (4 of 5)",
                     "Abraham slides (4 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:32:26.42",
+                "length": "22186272",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/07-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/07-Abraham_handout_(4_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/07-Abraham_slides_(4_of_5).pdf"
@@ -2460,7 +2907,7 @@ cp = [
                 "title": "8th Session: Abraham Across Salvation History (Abraham 5 of 5)",
                 "detail": "We study Abraham as a heavenly intercessor and Mary's Magnificat as a summary of Salvation History",
                 "date": "12/10/2014",
-                "rssDate": "Wed, 10 Dec 2014 00:00:00 -0500",
+                "rssDate": "Wed, 10 Dec 2014 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession8Abraham5.MP3",
                 "handout_title": [
                     "Abraham handout (5 of 5)"
@@ -2475,7 +2922,9 @@ cp = [
                 "new_handout_title": [
                     "Abraham handout (5 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:25:00.50",
+                "length": "20402592",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/08-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/08-Abraham_handout_(5_of_5).pdf"
                 ]
@@ -2485,7 +2934,7 @@ cp = [
                 "title": "9th Session: The Day of the Church (Moses 1 of 5)",
                 "detail": "The Sinai event is looked at as foundational to Christianity as well as Judaism",
                 "date": "1/15/2015",
-                "rssDate": "Thu, 15 Jan 2015 00:00:00 -0500",
+                "rssDate": "Thu, 15 Jan 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession9Moses1.MP3",
                 "handout_title": [
                     "Moses handout (1 of 5)",
@@ -2504,7 +2953,9 @@ cp = [
                     "Moses handout (1 of 5)",
                     "Moses slides (1 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:26:24.43",
+                "length": "20738304",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/09-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/09-Moses_handout_(1_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/09-Moses_slides_(1_of_5).pdf"
@@ -2515,7 +2966,7 @@ cp = [
                 "title": "10th Session: The Law of Life (Moses 2 of 5)",
                 "detail": "The inner sanctifying dimension of the Mosaic Law is looked at",
                 "date": "1/21/2015",
-                "rssDate": "Wed, 21 Jan 2015 00:00:00 -0500",
+                "rssDate": "Wed, 21 Jan 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession10Moses2.MP3",
                 "handout_title": [
                     "Moses slides (2 of 5)"
@@ -2530,7 +2981,9 @@ cp = [
                 "new_handout_title": [
                     "Moses slides (2 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:37:05.55",
+                "length": "23302848",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/10-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/10-Moses_slides_(2_of_5).pdf"
                 ]
@@ -2540,7 +2993,7 @@ cp = [
                 "title": "11th Session: The Giver of the Law of Life (Moses 3 of 5)",
                 "detail": "Here we explore the relationship between the New Law of the gospel and the Old Mosaic Law and how all those under the old dispensation who were sanctified were sanctified by Christ",
                 "date": "2/4/2015",
-                "rssDate": "Wed, 4 Feb 2015 00:00:00 -0500",
+                "rssDate": "Wed, 4 Feb 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession11Moses3.MP3",
                 "handout_title": [
                     "Moses slides (3 of 5)"
@@ -2555,7 +3008,9 @@ cp = [
                 "new_handout_title": [
                     "Moses slides (3 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:29:20.98",
+                "length": "21444576",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/11-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/11-Moses_slides_(3_of_5).pdf"
                 ]
@@ -2565,7 +3020,7 @@ cp = [
                 "title": "12th Session: The Blood of the Covenant (Moses 4 of 5)",
                 "detail": "We study the covenant made in Exodus 24 and it's ultimate fulfillment in the Eucharistic Sacrifice of the New Covenant",
                 "date": "2/11/2015",
-                "rssDate": "Wed, 11 Feb 2015 00:00:00 -0500",
+                "rssDate": "Wed, 11 Feb 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession12Moses4.MP3",
                 "handout_title": [
                     "Moses handout (4 of 5)",
@@ -2584,7 +3039,9 @@ cp = [
                     "Moses handout (4 of 5)",
                     "Moses slides (4 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:35:31.28",
+                "length": "22925760",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/12-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/12-Moses_handout_(4_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/12-Moses_slides_(4_of_5).pdf"
@@ -2595,7 +3052,7 @@ cp = [
                 "title": "13th Session: Moses as Mediator in the One Mediator (Moses 5 of 5)",
                 "detail": "We discuss created secondary causes of grace and also explore the nature of anthropopathic language about God",
                 "date": "2/25/2015",
-                "rssDate": "Wed, 25 Feb 2015 00:00:00 -0500",
+                "rssDate": "Wed, 25 Feb 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession13Moses5.MP3",
                 "handout_title": [
                     "Moses handout (5 of 5)"
@@ -2610,7 +3067,9 @@ cp = [
                 "new_handout_title": [
                     "Moses handout (5 of 5)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:31:07.22",
+                "length": "21869472",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/13-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/13-Moses_handout_(5_of_5).pdf"
                 ]
@@ -2620,7 +3079,7 @@ cp = [
                 "title": "14th Session: The Davidic Covenant (David 1 of 3)",
                 "detail": "We discuss the covenant God makes with king David and the very important Messianic prophecy of 2Sam 7",
                 "date": "3/4/2015",
-                "rssDate": "Wed, 4 Mar 2015 00:00:00 -0500",
+                "rssDate": "Wed, 4 Mar 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession14David1.MP3",
                 "handout_title": [
                     "David (1 of 3)"
@@ -2635,7 +3094,9 @@ cp = [
                 "new_handout_title": [
                     "David (1 of 3)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:31:32.11",
+                "length": "21969024",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/14-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/14-David_(1_of_3).pdf"
                 ]
@@ -2645,7 +3106,7 @@ cp = [
                 "title": "15th Session: David's Messianic Psalter (David 2 of 3)",
                 "detail": "We discuss the prophetic nature of the Psalter",
                 "date": "3/11/2015",
-                "rssDate": "Wed, 11 Mar 2015 00:00:00 -0400",
+                "rssDate": "Wed, 11 Mar 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession15David2.MP3",
                 "handout_title": [
                     "David (2 of 3)"
@@ -2660,7 +3121,9 @@ cp = [
                 "new_handout_title": [
                     "David (2 of 3)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:25:14.63",
+                "length": "20459136",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/15-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/15-David_(2_of_3).pdf"
                 ]
@@ -2670,7 +3133,7 @@ cp = [
                 "title": "16th Session: David's Failure and Jesus' Success (David 3 of 3)",
                 "detail": "We read about King David's sin of adultery and murder and the failure in general of the Old Testament People of God and how this points in a surprising way to Jesus",
                 "date": "3/18/2015",
-                "rssDate": "Wed, 18 Mar 2015 00:00:00 -0400",
+                "rssDate": "Wed, 18 Mar 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession16David3.MP3",
                 "handout_title": [
                     "David (3 of 3)"
@@ -2685,7 +3148,9 @@ cp = [
                 "new_handout_title": [
                     "David (3 of 3)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:28:32.45",
+                "length": "21250368",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/16-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/16-David_(3_of_3).pdf"
                 ]
@@ -2695,7 +3160,7 @@ cp = [
                 "title": "17th Session: Prophetic Vision of the New Covenant (Prophets 1 of 3)",
                 "detail": "We look at Isaiah and Jeremiah's prophecies concerning the New Covenant",
                 "date": "3/25/2015",
-                "rssDate": "Wed, 25 Mar 2015 00:00:00 -0400",
+                "rssDate": "Wed, 25 Mar 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession17Prophets1.MP3",
                 "handout_title": [
                     "Prophets (1 of 3)"
@@ -2710,7 +3175,9 @@ cp = [
                 "new_handout_title": [
                     "Prophets (1 of 3)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:29:12.15",
+                "length": "21409248",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/17-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/17-Prophets_(1_of_3).pdf"
                 ]
@@ -2720,7 +3187,7 @@ cp = [
                 "title": "18th Session: Ezekiel's Vision of the Valley of Dry Bones (Prophets 2 of 3)",
                 "detail": "We ask the question, \"How literally should we interpret the prophets vision of an eschatological return of the exiles to Palestine and the reunion of the Northern and Southern Kingdoms?\"",
                 "date": "4/8/2015",
-                "rssDate": "Wed, 8 Apr 2015 00:00:00 -0400",
+                "rssDate": "Wed, 8 Apr 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession18Prophets2.wav",
                 "handout_title": [
                     "Prophets (2 of 3)"
@@ -2735,7 +3202,9 @@ cp = [
                 "new_handout_title": [
                     "Prophets (2 of 3)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:28:59.53",
+                "length": "21358720",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/18-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/18-Prophets_(2_of_3).pdf"
                 ]
@@ -2745,7 +3214,7 @@ cp = [
                 "title": "19th Session: The Suffering Servant of Isaiah 53",
                 "detail": "In this final study, we explore the Is 53 and other texts from Isaiah and how they are fulfilled in Jesus Christ",
                 "date": "4/22/2015",
-                "rssDate": "Wed, 22 Apr 2015 00:00:00 -0400",
+                "rssDate": "Wed, 22 Apr 2015 00:00:00 +0000",
                 "audio": "BibleStudyEconomyofSalvationSession19Prophets3.wav",
                 "handout_title": [
                     "Prophets (3 of 3)"
@@ -2760,7 +3229,9 @@ cp = [
                 "new_handout_title": [
                     "Prophets (3 of 3)"
                 ],
-                "volume_boost": "1",
+                "duration": "01:22:54.90",
+                "length": "19900544",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/19-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/19-Prophets_(3_of_3).pdf"
                 ]
@@ -2769,7 +3240,7 @@ cp = [
         "seriesData": {
             "normalized_name": "Bible_Study_Economy_of_Salvation",
             "title": "Bible Study - Economy of Salvation",
-            "include_zips": "FALSE"
+            "include_zips": "TRUE"
         }
     },
     {
@@ -2795,7 +3266,6 @@ cp = [
                     "1a-title",
                     "1b-title"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/test/docs/01-1a-title.txt",
                     "/test/docs/01-1b-title.txt"
@@ -2806,8 +3276,7 @@ cp = [
                 "title": "b",
                 "audio": "02_quia_tu_es.mp3",
                 "handout_title": "2a-title",
-                "newAudio": "02-test.mp3",
-                "volume_boost": "1"
+                "newAudio": "02-test.mp3"
             },
             {
                 "id": "03",
@@ -2830,7 +3299,6 @@ cp = [
                     "3a-title",
                     "3b-title"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/test/docs/03-3a-title.txt",
                     "/test/docs/03-3b-title.txt"
@@ -2850,28 +3318,25 @@ cp = [
                 "id": "01",
                 "title": "Science and Theism",
                 "date": "11/17/2012",
-                "rssDate": "Sat, 17 Nov 2012 00:00:00 -0500",
+                "rssDate": "Sat, 17 Nov 2012 00:00:00 +0000",
                 "audio": "Apol. Class for 11-27-2012 (Theism and Science).MP3",
-                "newAudio": "01-apologetics.mp3",
-                "volume_boost": "1"
+                "newAudio": "01-apologetics.mp3"
             },
             {
                 "id": "02",
                 "title": "Evidence for Christ",
                 "date": "1/17/2013",
-                "rssDate": "Thu, 17 Jan 2013 00:00:00 -0500",
+                "rssDate": "Thu, 17 Jan 2013 00:00:00 +0000",
                 "audio": "Apol. Class for 1-17-2013 (Evidence for Christ).MP3",
-                "newAudio": "02-apologetics.mp3",
-                "volume_boost": "1"
+                "newAudio": "02-apologetics.mp3"
             },
             {
                 "id": "03",
                 "title": "John and Evidence for the Church",
                 "date": "1/24/2013",
-                "rssDate": "Thu, 24 Jan 2013 00:00:00 -0500",
+                "rssDate": "Thu, 24 Jan 2013 00:00:00 +0000",
                 "audio": "Apol. Class for 1-24-2013 (John and Evidence for the Church).MP3",
-                "newAudio": "03-apologetics.mp3",
-                "volume_boost": "1"
+                "newAudio": "03-apologetics.mp3"
             }
         ],
         "seriesData": {
@@ -2886,7 +3351,7 @@ cp = [
                 "title": "Opening Rites",
                 "detail": "History of the Eucharistic Liturgy, Introductory Rites, Sign of the Cross, Opening Greeting, Penitential Act, Kyrie, Gloria",
                 "date": "1/17/2011",
-                "rssDate": "Mon, 17 Jan 2011 00:00:00 -0500",
+                "rssDate": "Mon, 17 Jan 2011 00:00:00 +0000",
                 "audio": "missal_class_for_jan17.MP3",
                 "handout_title": [
                     "Opening Rites"
@@ -2901,7 +3366,6 @@ cp = [
                 "new_handout_title": [
                     "Opening Rites"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/01-Opening_Rites.pdf"
                 ]
@@ -2911,7 +3375,7 @@ cp = [
                 "title": "Sacrosanctum Concilium",
                 "detail": "The Second Vatican Council's Sacrosanctum concilium and the Liturgy as a participation in Christ's own Priestly Service to the Father.",
                 "date": "1/24/2011",
-                "rssDate": "Mon, 24 Jan 2011 00:00:00 -0500",
+                "rssDate": "Mon, 24 Jan 2011 00:00:00 +0000",
                 "audio": "missal_class_for_jan24.MP3",
                 "handout_title": [
                     "Sacrosanctum Concilium"
@@ -2926,7 +3390,6 @@ cp = [
                 "new_handout_title": [
                     "Sacrosanctum Concilium"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/02-Sacrosanctum_Concilium.pdf"
                 ]
@@ -2936,7 +3399,7 @@ cp = [
                 "title": "Liturgy of the Word",
                 "detail": "Liturgy of the Word, Gospel, Creed, \"consubstantial\"",
                 "date": "1/31/2011",
-                "rssDate": "Mon, 31 Jan 2011 00:00:00 -0500",
+                "rssDate": "Mon, 31 Jan 2011 00:00:00 +0000",
                 "audio": "missal_class_for_jan31.MP3",
                 "handout_title": [
                     "Liturgy of the Word"
@@ -2951,7 +3414,6 @@ cp = [
                 "new_handout_title": [
                     "Liturgy of the Word"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/03-Liturgy_of_the_Word.pdf"
                 ]
@@ -2961,7 +3423,7 @@ cp = [
                 "title": "Offertory and Roman Canon",
                 "detail": "Offertory Prayers, Roman Canon, \"precious chalice\", \"for many\"",
                 "date": "2/7/2011",
-                "rssDate": "Mon, 7 Feb 2011 00:00:00 -0500",
+                "rssDate": "Mon, 7 Feb 2011 00:00:00 +0000",
                 "audio": "missal_class_for_feb7.MP3",
                 "handout_title": [
                     "Offertory and Roman Canon"
@@ -2976,7 +3438,6 @@ cp = [
                 "new_handout_title": [
                     "Offertory and Roman Canon"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/04-Offertory_and_Roman_Canon.pdf"
                 ]
@@ -2986,7 +3447,7 @@ cp = [
                 "title": "Preface and Theology of Eucharist",
                 "detail": "Preface, \"and with your spirit\", Eucharistic Prayer Two, Real Presence",
                 "date": "2/14/2011",
-                "rssDate": "Mon, 14 Feb 2011 00:00:00 -0500",
+                "rssDate": "Mon, 14 Feb 2011 00:00:00 +0000",
                 "audio": "missal_class_for_feb14.MP3",
                 "handout_title": [
                     "Preface and Theology of Eucharist"
@@ -3001,7 +3462,6 @@ cp = [
                 "new_handout_title": [
                     "Preface and Theology of Eucharist"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/05-Preface_and_Theology_of_Eucharist.pdf"
                 ]
@@ -3011,7 +3471,7 @@ cp = [
                 "title": "Theology of the Eucharist",
                 "detail": "The Eucharist as Sacrifice, Transubstantiation, Manner of Christ's Eucharistic Presence, Effects of Communion",
                 "date": "2/21/2011",
-                "rssDate": "Mon, 21 Feb 2011 00:00:00 -0500",
+                "rssDate": "Mon, 21 Feb 2011 00:00:00 +0000",
                 "audio": "missal_class_for_feb21.MP3",
                 "handout_title": [
                     "Theology of Eucharist"
@@ -3026,7 +3486,6 @@ cp = [
                 "new_handout_title": [
                     "Theology of Eucharist"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/06-Theology_of_Eucharist.pdf"
                 ]
@@ -3036,7 +3495,7 @@ cp = [
                 "title": "Liturgiam Authenticam and the Propers",
                 "detail": "Tying Up Loose Ends from Last Week, the Propers, and the Philosophy of Translation behind Liturgiam authenticam",
                 "date": "2/28/2011",
-                "rssDate": "Mon, 28 Feb 2011 00:00:00 -0500",
+                "rssDate": "Mon, 28 Feb 2011 00:00:00 +0000",
                 "audio": "missal_class_for_feb28.MP3",
                 "handout_title": [
                     "Liturgiam Authenticam and the Propers",
@@ -3055,7 +3514,6 @@ cp = [
                     "Liturgiam Authenticam and the Propers",
                     "Propers Handout"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/07-Liturgiam_Authenticam_and_the_Propers.pdf",
                     "/new_mass_translation/docs/07-Propers_Handout.pdf"
@@ -3066,7 +3524,7 @@ cp = [
                 "title": "Sacramentum Caritatis",
                 "detail": "The 2007 Post-Synodal Exhortation Sacramentum caritatis, the Eucharist as what we believe, celebrate, and live.",
                 "date": "3/7/2011",
-                "rssDate": "Mon, 7 Mar 2011 00:00:00 -0500",
+                "rssDate": "Mon, 7 Mar 2011 00:00:00 +0000",
                 "audio": "missal_class_for_mar7.MP3",
                 "handout_title": [
                     "Sacramentum Caritatis",
@@ -3085,7 +3543,6 @@ cp = [
                     "Sacramentum Caritatis",
                     "Overhead"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/new_mass_translation/docs/08-Sacramentum_Caritatis.pdf",
                     "/new_mass_translation/docs/08-Overhead.pdf"
@@ -3187,7 +3644,6 @@ cp = [
                     "Ignatius to Eph, Rom",
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/04-Ignatius_to_Eph,_Rom.doc",
                     "/uncovering_riches/docs/04-Summary_and_Notes.doc"
@@ -3214,7 +3670,6 @@ cp = [
                     "Ignatius to Philad, Smyr, Polyc",
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/05-Ignatius_to_Philad,_Smyr,_Polyc.doc",
                     "/uncovering_riches/docs/05-Summary_and_Notes.doc"
@@ -3241,7 +3696,6 @@ cp = [
                     "Martyrdom of Polycarp",
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/06-Martyrdom_of_Polycarp.doc",
                     "/uncovering_riches/docs/06-Summary_and_Notes.doc"
@@ -3268,7 +3722,6 @@ cp = [
                     "Justin's First Apology",
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/07-Justin's_First_Apology.doc",
                     "/uncovering_riches/docs/07-Summary_and_Notes.doc"
@@ -3295,7 +3748,6 @@ cp = [
                     "Irenaeus' AH",
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/08-Irenaeus'_AH.doc",
                     "/uncovering_riches/docs/08-Summary_and_Notes.doc"
@@ -3342,7 +3794,6 @@ cp = [
                 "new_handout_title": [
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/10-Summary_and_Notes.pdf"
                 ]
@@ -3368,7 +3819,6 @@ cp = [
                     "Summary and Notes",
                     "Tertullian On Penitence"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/11-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/11-Tertullian_On_Penitence.pdf"
@@ -3392,7 +3842,6 @@ cp = [
                 "new_handout_title": [
                     "Summary and Notes"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/12-Summary_and_Notes.pdf"
                 ]
@@ -3418,7 +3867,6 @@ cp = [
                     "Summary and Notes",
                     "Readings on and from Origen"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/13-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/13-Readings_on_and_from_Origen.pdf"
@@ -3445,7 +3893,6 @@ cp = [
                     "Summary and Notes",
                     "St. Cyprian"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/14-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/14-St._Cyprian. Cyprian).pdf"
@@ -3472,7 +3919,6 @@ cp = [
                     "Summary and Notes",
                     "Life of Anthony"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/15-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/15-Life_of_Anthony.pdf"
@@ -3499,7 +3945,6 @@ cp = [
                     "Summary and Notes",
                     "Life of Constantine"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/16-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/16-Life_of_Constantine.pdf"
@@ -3526,7 +3971,6 @@ cp = [
                     "Summary and Notes",
                     "Nicene Symbol and Athanasius"
                 ],
-                "volume_boost": "1",
                 "handout_links": [
                     "/uncovering_riches/docs/17-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/17-Nicene_Symbol_and_Athanasius.pdf"

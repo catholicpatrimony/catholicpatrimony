@@ -1,32 +1,27 @@
-/* Sticky footer styles
--------------------------------------------------- */
+* {
+margin: 0;
+}
 html, body {
-  height: 100%;
+height: 100%;
 }
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 0px;
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
 }
-
-.page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -142px; 
-}
-.page-wrap:after {
-  content: "";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  position: absolute;
-  height: 60px; 
+.footer, .push {
+  height: 55px; 
   width: 100%;
-  background-color: #f5f5f5;
 }
 
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
+.footer {
+  background: #b3b3cc; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#f0f0f5, #b3b3cc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f0f0f5, #b3b3cc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f0f0f5, #b3b3cc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f0f0f5, #b3b3cc); /* Standard syntax */
+}
 
 .container {
   width: auto;
@@ -36,4 +31,3 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
-

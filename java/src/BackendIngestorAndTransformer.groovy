@@ -48,7 +48,18 @@ def jsonClassArr = []
 //  - Drop down "Entire Document" and select individuals
 //for (gid in [0, 1, 2, 3, 4, 5, 6, 469482974, 827677169]) {
 //for (gid in [827677169, 855509258, 6, 5, 4, 3, 2, 0, 1]) {
-for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
+// 0 - missal
+// 1 - uncovering_2011
+// 2 - apologetics
+// 3 - test
+// 4 - Bible
+// 5 - Sunday / Feasts
+// 6 - Misc
+// 7 - 469482974 - dailies
+// 8 - 827677169 - uncovering-2015
+// 9 - 728325633 - tyburn patrology
+//for (gid in [827677169, 728325633, 5]) {
+for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 
@@ -178,10 +189,12 @@ for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
     } catch (t) {
       //do nothing
     }
+    /*
     if (!new File("orig/${seriesData.normalized_name}").exists()) {
       def proc = "s3cmd sync s3://tedesche/${seriesData.normalized_name} ./orig".execute();
       proc.waitFor();
     }
+    */
     for (c in classes) {
       //if (!new File("build/${seriesData.normalized_name}/audio/${c.newAudio}").exists()) {
       if (true) {
@@ -327,7 +340,9 @@ def fileNewerThan(def origFileStr, def newFileStr, def updatedDate) {
 
   def newFile = new File(newFileStr);
   def origFile = new File(origFileStr);
-  if ((updatedDate == null || updatedDate.toCalendar().getTimeInMillis() < newFile.lastModified()) && newFile.exists() && newFile.lastModified() > origFile.lastModified()) {
+  if (!origFile.exists()) {
+    needToGen = false;
+  } else if ((updatedDate == null || updatedDate.toCalendar().getTimeInMillis() < newFile.lastModified()) && newFile.exists() && newFile.lastModified() >= origFile.lastModified()) {
     needToGen = false  
   }
 

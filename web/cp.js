@@ -1,6 +1,6 @@
 //angular.module('cpApp', ['ngRoute', 'ngDisqus'] //, function($compileProvider) {
   //}
-var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus', 'ui.bootstrap'])
+var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDisqus', 'ngAnimate', 'ui.bootstrap'])
   .config(function($routeProvider, $compileProvider, $locationProvider ) {
   //.config(function($routeProvider, $compileProvider, $locationProvider, $disqusProvider ) {
     $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|itms):/);
@@ -8,17 +8,17 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       .when('/', {
         reloadOnSearch: false,
         controller:'MainController',
-        templateUrl:'partials/main.html?v=2'
+        templateUrl:'partials/main.html?cbp=20160429'
       })
       .when('/class', {
         reloadOnSearch: true,
         controller:'ClassController',
-        templateUrl:'partials/courseContent.html?v=2'
+        templateUrl:'partials/courseContent.html?cbp=20160429'
       })
       .when('/session', {
         reloadOnSearch: true,
         controller:'SessionController',
-        templateUrl:'partials/session.html?v=2'
+        templateUrl:'partials/session.html?cbp=20160429'
       })
       .otherwise({
         redirectTo:'/'
@@ -107,20 +107,40 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
         $scope.dropDownMenu.push(cp[i]);
       }
       if (cp[i].seriesData.include_zips && cp[i].seriesData.include_zips == "FALSE") {
-        $log.debug('include_zips = false');
+        //$log.debug('include_zips = false');
         cp[i].seriesData.includeZips = false;
       } else {
-        $log.debug('include_zips = true');
+        //$log.debug('include_zips = true');
         cp[i].seriesData.includeZips = true;
       }
     }
   })
-  .controller('MainController', function($scope, $location, $routeParams, $log) {
-  })
-  .controller('ClassController', function($scope, $location, $routeParams, $log) {
-    $log.debug('in ClassController');
+  //.controller('MainController', function($scope, $location, $routeParams, $log) {
+  .controller('ClassController', function($scope, $location, $routeParams, $log, $modal) {
+    /*
+    if (!$scope['loadingModal']) {
+      $scope.loadingModal = {val: null};
+    }
+    $scope.$on('$includeContentRequested', function (event, data) {
+      $log.debug('includeContentRequested'); 
+      try {
+        $scope.loadingModal.val = $modal.open({
+          templateUrl: 'web/loading.html',
+          controller: 'ModalController',
+          backdrop : 'static',
+          keyboard: false,
+          size: 'sm'
+        });
+      } catch (e) {
+        $log.debug(e);
+      }
+    });
+    */
+      /*
+      */
+    //$log.debug('in ClassController');
     $scope.cp = cp;
-    $log.debug($routeParams);
+    //$log.debug($routeParams);
     if ($routeParams['course'] != null) {
       $log.debug('found course');
       $scope.selectClassByName($routeParams.course);
@@ -130,7 +150,7 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
     } else {
       $scope.enableComments = false;
     }
-    $log.debug('enableComments: ' + $scope.enableComments);
+    //$log.debug('enableComments: ' + $scope.enableComments);
 
     $scope.sessionClicked = function(c) {
       $scope.c = c;
@@ -139,7 +159,7 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
   })
   .controller('SessionController', function($scope, $location, $routeParams, $log, $sce) {
     $scope.myDisqus_contentLoaded = false;
-    $log.debug('in SessionController');
+    //$log.debug('in SessionController');
     $scope.cp = cp;
     $log.debug($routeParams);
     /*

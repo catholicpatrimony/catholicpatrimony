@@ -25,6 +25,9 @@ cp = [
                     "Pliny's Letter to Trajan"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:08.24",
+                "length": "20435072",
+                "link2mp3": "/uncovering_2015/audio/01-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/01-Introduction_to_the_Fathers.pdf",
                     "/uncovering_2015/docs/01-Pliny's_Letter_to_Trajan.pdf"
@@ -62,6 +65,9 @@ cp = [
                     "The Didache, appendix - The Development of the Eucharist within the First Century"
                 ],
                 "volume_boost": "4",
+                "duration": "01:27:44.22",
+                "length": "21057664",
+                "link2mp3": "/uncovering_2015/audio/02-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/02-The_Didache_-_Primer.pdf",
                     "/uncovering_2015/docs/02-The_Didache_-_Text.pdf",
@@ -101,6 +107,9 @@ cp = [
                     "First Clement - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:59.02",
+                "length": "21596288",
+                "link2mp3": "/uncovering_2015/audio/03-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/03-First_Clement_-_Primer.pdf",
                     "/uncovering_2015/docs/03-First_Clement_-_Text.pdf",
@@ -140,6 +149,9 @@ cp = [
                     "St. Ignatius to the Ephesians and Romans - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:31:00.34",
+                "length": "21842048",
+                "link2mp3": "/uncovering_2015/audio/04-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/04-St._Ignatius_to_the_Ephesians_and_Romans_-_Primer.pdf",
                     "/uncovering_2015/docs/04-St._Ignatius_to_the_Ephesians_and_Romans_-_Text.pdf",
@@ -179,6 +191,9 @@ cp = [
                     "St. Ignatius to the Philadelphians, Smyrnaeans, and Polycarp - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:30:54.73",
+                "length": "21819520",
+                "link2mp3": "/uncovering_2015/audio/05-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/05-St._Ignatius_to_the_Philadelphians,_Smyrnaeans,_and_Polycarp_-_Primer.pdf",
                     "/uncovering_2015/docs/05-St._Ignatius_to_the_Philadelphians,_Smyrnaeans,_and_Polycarp_-_Text.pdf",
@@ -218,6 +233,9 @@ cp = [
                     "The Martyrdom of Polycarp - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:26:47.60",
+                "length": "20832384",
+                "link2mp3": "/uncovering_2015/audio/06-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/06-The_Martyrdom_of_Polycarp_-_Primer.pdf",
                     "/uncovering_2015/docs/06-The_Martyrdom_of_Polycarp_-_Text.pdf",
@@ -261,6 +279,9 @@ cp = [
                     "First Quarter Exam Preparation Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:33:08.14",
+                "length": "22354048",
+                "link2mp3": "/uncovering_2015/audio/07-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/07-Justin's_First_Apology_-_Primer.pdf",
                     "/uncovering_2015/docs/07-Justin's_First_Apology_-_Text.pdf",
@@ -303,6 +324,9 @@ cp = [
                     "The Martyrs of Lyons - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:30:18.39",
+                "length": "21674112",
+                "link2mp3": "/uncovering_2015/audio/09-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/09-The_Martyrs_of_Lyons_-_Primer.pdf",
                     "/uncovering_2015/docs/09-The_Martyrs_of_Lyons_-_Text.pdf",
@@ -341,6 +365,9 @@ cp = [
                     "Irenaeus' Against the Heresies - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:15.20",
+                "length": "21422208",
+                "link2mp3": "/uncovering_2015/audio/10-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/10-Irenaeus'_Against_the_Heresies_-_Primer.pdf",
                     "/uncovering_2015/docs/10-Irenaeus'_Against_the_Heresies_-_Text.pdf",
@@ -368,6 +395,9 @@ cp = [
                     "Tertullian's Prescription Against Heresies - Text"
                 ],
                 "volume_boost": "4",
+                "duration": "01:35:09.39",
+                "length": "22839424",
+                "link2mp3": "/uncovering_2015/audio/11-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/11-Tertullian's_Prescription_Against_Heresies_-_Text.pdf"
                 ]
@@ -392,6 +422,9 @@ cp = [
                     "Tertullian's On Penitence - Text"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:27.66",
+                "length": "20510848",
+                "link2mp3": "/uncovering_2015/audio/12-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/12-Tertullian's_On_Penitence_-_Text.pdf"
                 ]
@@ -429,7 +462,10 @@ cp = [
                 "rssDate": "Wed, 13 Jan 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit12MonTrin.wav",
                 "newAudio": "14-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:18:04.42",
+                "length": "18739328",
+                "link2mp3": "/uncovering_2015/audio/14-uncovering_2015.mp3"
             },
             {
                 "id": "15",
@@ -438,7 +474,10 @@ cp = [
                 "rssDate": "Wed, 20 Jan 2016 00:00:00 +0000",
                 "audio": "UncoveringRiches2ndQReview2015-16.wav",
                 "newAudio": "15-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:56:03.66",
+                "length": "13455488",
+                "link2mp3": "/uncovering_2015/audio/15-uncovering_2015.mp3"
             },
             {
                 "id": "16",
@@ -460,6 +499,9 @@ cp = [
                     "Eusebius on Origen and Origen's On Prayer - Text"
                 ],
                 "volume_boost": "4",
+                "duration": "01:28:47.38",
+                "length": "21311616",
+                "link2mp3": "/uncovering_2015/audio/16-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/16-Eusebius_on_Origen_and_Origen's_On_Prayer_-_Text.pdf"
                 ]
@@ -471,7 +513,10 @@ cp = [
                 "rssDate": "Thu, 11 Feb 2016 00:00:00 +0000",
                 "audio": "UncoveringUnit14CyprianUnity2015-16.wav",
                 "newAudio": "17-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:15:50.72",
+                "length": "18204800",
+                "link2mp3": "/uncovering_2015/audio/17-uncovering_2015.mp3"
             },
             {
                 "id": "18",
@@ -497,6 +542,9 @@ cp = [
                     "Eusebius' Life of Constantine - Outline"
                 ],
                 "volume_boost": "4",
+                "duration": "01:06:43.62",
+                "length": "16015488",
+                "link2mp3": "/uncovering_2015/audio/18-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/18-Eusebius'_Life_of_Constantine_-_Text.pdf",
                     "/uncovering_2015/docs/18-Eusebius'_Life_of_Constantine_-_Outline.pdf"
@@ -509,7 +557,10 @@ cp = [
                 "rssDate": "Wed, 2 Mar 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit16AthanasiusNicaea2015-16.wav",
                 "newAudio": "19-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:16:40.47",
+                "length": "18403456",
+                "link2mp3": "/uncovering_2015/audio/19-uncovering_2015.mp3"
             },
             {
                 "id": "20",
@@ -518,7 +569,10 @@ cp = [
                 "rssDate": "Wed, 16 Mar 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit17LifeAnthony.wav",
                 "newAudio": "20-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:26:59.84",
+                "length": "20879488",
+                "link2mp3": "/uncovering_2015/audio/20-uncovering_2015.mp3"
             },
             {
                 "id": "21",
@@ -527,7 +581,10 @@ cp = [
                 "rssDate": "Wed, 23 Mar 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit18BasilHolySpirit.wav",
                 "newAudio": "21-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:04.69",
+                "length": "21860480",
+                "link2mp3": "/uncovering_2015/audio/21-uncovering_2015.mp3"
             },
             {
                 "id": "22",
@@ -540,7 +597,10 @@ cp = [
                 "rssDate": "Wed, 30 Mar 2016 00:00:00 +0000",
                 "audio": "UncoveringRiches3rdQReview2015-16.wav",
                 "newAudio": "23-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:27:48.22",
+                "length": "21074048",
+                "link2mp3": "/uncovering_2015/audio/23-uncovering_2015.mp3"
             },
             {
                 "id": "24",
@@ -549,7 +609,10 @@ cp = [
                 "rssDate": "Wed, 6 Apr 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit20EgeriaDiary.wav",
                 "newAudio": "24-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:25:14.10",
+                "length": "20457600",
+                "link2mp3": "/uncovering_2015/audio/24-uncovering_2015.mp3"
             },
             {
                 "id": "25",
@@ -558,7 +621,10 @@ cp = [
                 "rssDate": "Wed, 13 Apr 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit21JeromePerpVirg.wav",
                 "newAudio": "25-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:33:44.77",
+                "length": "22499456",
+                "link2mp3": "/uncovering_2015/audio/25-uncovering_2015.mp3"
             },
             {
                 "id": "26",
@@ -567,7 +633,10 @@ cp = [
                 "rssDate": "Thu, 21 Apr 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit22HistMonksEgypt.wav",
                 "newAudio": "26-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:35.29",
+                "length": "21981312",
+                "link2mp3": "/uncovering_2015/audio/26-uncovering_2015.mp3"
             },
             {
                 "id": "27",
@@ -576,7 +645,34 @@ cp = [
                 "rssDate": "Wed, 4 May 2016 00:00:00 +0000",
                 "audio": "UncoveringRichesUnit23Augustine.wav",
                 "newAudio": "27-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:22.04",
+                "length": "21930112",
+                "link2mp3": "/uncovering_2015/audio/27-uncovering_2015.mp3"
+            },
+            {
+                "id": "28",
+                "title": "Unit 24 - Palladius' Lausiac History",
+                "date": "5/11/2016",
+                "rssDate": "Wed, 11 May 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit24Palladius.wav",
+                "newAudio": "28-uncovering_2015.mp3",
+                "volume_boost": "4",
+                "duration": "01:31:34.11",
+                "length": "21977216",
+                "link2mp3": "/uncovering_2015/audio/28-uncovering_2015.mp3"
+            },
+            {
+                "id": "29",
+                "title": "Unit 25 - St. Cyril of Alexandria and the Council of Ephesus",
+                "date": "5/18/2016",
+                "rssDate": "Wed, 18 May 2016 00:00:00 +0000",
+                "audio": "UncoveringRichesUnit25CyrilAlexandria.wav",
+                "newAudio": "29-uncovering_2015.mp3",
+                "volume_boost": "4",
+                "duration": "01:29:54.01",
+                "length": "21577856",
+                "link2mp3": "/uncovering_2015/audio/29-uncovering_2015.mp3"
             }
         ],
         "seriesData": {
@@ -837,9 +933,6 @@ cp = [
                     "From Pope to Parish Power Point"
                 ],
                 "volume_boost": "4",
-                "duration": "02:23:03.10",
-                "length": "34333056",
-                "link2mp3": "/misc/audio/01-misc.mp3",
                 "handout_links": [
                     "/misc/docs/01-From_Pope_to_Parish_Outline_(18_pages).pdf",
                     "/misc/docs/01-From_Pope_to_Parish_Power_Point.pdf"
@@ -866,9 +959,6 @@ cp = [
                     "Handout for Teachers Retreat"
                 ],
                 "volume_boost": "4",
-                "duration": "00:34:33.40",
-                "length": "8294208",
-                "link2mp3": "/misc/audio/02-misc.mp3",
                 "handout_links": [
                     "/misc/docs/02-Handout_for_Teachers_Retreat.pdf"
                 ]
@@ -881,10 +971,7 @@ cp = [
                 "rssDate": "Fri, 20 Mar 2015 00:00:00 +0000",
                 "audio": "LentenTeacherRetreatCentralityofEucharisttoSpiritualLife.MP3",
                 "newAudio": "03-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:23:07.21",
-                "length": "5549472",
-                "link2mp3": "/misc/audio/03-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "04",
@@ -894,10 +981,7 @@ cp = [
                 "rssDate": "Sat, 4 Jul 2015 00:00:00 +0000",
                 "audio": "FirstSaturdayTalkJuly2015SupremeCourtDecisionSameSexMarriage.wav",
                 "newAudio": "04-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:24:07.83",
-                "length": "5791872",
-                "link2mp3": "/misc/audio/04-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "05",
@@ -907,10 +991,7 @@ cp = [
                 "rssDate": "Sat, 1 Aug 2015 00:00:00 +0000",
                 "audio": "FirstSarurdayTalkAugust2015SameSexMarriage.wav",
                 "newAudio": "05-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:36:05.50",
-                "length": "8663168",
-                "link2mp3": "/misc/audio/05-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "06",
@@ -920,10 +1001,7 @@ cp = [
                 "rssDate": "Sun, 4 Oct 2015 00:00:00 +0000",
                 "audio": "FS2015YOctAbortionMotives.wav",
                 "newAudio": "06-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:21:16.98",
-                "length": "5109888",
-                "link2mp3": "/misc/audio/06-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "07",
@@ -933,10 +1011,7 @@ cp = [
                 "rssDate": "Tue, 13 Oct 2015 00:00:00 +0000",
                 "audio": "IntroMorals2015.wav",
                 "newAudio": "07-misc.mp3",
-                "volume_boost": "4",
-                "duration": "02:16:29.00",
-                "length": "32757888",
-                "link2mp3": "/misc/audio/07-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "08",
@@ -946,10 +1021,7 @@ cp = [
                 "rssDate": "Wed, 2 Dec 2015 00:00:00 +0000",
                 "audio": "FS2015YDecApocalypticStNicholas.wav",
                 "newAudio": "08-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:20:54.92",
-                "length": "5021824",
-                "link2mp3": "/misc/audio/08-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "09",
@@ -959,10 +1031,7 @@ cp = [
                 "rssDate": "Sat, 2 Jan 2016 00:00:00 +0000",
                 "audio": "FS2016YJanDiscerningHeresy.wav",
                 "newAudio": "09-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:18:59.48",
-                "length": "4558976",
-                "link2mp3": "/misc/audio/09-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "10",
@@ -972,10 +1041,7 @@ cp = [
                 "rssDate": "Sat, 5 Mar 2016 00:00:00 +0000",
                 "audio": "FS2016YMarchFireofHellContrition.wav",
                 "newAudio": "10-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:21:14.99",
-                "length": "5101696",
-                "link2mp3": "/misc/audio/10-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "11",
@@ -985,10 +1051,7 @@ cp = [
                 "rssDate": "Sat, 2 Apr 2016 00:00:00 +0000",
                 "audio": "FS2016YAprilPostAbortWomenUncLoveAtone.wav",
                 "newAudio": "11-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:22.71",
-                "length": "2971776",
-                "link2mp3": "/misc/audio/11-misc.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "12",
@@ -998,10 +1061,7 @@ cp = [
                 "rssDate": "Sat, 7 May 2016 00:00:00 +0000",
                 "audio": "FS2016YMayFaithHopeAnchor.wav",
                 "newAudio": "12-misc.mp3",
-                "volume_boost": "4",
-                "duration": "00:18:24.75",
-                "length": "4419712",
-                "link2mp3": "/misc/audio/12-misc.mp3"
+                "volume_boost": "4"
             }
         ],
         "seriesData": {
@@ -1011,6 +1071,32 @@ cp = [
     },
     {
         "classes": [
+            {
+                "id": "88",
+                "title": "The Feast of the Most Holy Trinity 2016",
+                "detail": "The Love of the Triune God for Me",
+                "date": "5/22/2016",
+                "rssDate": "Sun, 22 May 2016 00:00:00 +0000",
+                "audio": "2016-05-22.wav",
+                "newAudio": "88-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:13:08.48",
+                "length": "3154048",
+                "link2mp3": "/Sunday_Homilies/audio/88-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "87",
+                "title": "The Feast of Pentecost 2016",
+                "detail": "The Holy Spirit Makes Us Sons, not Slaves",
+                "date": "5/15/2016",
+                "rssDate": "Sun, 15 May 2016 00:00:00 +0000",
+                "audio": "2016-05-15.wav",
+                "newAudio": "87-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:55.11",
+                "length": "2381952",
+                "link2mp3": "/Sunday_Homilies/audio/87-Sunday_Homilies.mp3"
+            },
             {
                 "id": "86",
                 "title": "Seventh Sunday of Easter 2016",

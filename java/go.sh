@@ -17,7 +17,7 @@ date;
   # push latest to www.catholicpatrimony.com
   s3cmd sync -P --guess-mime-type ./build/ s3://www.catholicpatrimony.com/
   #s3cmd --no-check-md5 --skip-existing --exclude *zip --recursive get s3://www.catholicpatrimony.com /tedesche/build
-  #s3cmd --no-check-md5 --skip-existing --exclude *zip --recursive put /tedesche/build s3://www.catholicpatrimony.com
+  #s3cmd -P --skip-existing --guess-mime-type sync build/ s3://www.catholicpatrimony.com/
   s3cmd -P --no-check-md5 --skip-existing --recursive sync build/* s3://www.catholicpatrimony.com/
   #s3cmd sync -P s3://www.catholicpatrimony.com/ ./build
   #s3cmd -P --no-check-md5 --recursive sync build/uncovering_2015/podcast.xml s3://www.catholicpatrimony.com/uncovering_2015/

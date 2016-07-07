@@ -26,6 +26,9 @@ cp = [
                     "Pliny's Letter to Trajan"
                 ],
                 "volume_boost": "4",
+                "duration": "00:47:57.67",
+                "length": "11510688",
+                "link2mp3": "/uncovering_2015/audio/01-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/01-Introduction_to_the_Fathers.pdf",
                     "/uncovering_2015/docs/01-Pliny's_Letter_to_Trajan.pdf"
@@ -64,6 +67,9 @@ cp = [
                     "The Didache, appendix - The Development of the Eucharist within the First Century"
                 ],
                 "volume_boost": "4",
+                "duration": "01:27:44.22",
+                "length": "21057664",
+                "link2mp3": "/uncovering_2015/audio/02-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/02-The_Didache_-_Primer.pdf",
                     "/uncovering_2015/docs/02-The_Didache_-_Text.pdf",
@@ -104,6 +110,9 @@ cp = [
                     "First Clement - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:59.02",
+                "length": "21596288",
+                "link2mp3": "/uncovering_2015/audio/03-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/03-First_Clement_-_Primer.pdf",
                     "/uncovering_2015/docs/03-First_Clement_-_Text.pdf",
@@ -144,6 +153,9 @@ cp = [
                     "St. Ignatius to the Ephesians and Romans - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:31:00.34",
+                "length": "21842048",
+                "link2mp3": "/uncovering_2015/audio/04-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/04-St._Ignatius_to_the_Ephesians_and_Romans_-_Primer.pdf",
                     "/uncovering_2015/docs/04-St._Ignatius_to_the_Ephesians_and_Romans_-_Text.pdf",
@@ -184,6 +196,9 @@ cp = [
                     "St. Ignatius to the Philadelphians, Smyrnaeans, and Polycarp - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:30:54.73",
+                "length": "21819520",
+                "link2mp3": "/uncovering_2015/audio/05-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/05-St._Ignatius_to_the_Philadelphians,_Smyrnaeans,_and_Polycarp_-_Primer.pdf",
                     "/uncovering_2015/docs/05-St._Ignatius_to_the_Philadelphians,_Smyrnaeans,_and_Polycarp_-_Text.pdf",
@@ -224,6 +239,9 @@ cp = [
                     "The Martyrdom of Polycarp - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:26:47.60",
+                "length": "20832384",
+                "link2mp3": "/uncovering_2015/audio/06-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/06-The_Martyrdom_of_Polycarp_-_Primer.pdf",
                     "/uncovering_2015/docs/06-The_Martyrdom_of_Polycarp_-_Text.pdf",
@@ -268,6 +286,9 @@ cp = [
                     "First Quarter Exam Preparation Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:33:08.14",
+                "length": "22354048",
+                "link2mp3": "/uncovering_2015/audio/07-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/07-Justin's_First_Apology_-_Primer.pdf",
                     "/uncovering_2015/docs/07-Justin's_First_Apology_-_Text.pdf",
@@ -312,6 +333,9 @@ cp = [
                     "The Martyrs of Lyons - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:30:18.39",
+                "length": "21674112",
+                "link2mp3": "/uncovering_2015/audio/09-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/09-The_Martyrs_of_Lyons_-_Primer.pdf",
                     "/uncovering_2015/docs/09-The_Martyrs_of_Lyons_-_Text.pdf",
@@ -351,6 +375,9 @@ cp = [
                     "Irenaeus' Against the Heresies - Quiz"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:15.20",
+                "length": "21422208",
+                "link2mp3": "/uncovering_2015/audio/10-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/10-Irenaeus'_Against_the_Heresies_-_Primer.pdf",
                     "/uncovering_2015/docs/10-Irenaeus'_Against_the_Heresies_-_Text.pdf",
@@ -379,6 +406,9 @@ cp = [
                     "Tertullian's Prescription Against Heresies - Text"
                 ],
                 "volume_boost": "4",
+                "duration": "01:35:09.39",
+                "length": "22839424",
+                "link2mp3": "/uncovering_2015/audio/11-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/11-Tertullian's_Prescription_Against_Heresies_-_Text.pdf"
                 ]
@@ -404,6 +434,9 @@ cp = [
                     "Tertullian's On Penitence - Text"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:27.66",
+                "length": "20510848",
+                "link2mp3": "/uncovering_2015/audio/12-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/12-Tertullian's_On_Penitence_-_Text.pdf"
                 ]
@@ -443,7 +476,10 @@ cp = [
                 "dateId": "20160113",
                 "audio": "UncoveringRichesUnit12MonTrin.wav",
                 "newAudio": "14-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:18:04.42",
+                "length": "18739328",
+                "link2mp3": "/uncovering_2015/audio/14-uncovering_2015.mp3"
             },
             {
                 "id": "15",
@@ -453,7 +489,10 @@ cp = [
                 "dateId": "20160120",
                 "audio": "UncoveringRiches2ndQReview2015-16.wav",
                 "newAudio": "15-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:56:03.66",
+                "length": "13455488",
+                "link2mp3": "/uncovering_2015/audio/15-uncovering_2015.mp3"
             },
             {
                 "id": "16",
@@ -476,6 +515,9 @@ cp = [
                     "Eusebius on Origen and Origen's On Prayer - Text"
                 ],
                 "volume_boost": "4",
+                "duration": "01:28:47.38",
+                "length": "21311616",
+                "link2mp3": "/uncovering_2015/audio/16-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/16-Eusebius_on_Origen_and_Origen's_On_Prayer_-_Text.pdf"
                 ]
@@ -488,7 +530,10 @@ cp = [
                 "dateId": "20160211",
                 "audio": "UncoveringUnit14CyprianUnity2015-16.wav",
                 "newAudio": "17-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:15:50.72",
+                "length": "18204800",
+                "link2mp3": "/uncovering_2015/audio/17-uncovering_2015.mp3"
             },
             {
                 "id": "18",
@@ -515,6 +560,9 @@ cp = [
                     "Eusebius' Life of Constantine - Outline"
                 ],
                 "volume_boost": "4",
+                "duration": "01:06:43.62",
+                "length": "16015488",
+                "link2mp3": "/uncovering_2015/audio/18-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/18-Eusebius'_Life_of_Constantine_-_Text.pdf",
                     "/uncovering_2015/docs/18-Eusebius'_Life_of_Constantine_-_Outline.pdf"
@@ -528,7 +576,10 @@ cp = [
                 "dateId": "20160302",
                 "audio": "UncoveringRichesUnit16AthanasiusNicaea2015-16.wav",
                 "newAudio": "19-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:16:40.47",
+                "length": "18403456",
+                "link2mp3": "/uncovering_2015/audio/19-uncovering_2015.mp3"
             },
             {
                 "id": "20",
@@ -538,7 +589,10 @@ cp = [
                 "dateId": "20160316",
                 "audio": "UncoveringRichesUnit17LifeAnthony.wav",
                 "newAudio": "20-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:26:59.84",
+                "length": "20879488",
+                "link2mp3": "/uncovering_2015/audio/20-uncovering_2015.mp3"
             },
             {
                 "id": "21",
@@ -548,7 +602,10 @@ cp = [
                 "dateId": "20160323",
                 "audio": "UncoveringRichesUnit18BasilHolySpirit.wav",
                 "newAudio": "21-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:04.69",
+                "length": "21860480",
+                "link2mp3": "/uncovering_2015/audio/21-uncovering_2015.mp3"
             },
             {
                 "id": "22",
@@ -562,7 +619,10 @@ cp = [
                 "dateId": "20160330",
                 "audio": "UncoveringRiches3rdQReview2015-16.wav",
                 "newAudio": "23-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:27:48.22",
+                "length": "21074048",
+                "link2mp3": "/uncovering_2015/audio/23-uncovering_2015.mp3"
             },
             {
                 "id": "24",
@@ -572,7 +632,10 @@ cp = [
                 "dateId": "20160406",
                 "audio": "UncoveringRichesUnit20EgeriaDiary.wav",
                 "newAudio": "24-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:25:14.10",
+                "length": "20457600",
+                "link2mp3": "/uncovering_2015/audio/24-uncovering_2015.mp3"
             },
             {
                 "id": "25",
@@ -582,7 +645,10 @@ cp = [
                 "dateId": "20160413",
                 "audio": "UncoveringRichesUnit21JeromePerpVirg.wav",
                 "newAudio": "25-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:33:44.77",
+                "length": "22499456",
+                "link2mp3": "/uncovering_2015/audio/25-uncovering_2015.mp3"
             },
             {
                 "id": "26",
@@ -592,7 +658,10 @@ cp = [
                 "dateId": "20160421",
                 "audio": "UncoveringRichesUnit22HistMonksEgypt.wav",
                 "newAudio": "26-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:35.29",
+                "length": "21981312",
+                "link2mp3": "/uncovering_2015/audio/26-uncovering_2015.mp3"
             },
             {
                 "id": "27",
@@ -602,7 +671,10 @@ cp = [
                 "dateId": "20160504",
                 "audio": "UncoveringRichesUnit23Augustine.wav",
                 "newAudio": "27-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:22.04",
+                "length": "21930112",
+                "link2mp3": "/uncovering_2015/audio/27-uncovering_2015.mp3"
             },
             {
                 "id": "28",
@@ -612,7 +684,10 @@ cp = [
                 "dateId": "20160511",
                 "audio": "UncoveringRichesUnit24Palladius.wav",
                 "newAudio": "28-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:31:34.11",
+                "length": "21977216",
+                "link2mp3": "/uncovering_2015/audio/28-uncovering_2015.mp3"
             },
             {
                 "id": "29",
@@ -622,7 +697,10 @@ cp = [
                 "dateId": "20160518",
                 "audio": "UncoveringRichesUnit25CyrilAlexandria.wav",
                 "newAudio": "29-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:29:54.01",
+                "length": "21577856",
+                "link2mp3": "/uncovering_2015/audio/29-uncovering_2015.mp3"
             },
             {
                 "id": "30",
@@ -632,7 +710,10 @@ cp = [
                 "dateId": "20160529",
                 "audio": "UncoveringRichesUnit26SymeonStylites.wav",
                 "newAudio": "30-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:22:04.74",
+                "length": "19699840",
+                "link2mp3": "/uncovering_2015/audio/30-uncovering_2015.mp3"
             },
             {
                 "id": "31",
@@ -642,7 +723,10 @@ cp = [
                 "dateId": "20160601",
                 "audio": "UncoveringRichesUnit27LeoChalcedon.wav",
                 "newAudio": "31-uncovering_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "01:26:23.60",
+                "length": "20736128",
+                "link2mp3": "/uncovering_2015/audio/31-uncovering_2015.mp3"
             }
         ],
         "seriesData": {
@@ -666,7 +750,10 @@ cp = [
                 "dateId": "20150909",
                 "audio": "TyburnPatrologyUnit1Thurs2015-16.wav",
                 "newAudio": "01-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:24:06.15",
+                "length": "5785728",
+                "link2mp3": "/tyburn_patrology_2015/audio/01-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "02",
@@ -676,7 +763,10 @@ cp = [
                 "dateId": "20150916",
                 "audio": "TyburnPatrologyUnit2Weds2015-16.wav",
                 "newAudio": "02-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:35:45.27",
+                "length": "8581248",
+                "link2mp3": "/tyburn_patrology_2015/audio/02-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "03",
@@ -686,7 +776,10 @@ cp = [
                 "dateId": "20150917",
                 "audio": "TyburnPatrologyUnit2Thurs2015-16.wav",
                 "newAudio": "03-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:23:04.16",
+                "length": "5537920",
+                "link2mp3": "/tyburn_patrology_2015/audio/03-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "04",
@@ -696,7 +789,10 @@ cp = [
                 "dateId": "20150930",
                 "audio": "TyburnPatrologyUnit3Wed2015-16.wav",
                 "newAudio": "04-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:25:38.05",
+                "length": "6154368",
+                "link2mp3": "/tyburn_patrology_2015/audio/04-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "05",
@@ -734,7 +830,10 @@ cp = [
                 "dateId": "20151015",
                 "audio": "TyburnPatrologyUnit4BThurs.wav",
                 "newAudio": "09-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:27:27.80",
+                "length": "6592640",
+                "link2mp3": "/tyburn_patrology_2015/audio/09-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "10",
@@ -744,7 +843,10 @@ cp = [
                 "dateId": "20151021",
                 "audio": "TyburnPatrologyUnit5Wed.wav",
                 "newAudio": "10-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:39:11.22",
+                "length": "9406592",
+                "link2mp3": "/tyburn_patrology_2015/audio/10-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "11",
@@ -754,7 +856,10 @@ cp = [
                 "dateId": "20151022",
                 "audio": "TyburnPatrologyUnit5Thurs.wav",
                 "newAudio": "11-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:35:48.54",
+                "length": "8595584",
+                "link2mp3": "/tyburn_patrology_2015/audio/11-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "12",
@@ -764,7 +869,10 @@ cp = [
                 "dateId": "20151028",
                 "audio": "TyburnPatrologyUnit6Wed.wav",
                 "newAudio": "12-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:30:17.67",
+                "length": "7272576",
+                "link2mp3": "/tyburn_patrology_2015/audio/12-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "13",
@@ -774,7 +882,10 @@ cp = [
                 "dateId": "20151029",
                 "audio": "TyburnPatrologyUnit6Thurs.wav",
                 "newAudio": "13-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:26:15.63",
+                "length": "6303872",
+                "link2mp3": "/tyburn_patrology_2015/audio/13-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "14",
@@ -784,7 +895,10 @@ cp = [
                 "dateId": "20151104",
                 "audio": "TyburnPatrologyFirstQuarterReview.wav",
                 "newAudio": "14-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:36:34.52",
+                "length": "8779904",
+                "link2mp3": "/tyburn_patrology_2015/audio/14-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "15",
@@ -801,7 +915,10 @@ cp = [
                 "dateId": "20151112",
                 "audio": "TyburnPatrologyUnit7Thurs2015-16.wav",
                 "newAudio": "16-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:32:23.34",
+                "length": "7774336",
+                "link2mp3": "/tyburn_patrology_2015/audio/16-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "17",
@@ -818,7 +935,10 @@ cp = [
                 "dateId": "20151203",
                 "audio": "TyburnPatrologyUnit8Thurs2015-16.wav",
                 "newAudio": "18-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:38:18.58",
+                "length": "9195648",
+                "link2mp3": "/tyburn_patrology_2015/audio/18-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "19",
@@ -828,7 +948,10 @@ cp = [
                 "dateId": "20151210",
                 "audio": "TyburnPatrologyUnit9Thurs.wav",
                 "newAudio": "19-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:34:50.31",
+                "length": "8362112",
+                "link2mp3": "/tyburn_patrology_2015/audio/19-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "20",
@@ -838,7 +961,10 @@ cp = [
                 "dateId": "20151216",
                 "audio": "TyburnPatrologyUnit10Wed2015-16.wav",
                 "newAudio": "20-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:37:01.38",
+                "length": "8886400",
+                "link2mp3": "/tyburn_patrology_2015/audio/20-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "21",
@@ -848,7 +974,10 @@ cp = [
                 "dateId": "20151217",
                 "audio": "TyburnPatrologyUnit10Thurs2015-16.wav",
                 "newAudio": "21-tyburn_patrology_2015.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:36:47.38",
+                "length": "8831104",
+                "link2mp3": "/tyburn_patrology_2015/audio/21-tyburn_patrology_2015.mp3"
             },
             {
                 "id": "22",
@@ -905,6 +1034,177 @@ cp = [
     },
     {
         "classes": [
+            {
+                "audio": "2016-07-05.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 14th Week in Ordinary Time 2016",
+                "id": "20160705",
+                "date": "07/05/2016",
+                "rssDate": "Tue, 5 Jul 2016 00:00:00 +0000",
+                "dateId": "20160705",
+                "title": "Tuesday of the 14th Week in Ordinary Time 2016",
+                "newAudio": "20160705-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:36.49",
+                "length": "1587328",
+                "link2mp3": "/daily_homilies/audio/20160705-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-04.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Monday of the 14th Week in Ordinary Time 2016",
+                    "Independance Day"
+                ],
+                "id": "20160704",
+                "date": "07/04/2016",
+                "rssDate": "Mon, 4 Jul 2016 00:00:00 +0000",
+                "dateId": "20160704",
+                "title": "Monday of the 14th Week in Ordinary Time 2016 / Independance Day",
+                "newAudio": "20160704-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:26.43",
+                "length": "2027648",
+                "link2mp3": "/daily_homilies/audio/20160704-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-03.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "14th Sunday in Ordinary Time 2016",
+                "id": "20160703",
+                "date": "07/03/2016",
+                "rssDate": "Sun, 3 Jul 2016 00:00:00 +0000",
+                "dateId": "20160703",
+                "title": "14th Sunday in Ordinary Time 2016",
+                "newAudio": "20160703-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:19.47",
+                "length": "2959488",
+                "link2mp3": "/daily_homilies/audio/20160703-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-28.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Tuesday of the 13th Week in Ordinary Time 2016",
+                    "Memorial of St. Irenaeus"
+                ],
+                "id": "20160628",
+                "date": "06/28/2016",
+                "rssDate": "Tue, 28 Jun 2016 00:00:00 +0000",
+                "dateId": "20160628",
+                "title": "Tuesday of the 13th Week in Ordinary Time 2016 / Memorial of St. Irenaeus",
+                "newAudio": "20160628-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:24.63",
+                "length": "2500736",
+                "link2mp3": "/daily_homilies/audio/20160628-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-26.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "13th Sunday in Ordinary Time 2016",
+                "id": "20160626",
+                "date": "06/26/2016",
+                "rssDate": "Sun, 26 Jun 2016 00:00:00 +0000",
+                "dateId": "20160626",
+                "title": "13th Sunday in Ordinary Time 2016",
+                "newAudio": "20160626-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:00.01",
+                "length": "2881664",
+                "link2mp3": "/daily_homilies/audio/20160626-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-19.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "12th Sunday in Ordinary Time 2016",
+                "id": "20160619",
+                "date": "06/19/2016",
+                "rssDate": "Sun, 19 Jun 2016 00:00:00 +0000",
+                "dateId": "20160619",
+                "title": "12th Sunday in Ordinary Time 2016",
+                "newAudio": "20160619-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:36.80",
+                "length": "2547840",
+                "link2mp3": "/daily_homilies/audio/20160619-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-18.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Saturday of the 11th Week in Ordinary Time 2016",
+                "id": "20160618",
+                "date": "06/18/2016",
+                "rssDate": "Sat, 18 Jun 2016 00:00:00 +0000",
+                "dateId": "20160618",
+                "title": "Saturday of the 11th Week in Ordinary Time 2016",
+                "newAudio": "20160618-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:14:17.05",
+                "length": "3428480",
+                "link2mp3": "/daily_homilies/audio/20160618-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-17.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Friday of the 11th Week in Ordinary Time 2016",
+                "id": "20160617",
+                "date": "06/17/2016",
+                "rssDate": "Fri, 17 Jun 2016 00:00:00 +0000",
+                "dateId": "20160617",
+                "title": "Friday of the 11th Week in Ordinary Time 2016",
+                "newAudio": "20160617-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:07:56.17",
+                "length": "1906816",
+                "link2mp3": "/daily_homilies/audio/20160617-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-16.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Thursday of the 11th Week in Ordinary Time 2016",
+                "id": "20160616",
+                "date": "06/16/2016",
+                "rssDate": "Thu, 16 Jun 2016 00:00:00 +0000",
+                "dateId": "20160616",
+                "title": "Thursday of the 11th Week in Ordinary Time 2016",
+                "newAudio": "20160616-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:02.17",
+                "length": "2410624",
+                "link2mp3": "/daily_homilies/audio/20160616-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-15.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Wednesday of the 11th Week in Ordinary Time 2016",
+                "id": "20160615",
+                "date": "06/15/2016",
+                "rssDate": "Wed, 15 Jun 2016 00:00:00 +0000",
+                "dateId": "20160615",
+                "title": "Wednesday of the 11th Week in Ordinary Time 2016",
+                "newAudio": "20160615-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:01.50",
+                "length": "2166912",
+                "link2mp3": "/daily_homilies/audio/20160615-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-06-14.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 11th Week in Ordinary Time 2016",
+                "id": "20160614",
+                "date": "06/14/2016",
+                "rssDate": "Tue, 14 Jun 2016 00:00:00 +0000",
+                "dateId": "20160614",
+                "title": "Tuesday of the 11th Week in Ordinary Time 2016",
+                "newAudio": "20160614-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:07:52.78",
+                "length": "1892480",
+                "link2mp3": "/daily_homilies/audio/20160614-daily_homilies.mp3"
+            },
             {
                 "audio": "2016-06-12.wav",
                 "liturgical_year": "2",
@@ -2214,6 +2514,48 @@ cp = [
     {
         "classes": [
             {
+                "id": "93",
+                "title": "14th Sunday in Ordinary Time 2016",
+                "detail": "An Initial Pastoral Vision for St. Joseph the Worker Parish",
+                "date": "7/3/2016",
+                "rssDate": "Sun, 3 Jul 2016 00:00:00 +0000",
+                "dateId": "20160703",
+                "audio": "2016-07-03.wav",
+                "newAudio": "93-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:19.47",
+                "length": "2959488",
+                "link2mp3": "/Sunday_Homilies/audio/93-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "92",
+                "title": "13th Sunday in Ordinary Time 2016",
+                "detail": "Commitment and Marriage",
+                "date": "6/26/2016",
+                "rssDate": "Sun, 26 Jun 2016 00:00:00 +0000",
+                "dateId": "20160626",
+                "audio": "2016-06-26.wav",
+                "newAudio": "92-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:00.01",
+                "length": "2881664",
+                "link2mp3": "/Sunday_Homilies/audio/92-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "91",
+                "title": "12th Sunday in Ordinary Time 2016",
+                "detail": "The Cross and a Christian Understanding of Suffering",
+                "date": "6/19/2016",
+                "rssDate": "Sun, 19 Jun 2016 00:00:00 +0000",
+                "dateId": "20160619",
+                "audio": "2016-06-19.wav",
+                "newAudio": "91-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:36.80",
+                "length": "2547840",
+                "link2mp3": "/Sunday_Homilies/audio/91-Sunday_Homilies.mp3"
+            },
+            {
                 "id": "90",
                 "title": "11th Sunday in Ordinary Time 2016",
                 "detail": "Avoiding Self-Justification",
@@ -2962,8 +3304,8 @@ cp = [
                 "audio": "HomilyforAllSouls2015.wav",
                 "volume_boost": "1",
                 "newAudio": "55-Sunday_Homilies.mp3",
-                "duration": "00:06:40.98",
-                "length": "1605760",
+                "duration": "00:06:40.94",
+                "length": "3209344",
                 "link2mp3": "/Sunday_Homilies/audio/55-Sunday_Homilies.mp3"
             },
             {
@@ -2978,8 +3320,8 @@ cp = [
                 "audio": "SH31SunOrdT2015AllSaints.wav",
                 "volume_boost": "1",
                 "newAudio": "54-Sunday_Homilies.mp3",
-                "duration": "00:08:57.08",
-                "length": "2148480",
+                "duration": "00:08:57.04",
+                "length": "4296832",
                 "link2mp3": "/Sunday_Homilies/audio/54-Sunday_Homilies.mp3"
             },
             {
@@ -4295,6 +4637,9 @@ cp = [
                     "Introduction"
                 ],
                 "volume_boost": "4",
+                "duration": "01:09:31.01",
+                "length": "16684704",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/01-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/01-Introduction.pdf"
                 ]
@@ -4321,6 +4666,9 @@ cp = [
                     "Adam handout (1 of 1)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:32:30.07",
+                "length": "22200960",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/02-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/02-Adam_handout_(1_of_1).pdf"
                 ]
@@ -4351,6 +4699,9 @@ cp = [
                     "Noah slides (1 of 1)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:23:37.56",
+                "length": "20070816",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/03-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/03-Noah_handout_(1_of_1).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/03-Noah_slides_(1_of_1).pdf"
@@ -4382,6 +4733,9 @@ cp = [
                     "Abraham slides (1 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:23:21.57",
+                "length": "20006880",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/04-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/04-Abraham_handout_(1_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/04-Abraham_slides_(1_of_5).pdf"
@@ -4413,6 +4767,9 @@ cp = [
                     "Abraham slides (2 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:47.18",
+                "length": "21549312",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/05-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/05-Abraham_handout_(2_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/05-Abraham_slides_(2_of_5).pdf"
@@ -4444,6 +4801,9 @@ cp = [
                     "Abraham slides (3 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:22:30.35",
+                "length": "19802016",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/06-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/06-Abraham_handout_(3_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/06-Abraham_slides_(3_of_5).pdf"
@@ -4475,6 +4835,9 @@ cp = [
                     "Abraham slides (4 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:32:26.42",
+                "length": "22186272",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/07-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/07-Abraham_handout_(4_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/07-Abraham_slides_(4_of_5).pdf"
@@ -4502,6 +4865,9 @@ cp = [
                     "Abraham handout (5 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:00.50",
+                "length": "20402592",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/08-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/08-Abraham_handout_(5_of_5).pdf"
                 ]
@@ -4532,6 +4898,9 @@ cp = [
                     "Moses slides (1 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:26:24.43",
+                "length": "20738304",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/09-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/09-Moses_handout_(1_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/09-Moses_slides_(1_of_5).pdf"
@@ -4559,6 +4928,9 @@ cp = [
                     "Moses slides (2 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:37:05.55",
+                "length": "23302848",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/10-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/10-Moses_slides_(2_of_5).pdf"
                 ]
@@ -4585,6 +4957,9 @@ cp = [
                     "Moses slides (3 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:20.98",
+                "length": "21444576",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/11-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/11-Moses_slides_(3_of_5).pdf"
                 ]
@@ -4615,6 +4990,9 @@ cp = [
                     "Moses slides (4 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:35:31.28",
+                "length": "22925760",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/12-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/12-Moses_handout_(4_of_5).pdf",
                     "/Bible_Study_Economy_of_Salvation/docs/12-Moses_slides_(4_of_5).pdf"
@@ -4642,6 +5020,9 @@ cp = [
                     "Moses handout (5 of 5)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:31:07.22",
+                "length": "21869472",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/13-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/13-Moses_handout_(5_of_5).pdf"
                 ]
@@ -4668,6 +5049,9 @@ cp = [
                     "David (1 of 3)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:31:32.11",
+                "length": "21969024",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/14-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/14-David_(1_of_3).pdf"
                 ]
@@ -4694,6 +5078,9 @@ cp = [
                     "David (2 of 3)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:14.63",
+                "length": "20459136",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/15-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/15-David_(2_of_3).pdf"
                 ]
@@ -4720,6 +5107,9 @@ cp = [
                     "David (3 of 3)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:28:32.45",
+                "length": "21250368",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/16-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/16-David_(3_of_3).pdf"
                 ]
@@ -4746,6 +5136,9 @@ cp = [
                     "Prophets (1 of 3)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:29:12.15",
+                "length": "21409248",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/17-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/17-Prophets_(1_of_3).pdf"
                 ]
@@ -4772,6 +5165,9 @@ cp = [
                     "Prophets (2 of 3)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:28:59.53",
+                "length": "21358720",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/18-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/18-Prophets_(2_of_3).pdf"
                 ]
@@ -4798,6 +5194,9 @@ cp = [
                     "Prophets (3 of 3)"
                 ],
                 "volume_boost": "4",
+                "duration": "01:22:54.90",
+                "length": "19900544",
+                "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/19-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/19-Prophets_(3_of_3).pdf"
                 ]
@@ -4833,6 +5232,9 @@ cp = [
                     "1b-title"
                 ],
                 "volume_boost": "4",
+                "duration": "00:00:02.79",
+                "length": "11836",
+                "link2mp3": "/test/audio/01-test.mp3",
                 "handout_links": [
                     "/test/docs/01-1a-title.txt",
                     "/test/docs/01-1b-title.txt"
@@ -4844,7 +5246,10 @@ cp = [
                 "audio": "02_quia_tu_es.mp3",
                 "handout_title": "2a-title",
                 "newAudio": "02-test.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:00:04.94",
+                "length": "20383",
+                "link2mp3": "/test/audio/02-test.mp3"
             },
             {
                 "id": "03",
@@ -4868,6 +5273,9 @@ cp = [
                     "3b-title"
                 ],
                 "volume_boost": "4",
+                "duration": "00:00:05.04",
+                "length": "20863",
+                "link2mp3": "/test/audio/03-test.mp3",
                 "handout_links": [
                     "/test/docs/03-3a-title.txt",
                     "/test/docs/03-3b-title.txt"
@@ -5236,6 +5644,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:50:08.13",
+                "length": "26433120",
+                "link2mp3": "/uncovering_riches/audio/04-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/04-Ignatius_to_Eph,_Rom.doc",
                     "/uncovering_riches/docs/04-Summary_and_Notes.doc"
@@ -5263,6 +5674,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:49:24.24",
+                "length": "26257632",
+                "link2mp3": "/uncovering_riches/audio/05-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/05-Ignatius_to_Philad,_Smyr,_Polyc.doc",
                     "/uncovering_riches/docs/05-Summary_and_Notes.doc"
@@ -5290,6 +5704,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:45:00.26",
+                "length": "25201632",
+                "link2mp3": "/uncovering_riches/audio/06-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/06-Martyrdom_of_Polycarp.doc",
                     "/uncovering_riches/docs/06-Summary_and_Notes.doc"
@@ -5317,6 +5734,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:51:53.38",
+                "length": "26854176",
+                "link2mp3": "/uncovering_riches/audio/07-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/07-Justin's_First_Apology.doc",
                     "/uncovering_riches/docs/07-Summary_and_Notes.doc"
@@ -5344,6 +5764,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:40:13.94",
+                "length": "24056352",
+                "link2mp3": "/uncovering_riches/audio/08-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/08-Irenaeus'_AH.doc",
                     "/uncovering_riches/docs/08-Summary_and_Notes.doc"
@@ -5391,6 +5814,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:41:44.92",
+                "length": "24420288",
+                "link2mp3": "/uncovering_riches/audio/10-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/10-Summary_and_Notes.pdf"
                 ]
@@ -5417,6 +5843,9 @@ cp = [
                     "Tertullian On Penitence"
                 ],
                 "volume_boost": "4",
+                "duration": "01:30:15.86",
+                "length": "21664032",
+                "link2mp3": "/uncovering_riches/audio/11-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/11-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/11-Tertullian_On_Penitence.pdf"
@@ -5441,6 +5870,9 @@ cp = [
                     "Summary and Notes"
                 ],
                 "volume_boost": "4",
+                "duration": "01:39:05.76",
+                "length": "23783712",
+                "link2mp3": "/uncovering_riches/audio/12-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/12-Summary_and_Notes.pdf"
                 ]
@@ -5467,6 +5899,9 @@ cp = [
                     "Readings on and from Origen"
                 ],
                 "volume_boost": "4",
+                "duration": "01:20:59.58",
+                "length": "19438944",
+                "link2mp3": "/uncovering_riches/audio/13-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/13-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/13-Readings_on_and_from_Origen.pdf"
@@ -5494,6 +5929,9 @@ cp = [
                     "St. Cyprian"
                 ],
                 "volume_boost": "4",
+                "duration": "01:45:05.72",
+                "length": "25223520",
+                "link2mp3": "/uncovering_riches/audio/14-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/14-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/14-St._Cyprian. Cyprian).pdf"
@@ -5521,6 +5959,9 @@ cp = [
                     "Life of Anthony"
                 ],
                 "volume_boost": "4",
+                "duration": "01:51:33.23",
+                "length": "26773536",
+                "link2mp3": "/uncovering_riches/audio/15-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/15-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/15-Life_of_Anthony.pdf"
@@ -5548,6 +5989,9 @@ cp = [
                     "Life of Constantine"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:38.63",
+                "length": "20555136",
+                "link2mp3": "/uncovering_riches/audio/16-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/16-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/16-Life_of_Constantine.pdf"
@@ -5575,6 +6019,9 @@ cp = [
                     "Nicene Symbol and Athanasius"
                 ],
                 "volume_boost": "4",
+                "duration": "01:37:58.74",
+                "length": "23515584",
+                "link2mp3": "/uncovering_riches/audio/17-uncovering_riches.mp3",
                 "handout_links": [
                     "/uncovering_riches/docs/17-Summary_and_Notes.pdf",
                     "/uncovering_riches/docs/17-Nicene_Symbol_and_Athanasius.pdf"

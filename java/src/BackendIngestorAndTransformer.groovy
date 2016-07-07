@@ -254,8 +254,10 @@ for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
 
   if (ops.contains('podcast')) {
     if (!mockRun) {
+    /*
       if (fileNewerThanAll("build/${seriesData.normalized_name}/audio",
             "build/${seriesData.normalized_name}/podcast.xml" )) {
+            */
         for (c in classes) {
           if (c.audio) {
             def newFile = "build/${seriesData.normalized_name}/audio/${c.newAudio}"
@@ -274,7 +276,7 @@ for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
           "build/${seriesData.normalized_name}/podcast.xml",
           ["seriesData": seriesData, "classLabels": classLabels, "classes": classes]
         );
-      }
+      //}
     }
   }
 

@@ -28,7 +28,7 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
       enabled: true
     });
     */
-    //$locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(true);
     $locationProvider.hashPrefix('!');
     //$disqusProvider.setShortname('catholicpatrimony');
   })
@@ -144,6 +144,11 @@ angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.directives.dirDi
             $scope.c = $scope.classes[i];
           }
         }
+        $scope.disqusConfig = {
+          disqus_shortname: $scope.c.title,
+          disqus_identifier: 'cp.com.session_' + $routeParams['course'] + '_' + $routeParams['sessionId'],
+          disqus_url: $location.absUrl();
+        };
         $scope.myDisqus_identifier = 'cp.com.session_' + $routeParams['course'] + '_' + $routeParams['sessionId'];
         $scope.myDisqus_title = $scope.c.title;
         $scope.myDisqus_url = $location.absUrl();

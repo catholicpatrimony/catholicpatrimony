@@ -3,11 +3,17 @@
   <p ng-if="sd.gdoc_above_classes" ng-include="trustSrc(sd.gdoc_above_classes)" onload="gdoc_loaded();"></p>
   <p ng-if="sd.customTemplate" ng-include="'partials/course_specific/' + sd.normalized_name + '.html?cbp=20160224'">{{sd.normalized_name}}.html</p>
 
-  <div ng-if="classes" style="font-weight: bold">Bundled Downloads</div>
+  <div ng-if="classes && sd.includeZips" style="font-weight: bold">Bundled Downloads</div>
   <div style="margin-left: 20px">
     <div ng-if="sd.includeZips">Download all audio files as a zip <a href="/{{sd.normalized_name}}/{{sd.normalized_name}}-audio.zip">here</a>.</div>
     <div ng-if="sd.includeZips">Download all doc files as a zip <a href="/{{sd.normalized_name}}/{{sd.normalized_name}}-docs.zip">here</a>.</div>
-    <div ng-if="classes">Download the audio files by using the podcast file: <a href="/{{sd.normalized_name}}/podcast.xml">raw xml</a></div>
+<!--
+  or <a href="itms://www.catholicpatrimony.com/{{sd.normalized_name}}/podcast.xml">open in iTunes</a>.
+-->
+  </div>
+  <div ng-if="classes" style="font-weight: bold">Podcast</div>
+  <div style="margin-left: 20px">
+    <div ng-if="classes">Keep up to date by subscribing via <a href="/{{sd.normalized_name}}/podcast.xml">podcast</a>.</div>
 <!--
   or <a href="itms://www.catholicpatrimony.com/{{sd.normalized_name}}/podcast.xml">open in iTunes</a>.
 -->

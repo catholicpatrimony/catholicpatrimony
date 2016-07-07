@@ -18,7 +18,7 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       .when('/session', {
         reloadOnSearch: true,
         controller:'SessionController',
-        templateUrl:'partials/session.html?cbp=20160429'
+        templateUrl:'partials/session.html?cbp=20160612'
       })
       .otherwise({
         redirectTo:'/'
@@ -64,6 +64,15 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
             }
           }
         }
+        /*
+        $log.debug('c: ');
+        $log.debug(c);
+        $log.debug('new_handout_file: ');
+        $log.debug(c2.new_handout_file);
+        $log.debug('name: ' + c.seriesData.normalized_name);
+        $log.debug('c2.fileicons');
+        $log.debug(c2.fileicons);
+        */
       }
       if ($scope.seriesSelected != null) {
         $scope.seriesSelected.active = false;
@@ -95,6 +104,36 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       f("footer");
       //$log.debug('gdoc_loaded');
     };
+    $scope.assignDisqusParams = function(in_sessionId) {
+      if ($routeParams['course'] != null) {
+        //$log.debug('found course');
+        $scope.selectClassByName($routeParams['course']);
+        var sessionId = $routeParams['sessionId'];
+        if (sessionId == null) {
+          //$log.debug('sessionId == null');
+          sessionId = in_sessionId;
+        }
+        //$log.debug('assignDisqusParams: sessionId: ' + sessionId);
+        //$log.debug('assignDisqusParams: $scope.sessionId: ' + $scope.sessionId);
+        if (sessionId) {
+          for (var i=0; i < $scope.classes.length; i++) {
+            if ($scope.classes[i].id == sessionId) {
+              $scope.c = $scope.classes[i];
+            }
+          }
+          $scope.disqusConfig = {
+            disqus_shortname: 'catholicpatrimony',
+            disqus_title: $scope.c.title,
+            disqus_identifier: 'cp.com.session_' + $routeParams['course'] + '_' + sessionId,
+            disqus_url: $location.absUrl()
+          };
+          
+          document.title = $scope.c.title;
+          $scope.myDisqus_contentLoaded = true;
+          //$log.debug('$scope.disqusConfig.disqus_title: ' + $scope.disqusConfig.disqus_title);
+        }
+      }
+    }
     $scope.cp = cp;
     $scope.dropDownMenu = [];
     $scope.topLevelMenu = [];
@@ -115,17 +154,19 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       }
     }
   })
-  //.controller('MainController', function($scope, $location, $routeParams, $log) {
-  .controller('ClassController', function($scope, $location, $routeParams, $log, $modal) {
+  .controller('MainController', function($scope, $location, $routeParams, $log) {
+  })
+  //.controller('ClassController', function($scope, $location, $routeParams, $log, $modal) {
+  .controller('ClassController', function($scope, $location, $routeParams, $log) {
     /*
     if (!$scope['loadingModal']) {
-      $scope.loadingModal = {val: null};
+      $scope.loadingModal = {val: null}
     }
     $scope.$on('$includeContentRequested', function (event, data) {
       $log.debug('includeContentRequested'); 
       try {
         $scope.loadingModal.val = $modal.open({
-          templateUrl: 'web/loading.html',
+          templateUrl: 'loading.html',
           controller: 'ModalController',
           backdrop : 'static',
           keyboard: false,
@@ -144,6 +185,7 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
     if ($routeParams['course'] != null) {
       $log.debug('found course');
       $scope.selectClassByName($routeParams.course);
+      $scope.course = $routeParams.course;
     }
     if ($routeParams['enableComments'] != null) {
       $scope.enableComments = true;
@@ -167,26 +209,5 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       $scope.session = 
     }
     */
-    if ($routeParams['course'] != null) {
-      $log.debug('found course');
-      $scope.selectClassByName($routeParams['course']);
-      if ($routeParams['sessionId'] != null) {
-        for (var i=0; i < $scope.classes.length; i++) {
-          if ($scope.classes[i].id == $routeParams['sessionId']) {
-            $scope.c = $scope.classes[i];
-          }
-        }
-        $scope.myDisqus_identifier = 'cp.com.session_' + $routeParams['course'] + '_' + $routeParams['sessionId'];
-        $scope.myDisqus_title = $scope.c.title;
-        $scope.myDisqus_url = $location.absUrl();
-        $log.debug($scope.myDisqus_identifier);
-        $log.debug('d1');
-        $log.debug($scope.myDisqus_title);
-        document.title = $scope.myDisqus_title
-        $log.debug('d2');
-        $log.debug($scope.myDisqus_url);
-        $log.debug('d3');
-        $scope.myDisqus_contentLoaded = true;
-      }
-    }
+    $scope.assignDisqusParams($scope);
   });

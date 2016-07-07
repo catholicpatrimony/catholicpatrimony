@@ -14,12 +14,12 @@ import groovy.json.*;
 
 def ops = []
 ops.add("print");
-//ops.add("audio");
+ops.add("audio");
 //ops.add("zip");
-//ops.add("docs");
+ops.add("docs");
 ops.add("json");
 //ops.add("wp");
-//ops.add("podcast");
+ops.add("podcast");
 
 def mockRun = false;
 
@@ -58,8 +58,8 @@ def jsonClassArr = []
 // 7 - 469482974 - dailies
 // 8 - 827677169 - uncovering-2015
 // 9 - 728325633 - tyburn patrology
-//for (gid in [827677169, 728325633, 5]) {
-for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
+//for (gid in [469482974]) {
+for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 
@@ -123,6 +123,7 @@ for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
         if (classLabels[i].equals('date')) {
           Date d = Date.parse("MM/dd/yyyy", p)
           row.put('rssDate', d.format("EEE, d MMM yyyy HH:mm:ss Z"));
+          row.put('dateId', d.format("yyyyMMdd"));
         }
         if (classLabels[i].equals('updated_on')) {
           Date d = Date.parse("MM/dd/yyyy HH:mm:ss", p)
@@ -137,6 +138,30 @@ for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
   "mkdir -p ./build/${seriesData.normalized_name}".execute().waitFor();
 
   for (c in classes) {
+    if (c['id'] == null) {
+      if (c['dateId'] != null) {
+        c['id'] = c['dateId']
+      } else if (c['audio'] ==~ '20[0-9][0-9]-[0-9][0-9]-[0-9][0-9].*') {
+        c['id'] = c['audio'].take(4) + c['audio'].drop(5).take(2) +  c['audio'].drop(8).take(2)
+        Date d = Date.parse("yyyyMMdd", c['id'])
+        c['date'] = d.format("MM/dd/yyyy");
+        c['rssDate'] = d.format("EEE, d MMM yyyy HH:mm:ss Z");
+        c['dateId'] = d.format("yyyyMMdd");
+      }
+    }
+    if (c.title == null) {
+      if (c['liturgical_day'] != null) {
+        if (c['liturgical_day'] instanceof Collection) {
+          c.title = '';
+          for (def i=0; i < c.liturgical_day.size; i++) {
+            c.title += c.liturgical_day[i] + ' / ';
+          }
+          c.title = c.title.take(c.title.size() - 3);
+        } else {
+          c.title = c.liturgical_day;
+        }
+      }
+    }
     if (c.audio) {
       c['newAudio'] = c.id +"-${seriesData.normalized_name}.mp3"
     }
@@ -212,6 +237,10 @@ for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
           }
           println ("c.volume_boost: ${c.volume_boost}");
 
+          if (c['id'] == null) {
+            c['id'] = origFileStr;
+          }
+
           if (createAudio) {
             if (!mockRun) {
               proc(["sox", "-v", c.volume_boost, origFileStr, "-r", "24k", "-c", "1", newFileStr]);
@@ -230,11 +259,13 @@ for (gid in [827677169, 728325633, 6, 5, 4, 3, 2, 0, 1]) {
         for (c in classes) {
           if (c.audio) {
             def newFile = "build/${seriesData.normalized_name}/audio/${c.newAudio}"
-            def outStr = proc("soxi ${newFile}");
-            def matcher = outStr =~ /Duration *: (.*) =/
-            c["duration"] = matcher[0][1];
-            c["length"] = proc("ls -lad ${newFile}").split(" ")[4]
-            c["link2mp3"] = "/${seriesData.normalized_name}/audio/${c.newAudio}"
+            if (new File(newFile).exists()) {
+              def outStr = proc("soxi ${newFile}");
+              def matcher = outStr =~ /Duration *: (.*) =/
+              c["duration"] = matcher[0][1];
+              c["length"] = proc("ls -lad ${newFile}").split(" ")[4]
+              c["link2mp3"] = "/${seriesData.normalized_name}/audio/${c.newAudio}"
+            }
           }
         }
         "mkdir -p ../web/${seriesData.normalized_name}".execute().waitFor();
@@ -299,7 +330,7 @@ jsonStr = "cp = " + jsonStr;
 new File("../web/cp.json").withWriter { out -> out.write(jsonStr) };
 
 def String proc(def cmd) {
-  println cmd;
+  println "cmd: ${cmd}";
   def proc = cmd.execute();
   proc.waitFor();
   println "return code: ${proc.exitValue()}"
@@ -310,7 +341,7 @@ def String proc(def cmd) {
 }
 
 def getNewHandoutFileName(id, ht, hf) {
-  if (hf.indexOf('http') == -1) {
+  if (hf != null && hf.indexOf('http') == -1) {
     def m = hf =~ /\.(.*)/
     def ext = m[0][1];
     println "ht: ${ht}"

@@ -1,0 +1,915 @@
+<?xml version="1.0"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+  <channel>
+    <title>CatholicPatrimony.com - Homilies for Daily Mass</title>
+    <link>http://www.catholicpatrimony.com/</link>
+        <language>en-us</language>
+    <webMaster>dtedesche@gmail.com (David Tedesche)</webMaster>
+    <managingEditor>dtedesche@gmail.com (David Tedesche)</managingEditor>
+    <image>
+      <url>http://www.catholicpatrimony.com/img/restoring.jpg</url>
+      <title>Sacred Art</title>
+      <link>http://www.catholicpatrimony.com</link>
+    </image>
+    <itunes:owner>
+      <itunes:email>dtedesche@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christian" />
+    </itunes:category>
+    <itunes:keywords>Catholic Patrimony Bible Apologetics Church Fathers Liturgy</itunes:keywords>
+    <itunes:image href="http://www.catholicpatrimony.com/img/christ_hagia.jpg"/>
+        <atom:link href="http://www.catholicpatrimony.com/daily_homilies/podcast.xml" rel="self" type="application/rss+xml" />
+
+      <item>
+      <title>20160612-11th Sunday in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160612-daily_homilies.mp3</link>
+            <pubDate>Sun, 12 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160612-daily_homilies.mp3" length="2590848" type="audio/mpeg"/>
+      <itunes:duration>00:10:47.46</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160612-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160611-Saturday of the 10th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160611-daily_homilies.mp3</link>
+            <pubDate>Sat, 11 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160611-daily_homilies.mp3" length="1038464" type="audio/mpeg"/>
+      <itunes:duration>00:04:19.28</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160611-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160610-Friday of the 10th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160610-daily_homilies.mp3</link>
+            <pubDate>Fri, 10 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160610-daily_homilies.mp3" length="2273408" type="audio/mpeg"/>
+      <itunes:duration>00:09:27.94</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160610-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160609-Thursday of the 10th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160609-daily_homilies.mp3</link>
+            <pubDate>Thu, 9 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160609-daily_homilies.mp3" length="2261120" type="audio/mpeg"/>
+      <itunes:duration>00:09:24.99</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160609-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160607-Tuesday of the 10th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160607-daily_homilies.mp3</link>
+            <pubDate>Tue, 7 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160607-daily_homilies.mp3" length="2136192" type="audio/mpeg"/>
+      <itunes:duration>00:08:53.82</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160607-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160603-The Feast of the Sacred Heart 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160603-daily_homilies.mp3</link>
+            <pubDate>Fri, 3 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160603-daily_homilies.mp3" length="1591200" type="audio/mpeg"/>
+      <itunes:duration>00:06:37.80</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160603-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160602-Thursday of the 9th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160602-daily_homilies.mp3</link>
+            <pubDate>Thu, 2 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160602-daily_homilies.mp3" length="1694496" type="audio/mpeg"/>
+      <itunes:duration>00:07:03.62</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160602-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160601-Wednesday of the 9th Week in Ordinary Time 2016 / Memorial of St. Justin Martyr</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160601-daily_homilies.mp3</link>
+            <pubDate>Wed, 1 Jun 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160601-daily_homilies.mp3" length="1232160" type="audio/mpeg"/>
+      <itunes:duration>00:05:08.04</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160601-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160531-The Feast of the Visitation 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160531-daily_homilies.mp3</link>
+            <pubDate>Tue, 31 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160531-daily_homilies.mp3" length="1493120" type="audio/mpeg"/>
+      <itunes:duration>00:06:13.21</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160531-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160529-The Feast of Corpus Christi 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160529-daily_homilies.mp3</link>
+            <pubDate>Sun, 29 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160529-daily_homilies.mp3" length="3154048" type="audio/mpeg"/>
+      <itunes:duration>00:13:08.31</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160529-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160528-Saturday of the 8th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160528-daily_homilies.mp3</link>
+            <pubDate>Sat, 28 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160528-daily_homilies.mp3" length="940160" type="audio/mpeg"/>
+      <itunes:duration>00:03:54.58</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160528-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160527-Friday of the 8th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160527-daily_homilies.mp3</link>
+            <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160527-daily_homilies.mp3" length="2056320" type="audio/mpeg"/>
+      <itunes:duration>00:08:33.99</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160527-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160525-Wednesday of the 8th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160525-daily_homilies.mp3</link>
+            <pubDate>Wed, 25 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160525-daily_homilies.mp3" length="1644672" type="audio/mpeg"/>
+      <itunes:duration>00:06:50.67</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160525-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160524-Tuesday of the 8th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160524-daily_homilies.mp3</link>
+            <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160524-daily_homilies.mp3" length="1734784" type="audio/mpeg"/>
+      <itunes:duration>00:07:13.18</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160524-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160522-The Feast of the Most Holy Trinity 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160522-daily_homilies.mp3</link>
+            <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160522-daily_homilies.mp3" length="3156096" type="audio/mpeg"/>
+      <itunes:duration>00:13:08.48</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160522-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160521-Saturday of the 7th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160521-daily_homilies.mp3</link>
+            <pubDate>Sat, 21 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160521-daily_homilies.mp3" length="1990784" type="audio/mpeg"/>
+      <itunes:duration>00:08:17.34</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160521-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160520-Friday of the 7th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160520-daily_homilies.mp3</link>
+            <pubDate>Fri, 20 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160520-daily_homilies.mp3" length="1443968" type="audio/mpeg"/>
+      <itunes:duration>00:06:00.54</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160520-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160519-Thursday of the 7th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160519-daily_homilies.mp3</link>
+            <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160519-daily_homilies.mp3" length="1624192" type="audio/mpeg"/>
+      <itunes:duration>00:06:45.82</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160519-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160518-Wednesday of the 7th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160518-daily_homilies.mp3</link>
+            <pubDate>Wed, 18 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160518-daily_homilies.mp3" length="878720" type="audio/mpeg"/>
+      <itunes:duration>00:03:39.22</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160518-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160517-Tuesday of the 7th Week in Ordinary Time 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160517-daily_homilies.mp3</link>
+            <pubDate>Tue, 17 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160517-daily_homilies.mp3" length="1958016" type="audio/mpeg"/>
+      <itunes:duration>00:08:09.13</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160517-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160515-The Feast of Pentecost 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160515-daily_homilies.mp3</link>
+            <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160515-daily_homilies.mp3" length="2381952" type="audio/mpeg"/>
+      <itunes:duration>00:09:55.11</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160515-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160514-Saturday of the 7th Week of Easter 2016 / Feast of St. Matthias</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160514-daily_homilies.mp3</link>
+            <pubDate>Sat, 14 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160514-daily_homilies.mp3" length="1544320" type="audio/mpeg"/>
+      <itunes:duration>00:06:25.64</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160514-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160513-Friday of the 7th Week of Easter 2016 / Our Lady of Fatima</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160513-daily_homilies.mp3</link>
+            <pubDate>Fri, 13 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160513-daily_homilies.mp3" length="2246784" type="audio/mpeg"/>
+      <itunes:duration>00:09:21.46</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160513-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160512-Thursday of the 7th Week of Easter 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160512-daily_homilies.mp3</link>
+            <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160512-daily_homilies.mp3" length="1607808" type="audio/mpeg"/>
+      <itunes:duration>00:06:41.77</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160512-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160508-Seventh Sunday of Easter 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160508-daily_homilies.mp3</link>
+            <pubDate>Sun, 8 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160508-daily_homilies.mp3" length="2838656" type="audio/mpeg"/>
+      <itunes:duration>00:11:49.21</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160508-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160506-Friday of the 6th Week of Easter 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160506-daily_homilies.mp3</link>
+            <pubDate>Fri, 6 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160506-daily_homilies.mp3" length="2027648" type="audio/mpeg"/>
+      <itunes:duration>00:08:26.65</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160506-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160505-Ascension Thursday 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160505-daily_homilies.mp3</link>
+            <pubDate>Thu, 5 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160505-daily_homilies.mp3" length="2011264" type="audio/mpeg"/>
+      <itunes:duration>00:08:22.54</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160505-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160503-Tuesday of the 6th Week of Easter 2016 / Sts. Philip and James</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160503-daily_homilies.mp3</link>
+            <pubDate>Tue, 3 May 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160503-daily_homilies.mp3" length="1224832" type="audio/mpeg"/>
+      <itunes:duration>00:05:06.08</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160503-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160424-Fifth Sunday of Easter 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160424-daily_homilies.mp3</link>
+            <pubDate>Sun, 24 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160424-daily_homilies.mp3" length="2463872" type="audio/mpeg"/>
+      <itunes:duration>00:10:15.78</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160424-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160423-Saturday of the 4th Week of Easter 2016 / St. George</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160423-daily_homilies.mp3</link>
+            <pubDate>Sat, 23 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160423-daily_homilies.mp3" length="1226880" type="audio/mpeg"/>
+      <itunes:duration>00:05:06.37</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160423-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160422-Friday of the 4th Week of Easter 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160422-daily_homilies.mp3</link>
+            <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160422-daily_homilies.mp3" length="1745024" type="audio/mpeg"/>
+      <itunes:duration>00:07:15.87</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160422-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>20160421-Thursday of the 4th Week of Easter 2016</title>
+      <link>http://www.catholicpatrimony.com/daily_homilies/audio/20160421-daily_homilies.mp3</link>
+            <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com/daily_homilies/audio/20160421-daily_homilies.mp3" length="1230976" type="audio/mpeg"/>
+      <itunes:duration>00:05:07.59</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com/daily_homilies/audio/20160421-daily_homilies.mp3</guid>
+    </item>
+        <item>
+      <title>59-Wednesday in the 26th Week of Ordinary Time / St. Jerome</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 30 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>58-Tuesday in the 26th Week of Ordinary Time / Michael, Gabriel, and Raphael</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 29 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>57-Thursday in the 26th Week of Ordinary Time / St. Therese</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 1 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>56-Friday in the 26th Week of Ordinary Time / Guardian Angels</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 2 Oct 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>55-Tuesday in the 24th Week of Ordinary Time</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 15 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>54-Friday in the 24th Week of Ordinary Time</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 18 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>53-Wednesday in the 23rd Week of Ordinary Time</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 9 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>52-Tuesday in the 23rd Week of Ordinary Time / Nativity of Mary</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 8 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>51-Thursday in the 23rd Week of Ordinary Time</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>50-Saturday in the 23rd Week of Ordinary Time</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Sat, 12 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>49-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 2 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>48-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 1 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>47-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 3 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>46-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 4 Sep 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>45-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>44-St. Monica</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>43-St. Augustine</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 28 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>42-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 12 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>41-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 14 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>40-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 5 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>38-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 4 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>37-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 6 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>36-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 7 Aug 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>35-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>34-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>33-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>32-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>31-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>30-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>29-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 24 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>28-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 15 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>27-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 14 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>26-Our Lady of Mount Carmel</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>25-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 17 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>24-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 8 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>23-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 7 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>22-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 9 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>21-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Sat, 11 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>19-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 10 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>18-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 1 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>17-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 30 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>16-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 2 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>15-Friday in the 13th Week of Ordinary Time / St Thomas the Apostle</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 3 Jul 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>14-Wednesday in the 12th Week of Ordinary Time / Solemnity of Birth of John Baptist</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>13-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>12-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Sat, 27 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>11-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 26 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>10-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 17 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>09-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 16 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>08-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>07-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>06-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Wed, 10 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>05-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>04-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Sat, 13 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>03-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Tue, 2 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>02-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Thu, 4 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+        <item>
+      <title>20150605-${class.title}</title>
+      <link>http://www.catholicpatrimony.com$class.link2mp3</link>
+            <pubDate>Fri, 5 Jun 2015 00:00:00 +0000</pubDate>
+      <enclosure url="http://www.catholicpatrimony.com${class.link2mp3}" length="${class.length}" type="audio/mpeg"/>
+      <itunes:duration>${class.duration}</itunes:duration>
+      <itunes:author>Reverend David Tedesche</itunes:author>
+      <itunes:subtitle/>
+            <guid>http://www.catholicpatrimony.com$class.link2mp3</guid>
+    </item>
+      </channel>
+</rss>

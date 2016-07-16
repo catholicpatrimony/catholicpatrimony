@@ -1,5 +1,12 @@
 //cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter, $uibModal) {
 cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter, $uibModal) {
+
+  if ($location.search().dt) {
+    $scope.dt = new Date($location.search().dt);
+  } else {
+    $scope.dt = new Date();
+  }
+
   //TODO - 
   //
   //  FEATURES:
@@ -64,8 +71,8 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
 
   $scope.set2weeks = function(day) {
-    $log.debug('set2weeks: ');
-    $log.debug(day);
+    //$log.debug('set2weeks: ');
+    //$log.debug(day);
     $scope.set2weeksday = day;
     var twoSundaysAgo = null;
     var sundaysCounted = 0;
@@ -98,7 +105,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     var monthDates = [];
     for (var i=0; i < 14; i++) {
       if (years.indexOf(day.getFullYear()) == -1) {
-        $log.debug("adding year: " + day.getFullYear());
+        //$log.debug("adding year: " + day.getFullYear());
         years.push(day.getFullYear());
       }
       if (months.indexOf(day.getMonth()) == -1) {
@@ -150,7 +157,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     return dayStr;
   }
 
-  $scope.set2weeks(new Date());
+  $scope.set2weeks($scope.dt);
 
   $scope.back = function() {
     var anotherTwoWeeksBack = new Date($scope.secondWeek[1].dateObj.getTime());
@@ -159,6 +166,9 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     anotherTwoWeeksBack.setDate(anotherTwoWeeksBack.getDate() - 14);
     //$log.debug('anotherTwoWeeksBack 2: ' + $scope.getDayStr(anotherTwoWeeksBack));
     $scope.set2weeks(anotherTwoWeeksBack);
+    var dtStr = $filter('date')(new Date(anotherTwoWeeksBack),'yyyy-MM-dd');
+    //$log.debug('dtStr: ' + dtStr);
+    $location.search('dt', dtStr);
     //$log.debug('back()');
   }
 
@@ -166,6 +176,9 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     var twoweeksforward = new Date($scope.secondWeek[1].dateObj.getTime());
     twoweeksforward.setDate(twoweeksforward.getDate() + 14);
     $scope.set2weeks(twoweeksforward);
+    var dtStr = $filter('date')(new Date(twoweeksforward),'yyyy-MM-dd');
+    //$log.debug('dtStr: ' + dtStr);
+    $location.search('dt', dtStr);
     //$log.debug('forward()');
   }
 

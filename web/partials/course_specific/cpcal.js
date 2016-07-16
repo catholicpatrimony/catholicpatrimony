@@ -35,9 +35,12 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       homiliesByStringifiedDate[c.date] = c;
       //$log.debug('c.date: ' + c.date);
     } else {
-      var regex = /([0-9]{4})-0?([1-9]{1,2})-0?([1-9]{1,2}).*/
+      var regex = /([0-9]{4})-0?([1-9]{1,2}[0]?)-0?([1-9]{1,2}[0]?).*/
       var m = regex.exec(c['audio']);
       if (m != null) {
+        //$log.debug('m[1]: ' + m[1]);
+        //$log.debug('m[2]: ' + m[2]);
+        //$log.debug('m[3]: ' + m[3]);
         var origDateFormat = m[2] + '/' + m[3] + '/' + m[1];
         //$log.debug('origDateFormat: ' + origDateFormat);
         c.date = origDateFormat;

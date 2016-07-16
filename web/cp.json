@@ -26,8 +26,8 @@ cp = [
                     "Pliny's Letter to Trajan"
                 ],
                 "volume_boost": "4",
-                "duration": "00:47:57.67",
-                "length": "11510688",
+                "duration": "01:25:08.24",
+                "length": "20435072",
                 "link2mp3": "/uncovering_2015/audio/01-uncovering_2015.mp3",
                 "handout_links": [
                     "/uncovering_2015/docs/01-Introduction_to_the_Fathers.pdf",
@@ -1034,6 +1034,123 @@ cp = [
     },
     {
         "classes": [
+            {
+                "audio": "2016-07-14.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Thursday of the 15th Week in Ordinary Time 2016",
+                    "St. Kateri Tekakwitha"
+                ],
+                "tags": "Christian_suffering",
+                "id": "20160714",
+                "date": "07/14/2016",
+                "rssDate": "Thu, 14 Jul 2016 00:00:00 +0000",
+                "dateId": "20160714",
+                "title": "Thursday of the 15th Week in Ordinary Time 2016 / St. Kateri Tekakwitha",
+                "newAudio": "20160714-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:52.62",
+                "length": "1650816",
+                "link2mp3": "/daily_homilies/audio/20160714-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-12.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 15th Week in Ordinary Time 2016",
+                "tags": "confession punishment_and_forgiveness",
+                "id": "20160712",
+                "date": "07/12/2016",
+                "rssDate": "Tue, 12 Jul 2016 00:00:00 +0000",
+                "dateId": "20160712",
+                "title": "Tuesday of the 15th Week in Ordinary Time 2016",
+                "newAudio": "20160712-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:18.30",
+                "length": "2234496",
+                "link2mp3": "/daily_homilies/audio/20160712-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-11.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Monday of the 15th Week in Ordinary Time 2016",
+                    "St. Benedict of Nursia"
+                ],
+                "id": "20160711",
+                "date": "07/11/2016",
+                "rssDate": "Mon, 11 Jul 2016 00:00:00 +0000",
+                "dateId": "20160711",
+                "title": "Monday of the 15th Week in Ordinary Time 2016 / St. Benedict of Nursia",
+                "newAudio": "20160711-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:58.71",
+                "length": "2156672",
+                "link2mp3": "/daily_homilies/audio/20160711-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-10.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "15th Sunday in Ordinary Time 2016",
+                "tags": "good_samaritan confession balance_between_mercy_and_severity",
+                "id": "20160710",
+                "date": "07/10/2016",
+                "rssDate": "Sun, 10 Jul 2016 00:00:00 +0000",
+                "dateId": "20160710",
+                "title": "15th Sunday in Ordinary Time 2016",
+                "newAudio": "20160710-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:11:20.84",
+                "length": "2723968",
+                "link2mp3": "/daily_homilies/audio/20160710-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-08.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Friday of the 14th Week in Ordinary Time 2016",
+                "id": "20160708",
+                "date": "07/08/2016",
+                "rssDate": "Fri, 8 Jul 2016 00:00:00 +0000",
+                "dateId": "20160708",
+                "title": "Friday of the 14th Week in Ordinary Time 2016",
+                "newAudio": "20160708-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:22.23",
+                "length": "1529984",
+                "link2mp3": "/daily_homilies/audio/20160708-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-07.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Thursday of the 14th Week in Ordinary Time 2016",
+                "id": "20160707",
+                "date": "07/07/2016",
+                "rssDate": "Thu, 7 Jul 2016 00:00:00 +0000",
+                "dateId": "20160707",
+                "title": "Thursday of the 14th Week in Ordinary Time 2016",
+                "newAudio": "20160707-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:03:37.50",
+                "length": "870528",
+                "link2mp3": "/daily_homilies/audio/20160707-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-07-06.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Wednesday of the 14th Week in Ordinary Time 2016",
+                    "St. Maria Goretti"
+                ],
+                "id": "20160706",
+                "date": "07/06/2016",
+                "rssDate": "Wed, 6 Jul 2016 00:00:00 +0000",
+                "dateId": "20160706",
+                "title": "Wednesday of the 14th Week in Ordinary Time 2016 / St. Maria Goretti",
+                "newAudio": "20160706-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:23.26",
+                "length": "2013312",
+                "link2mp3": "/daily_homilies/audio/20160706-daily_homilies.mp3"
+            },
             {
                 "audio": "2016-07-05.wav",
                 "liturgical_year": "2",
@@ -2364,6 +2481,9 @@ cp = [
                     "From Pope to Parish Power Point"
                 ],
                 "volume_boost": "4",
+                "duration": "02:23:03.10",
+                "length": "34333056",
+                "link2mp3": "/misc/audio/01-misc.mp3",
                 "handout_links": [
                     "/misc/docs/01-From_Pope_to_Parish_Outline_(18_pages).pdf",
                     "/misc/docs/01-From_Pope_to_Parish_Power_Point.pdf"
@@ -2391,6 +2511,9 @@ cp = [
                     "Handout for Teachers Retreat"
                 ],
                 "volume_boost": "4",
+                "duration": "00:34:33.40",
+                "length": "8294208",
+                "link2mp3": "/misc/audio/02-misc.mp3",
                 "handout_links": [
                     "/misc/docs/02-Handout_for_Teachers_Retreat.pdf"
                 ]
@@ -2404,7 +2527,10 @@ cp = [
                 "dateId": "20150320",
                 "audio": "LentenTeacherRetreatCentralityofEucharisttoSpiritualLife.MP3",
                 "newAudio": "03-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:23:07.21",
+                "length": "5549472",
+                "link2mp3": "/misc/audio/03-misc.mp3"
             },
             {
                 "id": "04",
@@ -2415,7 +2541,10 @@ cp = [
                 "dateId": "20150704",
                 "audio": "FirstSaturdayTalkJuly2015SupremeCourtDecisionSameSexMarriage.wav",
                 "newAudio": "04-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:24:07.83",
+                "length": "5791872",
+                "link2mp3": "/misc/audio/04-misc.mp3"
             },
             {
                 "id": "05",
@@ -2426,7 +2555,10 @@ cp = [
                 "dateId": "20150801",
                 "audio": "FirstSarurdayTalkAugust2015SameSexMarriage.wav",
                 "newAudio": "05-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:36:05.50",
+                "length": "8663168",
+                "link2mp3": "/misc/audio/05-misc.mp3"
             },
             {
                 "id": "06",
@@ -2437,7 +2569,10 @@ cp = [
                 "dateId": "20151004",
                 "audio": "FS2015YOctAbortionMotives.wav",
                 "newAudio": "06-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:21:16.98",
+                "length": "5109888",
+                "link2mp3": "/misc/audio/06-misc.mp3"
             },
             {
                 "id": "07",
@@ -2448,7 +2583,10 @@ cp = [
                 "dateId": "20151013",
                 "audio": "IntroMorals2015.wav",
                 "newAudio": "07-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "02:16:29.00",
+                "length": "32757888",
+                "link2mp3": "/misc/audio/07-misc.mp3"
             },
             {
                 "id": "08",
@@ -2459,7 +2597,10 @@ cp = [
                 "dateId": "20151202",
                 "audio": "FS2015YDecApocalypticStNicholas.wav",
                 "newAudio": "08-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:20:54.92",
+                "length": "5021824",
+                "link2mp3": "/misc/audio/08-misc.mp3"
             },
             {
                 "id": "09",
@@ -2470,7 +2611,10 @@ cp = [
                 "dateId": "20160102",
                 "audio": "FS2016YJanDiscerningHeresy.wav",
                 "newAudio": "09-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:18:59.48",
+                "length": "4558976",
+                "link2mp3": "/misc/audio/09-misc.mp3"
             },
             {
                 "id": "10",
@@ -2481,7 +2625,10 @@ cp = [
                 "dateId": "20160305",
                 "audio": "FS2016YMarchFireofHellContrition.wav",
                 "newAudio": "10-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:21:16.02",
+                "length": "5105792",
+                "link2mp3": "/misc/audio/10-misc.mp3"
             },
             {
                 "id": "11",
@@ -2492,7 +2639,10 @@ cp = [
                 "dateId": "20160402",
                 "audio": "FS2016YAprilPostAbortWomenUncLoveAtone.wav",
                 "newAudio": "11-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:12:22.71",
+                "length": "2971776",
+                "link2mp3": "/misc/audio/11-misc.mp3"
             },
             {
                 "id": "12",
@@ -2503,7 +2653,10 @@ cp = [
                 "dateId": "20160507",
                 "audio": "FS2016YMayFaithHopeAnchor.wav",
                 "newAudio": "12-misc.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:18:24.75",
+                "length": "4419712",
+                "link2mp3": "/misc/audio/12-misc.mp3"
             }
         ],
         "seriesData": {
@@ -2513,6 +2666,20 @@ cp = [
     },
     {
         "classes": [
+            {
+                "id": "94",
+                "title": "15th Sunday in Ordinary Time 2016",
+                "detail": "Jesus as the Good Samaritan and the Confessor as the Innkeeper",
+                "date": "7/10/2016",
+                "rssDate": "Sun, 10 Jul 2016 00:00:00 +0000",
+                "dateId": "20160710",
+                "audio": "2016-07-10.wav",
+                "newAudio": "94-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:11:20.84",
+                "length": "2723968",
+                "link2mp3": "/Sunday_Homilies/audio/94-Sunday_Homilies.mp3"
+            },
             {
                 "id": "93",
                 "title": "14th Sunday in Ordinary Time 2016",
@@ -5299,7 +5466,10 @@ cp = [
                 "dateId": "20121117",
                 "audio": "Apol. Class for 11-27-2012 (Theism and Science).MP3",
                 "newAudio": "01-apologetics.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "02:18:58.66",
+                "length": "33355200",
+                "link2mp3": "/apologetics/audio/01-apologetics.mp3"
             },
             {
                 "id": "02",
@@ -5309,7 +5479,10 @@ cp = [
                 "dateId": "20130117",
                 "audio": "Apol. Class for 1-17-2013 (Evidence for Christ).MP3",
                 "newAudio": "02-apologetics.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "02:47:54.93",
+                "length": "40300321",
+                "link2mp3": "/apologetics/audio/02-apologetics.mp3"
             },
             {
                 "id": "03",
@@ -5319,7 +5492,10 @@ cp = [
                 "dateId": "20130124",
                 "audio": "Apol. Class for 1-24-2013 (John and Evidence for the Church).MP3",
                 "newAudio": "03-apologetics.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "02:35:47.68",
+                "length": "37391328",
+                "link2mp3": "/apologetics/audio/03-apologetics.mp3"
             }
         ],
         "seriesData": {
@@ -5351,6 +5527,9 @@ cp = [
                     "Opening Rites"
                 ],
                 "volume_boost": "4",
+                "duration": "01:33:10.35",
+                "length": "22362120",
+                "link2mp3": "/new_mass_translation/audio/01-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/01-Opening_Rites.pdf"
                 ]
@@ -5377,6 +5556,9 @@ cp = [
                     "Sacrosanctum Concilium"
                 ],
                 "volume_boost": "4",
+                "duration": "01:25:29.73",
+                "length": "20519601",
+                "link2mp3": "/new_mass_translation/audio/02-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/02-Sacrosanctum_Concilium.pdf"
                 ]
@@ -5403,6 +5585,9 @@ cp = [
                     "Liturgy of the Word"
                 ],
                 "volume_boost": "4",
+                "duration": "01:30:14.11",
+                "length": "21657102",
+                "link2mp3": "/new_mass_translation/audio/03-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/03-Liturgy_of_the_Word.pdf"
                 ]
@@ -5429,6 +5614,9 @@ cp = [
                     "Offertory and Roman Canon"
                 ],
                 "volume_boost": "4",
+                "duration": "01:17:35.48",
+                "length": "18622644",
+                "link2mp3": "/new_mass_translation/audio/04-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/04-Offertory_and_Roman_Canon.pdf"
                 ]
@@ -5455,6 +5643,9 @@ cp = [
                     "Preface and Theology of Eucharist"
                 ],
                 "volume_boost": "4",
+                "duration": "01:27:52.82",
+                "length": "21091968",
+                "link2mp3": "/new_mass_translation/audio/05-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/05-Preface_and_Theology_of_Eucharist.pdf"
                 ]
@@ -5481,6 +5672,9 @@ cp = [
                     "Theology of Eucharist"
                 ],
                 "volume_boost": "4",
+                "duration": "01:34:06.18",
+                "length": "22585428",
+                "link2mp3": "/new_mass_translation/audio/06-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/06-Theology_of_Eucharist.pdf"
                 ]
@@ -5511,6 +5705,9 @@ cp = [
                     "Propers Handout"
                 ],
                 "volume_boost": "4",
+                "duration": "01:33:18.06",
+                "length": "22392960",
+                "link2mp3": "/new_mass_translation/audio/07-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/07-Liturgiam_Authenticam_and_the_Propers.pdf",
                     "/new_mass_translation/docs/07-Propers_Handout.pdf"
@@ -5542,6 +5739,9 @@ cp = [
                     "Overhead"
                 ],
                 "volume_boost": "4",
+                "duration": "01:21:29.75",
+                "length": "19559696",
+                "link2mp3": "/new_mass_translation/audio/08-new_mass_translation.mp3",
                 "handout_links": [
                     "/new_mass_translation/docs/08-Sacramentum_Caritatis.pdf",
                     "/new_mass_translation/docs/08-Overhead.pdf"

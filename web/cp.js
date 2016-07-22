@@ -8,17 +8,17 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       .when('/', {
         reloadOnSearch: false,
         controller:'MainController',
-        templateUrl:'partials/main.html?cbp=20160710b'
+        templateUrl:'partials/main.html?cbp=20160720babb'
       })
       .when('/class', {
-        reloadOnSearch: true,
+        reloadOnSearch: false,
         controller:'ClassController',
-        templateUrl:'partials/courseContent.html?cbp=20160710b'
+        templateUrl:'partials/courseContent.html?cbp=20160720babb'
       })
       .when('/session', {
-        reloadOnSearch: true,
+        reloadOnSearch: false,
         controller:'SessionController',
-        templateUrl:'partials/session.html?cbp=20160710b'
+        templateUrl:'partials/session.html?cbp=20160720babb'
       })
       .otherwise({
         redirectTo:'/'
@@ -211,3 +211,16 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
     */
     $scope.assignDisqusParams($scope);
   });
+
+  
+function arrayUnique(array) {
+  var a = array.concat();
+  for(var i=0; i<a.length; ++i) {
+      for(var j=i+1; j<a.length; ++j) {
+          if(a[i] === a[j])
+              a.splice(j--, 1);
+      }
+  }
+
+  return a;
+}

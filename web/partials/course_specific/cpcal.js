@@ -12,13 +12,28 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   //  FEATURES:
   //    2 -have a date picker?
   //    3 - pick the date off the url
-  $scope.parseLiturgicalDay = function(homiliesByName, c, j) {
+  $scope.parseLiturgicalDay = function(homiliesByName, homiliesArr, c, j) {
     //$log.debug(c);
+    /*
     if (c['liturgical_year'] && j == 0) {
-      homiliesByName[c.liturgical_day[j] + '-' + c.liturgical_year] = c;
+      homiliesArr.push(c.liturgical_day[j]);
+      homiliesByName[c.liturgical_day[j]] = c;
+      //homiliesByName[c.liturgical_day[j] + '-' + c.liturgical_year] = c;
     } else {
+      homiliesArr.push(c.liturgical_day[j]);
       homiliesByName[c.liturgical_day[j]] = c;
     }
+    */
+    if (!c.hasOwnProperty('searchText')) {
+      c['searchText'] = c.liturgical_day[j];
+      homiliesArr.push(c);
+    } else {
+      c['searchText'] = c['searchText'] + ' ' + c.liturgical_day[j];
+      //c['searchText'] = c.liturgical_day[j];
+    }
+    $log.debug(c.searchText);
+    homiliesByName[c.liturgical_day[j]] = c;
+    //$log.debug(c.liturgical_day[j]);
     /*
     //DH2015Y13WeekOrdTFri(FeastofThomasApostle).wav
     if (//DH20[0-9]{2}Y([0-9]{1-2}) ) {
@@ -32,6 +47,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
   var sd = $scope.sd;
   var homiliesByName = {};
+  var homiliesArr = [];
   var homiliesByStringifiedDate = {};
   //$log.debug('$scope.classes: ');
   //$log.debug($scope.classes);
@@ -42,13 +58,15 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       homiliesByStringifiedDate[c.date] = c;
       //$log.debug('c.date: ' + c.date);
     } else {
-      var regex = /([0-9]{4})-0?([1-9]{1,2}[0]?)-0?([1-9]{1,2}[0]?).*/
+      //var regex = /([0-9]{4})-0?([1-9]{1,2}[0]?)-0?([1-9]{1,2}[0]?).*/
+      var regex = /([0-9]{4})-([0-9]{2})-([0-9]{2}).*/
       var m = regex.exec(c['audio']);
       if (m != null) {
         //$log.debug('m[1]: ' + m[1]);
         //$log.debug('m[2]: ' + m[2]);
         //$log.debug('m[3]: ' + m[3]);
-        var origDateFormat = m[2] + '/' + m[3] + '/' + m[1];
+        //var origDateFormat = m[2] + '/' + m[3] + '/' + m[1];
+        var origDateFormat = m[1] + '-' + m[2] + '-' + m[3];
         //$log.debug('origDateFormat: ' + origDateFormat);
         c.date = origDateFormat;
         homiliesByStringifiedDate[origDateFormat] = c;
@@ -60,9 +78,42 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         c.liturgical_day = [c.liturgical_day];
       }
       for (var j=0; j < c.liturgical_day.length; j++) {
-        $scope.parseLiturgicalDay(homiliesByName, c, j);
+        $scope.parseLiturgicalDay(homiliesByName, homiliesArr, c, j);
       }
     }
+  }
+  homiliesArr;
+
+
+  $scope.updateSearch = function() {
+    var matchingArr1 = [];
+    var noText = true;
+    if ($scope.searchText1.val != '') {
+      matchingArr1 = $filter('filter')(homiliesArr, {'searchText': $scope.searchText1.val});
+      $log.debug('matchingArr1.length: ' + matchingArr1.length);
+      for (var i = 0; i < matchingArr1.length; i++) {
+        $log.debug('matchingArr1['+i+']:');
+        $log.debug(matchingArr1[i]);
+      }
+      noText = false;
+    }
+    var matchingArr2 = [];
+    if ($scope.searchText2.val != '') {
+      matchingArr2 = $filter('filter')(homiliesArr, {'searchText': $scope.searchText2.val});
+      noText = false;
+    }
+    $scope.matchingArr = arrayUnique(matchingArr1.concat(matchingArr2));
+    $scope.noResults = false;
+    $scope.tooManyResults = false;
+    if ($scope.matchingArr.length > 20 || noText) {
+      $scope.tooManyResults = true;
+    } else if ($scope.matchingArr.length == 0) {
+      $scope.noResults = true;
+    } else {
+    }
+
+    $log.debug('matchingArr');
+    $log.debug($scope.matchingArr);
   }
   //$log.debug('homiliesByName: ');
   //$log.debug(homiliesByName);
@@ -152,7 +203,19 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   }
 
   $scope.getDayStr = function(day) {
-    var dayStr = (day.getMonth() + 1) + '/' + day.getDate() + '/' + day.getFullYear();
+    //var dayStr = (day.getMonth() + 1) + '/' + day.getDate() + '/' + day.getFullYear();
+    var dayStr = day.getFullYear();
+    dayStr += '-';
+    if (day.getMonth() < 9) {
+      dayStr += '0'
+    }
+    dayStr += day.getMonth() + 1;
+    dayStr += '-';
+    if (day.getDate() < 10) {
+      dayStr += '0'
+    }
+    dayStr += day.getDate();
+
     //$log.debug('dayStr: ' + dayStr);
     return dayStr;
   }
@@ -182,16 +245,16 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     //$log.debug('forward()');
   }
 
-  $scope.showDay = function(d, ld) {
+  $scope.showDay = function(d) {
     $log.debug('showDay(d): ');
     $log.debug(d);
 
-    d.litdaySelected = ld;
+    //d.litdaySelected = ld;
     $scope.showingDay = true;
-    $scope.day2show = d;
-    $scope.c = d.cpObj;
+    //$scope.day2show = d;
+    $scope.c = d;
     //$location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
-    $scope.sessionId = d.cpObj.id;
+    $scope.sessionId = d.id;
     $log.debug('showDay.sessionId: ' + $scope.sessionId);
     //$location.search({'course' : $scope.course, 'sessionId': d.cpObj.id});
     //$scope.disqusConfig = $scope.assignDisqusParams($scope);
@@ -199,40 +262,64 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $log.debug('$scope.disqusConfig.disqus_shortname: '+ $scope.disqusConfig.disqus_shortname);
 
       //templateUrl: 'partials/course_specific/daily_modal.html',
+    $location.search('showDay', d.date);
+    $scope.searchText1 = { 'val': ''};
+    $scope.searchText2 = { 'val': ''};
+    $scope.$watch('searchText1.val', function(newValue, oldValue) {
+      $log.debug('searchText1 updated');
+      if (oldValue != newValue) {
+        $scope.updateSearch();
+      }
+    });
+    $scope.$watch('searchText2.val', function(newValue, oldValue) {
+      $log.debug('searchText2 updated');
+      if (oldValue != newValue) {
+        $scope.updateSearch();
+      }
+    });
+    $scope.updateSearch();
     var modalInstance = $uibModal.open({
       animation: true,
-      templateUrl: 'partials/session.html?CBP=20160612',
-      controller: 'ModalInstanceCtrl',
+      templateUrl: 'partials/course_specific/daily_session.html?cbp=20160720ba',
+      controller: ModalInstanceCtrl,
       size: 'lg',
-      resolve: {
-        parentScope: function() {
-          return $scope;
-        }
-      }
-      //bindToController: true
+      scope: $scope,
+      preserveScope: true,
+      bindToController: true
     });
-    /*
-      */
+    modalInstance.result.then(function (selectedItem) {
+      $scope.selected = selectedItem;
+    }, function () {
+      $log.debug($scope.searchText1.val);
+      $log.info('Modal dismissed at: ' + new Date());
+      $location.search('showDay', null);
+    });
   }
 
-});
 
-cpApp.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, parentScope) {
-//cpApp.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance) {
-
-  $scope.c = parentScope.c;
-  $scope.day2show = parentScope.day2show;
-  $scope.sd = parentScope.sd;
-  $scope.disqusConfig = parentScope.disqusConfig;
-  $scope.sessionId = parentScope.sessionId;
-  /*
-  */
+  if ($location.search().showDay) {
+    $log.debug('homiliesByStringifiedDate[$location.search().showDay]: ');
+    $log.debug(homiliesByStringifiedDate[$location.search().showDay]);
+    $scope.showDay(homiliesByStringifiedDate[$location.search().showDay]);
+  }
 
   $scope.ok = function () {
+    $log.debug('ok');
     $uibModalInstance.close();
+    $location.search('showDay', null);
   };
 
   $scope.cancel = function () {
+    $log.debug('cancel');
     $uibModalInstance.dismiss('cancel');
+    $location.search('showDay', null);
   };
+
 });
+
+var ModalInstanceCtrl =  function ($scope, $controller, $window, $http, $log, $location) {
+
+//cpApp.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance, parentScope) {
+//cpApp.controller('ModalInstanceCtrl', function ($scope, $uibModalInstance) {
+
+}

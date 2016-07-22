@@ -33,3 +33,28 @@ a:hover {
 .cp-icon {
   margin-left: 10px;
 }
+
+.container-daily_homilies {
+  max-width: none;
+}
+
+.cal_table {
+  font-size: 85%; 
+  /*
+  border-color: #DCDCDC;
+  */
+  border-collapse: collapse;
+  border-color: #DCDCDC;
+  border-style: solid;
+}
+
+.cal_cell {
+  text-align: center; 
+  padding: 5px; 
+  height: 100px;
+}
+
+.day_divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

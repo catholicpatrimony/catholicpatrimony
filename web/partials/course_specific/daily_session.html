@@ -2,22 +2,27 @@
   <div>
     <br ng-if="c.title"/>
     <div>
-      <strong>{{c.title}}</strong>
+      <strong>{{c.title}} - {{c.date}}</strong>
+      <br />
+      {{ c.detail }}
     </div>
-    <span ng-if="c.detail">{{c.detail}}</span><br />
+    <span ng-if="c.detail">{{c.detail}}</span>
     <!--
     <div style="max-width=: 70%;">
     -->
     <span ng-include="'partials/audio_and_docs.html?cbp=20160720babb'"></span>
+    <br />
+    <div>Search for related homilies:</div>
     <div ng-if="sd.normalized_name == 'daily_homilies'">
-      <input type="text" ng-model="searchText1.val" />
+      <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
       or
-      <input type="text" ng-model="searchText2.val" />
+      <input type="text" ng-model="searchText2.val" style="width: 300px;" />
+      <br />
       <div ng-if="!tooManyResults" ng-repeat="ma in matchingArr track by $index">
-        {{ma.title}}
+        <a href="javascript:void(null);" ng-click="showDay(ma);">{{ma.title}}</a>
       </div>
       <div ng-if="tooManyResults">
-        too many results - refine search
+        Too many results.  Refine your search.
       </div>
       <div ng-if="noResults">
         no results

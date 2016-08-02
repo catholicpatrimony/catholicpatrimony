@@ -31,7 +31,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       c['searchText'] = c['searchText'] + ' ' + c.liturgical_day[j];
       //c['searchText'] = c.liturgical_day[j];
     }
-    $log.debug(c.searchText);
+    //$log.debug(c.searchText);
     homiliesByName[c.liturgical_day[j]] = c;
     //$log.debug(c.liturgical_day[j]);
     /*
@@ -110,6 +110,11 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     } else if ($scope.matchingArr.length == 0) {
       $scope.noResults = true;
     } else {
+      for (var i=0; i < $scope.matchingArr.length; i++) {
+        if ($scope.c.id == $scope.matchingArr[i].id) {
+          $scope.matchingArr.splice(i, 1);
+        }
+      }
     }
 
     $log.debug('matchingArr');
@@ -245,6 +250,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     //$log.debug('forward()');
   }
 
+  $scope.showDayModalIsOpen = false;
   $scope.showDay = function(d) {
     $log.debug('showDay(d): ');
     $log.debug(d);
@@ -272,45 +278,58 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       }
     });
     $scope.$watch('searchText2.val', function(newValue, oldValue) {
-      $log.debug('searchText2 updated');
+      //$log.debug('searchText2 updated');
       if (oldValue != newValue) {
         $scope.updateSearch();
       }
     });
+    if (d.hasOwnProperty('liturgical_day')) {
+      for (var i=0; i < d.liturgical_day.length; i++) {
+        if (i == 0) {
+          $scope.searchText1.val = d.liturgical_day[i];
+        } else {
+          $scope.searchText2.val = d.liturgical_day[i];
+        }
+      }
+    }
     $scope.updateSearch();
-    var modalInstance = $uibModal.open({
-      animation: true,
-      templateUrl: 'partials/course_specific/daily_session.html?cbp=20160720ba',
-      controller: ModalInstanceCtrl,
-      size: 'lg',
-      scope: $scope,
-      preserveScope: true,
-      bindToController: true
-    });
-    modalInstance.result.then(function (selectedItem) {
-      $scope.selected = selectedItem;
-    }, function () {
-      $log.debug($scope.searchText1.val);
-      $log.info('Modal dismissed at: ' + new Date());
-      $location.search('showDay', null);
-    });
+    if (!$scope.showDayModalIsOpen) {
+      $scope.showDayModalIsOpen = true;
+      var modalInstance = $uibModal.open({
+        animation: true,
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20160720ba',
+        controller: ModalInstanceCtrl,
+        size: 'lg',
+        scope: $scope,
+        preserveScope: true,
+        bindToController: true
+      });
+      modalInstance.result.then(function (selectedItem) {
+        $scope.selected = selectedItem;
+      }, function () {
+        $scope.showDayModalIsOpen = false;
+        //$log.debug($scope.searchText1.val);
+        //$log.info('Modal dismissed at: ' + new Date());
+        $location.search('showDay', null);
+      });
+    }
   }
 
 
   if ($location.search().showDay) {
-    $log.debug('homiliesByStringifiedDate[$location.search().showDay]: ');
-    $log.debug(homiliesByStringifiedDate[$location.search().showDay]);
+    //$log.debug('homiliesByStringifiedDate[$location.search().showDay]: ');
+    //$log.debug(homiliesByStringifiedDate[$location.search().showDay]);
     $scope.showDay(homiliesByStringifiedDate[$location.search().showDay]);
   }
 
   $scope.ok = function () {
-    $log.debug('ok');
+    //$log.debug('ok');
     $uibModalInstance.close();
     $location.search('showDay', null);
   };
 
   $scope.cancel = function () {
-    $log.debug('cancel');
+    //$log.debug('cancel');
     $uibModalInstance.dismiss('cancel');
     $location.search('showDay', null);
   };

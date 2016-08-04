@@ -9,9 +9,28 @@
     <!--
     <div style="max-width=: 70%;">
     -->
-    <span ng-include="'partials/audio_and_docs.html?cbp=20160803'"></span>
-    &nbsp;&nbsp;tags {{ c.tags }}
+    <span ng-include="'partials/audio_and_docs.html?cbp=20190803'"></span>
+    <span ng-if="c.tags">
+      &nbsp;&nbsp; TAGS: {{ c.tags }}
+    </span>
     <br />
+    <br />
+    <div>Search for related homilies:</div>
+    <div ng-if="sd.normalized_name == 'daily_homilies'">
+      <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
+      or
+      <input type="text" ng-model="searchText2.val" style="width: 300px;" />
+      <br />
+      <div ng-if="!tooManyResults" ng-repeat="ma in matchingArr track by $index">
+        <a href="javascript:void(null);" ng-click="showDay(ma);">{{ma.title}}</a>
+      </div>
+      <div ng-if="tooManyResults">
+        Too many results.  Refine your search.
+      </div>
+      <div ng-if="noResults">
+        no results
+      </div>
+    </div>
     <br />
     <span ng-if="!show_disqus">
       <!--
@@ -29,22 +48,6 @@
            ready-to-bind="{{ myDisqus_contentLoaded }}">
       </dir-disqus>
     </span>
-    <div>Search for related homilies:</div>
-    <div ng-if="sd.normalized_name == 'daily_homilies'">
-      <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
-      or
-      <input type="text" ng-model="searchText2.val" style="width: 300px;" />
-      <br />
-      <div ng-if="!tooManyResults" ng-repeat="ma in matchingArr track by $index">
-        <a href="javascript:void(null);" ng-click="showDay(ma);">{{ma.title}}</a>
-      </div>
-      <div ng-if="tooManyResults">
-        Too many results.  Refine your search.
-      </div>
-      <div ng-if="noResults">
-        no results
-      </div>
-    </div>
     <br />
     <br />
   </div>

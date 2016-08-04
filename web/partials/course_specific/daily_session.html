@@ -15,9 +15,9 @@
     <br />
     <span ng-if="!show_disqus">
       <!--
-      <a href="javascript:void(null);" ng-click="show_disqus = true;">show comments</a>
+      <a ng-click="show_disqus = true;">show comments</a>
       -->
-      <a ng-click="showComments()">show comments</a>
+      <a href="javascript:void(null);" ng-click="showComments()">show comments</a>
     </span>
     <span ng-if="show_disqus">
       <dir-disqus config="disqusConfig"></dir-disqus>

@@ -1,7 +1,7 @@
 <div ng-if="sd" ng-class="'container-'+sd.normalized_name" class="container">
   <h3 ng-if="sd.normalized_name != 'daily_homilies'">{{sd.title}}</h3>
   <p ng-if="sd.gdoc_above_classes" ng-include="trustSrc(sd.gdoc_above_classes)" onload="gdoc_loaded();"></p>
-  <p ng-if="sd.customTemplate" ng-include="'partials/course_specific/' + sd.normalized_name + '.html?cbp=20160720babb'">{{sd.normalized_name}}.html</p>
+  <p ng-if="sd.customTemplate" ng-include="'partials/course_specific/' + sd.normalized_name + '.html?20160803babb'">{{sd.normalized_name}}.html</p>
 
   <div ng-if="classes && sd.includeZips" style="font-weight: bold">Bundled Downloads</div>
   <div style="margin-left: 20px">
@@ -25,7 +25,7 @@
     </div>
     <span ng-if="c.detail">{{c.detail}}</span><br ng-if="c.detail"/>
 
-    <span ng-include="'partials/audio_and_docs.html?cbp=20160720babb'"></span>
+    <span ng-include="'partials/audio_and_docs.html?20160803babb'"></span>
     <div class="row">
       <div class="col-xs-1 col-md-1">
         <a href="" class="cp-icon" ng-click="sessionClicked(c);" style="text-decoration:none">

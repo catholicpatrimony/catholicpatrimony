@@ -1035,6 +1035,45 @@ cp = [
     {
         "classes": [
             {
+                "audio": "2016-08-02.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Tuesday of the 18th Week in Ordinary Time 2016",
+                    "St. Peter Julian Eymard"
+                ],
+                "tags": "real_presence eucharist peace reconciliation_with_neighbor",
+                "id": "20160802",
+                "date": "08/02/2016",
+                "rssDate": "Tue, 2 Aug 2016 00:00:00 +0000",
+                "dateId": "20160802",
+                "title": "Tuesday of the 18th Week in Ordinary Time 2016 / St. Peter Julian Eymard",
+                "newAudio": "20160802-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:04:38.74",
+                "length": "1116288",
+                "link2mp3": "/daily_homilies/audio/20160802-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-01.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Monday of the 18th Week in Ordinary Time 2016",
+                    "St. Alphonsus Liguori "
+                ],
+                "tags": "people_as_basically_good eucharist real_presence",
+                "id": "20160801",
+                "date": "08/01/2016",
+                "rssDate": "Mon, 1 Aug 2016 00:00:00 +0000",
+                "dateId": "20160801",
+                "title": "Monday of the 18th Week in Ordinary Time 2016 / St. Alphonsus Liguori ",
+                "newAudio": "20160801-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:25.66",
+                "length": "2263168",
+                "link2mp3": "/daily_homilies/audio/20160801-daily_homilies.mp3"
+            },
+            {
+                "detail": "The Precepts of the Church: You Shall Provide for the Needs of the Church",
                 "audio": "2016-07-31.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "18th Sunday in Ordinary Time 2016",

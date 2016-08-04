@@ -25,7 +25,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     }
     */
     if (!c.hasOwnProperty('searchText')) {
-      c['searchText'] = c.liturgical_day[j];
+      c['searchText'] = c.liturgical_day[j] + ' ' + c.tags;
       homiliesArr.push(c);
     } else {
       c['searchText'] = c['searchText'] + ' ' + c.liturgical_day[j];
@@ -250,8 +250,13 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     //$log.debug('forward()');
   }
 
+  $scope.showComments = function() {
+    $scope.show_disqus = true;
+  }
+
   $scope.showDayModalIsOpen = false;
   $scope.showDay = function(d) {
+    $scope.show_disqus = false;
     $log.debug('showDay(d): ');
     $log.debug(d);
 
@@ -297,7 +302,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.showDayModalIsOpen = true;
       var modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20160720ba',
+        templateUrl: 'partials/course_specific/daily_session.html?20160803ba',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

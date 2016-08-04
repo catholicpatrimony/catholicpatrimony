@@ -2,16 +2,33 @@
   <div>
     <br ng-if="c.title"/>
     <div>
-      <strong>{{c.title}} - {{c.date}}</strong>
+      <strong>{{c.date}} - {{c.title}}</strong>
       <br />
-      {{ c.detail }}
     </div>
     <span ng-if="c.detail">{{c.detail}}</span>
     <!--
     <div style="max-width=: 70%;">
     -->
-    <span ng-include="'partials/audio_and_docs.html?cbp=20160720babb'"></span>
+    <span ng-include="'partials/audio_and_docs.html?20160803babb'"></span>
+    &nbsp;&nbsp;tags: {{ c.tags }}
     <br />
+    <br />
+    <span ng-if="!show_disqus">
+      <!--
+      <a href="javascript:void(null);" ng-click="show_disqus = true;">show comments</a>
+      -->
+      <a ng-click="showComments()">show comments</a>
+    </span>
+    <span ng-if="show_disqus">
+      <dir-disqus config="disqusConfig"></dir-disqus>
+      
+      <dir-disqus disqus-shortname="catholicpatrimony"
+           disqus-identifier="{{ myDisqus_identifier }}"
+           disqus-title="{{ myDisqus_title }}"
+           disqus-url="{{ myDisqus_url }}"
+           ready-to-bind="{{ myDisqus_contentLoaded }}">
+      </dir-disqus>
+    </span>
     <div>Search for related homilies:</div>
     <div ng-if="sd.normalized_name == 'daily_homilies'">
       <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
@@ -28,16 +45,6 @@
         no results
       </div>
     </div>
-    <!--
-    <dir-disqus config="disqusConfig"></dir-disqus>
-    
-    <dir-disqus disqus-shortname="catholicpatrimony"
-         disqus-identifier="{{ myDisqus_identifier }}"
-         disqus-title="{{ myDisqus_title }}"
-         disqus-url="{{ myDisqus_url }}"
-         ready-to-bind="{{ myDisqus_contentLoaded }}">
-    </dir-disqus>
-    -->
     <br />
     <br />
   </div>

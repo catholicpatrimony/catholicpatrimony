@@ -302,7 +302,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.showDayModalIsOpen = true;
       var modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?20160803ba',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20160803',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

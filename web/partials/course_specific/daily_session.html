@@ -1,3 +1,6 @@
+<span style="float: right; margin: 10px; font-size: 150%; cursor: pointer;"
+      ng-click="ok();"
+  >X</span>
 <div ng-if="sd" class="container">
   <div>
     <br ng-if="c.title"/>
@@ -11,18 +14,22 @@
     -->
     <span ng-include="'partials/audio_and_docs.html?cbp=20190803'"></span>
     <span ng-if="c.tags">
-      &nbsp;&nbsp; TAGS: {{ c.tags }}
+      &nbsp;&nbsp; TAGS:
+      <span ng-repeat="t in c.tags.split(' ')">
+        <a href="javascript:void(null)" ng-click="searchText1.val = t; searchText2.val = '';" class="link">{{ t }}</a>
+      </span>
     </span>
     <br />
     <br />
-    <div>Search for related homilies:</div>
+    <div>Search for <a href="javascript:void(null)" ng-click="searchRelated(c);">related homilies</a>:</div>
     <div ng-if="sd.normalized_name == 'daily_homilies'">
       <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
       or
       <input type="text" ng-model="searchText2.val" style="width: 300px;" />
       <br />
+      <br />
       <div ng-if="!tooManyResults" ng-repeat="ma in matchingArr track by $index">
-        <a href="javascript:void(null);" ng-click="showDay(ma);">{{ma.title}}</a>
+        <a href="javascript:void(null);" ng-click="showDay(ma);">{{ma.date}} {{ma.title}}</a>
       </div>
       <div ng-if="tooManyResults">
         Too many results.  Refine your search.

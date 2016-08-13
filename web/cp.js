@@ -8,17 +8,17 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       .when('/', {
         reloadOnSearch: false,
         controller:'MainController',
-        templateUrl:'partials/main.html?cbp=20190803'
+        templateUrl:'partials/main.html?cbp=20160813'
       })
       .when('/class', {
         reloadOnSearch: false,
         controller:'ClassController',
-        templateUrl:'partials/courseContent.html?cbp=20190803'
+        templateUrl:'partials/courseContent.html?cbp=20160813'
       })
       .when('/session', {
         reloadOnSearch: false,
         controller:'SessionController',
-        templateUrl:'partials/session.html?cbp=20190803'
+        templateUrl:'partials/session.html?cbp=20160813'
       })
       .otherwise({
         redirectTo:'/'

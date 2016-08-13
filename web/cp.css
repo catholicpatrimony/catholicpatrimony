@@ -22,6 +22,10 @@
     text-decoration: none;
 }
 
+.link:visited {
+    text-decoration: none;
+}
+
 a, u {
     text-decoration: none;
 }

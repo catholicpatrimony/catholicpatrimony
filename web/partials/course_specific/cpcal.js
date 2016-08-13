@@ -274,8 +274,6 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
       //templateUrl: 'partials/course_specific/daily_modal.html',
     $location.search('showDay', d.date);
-    $scope.searchText1 = { 'val': ''};
-    $scope.searchText2 = { 'val': ''};
     $scope.$watch('searchText1.val', function(newValue, oldValue) {
       $log.debug('searchText1 updated');
       if (oldValue != newValue) {
@@ -288,19 +286,10 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         $scope.updateSearch();
       }
     });
-    if (d.hasOwnProperty('liturgical_day')) {
-      for (var i=0; i < d.liturgical_day.length; i++) {
-        if (i == 0) {
-          $scope.searchText1.val = d.liturgical_day[i];
-        } else {
-          $scope.searchText2.val = d.liturgical_day[i];
-        }
-      }
-    }
-    $scope.updateSearch();
     if (!$scope.showDayModalIsOpen) {
       $scope.showDayModalIsOpen = true;
-      var modalInstance = $uibModal.open({
+      $scope.searchRelated(d);
+      $scope.modalInstance = $uibModal.open({
         animation: true,
         templateUrl: 'partials/course_specific/daily_session.html?cbp=20190803',
         controller: ModalInstanceCtrl,
@@ -309,7 +298,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         preserveScope: true,
         bindToController: true
       });
-      modalInstance.result.then(function (selectedItem) {
+      $scope.modalInstance.result.then(function (selectedItem) {
         $scope.selected = selectedItem;
       }, function () {
         $scope.showDayModalIsOpen = false;
@@ -320,6 +309,21 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     }
   }
 
+  $scope.searchRelated = function(d) {
+      $scope.searchText1 = { 'val': ''};
+      $scope.searchText2 = { 'val': ''};
+      if (d.hasOwnProperty('liturgical_day')) {
+        for (var i=0; i < d.liturgical_day.length; i++) {
+          if (i == 0) {
+            $scope.searchText1.val = d.liturgical_day[i];
+          } else {
+            $scope.searchText2.val = d.liturgical_day[i];
+          }
+        }
+      }
+      $scope.updateSearch();
+  }
+
 
   if ($location.search().showDay) {
     //$log.debug('homiliesByStringifiedDate[$location.search().showDay]: ');
@@ -328,14 +332,14 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   }
 
   $scope.ok = function () {
-    //$log.debug('ok');
-    $uibModalInstance.close();
+    $log.debug('ok');
+    $scope.modalInstance.dismiss();
     $location.search('showDay', null);
   };
 
   $scope.cancel = function () {
     //$log.debug('cancel');
-    $uibModalInstance.dismiss('cancel');
+    $uibModal.dismiss('cancel');
     $location.search('showDay', null);
   };
 

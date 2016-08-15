@@ -259,6 +259,20 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.show_disqus = false;
     $log.debug('showDay(d): ');
     $log.debug(d);
+    $scope.tagsfirstline = null;
+    $scope.tagssubsequentlines = [];
+    tags = d.tags.split(' ');
+    if (tags != null && tags.length > 0) {
+      $scope.tagsfirstline = tags[0];
+      $scope.tagsfirstlinedisplay = tags[0].replace(new RegExp('_', 'g'), ' ');
+
+      $scope.tagssubsequentlines = [];
+      $scope.tagssubsequentlinesdisplay = [];
+      for (var i=1; i < tags.length; i++) {
+        $scope.tagssubsequentlines.push(tags[i]);
+        $scope.tagssubsequentlinesdisplay.push(tags[i].replace(new RegExp('_', 'g'), ' '));
+      }
+    }
 
     //d.litdaySelected = ld;
     $scope.showingDay = true;
@@ -291,7 +305,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20190803',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20160814',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

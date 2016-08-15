@@ -1035,6 +1035,96 @@ cp = [
     {
         "classes": [
             {
+                "audio": "2016-08-11.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Thursday of the 19th Week in Ordinary Time",
+                    "St. Clare"
+                ],
+                "tags": "saint_stories reconciliation_with_neighbor",
+                "id": "20160811",
+                "date": "08/11/2016",
+                "rssDate": "Thu, 11 Aug 2016 00:00:00 +0000",
+                "dateId": "20160811",
+                "title": "Thursday of the 19th Week in Ordinary Time / St. Clare",
+                "newAudio": "20160811-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:54.22",
+                "length": "2138240",
+                "link2mp3": "/daily_homilies/audio/20160811-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-09.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 19th Week in Ordinary Time",
+                "tags": "mercy humility",
+                "id": "20160809",
+                "date": "08/09/2016",
+                "rssDate": "Tue, 9 Aug 2016 00:00:00 +0000",
+                "dateId": "20160809",
+                "title": "Tuesday of the 19th Week in Ordinary Time",
+                "newAudio": "20160809-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:59.29",
+                "length": "1677440",
+                "link2mp3": "/daily_homilies/audio/20160809-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-08.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Monday of the 19th Week in Ordinary Time",
+                    "St. Dominic"
+                ],
+                "tags": "catholicity",
+                "id": "20160808",
+                "date": "08/08/2016",
+                "rssDate": "Mon, 8 Aug 2016 00:00:00 +0000",
+                "dateId": "20160808",
+                "title": "Monday of the 19th Week in Ordinary Time / St. Dominic",
+                "newAudio": "20160808-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:23.46",
+                "length": "2975872",
+                "link2mp3": "/daily_homilies/audio/20160808-daily_homilies.mp3"
+            },
+            {
+                "detail": "The Precepts of the Church: You Shall Recieve Communion at Least During the Easter Season",
+                "audio": "2016-08-07.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "19th Sunday in Ordinary Time",
+                "tags": "third_precept_of_church precepts_of_church frequent_communion",
+                "id": "20160807",
+                "date": "08/07/2016",
+                "rssDate": "Sun, 7 Aug 2016 00:00:00 +0000",
+                "dateId": "20160807",
+                "title": "19th Sunday in Ordinary Time",
+                "newAudio": "20160807-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:10.66",
+                "length": "2924672",
+                "link2mp3": "/daily_homilies/audio/20160807-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-05.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Friday of the 18th Week in Ordinary Time",
+                    "Dedication of St. Mary Major"
+                ],
+                "tags": "peace triple_harmony mary",
+                "id": "20160805",
+                "date": "08/05/2016",
+                "rssDate": "Fri, 5 Aug 2016 00:00:00 +0000",
+                "dateId": "20160805",
+                "title": "Friday of the 18th Week in Ordinary Time / Dedication of St. Mary Major",
+                "newAudio": "20160805-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:52.57",
+                "length": "2371712",
+                "link2mp3": "/daily_homilies/audio/20160805-daily_homilies.mp3"
+            },
+            {
                 "audio": "2016-08-04.wav",
                 "liturgical_year": "2",
                 "liturgical_day": [
@@ -1148,14 +1238,14 @@ cp = [
                 "liturgical_year": "2",
                 "liturgical_day": [
                     "Monday of the 17th Week in Ordinary Time",
-                    "Feast of St. James the Apostle"
+                    "The Feast of St. James the Apostle"
                 ],
                 "tags": "christian_suffering people_as_basically_good ",
                 "id": "20160725",
                 "date": "07/25/2016",
                 "rssDate": "Mon, 25 Jul 2016 00:00:00 +0000",
                 "dateId": "20160725",
-                "title": "Monday of the 17th Week in Ordinary Time / Feast of St. James the Apostle",
+                "title": "Monday of the 17th Week in Ordinary Time / The Feast of St. James the Apostle",
                 "newAudio": "20160725-daily_homilies.mp3",
                 "volume_boost": "4",
                 "duration": "00:08:16.52",
@@ -1894,13 +1984,13 @@ cp = [
                 "liturgical_year": "2",
                 "liturgical_day": [
                     "Saturday of the 7th Week of Easter",
-                    "Feast of St. Matthias"
+                    "The Feast of St. Matthias"
                 ],
                 "id": "20160514",
                 "date": "05/14/2016",
                 "rssDate": "Sat, 14 May 2016 00:00:00 +0000",
                 "dateId": "20160514",
-                "title": "Saturday of the 7th Week of Easter / Feast of St. Matthias",
+                "title": "Saturday of the 7th Week of Easter / The Feast of St. Matthias",
                 "newAudio": "20160514-daily_homilies.mp3",
                 "volume_boost": "4",
                 "duration": "00:06:25.64",
@@ -1990,13 +2080,13 @@ cp = [
                 "liturgical_year": "2",
                 "liturgical_day": [
                     "Tuesday of the 6th Week of Easter",
-                    "Feast of Sts. Philip and James"
+                    "The Feast of Sts. Philip and James"
                 ],
                 "id": "20160503",
                 "date": "05/03/2016",
                 "rssDate": "Tue, 3 May 2016 00:00:00 +0000",
                 "dateId": "20160503",
-                "title": "Tuesday of the 6th Week of Easter / Feast of Sts. Philip and James",
+                "title": "Tuesday of the 6th Week of Easter / The Feast of Sts. Philip and James",
                 "newAudio": "20160503-daily_homilies.mp3",
                 "volume_boost": "4",
                 "duration": "00:05:06.08",
@@ -2125,13 +2215,13 @@ cp = [
                 "liturgical_year": "1",
                 "liturgical_day": [
                     "Tuesday of the 26th Week in Ordinary Time",
-                    "Feast of Sts. Michael, Gabriel, and Raphael"
+                    "The Feast of Sts. Michael, Gabriel, and Raphael"
                 ],
                 "id": "20150929",
                 "date": "09/29/2015",
                 "rssDate": "Tue, 29 Sep 2015 00:00:00 +0000",
                 "dateId": "20150929",
-                "title": "Tuesday of the 26th Week in Ordinary Time / Feast of Sts. Michael, Gabriel, and Raphael",
+                "title": "Tuesday of the 26th Week in Ordinary Time / The Feast of Sts. Michael, Gabriel, and Raphael",
                 "newAudio": "20150929-daily_homilies.mp3",
                 "volume_boost": "4",
                 "duration": "00:06:23.29",
@@ -2221,13 +2311,13 @@ cp = [
                 "liturgical_year": "1",
                 "liturgical_day": [
                     "Tuesday of the 23rd Week in Ordinary Time",
-                    "Feast of the Nativity of Mary"
+                    "The Feast of the Nativity of Mary"
                 ],
                 "id": "20150908",
                 "date": "09/08/2015",
                 "rssDate": "Tue, 8 Sep 2015 00:00:00 +0000",
                 "dateId": "20150908",
-                "title": "Tuesday of the 23rd Week in Ordinary Time / Feast of the Nativity of Mary",
+                "title": "Tuesday of the 23rd Week in Ordinary Time / The Feast of the Nativity of Mary",
                 "newAudio": "20150908-daily_homilies.mp3",
                 "volume_boost": "4",
                 "duration": "00:05:59.02",
@@ -2376,52 +2466,64 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20150812-daily_homilies.mp3"
             },
             {
-                "date": "8/7/2015",
-                "rssDate": "Fri, 7 Aug 2015 00:00:00 +0000",
-                "dateId": "20150807",
                 "audio": "2015-08-07.wav",
                 "liturgical_year": "1",
                 "liturgical_day": "Friday of the 18th Week in Ordinary Time",
                 "id": "20150807",
+                "date": "08/07/2015",
+                "rssDate": "Fri, 7 Aug 2015 00:00:00 +0000",
+                "dateId": "20150807",
                 "title": "Friday of the 18th Week in Ordinary Time",
                 "newAudio": "20150807-daily_homilies.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:04:34.06",
+                "length": "1097856",
+                "link2mp3": "/daily_homilies/audio/20150807-daily_homilies.mp3"
             },
             {
-                "date": "8/6/2015",
-                "rssDate": "Thu, 6 Aug 2015 00:00:00 +0000",
-                "dateId": "20150806",
                 "audio": "2015-08-06.wav",
                 "liturgical_year": "1",
                 "liturgical_day": "Thursday of the 18th Week in Ordinary Time",
                 "id": "20150806",
+                "date": "08/06/2015",
+                "rssDate": "Thu, 6 Aug 2015 00:00:00 +0000",
+                "dateId": "20150806",
                 "title": "Thursday of the 18th Week in Ordinary Time",
                 "newAudio": "20150806-daily_homilies.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:05:28.69",
+                "length": "1314944",
+                "link2mp3": "/daily_homilies/audio/20150806-daily_homilies.mp3"
             },
             {
-                "date": "8/5/2015",
-                "rssDate": "Wed, 5 Aug 2015 00:00:00 +0000",
-                "dateId": "20150805",
                 "audio": "2015-08-05.wav",
                 "liturgical_year": "1",
                 "liturgical_day": "Wednesday of the 18th Week in Ordinary Time",
                 "id": "20150805",
+                "date": "08/05/2015",
+                "rssDate": "Wed, 5 Aug 2015 00:00:00 +0000",
+                "dateId": "20150805",
                 "title": "Wednesday of the 18th Week in Ordinary Time",
                 "newAudio": "20150805-daily_homilies.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:06:16.88",
+                "length": "1509504",
+                "link2mp3": "/daily_homilies/audio/20150805-daily_homilies.mp3"
             },
             {
-                "date": "8/4/2015",
-                "rssDate": "Tue, 4 Aug 2015 00:00:00 +0000",
-                "dateId": "20150804",
                 "audio": "2015-08-04.wav",
                 "liturgical_year": "1",
                 "liturgical_day": "Tuesday of the 18th Week in Ordinary Time",
                 "id": "20150804",
+                "date": "08/04/2015",
+                "rssDate": "Tue, 4 Aug 2015 00:00:00 +0000",
+                "dateId": "20150804",
                 "title": "Tuesday of the 18th Week in Ordinary Time",
                 "newAudio": "20150804-daily_homilies.mp3",
-                "volume_boost": "4"
+                "volume_boost": "4",
+                "duration": "00:05:59.12",
+                "length": "1437824",
+                "link2mp3": "/daily_homilies/audio/20150804-daily_homilies.mp3"
             },
             {
                 "id": "35",
@@ -3003,6 +3105,20 @@ cp = [
     },
     {
         "classes": [
+            {
+                "id": "98",
+                "title": "19th Sunday in Ordinary Time 2016",
+                "detail": "The Precepts of the Church: You Shall Recieve Communion at Least During the Easter Season",
+                "date": "8/7/2016",
+                "rssDate": "Sun, 7 Aug 2016 00:00:00 +0000",
+                "dateId": "20160807",
+                "audio": "2016-08-07.wav",
+                "newAudio": "98-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:10.66",
+                "length": "2924672",
+                "link2mp3": "/Sunday_Homilies/audio/98-Sunday_Homilies.mp3"
+            },
             {
                 "id": "97",
                 "title": "18th Sunday in Ordinary Time 2016",

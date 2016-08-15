@@ -12,12 +12,24 @@
     <!--
     <div style="max-width=: 70%;">
     -->
-    <span ng-include="'partials/audio_and_docs.html?cbp=20190803'"></span>
+    <div style="margin-top: 20px;">
+      <span ng-include="'partials/audio_and_docs.html?cbp=20160814'"></span>
+    </div>
     <span ng-if="c.tags">
-      &nbsp;&nbsp; TAGS:
-      <span ng-repeat="t in c.tags.split(' ')">
-        <a href="javascript:void(null)" ng-click="searchText1.val = t; searchText2.val = '';" class="link">{{ t }}</a>
-      </span>
+      <br />
+      <table>
+        <tr><td>&nbsp;&nbsp; TAGS:&nbsp;&nbsp;</td>
+          <td>
+            <a ng-if="tagsfirstline" href="javascript:void(null)" ng-click="searchText1.val = tagsfirstline; searchText2.val = '';" class="link">{{ tagsfirstlinedisplay }}</a>
+          </td>
+        </tr>
+        <tr ng-repeat="t in tagssubsequentlines">
+          <td>&nbsp;</td>
+          <td>
+            <a href="javascript:void(null)" ng-click="searchText1.val = t; searchText2.val = '';" class="link">{{ tagssubsequentlinesdisplay[$index] }}</a>
+          </td>
+        </tr>
+      </table>
     </span>
     <br />
     <br />

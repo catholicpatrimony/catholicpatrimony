@@ -1035,6 +1035,107 @@ cp = [
     {
         "classes": [
             {
+                "audio": "2016-08-19.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Friday of the 20th Week in Ordinary Time",
+                    "St. John Eudes"
+                ],
+                "tags": "love sacred_heart",
+                "id": "20160819",
+                "date": "08/19/2016",
+                "rssDate": "Fri, 19 Aug 2016 00:00:00 +0000",
+                "dateId": "20160819",
+                "title": "Friday of the 20th Week in Ordinary Time / St. John Eudes",
+                "newAudio": "20160819-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:07:24.27",
+                "length": "1777792",
+                "link2mp3": "/daily_homilies/audio/20160819-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-18.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Thursday of the 20th Week in Ordinary Time",
+                "tags": "baptism sanctifying_grace law_of_gospel",
+                "id": "20160818",
+                "date": "08/18/2016",
+                "rssDate": "Thu, 18 Aug 2016 00:00:00 +0000",
+                "dateId": "20160818",
+                "title": "Thursday of the 20th Week in Ordinary Time",
+                "newAudio": "20160818-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:03.03",
+                "length": "1454208",
+                "link2mp3": "/daily_homilies/audio/20160818-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-16.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 20th Week in Ordinary Time",
+                "tags": "humility christian_suffering",
+                "id": "20160816",
+                "date": "08/16/2016",
+                "rssDate": "Tue, 16 Aug 2016 00:00:00 +0000",
+                "dateId": "20160816",
+                "title": "Tuesday of the 20th Week in Ordinary Time",
+                "newAudio": "20160816-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:31.71",
+                "length": "1568896",
+                "link2mp3": "/daily_homilies/audio/20160816-daily_homilies.mp3"
+            },
+            {
+                "detail": "Mary Our Hope",
+                "audio": "2016-08-15.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "The Solemnity of the Assumption of the Blessed Virgin Mary",
+                "tags": "hope mary sanctifying_grace narratives",
+                "id": "20160815",
+                "date": "08/15/2016",
+                "rssDate": "Mon, 15 Aug 2016 00:00:00 +0000",
+                "dateId": "20160815",
+                "title": "The Solemnity of the Assumption of the Blessed Virgin Mary",
+                "newAudio": "20160815-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:17:27.15",
+                "length": "4190336",
+                "link2mp3": "/daily_homilies/audio/20160815-daily_homilies.mp3"
+            },
+            {
+                "detail": "The Precepts of the Church: You Shall Confess Your Sins at Least Once a Year",
+                "audio": "2016-08-14.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "20th Sunday in Ordinary Time",
+                "tags": "second_precept_of_church precepts_of_church confession",
+                "id": "20160814",
+                "date": "08/14/2016",
+                "rssDate": "Sun, 14 Aug 2016 00:00:00 +0000",
+                "dateId": "20160814",
+                "title": "20th Sunday in Ordinary Time",
+                "newAudio": "20160814-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:03.27",
+                "length": "2893952",
+                "link2mp3": "/daily_homilies/audio/20160814-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-08-12.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Friday of the 19th Week in Ordinary Time",
+                "tags": "divorce indissolubility_of_marriage marriage",
+                "id": "20160812",
+                "date": "08/12/2016",
+                "rssDate": "Fri, 12 Aug 2016 00:00:00 +0000",
+                "dateId": "20160812",
+                "title": "Friday of the 19th Week in Ordinary Time",
+                "newAudio": "20160812-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:06.61",
+                "length": "2187392",
+                "link2mp3": "/daily_homilies/audio/20160812-daily_homilies.mp3"
+            },
+            {
                 "audio": "2016-08-11.wav",
                 "liturgical_year": "2",
                 "liturgical_day": [
@@ -1253,6 +1354,7 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20160725-daily_homilies.mp3"
             },
             {
+                "detail": "The Precepts of the Church: You Shall Attend Mass on Sundays and Holy Days of Obligation",
                 "audio": "2016-07-24.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "17th Sunday in Ordinary Time",
@@ -1339,6 +1441,7 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20160718-daily_homilies.mp3"
             },
             {
+                "detail": "Listening to Jesus",
                 "audio": "2016-07-17.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "16th Sunday in Ordinary Time",
@@ -1427,6 +1530,7 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20160711-daily_homilies.mp3"
             },
             {
+                "detail": "Jesus as the Good Samaritan and Your Confessor as the Innkeeper",
                 "audio": "2016-07-10.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "15th Sunday in Ordinary Time",
@@ -1524,6 +1628,7 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20160704-daily_homilies.mp3"
             },
             {
+                "detail": "An Initial Pastoral Vision for St. Joseph the Worker Parish",
                 "audio": "2016-07-03.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "14th Sunday in Ordinary Time",
@@ -1557,6 +1662,7 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20160628-daily_homilies.mp3"
             },
             {
+                "detail": "Commitment and Marriage",
                 "audio": "2016-06-26.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "13th Sunday in Ordinary Time",
@@ -1572,6 +1678,7 @@ cp = [
                 "link2mp3": "/daily_homilies/audio/20160626-daily_homilies.mp3"
             },
             {
+                "detail": "The Cross and a Christian Understanding of Suffering",
                 "audio": "2016-06-19.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "12th Sunday in Ordinary Time",
@@ -2155,6 +2262,34 @@ cp = [
                 "duration": "00:05:07.59",
                 "length": "1230976",
                 "link2mp3": "/daily_homilies/audio/20160421-daily_homilies.mp3"
+            },
+            {
+                "detail": "Marriage, Divorce and Children",
+                "audio": "2015-10-04.wav",
+                "liturgical_year": "B",
+                "liturgical_day": "27th Sunday in Ordinary Time 2015",
+                "handout_title": [
+                    "Homily Text for 27th Sunday in Ordinary Time 2015"
+                ],
+                "handout_file": [
+                    "SHT2015Y27SunOrdT.pdf"
+                ],
+                "id": "20151004",
+                "date": "10/04/2015",
+                "rssDate": "Sun, 4 Oct 2015 00:00:00 +0000",
+                "dateId": "20151004",
+                "title": "27th Sunday in Ordinary Time 2015",
+                "newAudio": "20151004-daily_homilies.mp3",
+                "new_handout_file": [
+                    "20151004-Homily_Text_for_27th_Sunday_in_Ordinary_Time_2015.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for 27th Sunday in Ordinary Time 2015"
+                ],
+                "volume_boost": "4",
+                "handout_links": [
+                    "/daily_homilies/docs/20151004-Homily_Text_for_27th_Sunday_in_Ordinary_Time_2015.pdf"
+                ]
             },
             {
                 "audio": "2015-10-02.wav",
@@ -3105,6 +3240,49 @@ cp = [
     },
     {
         "classes": [
+            {
+                "id": "100",
+                "title": "The Solemnity of the Assumption of the Blessed Virgin Mary",
+                "detail": "Mary Our Hope",
+                "date": "8/15/2016",
+                "rssDate": "Mon, 15 Aug 2016 00:00:00 +0000",
+                "dateId": "20160815",
+                "audio": "2016-08-15.wav",
+                "newAudio": "100-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:17:27.15",
+                "length": "4190336",
+                "link2mp3": "/Sunday_Homilies/audio/100-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "99",
+                "title": "20th Sunday in Ordinary Time 2016",
+                "detail": "The Precepts of the Church: You Shall Confess Your Sins at Least Once a Year",
+                "date": "8/14/2016",
+                "rssDate": "Sun, 14 Aug 2016 00:00:00 +0000",
+                "dateId": "20160814",
+                "audio": "2016-08-14.wav",
+                "handout_title": [
+                    "How to Go to Confession"
+                ],
+                "handout_file": [
+                    "ExaminationConscience20thSunOT2016.pdf"
+                ],
+                "newAudio": "99-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "99-How_to_Go_to_Confession.pdf"
+                ],
+                "new_handout_title": [
+                    "How to Go to Confession"
+                ],
+                "volume_boost": "4",
+                "duration": "00:12:03.27",
+                "length": "2893952",
+                "link2mp3": "/Sunday_Homilies/audio/99-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/99-How_to_Go_to_Confession.pdf"
+                ]
+            },
             {
                 "id": "98",
                 "title": "19th Sunday in Ordinary Time 2016",

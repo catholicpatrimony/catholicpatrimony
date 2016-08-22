@@ -127,21 +127,24 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
 
   $scope.set2weeks = function(day) {
+    $scope.monthStr = $filter('date')(day, 'MMMM');
+    $scope.yearStr = day.getFullYear();
     //$log.debug('set2weeks: ');
     //$log.debug(day);
     $scope.set2weeksday = day;
-    var twoSundaysAgo = null;
-    var sundaysCounted = 0;
+    var firstSundayOfFirstWeek = null;
+    var firstDaySeen = false;
+    $scope.firstOfMonth = null;
     while (true) {
       //$log.debug('day.getDay(): ' + day.getDay());
-      if (day.getDay() == 0) {
+      if (day.getDate() == 1) {
+        firstDaySeen = true;
+        $scope.firstOfMonth = day;
+      }
+      if (day.getDay() == 0 && firstDaySeen) {
         //$log.debug('sundaysCounted: ' + sundaysCounted);
-        if (sundaysCounted == 1) {
-          twoSundaysAgo = day;
-          break;
-        } else {
-          sundaysCounted++;
-        }
+        firstSundayOfFirstWeek = day;
+        break;
       }
       //day = new Date(day.UTC() - (24 * 60 * 60 * 1000));
       var previousDay = new Date(day.getTime());
@@ -151,47 +154,42 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
     //$log.debug('twoSundaysAgo: ' + twoSundaysAgo.toLocaleString());
 
-    var last2weekDates = [];
-    var firstWeek = [];
+    var weeks = [];
     var secondWeek = [];
-    var last2weekAudios = [];
-    var day = twoSundaysAgo;
-    var years = [];
+    var day = firstSundayOfFirstWeek;
+    //var years = [];
     var months = [];
     var monthDates = [];
-    for (var i=0; i < 14; i++) {
-      if (years.indexOf(day.getFullYear()) == -1) {
-        //$log.debug("adding year: " + day.getFullYear());
-        years.push(day.getFullYear());
+    var fiveweeks = [];
+    for (var i=0; i < 5; i++) {
+      fiveweeks[i] = [];
+      for (var j=0; j < 7; j++) {
+        /*
+        if (years.indexOf(day.getFullYear()) == -1) {
+          //$log.debug("adding year: " + day.getFullYear());
+          years.push(day.getFullYear());
+        }
+        */
+        if (months.indexOf(day.getMonth()) == -1) {
+          months.push(day.getMonth());
+          monthDates.push(day);
+        }
+        var dayStr = $scope.getDayStr(day);
+        //$log.debug('dayStr: ' + dayStr);
+        fiveweeks[i][j] = {
+          'cpObj': homiliesByStringifiedDate[dayStr],
+          'dateStr' : dayStr,
+          'dayStr' : day.getDate(),
+          'dateObj' : day
+        };
+        var nextDay = new Date(day.getTime());
+        nextDay.setDate(day.getDate() + 1);
+        day = nextDay;
       }
-      if (months.indexOf(day.getMonth()) == -1) {
-        months.push(day.getMonth());
-        monthDates.push(day);
-      }
-      last2weekDates[i] = day;
-      var dayStr = $scope.getDayStr(day);
-      //$log.debug('dayStr: ' + dayStr);
-      last2weekAudios[i] = {
-        'cpObj': homiliesByStringifiedDate[dayStr],
-        'dateStr' : dayStr,
-        'dayStr' : day.getDate(),
-        'dateObj' : day
-      };
-      if (i < 7) {
-        firstWeek[i] = last2weekAudios[i];
-      } else {
-        secondWeek[i - 7] = last2weekAudios[i];
-      }
-      var nextDay = new Date(day.getTime());
-      nextDay.setDate(day.getDate() + 1);
-      day = nextDay;
     }
-    $scope.firstWeek = firstWeek;
-    $scope.secondWeek = secondWeek;
+    $scope.fiveweeks = fiveweeks;
 
-    //$log.debug('last2weekDates: ');
-    //$log.debug(last2weekDates);
-
+    /*
     if (years.length > 1) {
       $scope.yearStr = years[0] + ' / ' + years[1];
     } else {
@@ -205,6 +203,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     } else {
       $scope.monthStr = $filter('date')(monthDates[0], 'MMMM');
     }
+    */
   }
 
   $scope.getDayStr = function(day) {
@@ -228,26 +227,29 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   $scope.set2weeks($scope.dt);
 
   $scope.back = function() {
-    var anotherTwoWeeksBack = new Date($scope.secondWeek[1].dateObj.getTime());
-    //$log.debug('$scope.secondWeek[1].dateObj: ' + $scope.getDayStr($scope.secondWeek[1].dateObj));
-    //$log.debug('anotherTwoWeeksBack 1: ' + $scope.getDayStr(anotherTwoWeeksBack));
-    anotherTwoWeeksBack.setDate(anotherTwoWeeksBack.getDate() - 14);
-    //$log.debug('anotherTwoWeeksBack 2: ' + $scope.getDayStr(anotherTwoWeeksBack));
+    var prevMonth = new Date($scope.firstOfMonth.getFullYear(), 
+      $scope.firstOfMonth.getMonth(), 
+      $scope.firstOfMonth.getDate());
+    prevMonth.setMonth(prevMonth.getMonth() - 1);
+    var anotherTwoWeeksBack = prevMonth;
     $scope.set2weeks(anotherTwoWeeksBack);
     var dtStr = $filter('date')(new Date(anotherTwoWeeksBack),'yyyy-MM-dd');
     //$log.debug('dtStr: ' + dtStr);
-    $location.search('dt', dtStr);
+    //$location.search('dt', dtStr);
     //$log.debug('back()');
   }
 
   $scope.forward = function() {
-    var twoweeksforward = new Date($scope.secondWeek[1].dateObj.getTime());
-    twoweeksforward.setDate(twoweeksforward.getDate() + 14);
-    $scope.set2weeks(twoweeksforward);
-    var dtStr = $filter('date')(new Date(twoweeksforward),'yyyy-MM-dd');
+    var prevMonth = new Date($scope.firstOfMonth.getFullYear(), 
+      $scope.firstOfMonth.getMonth(), 
+      $scope.firstOfMonth.getDate());
+    prevMonth.setMonth(prevMonth.getMonth() + 1);
+    var anotherTwoWeeksBack = prevMonth;
+    $scope.set2weeks(anotherTwoWeeksBack);
+    var dtStr = $filter('date')(new Date(anotherTwoWeeksBack),'yyyy-MM-dd');
     //$log.debug('dtStr: ' + dtStr);
-    $location.search('dt', dtStr);
-    //$log.debug('forward()');
+    //$location.search('dt', dtStr);
+    //$log.debug('back()');
   }
 
   $scope.showComments = function() {
@@ -261,16 +263,18 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $log.debug(d);
     $scope.tagsfirstline = null;
     $scope.tagssubsequentlines = [];
-    tags = d.tags.split(' ');
-    if (tags != null && tags.length > 0) {
-      $scope.tagsfirstline = tags[0];
-      $scope.tagsfirstlinedisplay = tags[0].replace(new RegExp('_', 'g'), ' ');
+    if (d.tags) {
+      tags = d.tags.split(' ');
+      if (tags != null && tags.length > 0) {
+        $scope.tagsfirstline = tags[0];
+        $scope.tagsfirstlinedisplay = tags[0].replace(new RegExp('_', 'g'), ' ');
 
-      $scope.tagssubsequentlines = [];
-      $scope.tagssubsequentlinesdisplay = [];
-      for (var i=1; i < tags.length; i++) {
-        $scope.tagssubsequentlines.push(tags[i]);
-        $scope.tagssubsequentlinesdisplay.push(tags[i].replace(new RegExp('_', 'g'), ' '));
+        $scope.tagssubsequentlines = [];
+        $scope.tagssubsequentlinesdisplay = [];
+        for (var i=1; i < tags.length; i++) {
+          $scope.tagssubsequentlines.push(tags[i]);
+          $scope.tagssubsequentlinesdisplay.push(tags[i].replace(new RegExp('_', 'g'), ' '));
+        }
       }
     }
 
@@ -305,7 +309,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20160814',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20160820',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

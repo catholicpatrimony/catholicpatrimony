@@ -161,7 +161,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     var months = [];
     var monthDates = [];
     var fiveweeks = [];
-    for (var i=0; i < 5; i++) {
+    for (var i=0; i < 6; i++) {
       fiveweeks[i] = [];
       for (var j=0; j < 7; j++) {
         /*
@@ -227,26 +227,26 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   $scope.set2weeks($scope.dt);
 
   $scope.back = function() {
-    var prevMonth = new Date($scope.firstOfMonth.getFullYear(), 
+    var newDt = new Date($scope.firstOfMonth.getFullYear(), 
       $scope.firstOfMonth.getMonth(), 
       $scope.firstOfMonth.getDate());
-    prevMonth.setMonth(prevMonth.getMonth() - 1);
-    var anotherTwoWeeksBack = prevMonth;
-    $scope.set2weeks(anotherTwoWeeksBack);
-    var dtStr = $filter('date')(new Date(anotherTwoWeeksBack),'yyyy-MM-dd');
+    newDt.setMonth(newDt.getMonth() - 1);
+    $scope.dt = newDt;
+    $scope.set2weeks(newDt);
+    var dtStr = $filter('date')(new Date(newDt),'yyyy-MM-dd');
     //$log.debug('dtStr: ' + dtStr);
     //$location.search('dt', dtStr);
     //$log.debug('back()');
   }
 
   $scope.forward = function() {
-    var prevMonth = new Date($scope.firstOfMonth.getFullYear(), 
+    var newDt = new Date($scope.firstOfMonth.getFullYear(), 
       $scope.firstOfMonth.getMonth(), 
       $scope.firstOfMonth.getDate());
-    prevMonth.setMonth(prevMonth.getMonth() + 1);
-    var anotherTwoWeeksBack = prevMonth;
-    $scope.set2weeks(anotherTwoWeeksBack);
-    var dtStr = $filter('date')(new Date(anotherTwoWeeksBack),'yyyy-MM-dd');
+    newDt.setMonth(newDt.getMonth() + 1);
+    $scope.dt = newDt;
+    $scope.set2weeks(newDt);
+    var dtStr = $filter('date')(new Date(newDt),'yyyy-MM-dd');
     //$log.debug('dtStr: ' + dtStr);
     //$location.search('dt', dtStr);
     //$log.debug('back()');

@@ -17,14 +17,19 @@
       </tr>
     </thead>
     <tbody ng-repeat="w in fiveweeks">
-      <tr>
+      <tr ng-if="w[0].dateObj.getMonth() == dt.getMonth() || w[6].dateObj.getMonth() == dt.getMonth()">
         <td ng-repeat="d in w" width="14.29%" style="text-align: center;" class="grey_bg">
-          {{d.dayStr}}
+          <span ng-if="d.dateObj.getMonth() == dt.getMonth()">
+            {{d.dayStr}}
+          </span>
         </td>
       </tr>
-      <tr>
+      <tr ng-if="w[0].dateObj.getMonth() == dt.getMonth() || w[6].dateObj.getMonth() == dt.getMonth()">
+        <!--
         <td ng-repeat="d in w" width="14.29%" class="cal_cell" ng-class="d.cpObj ? '' : 'grey_bg' ">
-          <p ng-include="'partials/course_specific/daily_day.html?cbp=20160820'"></p>
+        -->
+        <td ng-repeat="d in w" width="14.29%" class="cal_cell">
+          <p ng-if="d.cpObj != null && d.dateObj.getMonth() == dt.getMonth()" ng-include="'partials/course_specific/daily_day.html?cbp=20160820'"></p>
         </td>
       </tr>
     </tbody>

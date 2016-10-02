@@ -3,5 +3,5 @@
 #find ../web/ -name \*.js -o -name \*.html | xargs sed -i 's/cbp=......../cbp=20160704b/g'
 #s3cmd -P sync ../web/ s3://www.catholicpatrimony.com/
 
-#vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd -P sync ./ s3://www.catholicpatrimony.com/
+#vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd -P sync --exclude cp.json ./ s3://www.catholicpatrimony.com/
 #vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd sync --add-header=Cache-Control:no-cache -P --guess-mime-type index.html s3://www.catholicpatrimony.com/

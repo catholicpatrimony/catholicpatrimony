@@ -46,10 +46,17 @@ a:hover {
   font-size: 85%; 
   /*
   border-color: #DCDCDC;
-  */
+  border-spacing: 0;
+  border-width: 1px;
   border-collapse: collapse;
+  border-color: red;
+  */
   border-color: #DCDCDC;
   border-style: solid;
+}
+
+.cal_color {
+  border-color: #DCDCDC;
 }
 
 .cal_cell {

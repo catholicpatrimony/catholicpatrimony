@@ -1035,6 +1035,408 @@ cp = [
     {
         "classes": [
             {
+                "audio": "2016-09-29.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Thursday of the 26th Week in Ordinary Time",
+                    "The Feast of Sts. Michael, Gabriel, and Raphael"
+                ],
+                "tags": "sins_of_the_tongue discernment demonology angels",
+                "id": "20160929",
+                "date": "09/29/2016",
+                "rssDate": "Thu, 29 Sep 2016 00:00:00 +0000",
+                "dateId": "20160929",
+                "title": "Thursday of the 26th Week in Ordinary Time / The Feast of Sts. Michael, Gabriel, and Raphael",
+                "newAudio": "20160929-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:09:00.18",
+                "length": "2162816",
+                "link2mp3": "/daily_homilies/audio/20160929-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-27.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Tuesday of the 26th Week in Ordinary Time",
+                    "St. Vincent de Paul"
+                ],
+                "tags": "suffering love evangelism",
+                "id": "20160927",
+                "date": "09/27/2016",
+                "rssDate": "Tue, 27 Sep 2016 00:00:00 +0000",
+                "dateId": "20160927",
+                "title": "Tuesday of the 26th Week in Ordinary Time / St. Vincent de Paul",
+                "newAudio": "20160927-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:07.66",
+                "length": "2431104",
+                "link2mp3": "/daily_homilies/audio/20160927-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-26.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Monday of the 26th Week in Ordinary Time",
+                "tags": "problem_of_evil kushnerian_spirituality suffering",
+                "id": "20160926",
+                "date": "09/26/2016",
+                "rssDate": "Mon, 26 Sep 2016 00:00:00 +0000",
+                "dateId": "20160926",
+                "title": "Monday of the 26th Week in Ordinary Time",
+                "newAudio": "20160926-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:40.95",
+                "length": "2564224",
+                "link2mp3": "/daily_homilies/audio/20160926-daily_homilies.mp3"
+            },
+            {
+                "detail": "Spiritual Fatherhood",
+                "audio": "2016-09-25.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "26th Sunday in Ordinary Time",
+                "tags": "fatherhood love communion_of_saints",
+                "id": "20160925",
+                "date": "09/25/2016",
+                "rssDate": "Sun, 25 Sep 2016 00:00:00 +0000",
+                "dateId": "20160925",
+                "title": "26th Sunday in Ordinary Time",
+                "newAudio": "20160925-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:15:51.97",
+                "length": "3809408",
+                "link2mp3": "/daily_homilies/audio/20160925-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-23.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Friday of the 25th Week in Ordinary Time",
+                    "St. Pius of Pietrelcina"
+                ],
+                "tags": "kushnerian_spirituality suffering",
+                "id": "20160923",
+                "date": "09/23/2016",
+                "rssDate": "Fri, 23 Sep 2016 00:00:00 +0000",
+                "dateId": "20160923",
+                "title": "Friday of the 25th Week in Ordinary Time / St. Pius of Pietrelcina",
+                "newAudio": "20160923-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:43.23",
+                "length": "1613952",
+                "link2mp3": "/daily_homilies/audio/20160923-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-22.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Thursday of the 25th Week in Ordinary Time",
+                "tags": "narratives four_last_things joy",
+                "id": "20160922",
+                "date": "09/22/2016",
+                "rssDate": "Thu, 22 Sep 2016 00:00:00 +0000",
+                "dateId": "20160922",
+                "title": "Thursday of the 25th Week in Ordinary Time",
+                "newAudio": "20160922-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:22.21",
+                "length": "2009216",
+                "link2mp3": "/daily_homilies/audio/20160922-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-20.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Tuesday of the 25th Week in Ordinary Time",
+                    "St. Andrew Kim Tae-gon and companions"
+                ],
+                "tags": "mystical_body martyrdom reconciliation_with_neighbor saint_stories love",
+                "id": "20160920",
+                "date": "09/20/2016",
+                "rssDate": "Tue, 20 Sep 2016 00:00:00 +0000",
+                "dateId": "20160920",
+                "title": "Tuesday of the 25th Week in Ordinary Time / St. Andrew Kim Tae-gon and companions",
+                "newAudio": "20160920-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:35.53",
+                "length": "2062464",
+                "link2mp3": "/daily_homilies/audio/20160920-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-19.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Monday of the 25th Week in Ordinary Time",
+                "tags": "catholicity discernment intellectualism evangelism",
+                "id": "20160919",
+                "date": "09/19/2016",
+                "rssDate": "Mon, 19 Sep 2016 00:00:00 +0000",
+                "dateId": "20160919",
+                "title": "Monday of the 25th Week in Ordinary Time",
+                "newAudio": "20160919-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:09.08",
+                "length": "1958016",
+                "link2mp3": "/daily_homilies/audio/20160919-daily_homilies.mp3"
+            },
+            {
+                "detail": "Serving God, not Mammon",
+                "audio": "2016-09-18.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "25th Sunday in Ordinary Time",
+                "id": "20160918",
+                "date": "09/18/2016",
+                "rssDate": "Sun, 18 Sep 2016 00:00:00 +0000",
+                "dateId": "20160918",
+                "title": "25th Sunday in Ordinary Time",
+                "newAudio": "20160918-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:02.89",
+                "length": "2412672",
+                "link2mp3": "/daily_homilies/audio/20160918-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-14.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Wednesday of the 24th Week in Ordinary Time",
+                    "The Feast of the Exaltation of the Cross"
+                ],
+                "tags": "love",
+                "id": "20160914",
+                "date": "09/14/2016",
+                "rssDate": "Wed, 14 Sep 2016 00:00:00 +0000",
+                "dateId": "20160914",
+                "title": "Wednesday of the 24th Week in Ordinary Time / The Feast of the Exaltation of the Cross",
+                "newAudio": "20160914-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:08:35.60",
+                "length": "2064512",
+                "link2mp3": "/daily_homilies/audio/20160914-daily_homilies.mp3"
+            },
+            {
+                "detail": "The Commandments as Key to the Human Heart",
+                "audio": "2016-09-11.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "24th Sunday in Ordinary Time",
+                "tags": "christian_humanism commandments",
+                "id": "20160911",
+                "date": "09/11/2016",
+                "rssDate": "Sun, 11 Sep 2016 00:00:00 +0000",
+                "dateId": "20160911",
+                "title": "24th Sunday in Ordinary Time",
+                "newAudio": "20160911-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:13:41.84",
+                "length": "3289216",
+                "link2mp3": "/daily_homilies/audio/20160911-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-08.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Thursday of the 23rd Week in Ordinary Time",
+                "tags": "problem_of_evil providence mary",
+                "id": "20160908",
+                "date": "09/08/2016",
+                "rssDate": "Thu, 8 Sep 2016 00:00:00 +0000",
+                "dateId": "20160908",
+                "title": "Thursday of the 23rd Week in Ordinary Time",
+                "newAudio": "20160908-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:06:57.51",
+                "length": "1671296",
+                "link2mp3": "/daily_homilies/audio/20160908-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-06.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 23rd Week in Ordinary Time",
+                "tags": "prayer christian_humanism",
+                "id": "20160906",
+                "date": "09/06/2016",
+                "rssDate": "Tue, 6 Sep 2016 00:00:00 +0000",
+                "dateId": "20160906",
+                "title": "Tuesday of the 23rd Week in Ordinary Time",
+                "newAudio": "20160906-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:07:43.93",
+                "length": "1857664",
+                "link2mp3": "/daily_homilies/audio/20160906-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-05.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Monday of the 23rd Week in Ordinary Time",
+                "tags": "problem_of_evil demonology",
+                "id": "20160905",
+                "date": "09/05/2016",
+                "rssDate": "Mon, 5 Sep 2016 00:00:00 +0000",
+                "dateId": "20160905",
+                "title": "Monday of the 23rd Week in Ordinary Time",
+                "newAudio": "20160905-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:05:06.22",
+                "length": "1226880",
+                "link2mp3": "/daily_homilies/audio/20160905-daily_homilies.mp3"
+            },
+            {
+                "detail": "Reason, the Bible, the Church: Our Flight Instruments",
+                "audio": "2016-09-04.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "23rd Sunday in Ordinary Time",
+                "tags": "conscience_formation mystery discernment catholicity bible",
+                "id": "20160904",
+                "date": "09/04/2016",
+                "rssDate": "Sun, 4 Sep 2016 00:00:00 +0000",
+                "dateId": "20160904",
+                "title": "23rd Sunday in Ordinary Time",
+                "newAudio": "20160904-daily_homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:12:02.12",
+                "length": "2889856",
+                "link2mp3": "/daily_homilies/audio/20160904-daily_homilies.mp3"
+            },
+            {
+                "audio": "2016-09-02.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Friday of the 22nd Week in Ordinary Time",
+                "tags": "analogy_of_scripture do_not_judge",
+                "id": "20160902",
+                "date": "09/02/2016",
+                "rssDate": "Fri, 2 Sep 2016 00:00:00 +0000",
+                "dateId": "20160902",
+                "title": "Friday of the 22nd Week in Ordinary Time",
+                "newAudio": "20160902-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-09-01.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Thursday of the 22nd Week in Ordinary Time",
+                "tags": "sins_of_tongue peace reconciliation_with_neighbor mystery",
+                "id": "20160901",
+                "date": "09/01/2016",
+                "rssDate": "Thu, 1 Sep 2016 00:00:00 +0000",
+                "dateId": "20160901",
+                "title": "Thursday of the 22nd Week in Ordinary Time",
+                "newAudio": "20160901-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-08-30.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 22nd Week in Ordinary Time",
+                "tags": "demonology",
+                "id": "20160830",
+                "date": "08/30/2016",
+                "rssDate": "Tue, 30 Aug 2016 00:00:00 +0000",
+                "dateId": "20160830",
+                "title": "Tuesday of the 22nd Week in Ordinary Time",
+                "newAudio": "20160830-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-08-29.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Monday of the 22nd Week in Ordinary Time",
+                    "The Passion of St. John the Baptist"
+                ],
+                "tags": "conscience_formation narratives primacy_of_word_of_God",
+                "id": "20160829",
+                "date": "08/29/2016",
+                "rssDate": "Mon, 29 Aug 2016 00:00:00 +0000",
+                "dateId": "20160829",
+                "title": "Monday of the 22nd Week in Ordinary Time / The Passion of St. John the Baptist",
+                "newAudio": "20160829-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "detail": "Mother Teresa and Spiritual Poverty",
+                "audio": "2016-08-28.wav",
+                "liturgical_year": "C",
+                "liturgical_day": [
+                    "22nd Sunday in Ordinary Time",
+                    "St. Teresa of Calcutta"
+                ],
+                "tags": "preferential_option_for_poor humility love suffering",
+                "id": "20160828",
+                "date": "08/28/2016",
+                "rssDate": "Sun, 28 Aug 2016 00:00:00 +0000",
+                "dateId": "20160828",
+                "title": "22nd Sunday in Ordinary Time / St. Teresa of Calcutta",
+                "newAudio": "20160828-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-08-26.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Friday of the 21st Week in Ordinary Time",
+                "tags": "love prudence boundaries friendship",
+                "id": "20160826",
+                "date": "08/26/2016",
+                "rssDate": "Fri, 26 Aug 2016 00:00:00 +0000",
+                "dateId": "20160826",
+                "title": "Friday of the 21st Week in Ordinary Time",
+                "newAudio": "20160826-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-08-25.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Thursday of the 21st Week in Ordinary Time",
+                    "St. Louis"
+                ],
+                "tags": "saint_stories humility fortitude preferential_option_for_poor",
+                "id": "20160825",
+                "date": "08/25/2016",
+                "rssDate": "Thu, 25 Aug 2016 00:00:00 +0000",
+                "dateId": "20160825",
+                "title": "Thursday of the 21st Week in Ordinary Time / St. Louis",
+                "newAudio": "20160825-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-08-23.wav",
+                "liturgical_year": "2",
+                "liturgical_day": "Tuesday of the 21st Week in Ordinary Time",
+                "tags": "precepts_of_church",
+                "id": "20160823",
+                "date": "08/23/2016",
+                "rssDate": "Tue, 23 Aug 2016 00:00:00 +0000",
+                "dateId": "20160823",
+                "title": "Tuesday of the 21st Week in Ordinary Time",
+                "newAudio": "20160823-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "audio": "2016-08-22.wav",
+                "liturgical_year": "2",
+                "liturgical_day": [
+                    "Monday of the 21st Week in Ordinary Time",
+                    "The Queenship of the Blessed Virgin Mary"
+                ],
+                "tags": "humility mary",
+                "id": "20160822",
+                "date": "08/22/2016",
+                "rssDate": "Mon, 22 Aug 2016 00:00:00 +0000",
+                "dateId": "20160822",
+                "title": "Monday of the 21st Week in Ordinary Time / The Queenship of the Blessed Virgin Mary",
+                "newAudio": "20160822-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "detail": "The Precepts of the Church: You Shall Observe the Church's Laws Concerning Fasting and Abstinence",
+                "audio": "2016-08-21.wav",
+                "liturgical_year": "C",
+                "liturgical_day": "21st Sunday in Ordinary Time",
+                "tags": "fourth_precept_of_church precepts_of_church asceticism",
+                "id": "20160821",
+                "date": "08/21/2016",
+                "rssDate": "Sun, 21 Aug 2016 00:00:00 +0000",
+                "dateId": "20160821",
+                "title": "21st Sunday in Ordinary Time",
+                "newAudio": "20160821-daily_homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
                 "audio": "2016-08-19.wav",
                 "liturgical_year": "2",
                 "liturgical_day": [
@@ -1048,10 +1450,7 @@ cp = [
                 "dateId": "20160819",
                 "title": "Friday of the 20th Week in Ordinary Time / St. John Eudes",
                 "newAudio": "20160819-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:24.27",
-                "length": "1777792",
-                "link2mp3": "/daily_homilies/audio/20160819-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-18.wav",
@@ -1064,26 +1463,20 @@ cp = [
                 "dateId": "20160818",
                 "title": "Thursday of the 20th Week in Ordinary Time",
                 "newAudio": "20160818-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:03.03",
-                "length": "1454208",
-                "link2mp3": "/daily_homilies/audio/20160818-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-16.wav",
                 "liturgical_year": "2",
                 "liturgical_day": "Tuesday of the 20th Week in Ordinary Time",
-                "tags": "humility christian_suffering",
+                "tags": "humility suffering",
                 "id": "20160816",
                 "date": "08/16/2016",
                 "rssDate": "Tue, 16 Aug 2016 00:00:00 +0000",
                 "dateId": "20160816",
                 "title": "Tuesday of the 20th Week in Ordinary Time",
                 "newAudio": "20160816-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:31.71",
-                "length": "1568896",
-                "link2mp3": "/daily_homilies/audio/20160816-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "Mary Our Hope",
@@ -1097,10 +1490,7 @@ cp = [
                 "dateId": "20160815",
                 "title": "The Solemnity of the Assumption of the Blessed Virgin Mary",
                 "newAudio": "20160815-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:17:27.15",
-                "length": "4190336",
-                "link2mp3": "/daily_homilies/audio/20160815-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "The Precepts of the Church: You Shall Confess Your Sins at Least Once a Year",
@@ -1114,10 +1504,7 @@ cp = [
                 "dateId": "20160814",
                 "title": "20th Sunday in Ordinary Time",
                 "newAudio": "20160814-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:03.27",
-                "length": "2893952",
-                "link2mp3": "/daily_homilies/audio/20160814-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-12.wav",
@@ -1130,10 +1517,7 @@ cp = [
                 "dateId": "20160812",
                 "title": "Friday of the 19th Week in Ordinary Time",
                 "newAudio": "20160812-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:06.61",
-                "length": "2187392",
-                "link2mp3": "/daily_homilies/audio/20160812-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-11.wav",
@@ -1149,10 +1533,7 @@ cp = [
                 "dateId": "20160811",
                 "title": "Thursday of the 19th Week in Ordinary Time / St. Clare",
                 "newAudio": "20160811-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:54.22",
-                "length": "2138240",
-                "link2mp3": "/daily_homilies/audio/20160811-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-09.wav",
@@ -1165,10 +1546,7 @@ cp = [
                 "dateId": "20160809",
                 "title": "Tuesday of the 19th Week in Ordinary Time",
                 "newAudio": "20160809-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:59.29",
-                "length": "1677440",
-                "link2mp3": "/daily_homilies/audio/20160809-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-08.wav",
@@ -1184,13 +1562,10 @@ cp = [
                 "dateId": "20160808",
                 "title": "Monday of the 19th Week in Ordinary Time / St. Dominic",
                 "newAudio": "20160808-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:23.46",
-                "length": "2975872",
-                "link2mp3": "/daily_homilies/audio/20160808-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
-                "detail": "The Precepts of the Church: You Shall Recieve Communion at Least During the Easter Season",
+                "detail": "The Precepts of the Church: You Shall Receive Communion at Least During the Easter Season",
                 "audio": "2016-08-07.wav",
                 "liturgical_year": "C",
                 "liturgical_day": "19th Sunday in Ordinary Time",
@@ -1201,10 +1576,7 @@ cp = [
                 "dateId": "20160807",
                 "title": "19th Sunday in Ordinary Time",
                 "newAudio": "20160807-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:10.66",
-                "length": "2924672",
-                "link2mp3": "/daily_homilies/audio/20160807-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-05.wav",
@@ -1220,10 +1592,7 @@ cp = [
                 "dateId": "20160805",
                 "title": "Friday of the 18th Week in Ordinary Time / Dedication of St. Mary Major",
                 "newAudio": "20160805-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:52.57",
-                "length": "2371712",
-                "link2mp3": "/daily_homilies/audio/20160805-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-04.wav",
@@ -1239,10 +1608,7 @@ cp = [
                 "dateId": "20160804",
                 "title": "Thursday of the 18th Week in Ordinary Time / St. John Vianney",
                 "newAudio": "20160804-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:28.26",
-                "length": "2994304",
-                "link2mp3": "/daily_homilies/audio/20160804-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-02.wav",
@@ -1258,10 +1624,7 @@ cp = [
                 "dateId": "20160802",
                 "title": "Tuesday of the 18th Week in Ordinary Time / St. Peter Julian Eymard",
                 "newAudio": "20160802-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:04:38.74",
-                "length": "1116288",
-                "link2mp3": "/daily_homilies/audio/20160802-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-08-01.wav",
@@ -1270,17 +1633,14 @@ cp = [
                     "Monday of the 18th Week in Ordinary Time",
                     "St. Alphonsus Liguori "
                 ],
-                "tags": "people_as_basically_good eucharist real_presence",
+                "tags": "kushnerian_spirituality eucharist real_presence",
                 "id": "20160801",
                 "date": "08/01/2016",
                 "rssDate": "Mon, 1 Aug 2016 00:00:00 +0000",
                 "dateId": "20160801",
                 "title": "Monday of the 18th Week in Ordinary Time / St. Alphonsus Liguori ",
                 "newAudio": "20160801-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:25.66",
-                "length": "2263168",
-                "link2mp3": "/daily_homilies/audio/20160801-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "The Precepts of the Church: You Shall Provide for the Needs of the Church",
@@ -1294,10 +1654,7 @@ cp = [
                 "dateId": "20160731",
                 "title": "18th Sunday in Ordinary Time",
                 "newAudio": "20160731-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:14.14",
-                "length": "2457728",
-                "link2mp3": "/daily_homilies/audio/20160731-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-28.wav",
@@ -1310,10 +1667,7 @@ cp = [
                 "dateId": "20160728",
                 "title": "Thursday of the 17th Week in Ordinary Time",
                 "newAudio": "20160728-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:43.04",
-                "length": "2332800",
-                "link2mp3": "/daily_homilies/audio/20160728-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-26.wav",
@@ -1329,10 +1683,7 @@ cp = [
                 "dateId": "20160726",
                 "title": "Tuesday of the 17th Week in Ordinary Time / Sts. Joachim and Anne",
                 "newAudio": "20160726-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:48.25",
-                "length": "1874048",
-                "link2mp3": "/daily_homilies/audio/20160726-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-25.wav",
@@ -1341,17 +1692,14 @@ cp = [
                     "Monday of the 17th Week in Ordinary Time",
                     "The Feast of St. James the Apostle"
                 ],
-                "tags": "christian_suffering people_as_basically_good ",
+                "tags": "christian_suffering spirituality ",
                 "id": "20160725",
                 "date": "07/25/2016",
                 "rssDate": "Mon, 25 Jul 2016 00:00:00 +0000",
                 "dateId": "20160725",
                 "title": "Monday of the 17th Week in Ordinary Time / The Feast of St. James the Apostle",
                 "newAudio": "20160725-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:16.52",
-                "length": "1986688",
-                "link2mp3": "/daily_homilies/audio/20160725-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "The Precepts of the Church: You Shall Attend Mass on Sundays and Holy Days of Obligation",
@@ -1365,10 +1713,7 @@ cp = [
                 "dateId": "20160724",
                 "title": "17th Sunday in Ordinary Time",
                 "newAudio": "20160724-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:13:15.86",
-                "length": "3183456",
-                "link2mp3": "/daily_homilies/audio/20160724-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-22.wav",
@@ -1384,10 +1729,7 @@ cp = [
                 "dateId": "20160722",
                 "title": "Friday of the 16th Week in Ordinary Time / St. Mary Magdalene",
                 "newAudio": "20160722-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:25.11",
-                "length": "2021504",
-                "link2mp3": "/daily_homilies/audio/20160722-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-21.wav",
@@ -1403,10 +1745,7 @@ cp = [
                 "dateId": "20160721",
                 "title": "Thursday of the 16th Week in Ordinary Time / St. Lawrence of Brindisi",
                 "newAudio": "20160721-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:08.38",
-                "length": "2674816",
-                "link2mp3": "/daily_homilies/audio/20160721-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-19.wav",
@@ -1419,10 +1758,7 @@ cp = [
                 "dateId": "20160719",
                 "title": "Tuesday of the 16th Week in Ordinary Time",
                 "newAudio": "20160719-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:11.86",
-                "length": "1728640",
-                "link2mp3": "/daily_homilies/audio/20160719-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-18.wav",
@@ -1435,10 +1771,7 @@ cp = [
                 "dateId": "20160718",
                 "title": "Monday of the 16th Week in Ordinary Time",
                 "newAudio": "20160718-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:56.72",
-                "length": "2627712",
-                "link2mp3": "/daily_homilies/audio/20160718-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "Listening to Jesus",
@@ -1452,10 +1785,7 @@ cp = [
                 "dateId": "20160717",
                 "title": "16th Sunday in Ordinary Time",
                 "newAudio": "20160717-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:06.18",
-                "length": "2185344",
-                "link2mp3": "/daily_homilies/audio/20160717-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-15.wav",
@@ -1471,10 +1801,7 @@ cp = [
                 "dateId": "20160715",
                 "title": "Friday of the 15th Week in Ordinary Time / St. Bonaventure",
                 "newAudio": "20160715-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:26.48",
-                "length": "2027648",
-                "link2mp3": "/daily_homilies/audio/20160715-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-14.wav",
@@ -1483,17 +1810,14 @@ cp = [
                     "Thursday of the 15th Week in Ordinary Time",
                     "St. Kateri Tekakwitha"
                 ],
-                "tags": "christian_suffering",
+                "tags": "suffering",
                 "id": "20160714",
                 "date": "07/14/2016",
                 "rssDate": "Thu, 14 Jul 2016 00:00:00 +0000",
                 "dateId": "20160714",
                 "title": "Thursday of the 15th Week in Ordinary Time / St. Kateri Tekakwitha",
                 "newAudio": "20160714-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:52.62",
-                "length": "1650816",
-                "link2mp3": "/daily_homilies/audio/20160714-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-12.wav",
@@ -1506,10 +1830,7 @@ cp = [
                 "dateId": "20160712",
                 "title": "Tuesday of the 15th Week in Ordinary Time",
                 "newAudio": "20160712-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:18.30",
-                "length": "2234496",
-                "link2mp3": "/daily_homilies/audio/20160712-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-11.wav",
@@ -1524,10 +1845,7 @@ cp = [
                 "dateId": "20160711",
                 "title": "Monday of the 15th Week in Ordinary Time / St. Benedict of Nursia",
                 "newAudio": "20160711-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:58.71",
-                "length": "2156672",
-                "link2mp3": "/daily_homilies/audio/20160711-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "Jesus as the Good Samaritan and Your Confessor as the Innkeeper",
@@ -1541,10 +1859,7 @@ cp = [
                 "dateId": "20160710",
                 "title": "15th Sunday in Ordinary Time",
                 "newAudio": "20160710-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:20.84",
-                "length": "2723968",
-                "link2mp3": "/daily_homilies/audio/20160710-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-08.wav",
@@ -1556,10 +1871,7 @@ cp = [
                 "dateId": "20160708",
                 "title": "Friday of the 14th Week in Ordinary Time",
                 "newAudio": "20160708-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:22.23",
-                "length": "1529984",
-                "link2mp3": "/daily_homilies/audio/20160708-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-07.wav",
@@ -1571,10 +1883,7 @@ cp = [
                 "dateId": "20160707",
                 "title": "Thursday of the 14th Week in Ordinary Time",
                 "newAudio": "20160707-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:03:37.50",
-                "length": "870528",
-                "link2mp3": "/daily_homilies/audio/20160707-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-06.wav",
@@ -1589,10 +1898,7 @@ cp = [
                 "dateId": "20160706",
                 "title": "Wednesday of the 14th Week in Ordinary Time / St. Maria Goretti",
                 "newAudio": "20160706-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:23.26",
-                "length": "2013312",
-                "link2mp3": "/daily_homilies/audio/20160706-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-05.wav",
@@ -1604,10 +1910,7 @@ cp = [
                 "dateId": "20160705",
                 "title": "Tuesday of the 14th Week in Ordinary Time",
                 "newAudio": "20160705-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:36.49",
-                "length": "1587328",
-                "link2mp3": "/daily_homilies/audio/20160705-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-07-04.wav",
@@ -1622,10 +1925,7 @@ cp = [
                 "dateId": "20160704",
                 "title": "Monday of the 14th Week in Ordinary Time / Independance Day",
                 "newAudio": "20160704-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:26.43",
-                "length": "2027648",
-                "link2mp3": "/daily_homilies/audio/20160704-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "An Initial Pastoral Vision for St. Joseph the Worker Parish",
@@ -1638,10 +1938,7 @@ cp = [
                 "dateId": "20160703",
                 "title": "14th Sunday in Ordinary Time",
                 "newAudio": "20160703-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:19.47",
-                "length": "2959488",
-                "link2mp3": "/daily_homilies/audio/20160703-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-28.wav",
@@ -1656,10 +1953,7 @@ cp = [
                 "dateId": "20160628",
                 "title": "Tuesday of the 13th Week in Ordinary Time / St. Irenaeus",
                 "newAudio": "20160628-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:24.63",
-                "length": "2500736",
-                "link2mp3": "/daily_homilies/audio/20160628-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "Commitment and Marriage",
@@ -1672,10 +1966,7 @@ cp = [
                 "dateId": "20160626",
                 "title": "13th Sunday in Ordinary Time",
                 "newAudio": "20160626-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:00.01",
-                "length": "2881664",
-                "link2mp3": "/daily_homilies/audio/20160626-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "The Cross and a Christian Understanding of Suffering",
@@ -1688,10 +1979,7 @@ cp = [
                 "dateId": "20160619",
                 "title": "12th Sunday in Ordinary Time",
                 "newAudio": "20160619-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:36.80",
-                "length": "2547840",
-                "link2mp3": "/daily_homilies/audio/20160619-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-18.wav",
@@ -1703,10 +1991,7 @@ cp = [
                 "dateId": "20160618",
                 "title": "Saturday of the 11th Week in Ordinary Time",
                 "newAudio": "20160618-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:14:17.05",
-                "length": "3428480",
-                "link2mp3": "/daily_homilies/audio/20160618-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-17.wav",
@@ -1718,10 +2003,7 @@ cp = [
                 "dateId": "20160617",
                 "title": "Friday of the 11th Week in Ordinary Time",
                 "newAudio": "20160617-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:56.17",
-                "length": "1906816",
-                "link2mp3": "/daily_homilies/audio/20160617-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-16.wav",
@@ -1733,10 +2015,7 @@ cp = [
                 "dateId": "20160616",
                 "title": "Thursday of the 11th Week in Ordinary Time",
                 "newAudio": "20160616-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:02.17",
-                "length": "2410624",
-                "link2mp3": "/daily_homilies/audio/20160616-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-15.wav",
@@ -1748,10 +2027,7 @@ cp = [
                 "dateId": "20160615",
                 "title": "Wednesday of the 11th Week in Ordinary Time",
                 "newAudio": "20160615-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:01.50",
-                "length": "2166912",
-                "link2mp3": "/daily_homilies/audio/20160615-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-14.wav",
@@ -1763,10 +2039,7 @@ cp = [
                 "dateId": "20160614",
                 "title": "Tuesday of the 11th Week in Ordinary Time",
                 "newAudio": "20160614-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:52.78",
-                "length": "1892480",
-                "link2mp3": "/daily_homilies/audio/20160614-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-12.wav",
@@ -1778,10 +2051,7 @@ cp = [
                 "dateId": "20160612",
                 "title": "11th Sunday in Ordinary Time",
                 "newAudio": "20160612-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:47.46",
-                "length": "2590848",
-                "link2mp3": "/daily_homilies/audio/20160612-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-11.wav",
@@ -1793,10 +2063,7 @@ cp = [
                 "dateId": "20160611",
                 "title": "Saturday of the 10th Week in Ordinary Time",
                 "newAudio": "20160611-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:04:19.28",
-                "length": "1038464",
-                "link2mp3": "/daily_homilies/audio/20160611-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-10.wav",
@@ -1808,10 +2075,7 @@ cp = [
                 "dateId": "20160610",
                 "title": "Friday of the 10th Week in Ordinary Time",
                 "newAudio": "20160610-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:27.94",
-                "length": "2273408",
-                "link2mp3": "/daily_homilies/audio/20160610-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-09.wav",
@@ -1823,10 +2087,7 @@ cp = [
                 "dateId": "20160609",
                 "title": "Thursday of the 10th Week in Ordinary Time",
                 "newAudio": "20160609-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:24.99",
-                "length": "2261120",
-                "link2mp3": "/daily_homilies/audio/20160609-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-07.wav",
@@ -1838,10 +2099,7 @@ cp = [
                 "dateId": "20160607",
                 "title": "Tuesday of the 10th Week in Ordinary Time",
                 "newAudio": "20160607-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:53.82",
-                "length": "2136192",
-                "link2mp3": "/daily_homilies/audio/20160607-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-03.wav",
@@ -1853,10 +2111,7 @@ cp = [
                 "dateId": "20160603",
                 "title": "The Feast of the Sacred Heart",
                 "newAudio": "20160603-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:37.80",
-                "length": "1591200",
-                "link2mp3": "/daily_homilies/audio/20160603-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-02.wav",
@@ -1868,10 +2123,7 @@ cp = [
                 "dateId": "20160602",
                 "title": "Thursday of the 9th Week in Ordinary Time",
                 "newAudio": "20160602-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:03.62",
-                "length": "1694496",
-                "link2mp3": "/daily_homilies/audio/20160602-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-06-01.wav",
@@ -1886,10 +2138,7 @@ cp = [
                 "dateId": "20160601",
                 "title": "Wednesday of the 9th Week in Ordinary Time / St. Justin Martyr",
                 "newAudio": "20160601-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:08.04",
-                "length": "1232160",
-                "link2mp3": "/daily_homilies/audio/20160601-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-31.wav",
@@ -1901,10 +2150,7 @@ cp = [
                 "dateId": "20160531",
                 "title": "The Feast of the Visitation",
                 "newAudio": "20160531-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:13.21",
-                "length": "1493120",
-                "link2mp3": "/daily_homilies/audio/20160531-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-29.wav",
@@ -1916,10 +2162,7 @@ cp = [
                 "dateId": "20160529",
                 "title": "The Feast of Corpus Christi",
                 "newAudio": "20160529-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:13:08.31",
-                "length": "3154048",
-                "link2mp3": "/daily_homilies/audio/20160529-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-28.wav",
@@ -1931,10 +2174,7 @@ cp = [
                 "dateId": "20160528",
                 "title": "Saturday of the 8th Week in Ordinary Time",
                 "newAudio": "20160528-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:03:54.58",
-                "length": "940160",
-                "link2mp3": "/daily_homilies/audio/20160528-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-27.wav",
@@ -1946,10 +2186,7 @@ cp = [
                 "dateId": "20160527",
                 "title": "Friday of the 8th Week in Ordinary Time",
                 "newAudio": "20160527-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:33.99",
-                "length": "2056320",
-                "link2mp3": "/daily_homilies/audio/20160527-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-25.wav",
@@ -1961,10 +2198,7 @@ cp = [
                 "dateId": "20160525",
                 "title": "Wednesday of the 8th Week in Ordinary Time",
                 "newAudio": "20160525-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:50.67",
-                "length": "1644672",
-                "link2mp3": "/daily_homilies/audio/20160525-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-24.wav",
@@ -1976,10 +2210,7 @@ cp = [
                 "dateId": "20160524",
                 "title": "Tuesday of the 8th Week in Ordinary Time",
                 "newAudio": "20160524-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:13.18",
-                "length": "1734784",
-                "link2mp3": "/daily_homilies/audio/20160524-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-22.wav",
@@ -1991,10 +2222,7 @@ cp = [
                 "dateId": "20160522",
                 "title": "The Feast of the Most Holy Trinity",
                 "newAudio": "20160522-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:13:08.48",
-                "length": "3156096",
-                "link2mp3": "/daily_homilies/audio/20160522-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-21.wav",
@@ -2006,10 +2234,7 @@ cp = [
                 "dateId": "20160521",
                 "title": "Saturday of the 7th Week in Ordinary Time",
                 "newAudio": "20160521-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:17.34",
-                "length": "1990784",
-                "link2mp3": "/daily_homilies/audio/20160521-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-20.wav",
@@ -2021,10 +2246,7 @@ cp = [
                 "dateId": "20160520",
                 "title": "Friday of the 7th Week in Ordinary Time",
                 "newAudio": "20160520-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:00.54",
-                "length": "1443968",
-                "link2mp3": "/daily_homilies/audio/20160520-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-19.wav",
@@ -2036,10 +2258,7 @@ cp = [
                 "dateId": "20160519",
                 "title": "Thursday of the 7th Week in Ordinary Time",
                 "newAudio": "20160519-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:45.82",
-                "length": "1624192",
-                "link2mp3": "/daily_homilies/audio/20160519-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-18.wav",
@@ -2051,10 +2270,7 @@ cp = [
                 "dateId": "20160518",
                 "title": "Wednesday of the 7th Week in Ordinary Time",
                 "newAudio": "20160518-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:03:39.22",
-                "length": "878720",
-                "link2mp3": "/daily_homilies/audio/20160518-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-17.wav",
@@ -2066,10 +2282,7 @@ cp = [
                 "dateId": "20160517",
                 "title": "Tuesday of the 7th Week in Ordinary Time",
                 "newAudio": "20160517-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:09.13",
-                "length": "1958016",
-                "link2mp3": "/daily_homilies/audio/20160517-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-15.wav",
@@ -2081,10 +2294,7 @@ cp = [
                 "dateId": "20160515",
                 "title": "The Feast of Pentecost",
                 "newAudio": "20160515-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:55.11",
-                "length": "2381952",
-                "link2mp3": "/daily_homilies/audio/20160515-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-14.wav",
@@ -2099,10 +2309,7 @@ cp = [
                 "dateId": "20160514",
                 "title": "Saturday of the 7th Week of Easter / The Feast of St. Matthias",
                 "newAudio": "20160514-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:25.64",
-                "length": "1544320",
-                "link2mp3": "/daily_homilies/audio/20160514-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-13.wav",
@@ -2117,10 +2324,7 @@ cp = [
                 "dateId": "20160513",
                 "title": "Friday of the 7th Week of Easter / Our Lady of Fatima",
                 "newAudio": "20160513-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:21.46",
-                "length": "2246784",
-                "link2mp3": "/daily_homilies/audio/20160513-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-12.wav",
@@ -2132,10 +2336,7 @@ cp = [
                 "dateId": "20160512",
                 "title": "Thursday of the 7th Week of Easter",
                 "newAudio": "20160512-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:41.77",
-                "length": "1607808",
-                "link2mp3": "/daily_homilies/audio/20160512-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-08.wav",
@@ -2147,10 +2348,7 @@ cp = [
                 "dateId": "20160508",
                 "title": "Seventh Sunday of Easter",
                 "newAudio": "20160508-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:49.21",
-                "length": "2838656",
-                "link2mp3": "/daily_homilies/audio/20160508-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-06.wav",
@@ -2162,10 +2360,7 @@ cp = [
                 "dateId": "20160506",
                 "title": "Friday of the 6th Week of Easter",
                 "newAudio": "20160506-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:26.65",
-                "length": "2027648",
-                "link2mp3": "/daily_homilies/audio/20160506-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-05.wav",
@@ -2177,10 +2372,7 @@ cp = [
                 "dateId": "20160505",
                 "title": "Ascension Thursday",
                 "newAudio": "20160505-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:22.54",
-                "length": "2011264",
-                "link2mp3": "/daily_homilies/audio/20160505-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-05-03.wav",
@@ -2195,10 +2387,7 @@ cp = [
                 "dateId": "20160503",
                 "title": "Tuesday of the 6th Week of Easter / The Feast of Sts. Philip and James",
                 "newAudio": "20160503-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:06.08",
-                "length": "1224832",
-                "link2mp3": "/daily_homilies/audio/20160503-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-04-24.wav",
@@ -2210,10 +2399,7 @@ cp = [
                 "dateId": "20160424",
                 "title": "Fifth Sunday of Easter",
                 "newAudio": "20160424-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:15.78",
-                "length": "2463872",
-                "link2mp3": "/daily_homilies/audio/20160424-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-04-23.wav",
@@ -2228,10 +2414,7 @@ cp = [
                 "dateId": "20160423",
                 "title": "Saturday of the 4th Week of Easter / St. George",
                 "newAudio": "20160423-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:06.37",
-                "length": "1226880",
-                "link2mp3": "/daily_homilies/audio/20160423-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-04-22.wav",
@@ -2243,10 +2426,7 @@ cp = [
                 "dateId": "20160422",
                 "title": "Friday of the 4th Week of Easter",
                 "newAudio": "20160422-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:15.87",
-                "length": "1745024",
-                "link2mp3": "/daily_homilies/audio/20160422-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2016-04-21.wav",
@@ -2258,10 +2438,7 @@ cp = [
                 "dateId": "20160421",
                 "title": "Thursday of the 4th Week of Easter 2016",
                 "newAudio": "20160421-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:07.59",
-                "length": "1230976",
-                "link2mp3": "/daily_homilies/audio/20160421-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "detail": "Marriage, Divorce and Children",
@@ -2304,10 +2481,7 @@ cp = [
                 "dateId": "20151002",
                 "title": "Friday of the 26th Week in Ordinary Time / Guardian Angels",
                 "newAudio": "20151002-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:24.37",
-                "length": "1538176",
-                "link2mp3": "/daily_homilies/audio/20151002-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-10-01.wav",
@@ -2322,10 +2496,7 @@ cp = [
                 "dateId": "20151001",
                 "title": "Thursday of the 26th Week in Ordinary Time / St. Therese",
                 "newAudio": "20151001-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:42.66",
-                "length": "1372288",
-                "link2mp3": "/daily_homilies/audio/20151001-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-30.wav",
@@ -2340,10 +2511,7 @@ cp = [
                 "dateId": "20150930",
                 "title": "Wednesday of the 26th Week in Ordinary Time / St. Jerome",
                 "newAudio": "20150930-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:04.54",
-                "length": "1939584",
-                "link2mp3": "/daily_homilies/audio/20150930-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-29.wav",
@@ -2358,10 +2526,7 @@ cp = [
                 "dateId": "20150929",
                 "title": "Tuesday of the 26th Week in Ordinary Time / The Feast of Sts. Michael, Gabriel, and Raphael",
                 "newAudio": "20150929-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:23.29",
-                "length": "1534080",
-                "link2mp3": "/daily_homilies/audio/20150929-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-18.wav",
@@ -2373,10 +2538,7 @@ cp = [
                 "dateId": "20150918",
                 "title": "Friday of the 24th Week in Ordinary Time",
                 "newAudio": "20150918-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:10.81",
-                "length": "1484928",
-                "link2mp3": "/daily_homilies/audio/20150918-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-15.wav",
@@ -2391,10 +2553,7 @@ cp = [
                 "dateId": "20150915",
                 "title": "Tuesday of the 24th Week in Ordinary Time / Our Lady of Sorrows",
                 "newAudio": "20150915-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:03:27.22",
-                "length": "829568",
-                "link2mp3": "/daily_homilies/audio/20150915-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-12.wav",
@@ -2406,10 +2565,7 @@ cp = [
                 "dateId": "20150912",
                 "title": "Saturday of the 23rd Week in Ordinary Time",
                 "newAudio": "20150912-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:59.38",
-                "length": "3119232",
-                "link2mp3": "/daily_homilies/audio/20150912-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-10.wav",
@@ -2421,10 +2577,7 @@ cp = [
                 "dateId": "20150910",
                 "title": "Thursday of the 23rd Week in Ordinary Time",
                 "newAudio": "20150910-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:45.06",
-                "length": "1380480",
-                "link2mp3": "/daily_homilies/audio/20150910-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-09.wav",
@@ -2436,10 +2589,7 @@ cp = [
                 "dateId": "20150909",
                 "title": "Wednesday of the 23rd Week in Ordinary Time",
                 "newAudio": "20150909-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:45.06",
-                "length": "1380480",
-                "link2mp3": "/daily_homilies/audio/20150909-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-08.wav",
@@ -2454,10 +2604,7 @@ cp = [
                 "dateId": "20150908",
                 "title": "Tuesday of the 23rd Week in Ordinary Time / The Feast of the Nativity of Mary",
                 "newAudio": "20150908-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:59.02",
-                "length": "1437824",
-                "link2mp3": "/daily_homilies/audio/20150908-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-04.wav",
@@ -2469,25 +2616,22 @@ cp = [
                 "dateId": "20150904",
                 "title": "Friday of the 22nd Week in Ordinary Time",
                 "newAudio": "20150904-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:03.61",
-                "length": "1695872",
-                "link2mp3": "/daily_homilies/audio/20150904-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-03.wav",
                 "liturgical_year": "1",
-                "liturgical_day": "Thursday of the 22nd Week in Ordinary Time",
+                "liturgical_day": [
+                    "Thursday of the 22nd Week in Ordinary Time",
+                    "St. Gregory the Great"
+                ],
                 "id": "20150903",
                 "date": "09/03/2015",
                 "rssDate": "Thu, 3 Sep 2015 00:00:00 +0000",
                 "dateId": "20150903",
-                "title": "Thursday of the 22nd Week in Ordinary Time",
+                "title": "Thursday of the 22nd Week in Ordinary Time / St. Gregory the Great",
                 "newAudio": "20150903-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:27.34",
-                "length": "1550464",
-                "link2mp3": "/daily_homilies/audio/20150903-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-02.wav",
@@ -2499,10 +2643,7 @@ cp = [
                 "dateId": "20150902",
                 "title": "Wednesday of the 22nd Week in Ordinary Time",
                 "newAudio": "20150902-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:04:22.62",
-                "length": "1050752",
-                "link2mp3": "/daily_homilies/audio/20150902-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-09-01.wav",
@@ -2514,10 +2655,7 @@ cp = [
                 "dateId": "20150901",
                 "title": "Tuesday of the 22nd Week in Ordinary Time",
                 "newAudio": "20150901-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:47.48",
-                "length": "1390720",
-                "link2mp3": "/daily_homilies/audio/20150901-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-28.wav",
@@ -2532,10 +2670,7 @@ cp = [
                 "dateId": "20150828",
                 "title": "Friday of the 21st Week in Ordinary Time / St. Augustine",
                 "newAudio": "20150828-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:18.54",
-                "length": "1515648",
-                "link2mp3": "/daily_homilies/audio/20150828-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-27.wav",
@@ -2550,10 +2685,7 @@ cp = [
                 "dateId": "20150827",
                 "title": "Thursday of the 21st Week in Ordinary Time / St. Monica",
                 "newAudio": "20150827-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:04:26.12",
-                "length": "1065088",
-                "link2mp3": "/daily_homilies/audio/20150827-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-26.wav",
@@ -2565,10 +2697,7 @@ cp = [
                 "dateId": "20150826",
                 "title": "Wednesday of the 21st Week in Ordinary Time",
                 "newAudio": "20150826-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:32.46",
-                "length": "1331328",
-                "link2mp3": "/daily_homilies/audio/20150826-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-14.wav",
@@ -2580,10 +2709,7 @@ cp = [
                 "dateId": "20150814",
                 "title": "Friday of the 19th Week in Ordinary Time",
                 "newAudio": "20150814-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:18.66",
-                "length": "1276032",
-                "link2mp3": "/daily_homilies/audio/20150814-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-12.wav",
@@ -2595,10 +2721,7 @@ cp = [
                 "dateId": "20150812",
                 "title": "Wednesday of the 19th Week in Ordinary Time",
                 "newAudio": "20150812-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:03:11.74",
-                "length": "768128",
-                "link2mp3": "/daily_homilies/audio/20150812-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-07.wav",
@@ -2610,10 +2733,7 @@ cp = [
                 "dateId": "20150807",
                 "title": "Friday of the 18th Week in Ordinary Time",
                 "newAudio": "20150807-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:04:34.06",
-                "length": "1097856",
-                "link2mp3": "/daily_homilies/audio/20150807-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-06.wav",
@@ -2625,10 +2745,7 @@ cp = [
                 "dateId": "20150806",
                 "title": "Thursday of the 18th Week in Ordinary Time",
                 "newAudio": "20150806-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:28.69",
-                "length": "1314944",
-                "link2mp3": "/daily_homilies/audio/20150806-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-05.wav",
@@ -2640,10 +2757,7 @@ cp = [
                 "dateId": "20150805",
                 "title": "Wednesday of the 18th Week in Ordinary Time",
                 "newAudio": "20150805-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:16.88",
-                "length": "1509504",
-                "link2mp3": "/daily_homilies/audio/20150805-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "audio": "2015-08-04.wav",
@@ -2655,10 +2769,7 @@ cp = [
                 "dateId": "20150804",
                 "title": "Tuesday of the 18th Week in Ordinary Time",
                 "newAudio": "20150804-daily_homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:59.12",
-                "length": "1437824",
-                "link2mp3": "/daily_homilies/audio/20150804-daily_homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "35",
@@ -3200,8 +3311,8 @@ cp = [
                 "audio": "FS2016YMarchFireofHellContrition.wav",
                 "newAudio": "10-misc.mp3",
                 "volume_boost": "4",
-                "duration": "00:21:16.02",
-                "length": "5105792",
+                "duration": "00:21:14.99",
+                "length": "5101696",
                 "link2mp3": "/misc/audio/10-misc.mp3"
             },
             {
@@ -3241,6 +3352,114 @@ cp = [
     {
         "classes": [
             {
+                "id": "106",
+                "title": "26th Sunday in Ordinary Time 2016",
+                "detail": "Spiritual Fatherhood",
+                "date": "9/25/2016",
+                "rssDate": "Sun, 25 Sep 2016 00:00:00 +0000",
+                "dateId": "20160925",
+                "audio": "2016-09-25.wav",
+                "newAudio": "106-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:15:51.97",
+                "length": "3809408",
+                "link2mp3": "/Sunday_Homilies/audio/106-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "105",
+                "title": "25th Sunday in Ordinary Time 2016",
+                "detail": "Serving God, not Mammon",
+                "date": "9/18/2016",
+                "rssDate": "Sun, 18 Sep 2016 00:00:00 +0000",
+                "dateId": "20160918",
+                "audio": "2016-09-18.wav",
+                "newAudio": "105-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:10:02.89",
+                "length": "2412672",
+                "link2mp3": "/Sunday_Homilies/audio/105-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "104",
+                "title": "24th Sunday in Ordinary Time 2016",
+                "detail": "The Commandments as Key to the Human Heart",
+                "date": "9/11/2016",
+                "rssDate": "Sun, 11 Sep 2016 00:00:00 +0000",
+                "dateId": "20160911",
+                "audio": "2016-09-11.wav",
+                "newAudio": "104-Sunday_Homilies.mp3",
+                "volume_boost": "4",
+                "duration": "00:13:41.84",
+                "length": "3289216",
+                "link2mp3": "/Sunday_Homilies/audio/104-Sunday_Homilies.mp3"
+            },
+            {
+                "id": "103",
+                "title": "23rd Sunday in Ordinary Time 2016",
+                "detail": "Reason, the Bible, the Church: Our Flight Instruments",
+                "date": "9/4/2016",
+                "rssDate": "Sun, 4 Sep 2016 00:00:00 +0000",
+                "dateId": "20160904",
+                "audio": "2016-09-04.wav",
+                "handout_title": [
+                    "Homily Text for 23rd Sunday in Ordinary Time 2016"
+                ],
+                "handout_file": [
+                    "SHT2016Y23OT.pdf"
+                ],
+                "newAudio": "103-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "103-Homily_Text_for_23rd_Sunday_in_Ordinary_Time_2016.pdf"
+                ],
+                "new_handout_title": [
+                    "Homily Text for 23rd Sunday in Ordinary Time 2016"
+                ],
+                "volume_boost": "4",
+                "duration": "00:12:02.12",
+                "length": "2889856",
+                "link2mp3": "/Sunday_Homilies/audio/103-Sunday_Homilies.mp3",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/103-Homily_Text_for_23rd_Sunday_in_Ordinary_Time_2016.pdf"
+                ]
+            },
+            {
+                "id": "102",
+                "title": "22nd Sunday in Ordinary Time 2016",
+                "detail": "Mother Teresa and Spiritual Poverty",
+                "date": "8/28/2016",
+                "rssDate": "Sun, 28 Aug 2016 00:00:00 +0000",
+                "dateId": "20160828",
+                "audio": "2016-08-28.wav",
+                "newAudio": "102-Sunday_Homilies.mp3",
+                "volume_boost": "4"
+            },
+            {
+                "id": "101",
+                "title": "21st Sunday in Ordinary Time 2016",
+                "detail": "The Precepts of the Church: You Shall Observe the Church's Laws Concerning Fasting and Abstinence",
+                "date": "8/21/2016",
+                "rssDate": "Sun, 21 Aug 2016 00:00:00 +0000",
+                "dateId": "20160821",
+                "audio": "2016-08-21.wav",
+                "handout_title": [
+                    "The Precepts of the Church"
+                ],
+                "handout_file": [
+                    "The Precepts of the Church.pdf"
+                ],
+                "newAudio": "101-Sunday_Homilies.mp3",
+                "new_handout_file": [
+                    "101-The_Precepts_of_the_Church.pdf"
+                ],
+                "new_handout_title": [
+                    "The Precepts of the Church"
+                ],
+                "volume_boost": "4",
+                "handout_links": [
+                    "/Sunday_Homilies/docs/101-The_Precepts_of_the_Church.pdf"
+                ]
+            },
+            {
                 "id": "100",
                 "title": "The Solemnity of the Assumption of the Blessed Virgin Mary",
                 "detail": "Mary Our Hope",
@@ -3249,10 +3468,7 @@ cp = [
                 "dateId": "20160815",
                 "audio": "2016-08-15.wav",
                 "newAudio": "100-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:17:27.15",
-                "length": "4190336",
-                "link2mp3": "/Sunday_Homilies/audio/100-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "99",
@@ -3276,9 +3492,6 @@ cp = [
                     "How to Go to Confession"
                 ],
                 "volume_boost": "4",
-                "duration": "00:12:03.27",
-                "length": "2893952",
-                "link2mp3": "/Sunday_Homilies/audio/99-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/99-How_to_Go_to_Confession.pdf"
                 ]
@@ -3286,16 +3499,13 @@ cp = [
             {
                 "id": "98",
                 "title": "19th Sunday in Ordinary Time 2016",
-                "detail": "The Precepts of the Church: You Shall Recieve Communion at Least During the Easter Season",
+                "detail": "The Precepts of the Church: You Shall Receive Communion at Least During the Easter Season",
                 "date": "8/7/2016",
                 "rssDate": "Sun, 7 Aug 2016 00:00:00 +0000",
                 "dateId": "20160807",
                 "audio": "2016-08-07.wav",
                 "newAudio": "98-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:10.66",
-                "length": "2924672",
-                "link2mp3": "/Sunday_Homilies/audio/98-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "97",
@@ -3306,10 +3516,7 @@ cp = [
                 "dateId": "20160731",
                 "audio": "2016-07-31.wav",
                 "newAudio": "97-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:14.14",
-                "length": "2457728",
-                "link2mp3": "/Sunday_Homilies/audio/97-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "96",
@@ -3320,10 +3527,7 @@ cp = [
                 "dateId": "20160724",
                 "audio": "2016-07-24.wav",
                 "newAudio": "96-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:13:15.90",
-                "length": "3184768",
-                "link2mp3": "/Sunday_Homilies/audio/96-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "95",
@@ -3334,10 +3538,7 @@ cp = [
                 "dateId": "20160717",
                 "audio": "2016-07-17.wav",
                 "newAudio": "95-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:06.18",
-                "length": "2185344",
-                "link2mp3": "/Sunday_Homilies/audio/95-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "94",
@@ -3348,10 +3549,7 @@ cp = [
                 "dateId": "20160710",
                 "audio": "2016-07-10.wav",
                 "newAudio": "94-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:20.84",
-                "length": "2723968",
-                "link2mp3": "/Sunday_Homilies/audio/94-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "93",
@@ -3362,10 +3560,7 @@ cp = [
                 "dateId": "20160703",
                 "audio": "2016-07-03.wav",
                 "newAudio": "93-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:19.47",
-                "length": "2959488",
-                "link2mp3": "/Sunday_Homilies/audio/93-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "92",
@@ -3376,10 +3571,7 @@ cp = [
                 "dateId": "20160626",
                 "audio": "2016-06-26.wav",
                 "newAudio": "92-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:00.01",
-                "length": "2881664",
-                "link2mp3": "/Sunday_Homilies/audio/92-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "91",
@@ -3390,10 +3582,7 @@ cp = [
                 "dateId": "20160619",
                 "audio": "2016-06-19.wav",
                 "newAudio": "91-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:36.80",
-                "length": "2547840",
-                "link2mp3": "/Sunday_Homilies/audio/91-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "90",
@@ -3404,10 +3593,7 @@ cp = [
                 "dateId": "20160612",
                 "audio": "Copy of 2016-06-12.wav",
                 "newAudio": "90-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:47.46",
-                "length": "2590848",
-                "link2mp3": "/Sunday_Homilies/audio/90-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "89",
@@ -3431,9 +3617,6 @@ cp = [
                     "A short film on the Eucharistic Miracle of Buenos Aires"
                 ],
                 "volume_boost": "4",
-                "duration": "00:13:08.31",
-                "length": "3154048",
-                "link2mp3": "/Sunday_Homilies/audio/89-Sunday_Homilies.mp3",
                 "handout_links": [
                     "https://www.youtube.com/watch?v=2RUvrSu6_CQ"
                 ]
@@ -3447,10 +3630,7 @@ cp = [
                 "dateId": "20160522",
                 "audio": "2016-05-22.wav",
                 "newAudio": "88-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:13:08.48",
-                "length": "3154048",
-                "link2mp3": "/Sunday_Homilies/audio/88-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "87",
@@ -3461,10 +3641,7 @@ cp = [
                 "dateId": "20160515",
                 "audio": "2016-05-15.wav",
                 "newAudio": "87-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:55.11",
-                "length": "2381952",
-                "link2mp3": "/Sunday_Homilies/audio/87-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "86",
@@ -3475,10 +3652,7 @@ cp = [
                 "dateId": "20160508",
                 "audio": "Copy of 2016-05-08.wav",
                 "newAudio": "86-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:49.21",
-                "length": "2838656",
-                "link2mp3": "/Sunday_Homilies/audio/86-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "85",
@@ -3489,10 +3663,7 @@ cp = [
                 "dateId": "20160505",
                 "audio": "Copy of 2016-05-05.wav",
                 "newAudio": "85-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:22.54",
-                "length": "2011264",
-                "link2mp3": "/Sunday_Homilies/audio/85-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "84",
@@ -3503,10 +3674,7 @@ cp = [
                 "dateId": "20160424",
                 "audio": "Copy of 2016-04-24.wav",
                 "newAudio": "84-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:15.78",
-                "length": "2463872",
-                "link2mp3": "/Sunday_Homilies/audio/84-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "83",
@@ -3517,10 +3685,7 @@ cp = [
                 "dateId": "20160417",
                 "audio": "SH04SunEaster2016.wav",
                 "newAudio": "83-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:44.48",
-                "length": "2578560",
-                "link2mp3": "/Sunday_Homilies/audio/83-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "82",
@@ -3548,9 +3713,6 @@ cp = [
                     "Abortion and Excommunication Handout"
                 ],
                 "volume_boost": "4",
-                "duration": "00:09:28.06",
-                "length": "2273408",
-                "link2mp3": "/Sunday_Homilies/audio/82-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/82-Homily_Text_for_Divine_Mercy_Sunday_2016.pdf",
                     "/Sunday_Homilies/docs/82-Abortion_and_Excommunication_Handout.pdf"
@@ -3578,9 +3740,6 @@ cp = [
                     "Homily Text for Easter Sunday 2016"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:30.90",
-                "length": "2525312",
-                "link2mp3": "/Sunday_Homilies/audio/81-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/81-Homily_Text_for_Easter_Sunday_2016.pdf"
                 ]
@@ -3594,10 +3753,7 @@ cp = [
                 "dateId": "20160325",
                 "audio": "HomilyGoodFriday2016.wav",
                 "newAudio": "80-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:45.56",
-                "length": "2103424",
-                "link2mp3": "/Sunday_Homilies/audio/80-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "79",
@@ -3608,10 +3764,7 @@ cp = [
                 "dateId": "20160324",
                 "audio": "HomilyHolyThursday2016.wav",
                 "newAudio": "79-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:31.52",
-                "length": "1806464",
-                "link2mp3": "/Sunday_Homilies/audio/79-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "78",
@@ -3639,9 +3792,6 @@ cp = [
                     "Prayer to St. Dismas and Acts of Faith, Hope, etc."
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:34.57",
-                "length": "2779264",
-                "link2mp3": "/Sunday_Homilies/audio/78-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/78-Homily_Text_for_Palm_Sunday_2016.pdf",
                     "/Sunday_Homilies/docs/78-Prayer_to_St._Dismas_and_Acts_of_Faith,_Hope,_etc..pdf"
@@ -3656,10 +3806,7 @@ cp = [
                 "dateId": "20160319",
                 "audio": "HomilyFeastStJoseph2016.wav",
                 "newAudio": "77-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:35.58",
-                "length": "2062464",
-                "link2mp3": "/Sunday_Homilies/audio/77-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "76",
@@ -3683,9 +3830,6 @@ cp = [
                     "Mortal Sin, Conditions and Examples"
                 ],
                 "volume_boost": "4",
-                "duration": "00:13:57.32",
-                "length": "3350656",
-                "link2mp3": "/Sunday_Homilies/audio/76-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/76-Mortal_Sin,_Conditions_and_Examples.pdf"
                 ]
@@ -3724,9 +3868,6 @@ cp = [
                     "An Examen for Mortal Sin and Venial Sin (ten pages)"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:36.80",
-                "length": "2547840",
-                "link2mp3": "/Sunday_Homilies/audio/75-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/75-Homily_Text_for_the_Third_Sunday_of_Lent_2016.pdf",
                     "/Sunday_Homilies/docs/75-An_Examen_for_Mortal_Sin_(two_pages).pdf",
@@ -3743,10 +3884,7 @@ cp = [
                 "dateId": "20160221",
                 "audio": "SH02SunLent2016.wav",
                 "newAudio": "74-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:11.94",
-                "length": "2449536",
-                "link2mp3": "/Sunday_Homilies/audio/74-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "73",
@@ -3770,9 +3908,6 @@ cp = [
                     "Homily Text for the First Sunday of Lent 2016"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:09.90",
-                "length": "2441344",
-                "link2mp3": "/Sunday_Homilies/audio/73-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/73-Homily_Text_for_the_First_Sunday_of_Lent_2016.pdf"
                 ]
@@ -3786,10 +3921,7 @@ cp = [
                 "dateId": "20160207",
                 "audio": "SH05SunOrdT2016.wav",
                 "newAudio": "72-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:30.87",
-                "length": "2525312",
-                "link2mp3": "/Sunday_Homilies/audio/72-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "71",
@@ -3800,10 +3932,7 @@ cp = [
                 "dateId": "20160131",
                 "audio": "SH04SunOrdT2016.wav",
                 "newAudio": "71-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:55.26",
-                "length": "2621568",
-                "link2mp3": "/Sunday_Homilies/audio/71-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "70",
@@ -3827,9 +3956,6 @@ cp = [
                     "Homily Text for the 3rd Sunday in Ordinary Time 2016"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:07.86",
-                "length": "2433152",
-                "link2mp3": "/Sunday_Homilies/audio/70-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/70-Homily_Text_for_the_3rd_Sunday_in_Ordinary_Time_2016.pdf"
                 ]
@@ -3843,10 +3969,7 @@ cp = [
                 "dateId": "20160117",
                 "audio": "SH02SunOrdT2016.wav",
                 "newAudio": "69-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:55.62",
-                "length": "2623616",
-                "link2mp3": "/Sunday_Homilies/audio/69-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "68",
@@ -3870,9 +3993,6 @@ cp = [
                     "Images of Paintings of the Baptism of the Lord Referred to in the Homily"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:17.31",
-                "length": "2709632",
-                "link2mp3": "/Sunday_Homilies/audio/68-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/68-Images_of_Paintings_of_the_Baptism_of_the_Lord_Referred_to_in_the_Homily.pdf"
                 ]
@@ -3886,10 +4006,7 @@ cp = [
                 "dateId": "20160103",
                 "audio": "HomilyEpiphany2016.wav",
                 "newAudio": "67-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:44.17",
-                "length": "2336896",
-                "link2mp3": "/Sunday_Homilies/audio/67-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "66",
@@ -3917,9 +4034,6 @@ cp = [
                     "St. Louis de Montfort's \"shorter\" method of praying the Rosary"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:36.51",
-                "length": "2547840",
-                "link2mp3": "/Sunday_Homilies/audio/66-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/66-Homily_Outline_for_the_Feast_of_Mary,_Mother_of_God_2016.pdf",
                     "/Sunday_Homilies/docs/66-St._Louis_de_Montfort's_\"shorter\"_method_of_praying_the_Rosary.pdf"
@@ -3947,9 +4061,6 @@ cp = [
                     "Homily Text for the Feast of the Holy Family 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:05:15.67",
-                "length": "1262688",
-                "link2mp3": "/Sunday_Homilies/audio/65-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/65-Homily_Text_for_the_Feast_of_the_Holy_Family_2015.pdf"
                 ]
@@ -3976,9 +4087,6 @@ cp = [
                     "Homily Text for the Feast of the Nativity 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:16.64",
-                "length": "2467968",
-                "link2mp3": "/Sunday_Homilies/audio/64-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/64-Homily_Text_for_the_Feast_of_the_Nativity_2015.pdf"
                 ]
@@ -3992,10 +4100,7 @@ cp = [
                 "dateId": "20151220",
                 "audio": "SHAdvent4Sun2015.wav",
                 "newAudio": "63-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:10.62",
-                "length": "2443392",
-                "link2mp3": "/Sunday_Homilies/audio/63-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "62",
@@ -4006,10 +4111,7 @@ cp = [
                 "dateId": "20151213",
                 "audio": "SHAdvent3Sun2015.wav",
                 "newAudio": "62-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:42.80",
-                "length": "2093184",
-                "link2mp3": "/Sunday_Homilies/audio/62-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "61",
@@ -4020,10 +4122,7 @@ cp = [
                 "dateId": "20151208",
                 "audio": "HomilyforIC2015.wav",
                 "newAudio": "61-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:12.75",
-                "length": "2211968",
-                "link2mp3": "/Sunday_Homilies/audio/61-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "60",
@@ -4034,10 +4133,7 @@ cp = [
                 "dateId": "20151206",
                 "audio": "SHAdvent2Sun2015.wav",
                 "newAudio": "60-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:54.92",
-                "length": "2621568",
-                "link2mp3": "/Sunday_Homilies/audio/60-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "59",
@@ -4061,9 +4157,6 @@ cp = [
                 "new_handout_title": [
                     "Homily Outline for First Sunday in Advent 2015"
                 ],
-                "duration": "00:11:28.52",
-                "length": "2754688",
-                "link2mp3": "/Sunday_Homilies/audio/59-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/59-Homily_Outline_for_First_Sunday_in_Advent_2015.pdf"
                 ]
@@ -4079,10 +4172,7 @@ cp = [
                 "dateId": "20151122",
                 "audio": "SH34SunOrdT2015ChristKing-2.wav",
                 "volume_boost": "1",
-                "newAudio": "58-Sunday_Homilies.mp3",
-                "duration": "00:11:11.82",
-                "length": "2689152",
-                "link2mp3": "/Sunday_Homilies/audio/58-Sunday_Homilies.mp3"
+                "newAudio": "58-Sunday_Homilies.mp3"
             },
             {
                 "id": "57",
@@ -4110,9 +4200,6 @@ cp = [
                     "Homily Outline for 33rd Sunday in Ordinary Time 2015",
                     "Handout on Lectio divina"
                 ],
-                "duration": "00:12:28.02",
-                "length": "2992256",
-                "link2mp3": "/Sunday_Homilies/audio/57-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/57-Homily_Outline_for_33rd_Sunday_in_Ordinary_Time_2015.pdf",
                     "/Sunday_Homilies/docs/57-Handout_on_Lectio_divina.pdf"
@@ -4127,10 +4214,7 @@ cp = [
                 "dateId": "20151108",
                 "audio": "SH32SunOrdT2015.wav",
                 "volume_boost": "1",
-                "newAudio": "56-Sunday_Homilies.mp3",
-                "duration": "00:09:18.54",
-                "length": "2234496",
-                "link2mp3": "/Sunday_Homilies/audio/56-Sunday_Homilies.mp3"
+                "newAudio": "56-Sunday_Homilies.mp3"
             },
             {
                 "id": "55",
@@ -4143,10 +4227,7 @@ cp = [
                 "dateId": "20151102",
                 "audio": "HomilyforAllSouls2015.wav",
                 "volume_boost": "1",
-                "newAudio": "55-Sunday_Homilies.mp3",
-                "duration": "00:06:40.94",
-                "length": "3209344",
-                "link2mp3": "/Sunday_Homilies/audio/55-Sunday_Homilies.mp3"
+                "newAudio": "55-Sunday_Homilies.mp3"
             },
             {
                 "id": "54",
@@ -4159,10 +4240,7 @@ cp = [
                 "dateId": "20151101",
                 "audio": "SH31SunOrdT2015AllSaints.wav",
                 "volume_boost": "1",
-                "newAudio": "54-Sunday_Homilies.mp3",
-                "duration": "00:08:57.04",
-                "length": "4296832",
-                "link2mp3": "/Sunday_Homilies/audio/54-Sunday_Homilies.mp3"
+                "newAudio": "54-Sunday_Homilies.mp3"
             },
             {
                 "id": "53",
@@ -4186,9 +4264,6 @@ cp = [
                     "Homily Text for 30th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:09:37.93",
-                "length": "2312320",
-                "link2mp3": "/Sunday_Homilies/audio/53-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/53-Homily_Text_for_30th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4202,10 +4277,7 @@ cp = [
                 "dateId": "20151018",
                 "audio": "SH29SunOrdT2015.wav",
                 "newAudio": "52-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:39.32",
-                "length": "2797696",
-                "link2mp3": "/Sunday_Homilies/audio/52-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "51",
@@ -4216,10 +4288,7 @@ cp = [
                 "dateId": "20151011",
                 "audio": "SH28SunOrdT2015.wav",
                 "newAudio": "51-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:43.76",
-                "length": "1855616",
-                "link2mp3": "/Sunday_Homilies/audio/51-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "50",
@@ -4243,9 +4312,6 @@ cp = [
                     "Homily Text for 27th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:14.19",
-                "length": "2697344",
-                "link2mp3": "/Sunday_Homilies/audio/50-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/50-Homily_Text_for_27th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4259,10 +4325,7 @@ cp = [
                 "dateId": "20150913",
                 "audio": "HomilyforTwentyFourthSundayinOrdinaryTime2015.wav",
                 "newAudio": "49-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:55.28",
-                "length": "2621568",
-                "link2mp3": "/Sunday_Homilies/audio/49-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "48",
@@ -4286,9 +4349,6 @@ cp = [
                     "Homily Outline for 23rd Sunday in Ordinary Time, including a list of books useful for meditation"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:27.25",
-                "length": "2510976",
-                "link2mp3": "/Sunday_Homilies/audio/48-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/48-Homily_Outline_for_23rd_Sunday_in_Ordinary_Time,_including_a_list_of_books_useful_for_meditation.pdf"
                 ]
@@ -4315,9 +4375,6 @@ cp = [
                     "Homily Text for 19th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:09:39.73",
-                "length": "2320512",
-                "link2mp3": "/Sunday_Homilies/audio/47-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/47-Homily_Text_for_19th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4344,9 +4401,6 @@ cp = [
                     "Homily Text for 18th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:09:47.98",
-                "length": "2353280",
-                "link2mp3": "/Sunday_Homilies/audio/46-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/46-Homily_Text_for_18th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4373,9 +4427,6 @@ cp = [
                     "Homily Text for 17th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:08:28.90",
-                "length": "2035840",
-                "link2mp3": "/Sunday_Homilies/audio/45-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/45-Homily_Text_for_17th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4402,9 +4453,6 @@ cp = [
                     "Homily Text for 15th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:07:58.02",
-                "length": "1912960",
-                "link2mp3": "/Sunday_Homilies/audio/44-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/44-Homily_Text_for_15th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4431,9 +4479,6 @@ cp = [
                     "Homily Text for 14th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:08:11.72",
-                "length": "1968256",
-                "link2mp3": "/Sunday_Homilies/audio/43-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/43-Homily_Text_for_14th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4460,9 +4505,6 @@ cp = [
                     "Homily Text for 13th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:08:36.15",
-                "length": "2066560",
-                "link2mp3": "/Sunday_Homilies/audio/42-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/42-Homily_Text_for_13th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4489,9 +4531,6 @@ cp = [
                     "Homily Text for 11th Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:08:03.32",
-                "length": "1933440",
-                "link2mp3": "/Sunday_Homilies/audio/41-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/41-Homily_Text_for_11th_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4505,10 +4544,7 @@ cp = [
                 "dateId": "20150612",
                 "audio": "HomilyforSacredHeart2015.wav",
                 "newAudio": "40-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:04:03.08",
-                "length": "972928",
-                "link2mp3": "/Sunday_Homilies/audio/40-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "39",
@@ -4536,9 +4572,6 @@ cp = [
                     "Story from the Desert Fathers Used in Copus Christi Homily 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:13:10.38",
-                "length": "3162240",
-                "link2mp3": "/Sunday_Homilies/audio/39-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/39-Homily_Text_for_Corpus_Christi_2015.pdf",
                     "/Sunday_Homilies/docs/39-Story_from_the_Desert_Fathers_Used_in_Copus_Christi_Homily_2015.pdf"
@@ -4566,9 +4599,6 @@ cp = [
                     "Homily Text for Trinity Sunday 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:12:38.24",
-                "length": "3033216",
-                "link2mp3": "/Sunday_Homilies/audio/38-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/38-Homily_Text_for_Trinity_Sunday_2015.pdf"
                 ]
@@ -4582,10 +4612,7 @@ cp = [
                 "dateId": "20150524",
                 "audio": "HomilyforPentecost2015.wav",
                 "volume_boost": "6",
-                "newAudio": "37-Sunday_Homilies.mp3",
-                "duration": "00:13:46.06",
-                "length": "3305600",
-                "link2mp3": "/Sunday_Homilies/audio/37-Sunday_Homilies.mp3"
+                "newAudio": "37-Sunday_Homilies.mp3"
             },
             {
                 "id": "36",
@@ -4596,10 +4623,7 @@ cp = [
                 "dateId": "20150514",
                 "audio": "HomilyforAscensionThursday2015.wav",
                 "newAudio": "36-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:10.38",
-                "length": "1962112",
-                "link2mp3": "/Sunday_Homilies/audio/36-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "35",
@@ -4623,9 +4647,6 @@ cp = [
                     "Homily Text for Sixth Sunday of Easter 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:12:12.01",
-                "length": "2928768",
-                "link2mp3": "/Sunday_Homilies/audio/35-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/35-Homily_Text_for_Sixth_Sunday_of_Easter_2015.pdf"
                 ]
@@ -4656,9 +4677,6 @@ cp = [
                     "The Marshmallow Test (YouTube)"
                 ],
                 "volume_boost": "4",
-                "duration": "00:12:30.61",
-                "length": "3004544",
-                "link2mp3": "/Sunday_Homilies/audio/34-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/34-Homily_Text_for_Fifth_Sunday_of_Easter_2015.pdf",
                     "http://www.youtube.com/watch?v=QX_oy9614HQ"
@@ -4686,9 +4704,6 @@ cp = [
                     "Homily Text for Fourth Sunday of Easter 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:13:55.66",
-                "length": "3344512",
-                "link2mp3": "/Sunday_Homilies/audio/33-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/33-Homily_Text_for_Fourth_Sunday_of_Easter_2015.pdf"
                 ]
@@ -4702,10 +4717,7 @@ cp = [
                 "dateId": "20150419",
                 "audio": "HomilyforThirdSundayofEaster2015.wav",
                 "newAudio": "32-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:24.80",
-                "length": "2979968",
-                "link2mp3": "/Sunday_Homilies/audio/32-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "31",
@@ -4716,10 +4728,7 @@ cp = [
                 "dateId": "20150412",
                 "audio": "HomilyforDivineSunday2015.wav",
                 "newAudio": "31-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:10:12.66",
-                "length": "2451584",
-                "link2mp3": "/Sunday_Homilies/audio/31-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "30",
@@ -4730,10 +4739,7 @@ cp = [
                 "dateId": "20150405",
                 "audio": "HomilyforEasterSunday2015.wav",
                 "newAudio": "30-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:09:34.88",
-                "length": "2300032",
-                "link2mp3": "/Sunday_Homilies/audio/30-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "29",
@@ -4744,10 +4750,7 @@ cp = [
                 "dateId": "20150402",
                 "audio": "HomilyforHolyThursday2015.wav",
                 "newAudio": "29-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:13:06.39",
-                "length": "3145856",
-                "link2mp3": "/Sunday_Homilies/audio/29-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "28",
@@ -4760,10 +4763,7 @@ cp = [
                 "dateId": "20150329",
                 "audio": "HomilyforPalmSunday2015",
                 "volume_boost": "6",
-                "newAudio": "28-Sunday_Homilies.mp3",
-                "duration": "00:06:56.26",
-                "length": "1667200",
-                "link2mp3": "/Sunday_Homilies/audio/28-Sunday_Homilies.mp3"
+                "newAudio": "28-Sunday_Homilies.mp3"
             },
             {
                 "id": "27",
@@ -4774,10 +4774,7 @@ cp = [
                 "dateId": "20150325",
                 "audio": "HomilyforFeastofAnnunciation2015",
                 "newAudio": "27-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:05:36.94",
-                "length": "1349760",
-                "link2mp3": "/Sunday_Homilies/audio/27-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "26",
@@ -4805,9 +4802,6 @@ cp = [
                     "Compendium of the Social Doctrine of the Church"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:46.74",
-                "length": "2827583",
-                "link2mp3": "/Sunday_Homilies/audio/26-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/26-Homily_Text_for_Fifth_Sunday_of_Lent_2015.pdf",
                     "http://www.vatican.va/roman_curia/pontifical_councils/justpeace/documents/rc_pc_justpeace_doc_20060526_compendio-dott-soc_en.html"
@@ -4822,10 +4816,7 @@ cp = [
                 "dateId": "20150319",
                 "audio": "HomilyforFeastofStJoseph2015.MP3",
                 "newAudio": "25-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:01.16",
-                "length": "2645279",
-                "link2mp3": "/Sunday_Homilies/audio/25-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "24",
@@ -4853,9 +4844,6 @@ cp = [
                     "Peter Kreeft's Argument for the Resurrection of Christ"
                 ],
                 "volume_boost": "4",
-                "duration": "00:12:27.39",
-                "length": "2990207",
-                "link2mp3": "/Sunday_Homilies/audio/24-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/24-Minimal_Facts_Argument_for_the_Resurrection_of_Christ.pdf",
                     "/Sunday_Homilies/docs/24-Peter_Kreeft's_Argument_for_the_Resurrection_of_Christ.pdf"
@@ -4883,9 +4871,6 @@ cp = [
                     "Interview with the Brother of Two of the 21 Coptic Christian Martyrs"
                 ],
                 "volume_boost": "4",
-                "duration": "00:12:29.61",
-                "length": "2999039",
-                "link2mp3": "/Sunday_Homilies/audio/23-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/23-Interview_with_the_Brother_of_Two_of_the_21_Coptic_Christian_Martyrs.pdf"
                 ]
@@ -4912,9 +4897,6 @@ cp = [
                     "Homily Outline for Second Sunday of Lent 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:14.22",
-                "length": "2697503",
-                "link2mp3": "/Sunday_Homilies/audio/22-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/22-Homily_Outline_for_Second_Sunday_of_Lent_2015.pdf"
                 ]
@@ -4949,9 +4931,6 @@ cp = [
                     "Remedies Against Habitual Sins"
                 ],
                 "volume_boost": "4",
-                "duration": "00:13:22.11",
-                "length": "3209087",
-                "link2mp3": "/Sunday_Homilies/audio/21-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/21-Homily_Outline_for_First_Sunday_of_Lent_2015.pdf",
                     "/Sunday_Homilies/docs/21-St._Macarius_and_the_Devil.pdf",
@@ -4980,9 +4959,6 @@ cp = [
                     "Homily Outline for Sixth Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:57.30",
-                "length": "2869823",
-                "link2mp3": "/Sunday_Homilies/audio/20-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/20-Homily_Outline_for_Sixth_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -4996,14 +4972,11 @@ cp = [
                 "dateId": "20150208",
                 "audio": "HomilyforFifthSundayinOrdinaryTime2015.MP3",
                 "newAudio": "19-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:36.09",
-                "length": "3024959",
-                "link2mp3": "/Sunday_Homilies/audio/19-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "18",
-                "title": "Forth Sunday in Ordinary Time 2015",
+                "title": "Fourth Sunday in Ordinary Time 2015",
                 "detail": "Celibacy and Marriage",
                 "date": "2/1/2015",
                 "rssDate": "Sun, 1 Feb 2015 00:00:00 +0000",
@@ -5027,9 +5000,6 @@ cp = [
                     "Homily Text for Fourth Sunday in Ordinary Time 2015 [Extended Version]"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:20.17",
-                "length": "2481311",
-                "link2mp3": "/Sunday_Homilies/audio/18-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Short_Version].pdf",
                     "/Sunday_Homilies/docs/18-Homily_Text_for_Fourth_Sunday_in_Ordinary_Time_2015_[Extended_Version].pdf"
@@ -5057,9 +5027,6 @@ cp = [
                     "Homily Text for Third Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:04:31.70",
-                "length": "1087391",
-                "link2mp3": "/Sunday_Homilies/audio/17-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/17-Homily_Text_for_Third_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -5086,9 +5053,6 @@ cp = [
                     "Homily Text for Second Sunday in Ordinary Time 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:43.42",
-                "length": "2814335",
-                "link2mp3": "/Sunday_Homilies/audio/16-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/16-Homily_Text_for_Second_Sunday_in_Ordinary_Time_2015.pdf"
                 ]
@@ -5102,10 +5066,7 @@ cp = [
                 "dateId": "20150111",
                 "audio": "HomilyforBaptismoftheLord2015.MP3",
                 "newAudio": "15-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:11:11.79",
-                "length": "2687807",
-                "link2mp3": "/Sunday_Homilies/audio/15-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "14",
@@ -5116,10 +5077,7 @@ cp = [
                 "dateId": "20150104",
                 "audio": "HomilyforEpiphany2015.MP3",
                 "newAudio": "14-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:06:45.13",
-                "length": "1621151",
-                "link2mp3": "/Sunday_Homilies/audio/14-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "13",
@@ -5143,9 +5101,6 @@ cp = [
                     "Homily Text for the Feast of Mary, Mother of God 2015"
                 ],
                 "volume_boost": "4",
-                "duration": "00:07:44.59",
-                "length": "1858943",
-                "link2mp3": "/Sunday_Homilies/audio/13-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/13-Homily_Text_for_the_Feast_of_Mary,_Mother_of_God_2015.pdf"
                 ]
@@ -5172,9 +5127,6 @@ cp = [
                     "Homily Text for the Feast of the Holy Family 2014"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:37.94",
-                "length": "2552351",
-                "link2mp3": "/Sunday_Homilies/audio/12-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/12-Homily_Text_for_the_Feast_of_the_Holy_Family_2014.pdf"
                 ]
@@ -5201,9 +5153,6 @@ cp = [
                     "Homily Text for Text for the Feast of the Nativity 2014"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:42.59",
-                "length": "2570975",
-                "link2mp3": "/Sunday_Homilies/audio/11-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/11-Homily_Text_for_Text_for_the_Feast_of_the_Nativity_2014.pdf"
                 ]
@@ -5230,9 +5179,6 @@ cp = [
                     "Homily Text for Fourth Sunday of Advent 2014"
                 ],
                 "volume_boost": "4",
-                "duration": "00:13:19.63",
-                "length": "3199199",
-                "link2mp3": "/Sunday_Homilies/audio/10-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/10-Homily_Text_for_Fourth_Sunday_of_Advent_2014.pdf"
                 ]
@@ -5259,9 +5205,6 @@ cp = [
                     "Homily Text for Third Sunday of Advent 2014"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:58.86",
-                "length": "2876063",
-                "link2mp3": "/Sunday_Homilies/audio/09-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/09-Homily_Text_for_Third_Sunday_of_Advent_2014.pdf"
                 ]
@@ -5288,9 +5231,6 @@ cp = [
                     "Homily Outline for the Feast of the Immaculate Conception 2014"
                 ],
                 "volume_boost": "4",
-                "duration": "00:08:11.28",
-                "length": "1965791",
-                "link2mp3": "/Sunday_Homilies/audio/08-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/08-Homily_Outline_for_the_Feast_of_the_Immaculate_Conception_2014.pdf"
                 ]
@@ -5317,9 +5257,6 @@ cp = [
                     "Homily Text for Second Sunday of Advent 2014"
                 ],
                 "volume_boost": "4",
-                "duration": "00:10:03.09",
-                "length": "2412959",
-                "link2mp3": "/Sunday_Homilies/audio/07-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/07-Homily_Text_for_Second_Sunday_of_Advent_2014.pdf"
                 ]
@@ -5333,10 +5270,7 @@ cp = [
                 "dateId": "20141130",
                 "audio": "HomilyforFirstSundayofAdvent20014.MP3",
                 "newAudio": "06-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:08:12.83",
-                "length": "1971935",
-                "link2mp3": "/Sunday_Homilies/audio/06-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "05",
@@ -5364,9 +5298,6 @@ cp = [
                     "Humanum YouTube Channel"
                 ],
                 "volume_boost": "4",
-                "duration": "00:11:13.49",
-                "length": "2694623",
-                "link2mp3": "/Sunday_Homilies/audio/05-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/05-Homily_Text_for_the_Feast_of_Christ_the_King_2014.pdf",
                     "https://www.youtube.com/channel/UCwmvD_-GE_rT2gNIc8h6jtA"
@@ -5381,10 +5312,7 @@ cp = [
                 "dateId": "20141116",
                 "audio": "Homilyfor33rdSundayOrdinaryTime.MP3",
                 "newAudio": "04-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:07:11.67",
-                "length": "1727327",
-                "link2mp3": "/Sunday_Homilies/audio/04-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "03",
@@ -5395,10 +5323,7 @@ cp = [
                 "dateId": "20141109",
                 "audio": "HomilyforDedicationofStJohnLateran.MP3",
                 "newAudio": "03-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:08.08",
-                "length": "2912927",
-                "link2mp3": "/Sunday_Homilies/audio/03-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             },
             {
                 "id": "02",
@@ -5422,9 +5347,6 @@ cp = [
                     "Praying for the Dead on Sunday"
                 ],
                 "volume_boost": "4",
-                "duration": "00:09:18.65",
-                "length": "2235263",
-                "link2mp3": "/Sunday_Homilies/audio/02-Sunday_Homilies.mp3",
                 "handout_links": [
                     "/Sunday_Homilies/docs/02-Praying_for_the_Dead_on_Sunday.pdf"
                 ]
@@ -5438,10 +5360,7 @@ cp = [
                 "dateId": "20141019",
                 "audio": "ot_29.mp3",
                 "newAudio": "01-Sunday_Homilies.mp3",
-                "volume_boost": "4",
-                "duration": "00:12:57.33",
-                "length": "3109919",
-                "link2mp3": "/Sunday_Homilies/audio/01-Sunday_Homilies.mp3"
+                "volume_boost": "4"
             }
         ],
         "seriesData": {
@@ -5478,7 +5397,7 @@ cp = [
                 ],
                 "volume_boost": "4",
                 "duration": "01:09:31.01",
-                "length": "16684704",
+                "length": "4362240",
                 "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/01-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/01-Introduction.pdf"
@@ -5539,8 +5458,8 @@ cp = [
                     "Noah slides (1 of 1)"
                 ],
                 "volume_boost": "4",
-                "duration": "01:23:37.56",
-                "length": "20070816",
+                "duration": "00:03:31.02",
+                "length": "844703",
                 "link2mp3": "/Bible_Study_Economy_of_Salvation/audio/03-Bible_Study_Economy_of_Salvation.mp3",
                 "handout_links": [
                     "/Bible_Study_Economy_of_Salvation/docs/03-Noah_handout_(1_of_1).pdf",

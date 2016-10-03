@@ -1,36 +1,38 @@
 <div ng-controller="DailyHomiliesController">
-  <table width="100%" border="1">
-    <tr>
-      <td ng-click="back();" style="cursor: pointer; text-align: center;">
-        <span style="text-decoration: none;">&lt;---</span>
-      </td>
-      <td colspan="5" style="text-align: center;">
-        {{yearStr}}<br />{{monthStr}}
-      </td>
-      <td ng-click="forward();" style="cursor: pointer; text-align: center;">
-        <span href="" style="text-decoration: none;">---&gt;</span>
-      </td>
-    </tr>
-    <tr>
-      <td ng-repeat="d in firstWeek" width="14.29%" style="text-align: center;">
-        {{d.dayStr}}
-      </td>
-    </tr>
-    <tr>
-      <td ng-repeat="d in firstWeek" width="14.29%" style="text-align: center; padding: 5px; height: 220px;">
-        <p ng-include="'partials/course_specific/daily_day.html?cbp=20160710b'"></p>
-      </td>
-    </tr>
-    <tr>
-      <td ng-repeat="d in secondWeek" style="text-align: center;">
-        {{d.dayStr}}
-      </td>
-    </tr>
-    <tr>
-      <td ng-repeat="d in secondWeek" width="14.29%" style="text-align: center; padding: 5px; height: 220px;">
-        <p ng-include="'partials/course_specific/daily_day.html?cbp=20160710b'"></p>
-      </td>
-    </tr>
+  <!--
+  <table width="100%" border="1" class="cal_table">
+  -->
+  <table width="100%" border="1" class="cal_table" cellpadding="0" cellspacing="0">
+    <thead>
+      <tr>
+        <td ng-click="back();" class="cal_table grey_bg" style="cursor: pointer; text-align: center;">
+          <span style="text-decoration: none;">&lt;---</span>
+        </td>
+        <td colspan="5" class="grey_bg cal_table" style="text-align: center; font-weight: bold; font-size: 100%; color: #2F4F4F;">
+          {{yearStr}}<br />{{monthStr}}
+        </td>
+        <td class="cal_table grey_bg" ng-click="forward();" style="cursor: pointer; text-align: center;">
+          <span href="" style="text-decoration: none;">---&gt;</span>
+        </td>
+      </tr>
+    </thead>
+    <tbody ng-repeat="w in fiveweeks">
+      <tr ng-if="w[0].dateObj.getMonth() == dt.getMonth() || w[6].dateObj.getMonth() == dt.getMonth()">
+        <td ng-repeat="d in w" width="14.29%" style="text-align: center;" class="grey_bg cal_color">
+          <span ng-if="d.dateObj.getMonth() == dt.getMonth()">
+            {{d.dayStr}}
+          </span>
+        </td>
+      </tr>
+      <tr ng-if="w[0].dateObj.getMonth() == dt.getMonth() || w[6].dateObj.getMonth() == dt.getMonth()">
+        <!--
+        <td ng-repeat="d in w" width="14.29%" class="cal_color" ng-class="d.cpObj ? '' : 'grey_bg' ">
+        -->
+        <td ng-repeat="d in w" width="14.29%" class="cal_color cal_cell">
+          <p ng-if="d.cpObj != null && d.dateObj.getMonth() == dt.getMonth()" ng-include="'partials/course_specific/daily_day.html?cbp=20160822'"></p>
+        </td>
+      </tr>
+    </tbody>
   </table>
   <br />
   <br />
@@ -52,7 +54,7 @@
         <span ng-if="$index != 0" > / </span>
         <span> {{ld}} </span>
     </div>
-    <span ng-include="'partials/audio_and_docs.html?cbp=20160710b'"></span>
+    <span ng-include="'partials/audio_and_docs.html?cbp=20160822'"></span>
     -->
   </div>
 </div>

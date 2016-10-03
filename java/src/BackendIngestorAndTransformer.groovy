@@ -21,6 +21,8 @@ ops.add("json");
 //ops.add("wp");
 ops.add("podcast");
 
+configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "09/03/2016").toCalendar().getTimeInMillis();
+
 def mockRun = false;
 
 def http = new HTTPBuilder( 'https://docs.google.com')
@@ -221,32 +223,34 @@ for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
     }
     */
     for (c in classes) {
-      //if (!new File("build/${seriesData.normalized_name}/audio/${c.newAudio}").exists()) {
-      if (true) {
-        if (c.audio) {
+      if (c.audio) {
+        def origFileStr = "orig/${seriesData.normalized_name}/audio/${c.audio}"
+        def newFileStr = "build/${seriesData.normalized_name}/audio/${c.newAudio}"
 
-          def origFileStr = "orig/${seriesData.normalized_name}/audio/${c.audio}"
-          def newFileStr = "build/${seriesData.normalized_name}/audio/${c.newAudio}"
+        def createAudio = fileNewerThan(origFileStr, newFileStr, c.updated_on_date);
 
-          def createAudio = fileNewerThan(origFileStr, newFileStr, c.updated_on_date);
+        println ("c.audio: ${c.audio}");
+        println ("createAudio: ${createAudio}");
+        if (c.volume_boost == null) {
+          c.volume_boost = "4";
+        }
+        println ("c.volume_boost: ${c.volume_boost}");
 
-          println ("c.audio: ${c.audio}");
-          println ("createAudio: ${createAudio}");
-          if (c.volume_boost == null) {
-            c.volume_boost = "4";
-          }
-          println ("c.volume_boost: ${c.volume_boost}");
+        if (c['id'] == null) {
+          c['id'] = origFileStr;
+        }
 
-          if (c['id'] == null) {
-            c['id'] = origFileStr;
-          }
-
-          if (createAudio) {
-            if (!mockRun) {
-              proc(["sox", "-v", c.volume_boost, origFileStr, "-r", "24k", "-c", "1", newFileStr]);
-              proc(["id3v2", "-a", "David Tedesche", "-A", seriesData.normalized_name, "-t", c.title, "-T", c.id, newFileStr]);
-            }
-          }
+        Date classDate = null;
+        def shouldCreatePerConfig = false;
+        try {
+          classDate = Date.parse("EEE, d MMM yyyy HH:mm:ss Z", c['rssDate'])
+          shouldCreatePerConfig = classDate.toCalendar().getTimeInMillis() > configCreateAudioIfNewerThanMillis;
+        } catch (e) {
+          println ("no rssDate for c: " + c)
+        }
+        if (createAudio && !mockRun && shouldCreatePerConfig) {
+          proc(["sox", "-v", c.volume_boost, origFileStr, "-r", "24k", "-c", "1", newFileStr]);
+          proc(["id3v2", "-a", "David Tedesche", "-A", seriesData.normalized_name, "-t", c.title, "-T", c.id, newFileStr]);
         }
       }
     }

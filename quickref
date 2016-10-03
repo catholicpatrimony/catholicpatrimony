@@ -1,4 +1,7 @@
-$ find ./web/ | xargs grep cbp 2> /dev/null
-$ find ./web/ | xargs grep cbp 2> /dev/null | gawk -F : '{print $1}' | xargs sed -i 's/cbp=20160224/20160305/g'
 
 
+#find ../web/ -name \*.js -o -name \*.html | xargs sed -i 's/cbp=......../cbp=20160704b/g'
+#s3cmd -P sync ../web/ s3://www.catholicpatrimony.com/
+
+#vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd -P sync --exclude cp.json ./ s3://www.catholicpatrimony.com/
+#vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd sync --add-header=Cache-Control:no-cache -P --guess-mime-type index.html s3://www.catholicpatrimony.com/

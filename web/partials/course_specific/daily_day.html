@@ -1,6 +1,6 @@
 <span ng-if="d.cpObj != null"  style="cursor: pointer;">
-  <div ng-repeat="ld in d.cpObj.liturgical_day" ng-click="showDay(d, ld);">
-    <hr ng-if="$index != 0" />
+  <div ng-repeat="ld in d.cpObj.liturgical_day" ng-click="showDay(d.cpObj);">
+    <hr ng-if="$index != 0" class="day_divider" />
     <span>{{ld}}</span>
   </div>
 </span>

@@ -8,17 +8,17 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       .when('/', {
         reloadOnSearch: false,
         controller:'MainController',
-        templateUrl:'partials/main.html?cbp=20160822'
+        templateUrl:'partials/main.html?cbp=20161009'
       })
       .when('/class', {
         reloadOnSearch: false,
         controller:'ClassController',
-        templateUrl:'partials/courseContent.html?cbp=20160822'
+        templateUrl:'partials/courseContent.html?cbp=20161009'
       })
       .when('/session', {
         reloadOnSearch: false,
         controller:'SessionController',
-        templateUrl:'partials/session.html?cbp=20160822'
+        templateUrl:'partials/session.html?cbp=20161009'
       })
       .otherwise({
         redirectTo:'/'
@@ -50,17 +50,21 @@ var cpApp = angular.module('cpApp', ['ngRoute', 'ngSanitize', 'angularUtils.dire
       for (var i=0; i < c.classes.length; i++) {
         var c2 = c.classes[i];
         c2.fileicons = [];
+        c2.fileLinks = [];
         if ('new_handout_file' in c2) {
           for (var j=0; j < c2.new_handout_file.length; j++) {
             var nhf = c2.new_handout_file[j];
-            if (nhf.indexOf('.pdf') > -1) {
+            c2.fileLinks[j] = "/" + c.seriesData.normalized_name + "/docs/" + nhf;
+            $log.debug('c2.fileLinks[j]: ' + c2.fileLinks[j]);
+            if (nhf.indexOf('http') > -1) {
+              c2.fileLinks[j] = nhf;
+              c2.fileicons[j] = 'Link_symbol_16.png';
+            } else if (nhf.indexOf('.pdf') > -1) {
               c2.fileicons[j] = 'pdficon.gif';
             } else if (nhf.indexOf('.doc') > -1) {
               c2.fileicons[j] = 'docicon.png';
             } else if (nhf.indexOf('.ppt') > -1) {
               c2.fileicons[j] = 'document_powerpoint.png';
-            } else if (nhf.indexOf('http') > -1) {
-              c2.fileicons[j] = 'Link_symbol_16.png';
             }
           }
         }

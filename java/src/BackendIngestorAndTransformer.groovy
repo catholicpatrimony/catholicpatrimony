@@ -60,8 +60,10 @@ def jsonClassArr = []
 // 7 - 469482974 - dailies
 // 8 - 827677169 - uncovering-2015
 // 9 - 728325633 - tyburn patrology
+//     1233971849 - adult education
+//     1501128082 - wed
 //for (gid in [469482974]) {
-for (gid in [827677169, 728325633, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
+for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 

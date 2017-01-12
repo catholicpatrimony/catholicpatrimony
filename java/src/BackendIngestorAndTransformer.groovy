@@ -21,7 +21,7 @@ ops.add("json");
 //ops.add("wp");
 ops.add("podcast");
 
-configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "09/03/2016").toCalendar().getTimeInMillis();
+configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "11/15/2016").toCalendar().getTimeInMillis();
 
 def mockRun = false;
 
@@ -130,7 +130,12 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1])
           row.put('dateId', d.format("yyyyMMdd"));
         }
         if (classLabels[i].equals('updated_on')) {
-          Date d = Date.parse("MM/dd/yyyy HH:mm:ss", p)
+          Date d = null; 
+          try {
+            d = Date.parse("MM/dd/yyyy HH:mm:ss", p)
+          } catch (Throwable t) {
+            d = Date.parse("yyyy-MM-dd", p)
+          }
           row.put('updated_on_date', d);
         }
       }
@@ -247,6 +252,11 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1])
         try {
           classDate = Date.parse("EEE, d MMM yyyy HH:mm:ss Z", c['rssDate'])
           shouldCreatePerConfig = classDate.toCalendar().getTimeInMillis() > configCreateAudioIfNewerThanMillis;
+          println ("shouldCreatePerConfig - 1: " + shouldCreatePerConfig)
+          if (!shouldCreatePerConfig && c['updated_on_date']) {
+          shouldCreatePerConfig = c['updated_on_date'].toCalendar().getTimeInMillis() > configCreateAudioIfNewerThanMillis;
+            println ("shouldCreatePerConfig - updated_on_date: " + shouldCreatePerConfig)
+          }
         } catch (e) {
           println ("no rssDate for c: " + c)
         }
@@ -335,6 +345,7 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1])
 }
 def jsonStr = new JsonBuilder( jsonClassArr ).toPrettyString()
 jsonStr = "cp = " + jsonStr;
+//jsonStr = "cp = " + jsonStr.replaceAll('"', '\\\\"');
 new File("../web/cp.json").withWriter { out -> out.write(jsonStr) };
 
 def String proc(def cmd) {

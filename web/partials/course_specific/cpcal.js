@@ -70,6 +70,17 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         //$log.debug('origDateFormat: ' + origDateFormat);
         c.date = origDateFormat;
         homiliesByStringifiedDate[origDateFormat] = c;
+      } else {
+        var regex = /([0-9]{4})([0-9]{2})([0-9]{2}).*/
+        var m = regex.exec(c['newAudio']);
+        if (m != null) {
+          var origDateFormat = m[1] + '-' + m[2] + '-' + m[3];
+          //$log.debug('origDateFormat: ' + origDateFormat);
+          c.date = origDateFormat;
+          homiliesByStringifiedDate[origDateFormat] = c;
+        } else {
+          $log.debug('newAudio not matched: ' + c['newAudio']);
+        }
       }
     }
     if ('liturgical_day' in c) {
@@ -309,7 +320,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20161009',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20161127b',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

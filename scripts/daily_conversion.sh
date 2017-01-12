@@ -1,11 +1,15 @@
 # TODO:
 #  - files w/ parens
+#  - run this script, open in excel, go through and manually 
+#    - add feasts
+#    - add dates
+#    - add notfound.out entries
 orig_dir=$(pwd)
 rm $orig_dir/dh.out 2> /dev/null
 rm $orig_dir/notfound.out
 for d in $( echo '/google_drive/catholic/tedesche/uploads/daily_homilies/audio /google_drive/catholic/tedesche/uploads/Sunday_Homilies/audio' ); do
   cd $d
-  for f in $(ls -1 * | grep '[SD]H' | grep -v '(' | head -n 100)
+  for f in $(ls -1 * | grep '[SD]H' | grep -v '(' | head -n 1000)
   do
     #echo " "
     #echo $f
@@ -41,6 +45,9 @@ for d in $( echo '/google_drive/catholic/tedesche/uploads/daily_homilies/audio /
     if [ ! -z "$day_of_week" ]
     then
       week_num=$(echo $f | grep '[SD]H[0-9]' | sed 's/.*[SD]H0\?\([0-9]*\).*/\1/g')
+      if [ -z "$week_num" ]; then
+        week_num=$(echo $f | sed 's/.*Advent\([0-9]*\)Sun.*/\1/g')
+      fi
       if [[ $week_num =~ ^-?[0-9]+$ ]]; then
         week_num2=$week_num
         week_num=$(echo $week_num | sed 's/30/30th/g')
@@ -61,9 +68,13 @@ for d in $( echo '/google_drive/catholic/tedesche/uploads/daily_homilies/audio /
         if [ -z "$season" ]; then
           season=$(echo $f | grep 'Lent' | sed 's/.*/Lent/g')
         fi 
+        if [ -z "$season" ]; then
+          season=$(echo $f | grep 'Advent' | sed 's/.*/Advent/g')
+        fi 
         if [ ! -z "$season" ]; then
           echo "found: $f,$day_of_week_num,$week_num2,$season,$day_of_week of the $week_num Week in $season"
-          echo "$season,$week_num2,$day_of_week_num,$(pwd),$f,$day_of_week of the $week_num Week in $season" >> $orig_dir/dh.out
+          echo "$season,$week_num2,$day_of_week_num,$(pwd),,$f,,$day_of_week of the $week_num Week in $season" >> $orig_dir/dh.out
+          #echo "$day_of_week of the $week_num Week in $season,,,$f,$season" >> $orig_dir/dh.out
         else
           echo "not found 1: $f" >> $orig_dir/notfound.out
         fi

@@ -6,13 +6,50 @@
     <thead>
       <tr>
         <td ng-click="back();" class="cal_table grey_bg" style="cursor: pointer; text-align: center;">
-          <span style="text-decoration: none;">&lt;---</span>
+          <!--
+          &#x21E6; ←
+          -->
+          <span style="text-decoration: none; font-size: 200%; color: grey">&#x21E6;</span>
+          
         </td>
         <td colspan="5" class="grey_bg cal_table" style="text-align: center; font-weight: bold; font-size: 100%; color: #2F4F4F;">
-          {{yearStr}}<br />{{monthStr}}
+          <select class="grey_bg" style="border: none;" 
+              ng-model="monthStr" 
+              ng-change="calWidgetChanged();">
+            <option value="January"   ng-selected="monthStr == 'January'">January</option>
+            <option value="February"  ng-selected="monthStr == 'February'">February</option>
+            <option value="March"     ng-selected="monthStr == 'March'">March</option>
+            <option value="April"     ng-selected="monthStr == 'April'">April</option>
+            <option value="May"       ng-selected="monthStr == 'May'">May</option>
+            <option value="June"      ng-selected="monthStr == 'June'">June</option>
+            <option value="July"      ng-selected="monthStr == 'July'">July</option>
+            <option value="August"    ng-selected="monthStr == 'August'">August</option>
+            <option value="September" ng-selected="monthStr == 'September'">September</option>
+            <option value="October"   ng-selected="monthStr == 'October'">October</option>
+            <option value="November"  ng-selected="monthStr == 'November'">November</option>
+            <option value="December"  ng-selected="monthStr == 'December'">December</option>
+          </select>
+          &nbsp;
+          <select ng-model="yearStr" 
+            ng-options="yearStr.id as yearStr.name for yearStr in yearOptions"
+            class="grey_bg no_empty_option" style="border: none;"
+            ng-change="calWidgetChanged();"
+          ></select>
+          <!--
+          <select 
+              class="grey_bg no_empty_option" style="border: none;"
+              ng-model="yearStr"
+              ng-change="calWidgetChanged();"
+              convert-to-number>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015" ng-selected="yearStr == 2015">2015</option>
+            <option value="2014" ng-selected="yearStr == 2014">2014</option>
+          </select>
+          -->
         </td>
         <td class="cal_table grey_bg" ng-click="forward();" style="cursor: pointer; text-align: center;">
-          <span href="" style="text-decoration: none;">---&gt;</span>
+          <span href="" style="text-decoration: none; font-size: 200%; color: grey">&#x21E8;</span>
         </td>
       </tr>
     </thead>
@@ -29,7 +66,7 @@
         <td ng-repeat="d in w" width="14.29%" class="cal_color" ng-class="d.cpObj ? '' : 'grey_bg' ">
         -->
         <td ng-repeat="d in w" width="14.29%" class="cal_color cal_cell">
-          <p ng-if="d.cpObj != null && d.dateObj.getMonth() == dt.getMonth()" ng-include="'partials/course_specific/daily_day.html?cbp=20161127ba'"></p>
+          <p ng-if="d.cpObj != null && d.dateObj.getMonth() == dt.getMonth()" ng-include="'partials/course_specific/daily_day.html?cbp=20170114ba'"></p>
         </td>
       </tr>
     </tbody>
@@ -54,7 +91,7 @@
         <span ng-if="$index != 0" > / </span>
         <span> {{ld}} </span>
     </div>
-    <span ng-include="'partials/audio_and_docs.html?cbp=20161127ba'"></span>
+    <span ng-include="'partials/audio_and_docs.html?cbp=20170114ba'"></span>
     -->
   </div>
 </div>

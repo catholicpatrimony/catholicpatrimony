@@ -7,6 +7,13 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.dt = new Date();
   }
 
+  $scope.yearOptions = [
+    {name : "2017", id : 2017},
+    {name : "2016", id : 2016},
+    {name : "2015", id : 2015},
+    {name : "2014", id : 2014}];
+    $scope.yearStr = $scope.yearOptions[0].id;
+
   //TODO - 
   //
   //  FEATURES:
@@ -140,6 +147,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   $scope.set2weeks = function(day) {
     $scope.monthStr = $filter('date')(day, 'MMMM');
     $scope.yearStr = day.getFullYear();
+    $log.debug('$scope.yearStr: ' + $scope.yearStr);
     //$log.debug('set2weeks: ');
     //$log.debug(day);
     $scope.set2weeksday = day;
@@ -235,6 +243,15 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     return dayStr;
   }
 
+  $scope.calWidgetChanged = function() {
+    console.log($scope.monthStr);
+    var newDt = new Date(Date.parse($scope.monthStr + '1, ' + $scope.yearStr));
+    var dtStr = $filter('date')(new Date(newDt),'yyyy-MM-dd');
+    console.log(dtStr);
+    $scope.dt = newDt;
+    $scope.set2weeks(newDt);
+  }
+
   $scope.set2weeks($scope.dt);
 
   $scope.back = function() {
@@ -320,7 +337,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20161127b',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20170114b',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

@@ -123,7 +123,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.matchingArr = arrayUnique(matchingArr1.concat(matchingArr2));
     $scope.noResults = false;
     $scope.tooManyResults = false;
-    if ($scope.matchingArr.length > 20 || noText) {
+    if ($scope.matchingArr.length > 200 || noText) {
       $scope.tooManyResults = true;
     } else if ($scope.matchingArr.length == 0) {
       $scope.noResults = true;

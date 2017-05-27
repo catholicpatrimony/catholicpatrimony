@@ -104,6 +104,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
 
   $scope.updateSearch = function() {
+    $log.debug('updateSearch()');
     var matchingArr1 = [];
     var noText = true;
     if ($scope.searchText1.val != '') {
@@ -128,9 +129,11 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     } else if ($scope.matchingArr.length == 0) {
       $scope.noResults = true;
     } else {
-      for (var i=0; i < $scope.matchingArr.length; i++) {
-        if ($scope.c.id == $scope.matchingArr[i].id) {
-          $scope.matchingArr.splice(i, 1);
+      if ($scope.matchingArr.length <= 2) {
+        for (var i=0; i < $scope.matchingArr.length; i++) {
+          if ($scope.c.id == $scope.matchingArr[i].id) {
+            $scope.matchingArr.splice(i, 1);
+          }
         }
       }
     }
@@ -310,6 +313,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.showingDay = true;
     //$scope.day2show = d;
     $scope.c = d;
+    $log.debug('$scope.c.id: ' + $scope.c.id);
     //$location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
     $scope.sessionId = d.id;
     $log.debug('showDay.sessionId: ' + $scope.sessionId);
@@ -353,6 +357,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         $location.search('showDay', null);
       });
     }
+    $scope.updateSearch();
   }
 
   $scope.searchRelated = function(d) {

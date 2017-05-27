@@ -1,11 +1,11 @@
 <div ng-if="c.newAudio" class="row">
   <div class="col-xs-1 col-md-1">
-    <a class="cp-icon" href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none">
+    <a class="cp-icon" href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none" target="_blank">
       <img src="http://www.catholicpatrimony.com/img/headphone4_16.png" width="16"/>
     </a>
   </div>
   <div class="col-xs-10 col-md-10">
-    <a href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none">
+    <a href="/{{sd.normalized_name}}/audio/{{c.newAudio}}" style="text-decoration:none" target="_blank">
       Audio (MP3)
     </a>
   </div>
@@ -15,7 +15,7 @@
 </div>
 <div ng-repeat="f in c.new_handout_file" class="row">
   <div class="col-xs-1 col-md-1">
-    <a class="cp-icon" href="{{f}}" style="text-decoration:none">
+    <a class="cp-icon" href="{{f}}" style="text-decoration:none" target="_blank">
       <img src="img/{{c.fileicons[$index]}}" width="16" />
       <!--
       <img src="img/{{c.fileicons[$index]}}" width="16" />
@@ -27,7 +27,7 @@
     </a>
   </div>
   <div class="col-xs-10 col-md-10">
-    <a href="{{c.fileLinks[$index]}}" style="text-decoration:none">
+    <a href="{{c.fileLinks[$index]}}" style="text-decoration:none" target="_blank">
       {{c.new_handout_title[$index]}}
     </a>
   </div>

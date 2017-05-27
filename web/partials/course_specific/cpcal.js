@@ -275,12 +275,32 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.firstOfMonth.getMonth(), 
       $scope.firstOfMonth.getDate());
     newDt.setMonth(newDt.getMonth() + 1);
+    $scope.forward2(newDt);
+  }
+
+  $scope.forward2 = function(newDt) {
     $scope.dt = newDt;
     $scope.set2weeks(newDt);
     var dtStr = $filter('date')(new Date(newDt),'yyyy-MM-dd');
     //$log.debug('dtStr: ' + dtStr);
     //$location.search('dt', dtStr);
     //$log.debug('back()');
+  }
+
+  $scope.setMonthOnCal = function(d) {
+    $log.debug('setMonthOnCal');
+    $log.debug('d.date');
+    $log.debug(d.date);
+    var yearStr = d.date.substring(0,4);
+    $log.debug('yearStr: ' + yearStr);
+    var monthStr = d.date.substring(5,7);
+    $log.debug('monthStr: ' + monthStr);
+    var newDt = new Date(parseInt(yearStr),
+      parseInt(monthStr) - 1,
+      1);
+    $log.debug('newDt: ');
+    $log.debug(newDt);
+    $scope.forward2(newDt);
   }
 
   $scope.showComments = function() {
@@ -358,6 +378,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       });
     }
     $scope.updateSearch();
+    $scope.setMonthOnCal(d);
   }
 
   $scope.searchRelated = function(d) {

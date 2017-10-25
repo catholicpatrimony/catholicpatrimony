@@ -78,7 +78,7 @@ a:hover {
   /*
 */
 body {
-  background-image: url("img/bg1.jpg");
+  background-image: url("img/bg1_smaller.jpg");
   z-index: -1;
   background-color: #cccccc;
   background-color:rgba(0, 0, 0, 0.5);
@@ -93,7 +93,7 @@ body {
 }
 
 .body-clone {
-  background-image: url("img/bg1.jpg");
+  background-image: url("img/bg1_smaller.jpg");
   z-index: -1;
   background-color: #cccccc;
   background-color:rgba(0, 0, 0, 0.5);

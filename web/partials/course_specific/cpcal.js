@@ -361,7 +361,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20171023i',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20171024b',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

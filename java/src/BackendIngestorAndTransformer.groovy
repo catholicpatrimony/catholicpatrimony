@@ -292,6 +292,7 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1])
           "build/${seriesData.normalized_name}/podcast.xml",
           ["seriesData": seriesData, "classLabels": classLabels, "classes": classes]
         );
+        "cp build/${seriesData.normalized_name}/podcast.xml build/${seriesData.normalized_name}/podcast-2.xml".execute().waitFor();
       //}
     }
   }

@@ -76,10 +76,12 @@ a:hover {
 }
 
   /*
+*/
 body {
   background-image: url("img/bg1.jpg");
+  z-index: -1;
   background-color: #cccccc;
-  z-index: 1;
+  background-color:rgba(0, 0, 0, 0.5);
 
   background-repeat: no-repeat;
   background-position: center center !important;
@@ -89,4 +91,37 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.body-clone {
+  background-image: url("img/bg1.jpg");
+  z-index: -1;
+  background-color: #cccccc;
+  background-color:rgba(0, 0, 0, 0.5);
+
+  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+.wrapper_outer {
+  opacity: 1.0;
+}
 */
+
+.opacity-wrapper {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.wrapper {
+  opacity: 1.0;
+}
+.opacity-nav {
+  background-color: #ffffff;
+  opacity: 1.0;
+  z-index: 10;
+}

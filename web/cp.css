@@ -125,3 +125,9 @@ body {
   opacity: 1.0;
   z-index: 10;
 }
+
+.flex-container {
+    display:flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}

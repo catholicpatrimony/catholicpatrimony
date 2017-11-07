@@ -62,8 +62,8 @@ def jsonClassArr = []
 // 9 - 728325633 - tyburn patrology
 //     1233971849 - adult education
 //     1501128082 - wed
-//for (gid in [469482974]) {
-for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1]) {
+//for (gid in [469482974, 5]) {
+for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
 
@@ -292,6 +292,7 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1])
           "build/${seriesData.normalized_name}/podcast.xml",
           ["seriesData": seriesData, "classLabels": classLabels, "classes": classes]
         );
+        "cp build/${seriesData.normalized_name}/podcast.xml build/${seriesData.normalized_name}/podcast-2.xml".execute().waitFor();
       //}
     }
   }
@@ -323,7 +324,8 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 5, 4, 3, 2, 0, 1])
   if (ops.contains('zip')) {
     if (seriesData["include_zips"] == null || !seriesData["include_zips"]) {
       for (zipDirStr in [ "docs", "audio" ] ) {
-        def zipFolderStr = "./build/${seriesData.normalized_name}/${zipDirStr}";
+        //def zipFolderStr = "./build/${seriesData.normalized_name}/${zipDirStr}";
+        def zipFolderStr = "${zipDirStr}";
         def zipFileStr = "./build/${seriesData.normalized_name}/${seriesData.normalized_name}-${zipDirStr}.zip" 
         if (fileNewerThanAll(zipFolderStr, zipFileStr)) {
           println "needToZip: ${zipFolderStr}"

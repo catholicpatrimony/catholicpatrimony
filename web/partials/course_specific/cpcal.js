@@ -7,6 +7,13 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.dt = new Date();
   }
 
+  $scope.yearOptions = [
+    {name : "2017", id : 2017},
+    {name : "2016", id : 2016},
+    {name : "2015", id : 2015},
+    {name : "2014", id : 2014}];
+    $scope.yearStr = $scope.yearOptions[0].id;
+
   //TODO - 
   //
   //  FEATURES:
@@ -97,6 +104,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
 
   $scope.updateSearch = function() {
+    $log.debug('updateSearch()');
     var matchingArr1 = [];
     var noText = true;
     if ($scope.searchText1.val != '') {
@@ -116,14 +124,16 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.matchingArr = arrayUnique(matchingArr1.concat(matchingArr2));
     $scope.noResults = false;
     $scope.tooManyResults = false;
-    if ($scope.matchingArr.length > 20 || noText) {
+    if ($scope.matchingArr.length > 200 || noText) {
       $scope.tooManyResults = true;
     } else if ($scope.matchingArr.length == 0) {
       $scope.noResults = true;
     } else {
-      for (var i=0; i < $scope.matchingArr.length; i++) {
-        if ($scope.c.id == $scope.matchingArr[i].id) {
-          $scope.matchingArr.splice(i, 1);
+      if ($scope.matchingArr.length <= 2) {
+        for (var i=0; i < $scope.matchingArr.length; i++) {
+          if ($scope.c.id == $scope.matchingArr[i].id) {
+            $scope.matchingArr.splice(i, 1);
+          }
         }
       }
     }
@@ -140,6 +150,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   $scope.set2weeks = function(day) {
     $scope.monthStr = $filter('date')(day, 'MMMM');
     $scope.yearStr = day.getFullYear();
+    $log.debug('$scope.yearStr: ' + $scope.yearStr);
     //$log.debug('set2weeks: ');
     //$log.debug(day);
     $scope.set2weeksday = day;
@@ -235,6 +246,15 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     return dayStr;
   }
 
+  $scope.calWidgetChanged = function() {
+    console.log($scope.monthStr);
+    var newDt = new Date(Date.parse($scope.monthStr + '1, ' + $scope.yearStr));
+    var dtStr = $filter('date')(new Date(newDt),'yyyy-MM-dd');
+    console.log(dtStr);
+    $scope.dt = newDt;
+    $scope.set2weeks(newDt);
+  }
+
   $scope.set2weeks($scope.dt);
 
   $scope.back = function() {
@@ -255,12 +275,32 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.firstOfMonth.getMonth(), 
       $scope.firstOfMonth.getDate());
     newDt.setMonth(newDt.getMonth() + 1);
+    $scope.forward2(newDt);
+  }
+
+  $scope.forward2 = function(newDt) {
     $scope.dt = newDt;
     $scope.set2weeks(newDt);
     var dtStr = $filter('date')(new Date(newDt),'yyyy-MM-dd');
     //$log.debug('dtStr: ' + dtStr);
     //$location.search('dt', dtStr);
     //$log.debug('back()');
+  }
+
+  $scope.setMonthOnCal = function(d) {
+    $log.debug('setMonthOnCal');
+    $log.debug('d.date');
+    $log.debug(d.date);
+    var yearStr = d.date.substring(0,4);
+    $log.debug('yearStr: ' + yearStr);
+    var monthStr = d.date.substring(5,7);
+    $log.debug('monthStr: ' + monthStr);
+    var newDt = new Date(parseInt(yearStr),
+      parseInt(monthStr) - 1,
+      1);
+    $log.debug('newDt: ');
+    $log.debug(newDt);
+    $scope.forward2(newDt);
   }
 
   $scope.showComments = function() {
@@ -293,6 +333,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $scope.showingDay = true;
     //$scope.day2show = d;
     $scope.c = d;
+    $log.debug('$scope.c.id: ' + $scope.c.id);
     //$location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
     $scope.sessionId = d.id;
     $log.debug('showDay.sessionId: ' + $scope.sessionId);
@@ -320,7 +361,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20161127b',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20171026a',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,
@@ -336,6 +377,8 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         $location.search('showDay', null);
       });
     }
+    $scope.updateSearch();
+    $scope.setMonthOnCal(d);
   }
 
   $scope.searchRelated = function(d) {

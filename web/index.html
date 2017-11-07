@@ -9,9 +9,11 @@
 	-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <!--
     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/0.11.0/angular-material.min.css">
+    -->
     <link rel="stylesheet" href="3rd_party/sticky-footer.css">
-    <link rel="stylesheet" href="cp.css?cbp=20161127ba">
+    <link rel="stylesheet" href="cp.css?cbp=20171026a">
 
     <!-- Optional: Include the jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -44,15 +46,16 @@
     <script src="3rd_party/dirDisqus.js"></script>
     <script src="3rd_party/angular-route.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular-sanitize.js"></script>
-    <script src="cp.json?cbp=20161127ba"></script>
-    <script src="cp.js?cbp=20161127ba"></script>
-    <script src="partials/course_specific/cpcal.js?cbp=20161127ba"></script>
+    <script src="cp.json?cbp=20171026a"></script>
+    <script src="cp.js?cbp=20171026a"></script>
+    <script src="partials/course_specific/cpcal.js?cbp=20171026a"></script>
 
   </head>
   <body ng-controller="MenuController">
+    <div class="opacity-wrapper" style="min-height: 100vh;">
     <div class="wrapper">
-      <nav class="navbar navbar-default" role="navigation">
-        <div class="container-fluid">
+      <nav class="navbar navbar-default" role="navigation" style="font-weight: bold;">
+        <div class="container-fluid opacity-nav">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -79,16 +82,19 @@
         </div><!-- /.container-fluid -->
       </nav>
   
-      <span ng-view></span>
+      <div>
+        <span ng-view></span>
+      </div>
       <br />
-      <br />
-      <div class="push"></div>
+      <div class="push">
+      </div>
 
     </div>
+    </div>
 
-      <footer class="footer">
+      <footer class="footer" style="opacity: 0.5;">
         <br />
-        <div class="container footer-contents">
+        <div class="container footer-contents" style="opacity: 1.0; z-index: 1000;">
 
           Icons made by Freepik from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>         is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
 
@@ -118,5 +124,3 @@
     
   </body>
 </html>
-
-

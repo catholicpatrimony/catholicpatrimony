@@ -59,10 +59,18 @@ a:hover {
   border-color: #DCDCDC;
 }
 
-.cal_cell {
-  text-align: center; 
-  padding: 5px; 
-  height: 110px;
+@media (max-width: 1000px) {
+  .cal_cell {
+    color: purple;
+    font-size: 8px;
+  }
+}
+@media (min-width: 1000px) {
+  .cal_cell {
+    text-align: center; 
+    padding: 5px; 
+    height: 110px;
+  }
 }
 
 .day_divider {

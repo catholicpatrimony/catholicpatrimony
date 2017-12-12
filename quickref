@@ -10,3 +10,4 @@
 
 # guru meditation - the virtualbox won't start
 $ VBoxManage controlvm andersonbd1-ubuntu6 poweroff
+find ./web/ -type f | grep -v cp.json | xargs sed -i 's/2017[0-9][^\x27\x22]*/20171210a/g'

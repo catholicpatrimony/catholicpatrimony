@@ -94,6 +94,17 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       //$log.debug(c.liturgical_day);
       if (!(c.liturgical_day instanceof Array)) {
         c.liturgical_day = [c.liturgical_day];
+        /*
+      } else if (c.rssDate.substring(0,3) == 'Sun') {
+        console.log('here3');
+        console.log(c.liturgical_day[0]);
+        //$log.debug(c.liturgical_day[0]);
+        var ld = c.liturgical_day[0];
+        for (var j=1; j < c.liturgical_day.length; j++) {
+          ld = ld + ' / ' + c.liturgical_day[j];
+        }
+        c.liturgical_day = [ld];
+        */
       }
       for (var j=0; j < c.liturgical_day.length; j++) {
         $scope.parseLiturgicalDay(homiliesByName, homiliesArr, c, j);

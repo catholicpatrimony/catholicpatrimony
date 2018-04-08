@@ -5,18 +5,32 @@
   >X</span>
 <div ng-if="sd" class="container">
   <div>
-    <br ng-if="c.title"/>
-    <div>
+    <br />
+    <div ng-if="c.title">
       <strong>{{c.date}} - {{c.title}}</strong>
+      <br />
+    </div>
+    <div ng-if="!c.title">
+      <strong>Search</strong>
       <br />
     </div>
     <span ng-if="c.detail">{{c.detail}}</span>
     <!--
     <div style="max-width=: 70%;">
-    -->
     <div style="margin-top: 20px;">
-      <span ng-include="'partials/audio_and_docs.html?cbp=20171210a'"></span>
+    -->
+    <div style="margin-top: 20px;" ng-if="c.title">
+      <span ng-include="'partials/audio_and_docs.html?cbp=20180408ae'"></span>
     </div>
+    <span ng-if="showingAllTags" ng-click="toggleShowAllTags()">
+      hide all tags
+    </span>
+    <span ng-if="!showingAllTags" ng-click="toggleShowAllTags()">
+      show all tags
+    </span>
+    <span ng-if="showingAllTags">
+      showing all
+    </span>
     <span ng-if="c.tags">
       <br />
       <table>
@@ -35,7 +49,8 @@
     </span>
     <br />
     <br />
-    <div>Search for <a href="javascript:void(null)" ng-click="searchRelated(c);">related homilies</a>:</div>
+    <div ng-if="c.title">Search for <a href="javascript:void(null)" ng-click="searchRelated(c);">related homilies</a>:</div>
+    <div ng-if="!c.title">Search:</div>
     <div ng-if="sd.normalized_name == 'daily_homilies'">
       <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
       or
@@ -57,7 +72,7 @@
       <!--
       <a ng-click="show_disqus = true;">show comments</a>
       -->
-      <a href="javascript:void(null);" ng-click="showComments()">show comments</a>
+      <a ng-if="c.title" href="javascript:void(null);" ng-click="showComments()">show comments</a>
     </span>
     <span ng-if="show_disqus">
       <dir-disqus config="disqusConfig"></dir-disqus>

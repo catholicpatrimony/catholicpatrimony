@@ -1,6 +1,7 @@
 //cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter, $uibModal) {
 cpApp.controller('DailyHomiliesController', function($scope, $location, $routeParams, $log, $filter, $uibModal) {
 
+  $scope.showingAllTags = false;
   if ($location.search().dt) {
     $scope.dt = new Date($location.search().dt);
   } else {
@@ -8,6 +9,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
   }
 
   $scope.yearOptions = [
+    {name : "2018", id : 2018},
     {name : "2017", id : 2017},
     {name : "2016", id : 2016},
     {name : "2015", id : 2015},
@@ -325,7 +327,10 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     $log.debug(d);
     $scope.tagsfirstline = null;
     $scope.tagssubsequentlines = [];
-    if (d.tags) {
+    if (d == null) {
+      $scope.c = null;
+    }
+    if (d != null && d.tags) {
       tags = d.tags.split(' ');
       if (tags != null && tags.length > 0) {
         $scope.tagsfirstline = tags[0];
@@ -343,18 +348,20 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     //d.litdaySelected = ld;
     $scope.showingDay = true;
     //$scope.day2show = d;
-    $scope.c = d;
-    $log.debug('$scope.c.id: ' + $scope.c.id);
-    //$location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
-    $scope.sessionId = d.id;
-    $log.debug('showDay.sessionId: ' + $scope.sessionId);
-    //$location.search({'course' : $scope.course, 'sessionId': d.cpObj.id});
-    //$scope.disqusConfig = $scope.assignDisqusParams($scope);
-    $scope.assignDisqusParams($scope.sessionId);
-    $log.debug('$scope.disqusConfig.disqus_shortname: '+ $scope.disqusConfig.disqus_shortname);
+    if (d != null) {
+      $scope.c = d;
+      $log.debug('$scope.c.id: ' + $scope.c.id);
+      //$location.path('/session').search({'course' : $scope.course, 'sessionId': c.id});
+      $scope.sessionId = d.id;
+      $log.debug('showDay.sessionId: ' + $scope.sessionId);
+      //$location.search({'course' : $scope.course, 'sessionId': d.cpObj.id});
+      //$scope.disqusConfig = $scope.assignDisqusParams($scope);
+      $scope.assignDisqusParams($scope.sessionId);
+      $log.debug('$scope.disqusConfig.disqus_shortname: '+ $scope.disqusConfig.disqus_shortname);
 
-      //templateUrl: 'partials/course_specific/daily_modal.html',
-    $location.search('showDay', d.date);
+        //templateUrl: 'partials/course_specific/daily_modal.html',
+      $location.search('showDay', d.date);
+    }
     $scope.$watch('searchText1.val', function(newValue, oldValue) {
       $log.debug('searchText1 updated');
       if (oldValue != newValue) {
@@ -372,7 +379,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20171111aa',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20180408ae',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,
@@ -389,13 +396,15 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       });
     }
     $scope.updateSearch();
-    $scope.setMonthOnCal(d);
+    if (d != null) {
+      $scope.setMonthOnCal(d);
+    }
   }
 
   $scope.searchRelated = function(d) {
       $scope.searchText1 = { 'val': ''};
       $scope.searchText2 = { 'val': ''};
-      if (d.hasOwnProperty('liturgical_day')) {
+      if (d != null && d.hasOwnProperty('liturgical_day')) {
         for (var i=0; i < d.liturgical_day.length; i++) {
           if (i == 0) {
             $scope.searchText1.val = d.liturgical_day[i];
@@ -407,6 +416,10 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.updateSearch();
   }
 
+  $scope.toggleShowAllTags = function() {
+    $log.debug('toggleShowAllTags: ' + $scope.showingAllTags);
+    $scope.showingAllTags = !$scope.showingAllTags;
+  }
 
   if ($location.search().showDay) {
     //$log.debug('homiliesByStringifiedDate[$location.search().showDay]: ');

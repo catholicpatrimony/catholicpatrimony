@@ -33,6 +33,25 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       homiliesByName[c.liturgical_day[j]] = c;
     }
     */
+    if (!$scope['allTags']) {
+      $scope.allTags = {};
+    }
+    if (c.tags != null) {
+      tags = c.tags.split(' ');
+      if (tags != null && tags.length > 0) {
+        for (var i=0; i < tags.length; i++) {
+          //tag = tags[i].replace(new RegExp('_', 'g'), ' ');
+          tag = tags[i]; //.replace(new RegExp('_', 'g'), ' ');
+          if (tag != "") {
+            if ($scope.allTags[tag]) {
+              $scope.allTags[tag]++;
+            } else {
+              $scope.allTags[tag] = 1;
+            }
+          }
+        }
+      }
+    }
     if (!c.hasOwnProperty('searchText')) {
       c['searchText'] = c.liturgical_day[j] + ' ' + c.tags;
       homiliesArr.push(c);
@@ -113,6 +132,17 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       }
     }
   }
+  $log.debug('$scope.allTags:');
+  $log.debug($scope.allTags);
+  keysSorted = Object.keys($scope.allTags).sort(function(a, b) {
+    return a.localeCompare(b);
+  });
+  var sortedTags = {};
+  for (var i=0; i < keysSorted.length; i++) {
+    sortedTags[keysSorted[i]] = $scope.allTags[keysSorted[i]];
+  }
+  $scope.allTags = sortedTags;
+  $log.debug(keysSorted);
   homiliesArr;
 
 
@@ -144,7 +174,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     } else {
       if ($scope.matchingArr.length <= 2) {
         for (var i=0; i < $scope.matchingArr.length; i++) {
-          if ($scope.c.id == $scope.matchingArr[i].id) {
+          if ($scope.c != null && $scope.c.id == $scope.matchingArr[i].id) {
             $scope.matchingArr.splice(i, 1);
           }
         }
@@ -322,6 +352,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
 
   $scope.showDayModalIsOpen = false;
   $scope.showDay = function(d) {
+    $scope.showingAllTags = false;
     $scope.show_disqus = false;
     $log.debug('showDay(d): ');
     $log.debug(d);
@@ -379,7 +410,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20180408ae',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20180408ai',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

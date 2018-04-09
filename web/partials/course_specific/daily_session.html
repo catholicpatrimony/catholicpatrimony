@@ -20,17 +20,8 @@
     <div style="margin-top: 20px;">
     -->
     <div style="margin-top: 20px;" ng-if="c.title">
-      <span ng-include="'partials/audio_and_docs.html?cbp=20180408ae'"></span>
+      <span ng-include="'partials/audio_and_docs.html?cbp=20180408ai'"></span>
     </div>
-    <span ng-if="showingAllTags" ng-click="toggleShowAllTags()">
-      hide all tags
-    </span>
-    <span ng-if="!showingAllTags" ng-click="toggleShowAllTags()">
-      show all tags
-    </span>
-    <span ng-if="showingAllTags">
-      showing all
-    </span>
     <span ng-if="c.tags">
       <br />
       <table>
@@ -55,6 +46,26 @@
       <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
       or
       <input type="text" ng-model="searchText2.val" style="width: 300px;" />
+      <br />
+      <br />
+      <!--
+      <span ng-if="!c.tags">
+      -->
+      <span>
+        <span ng-if="showingAllTags" ng-click="toggleShowAllTags()">
+          <a href="">hide tags</a>
+          <br />
+        </span>
+        <span ng-if="!showingAllTags" ng-click="toggleShowAllTags()">
+          <a href="">show all tags</a>
+        </span>
+        <span ng-if="showingAllTags">
+          <br />
+          <span ng-repeat="(tag, count) in allTags">
+            <a style="word-break: keep-all;" href="javascript:void(null)" ng-click="searchText1.val = tag; searchText2.val = ''; toggleShowAllTags();" class="link">{{tag}} [{{count}}]</a>&nbsp; / &nbsp;
+          </span>
+        </span>
+      </span>
       <br />
       <br />
       <div ng-if="!tooManyResults" ng-repeat="ma in matchingArr track by $index">

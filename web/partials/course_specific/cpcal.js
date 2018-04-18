@@ -16,6 +16,8 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
     {name : "2014", id : 2014}];
     $scope.yearStr = $scope.yearOptions[0].id;
 
+  $scope.maxTagCount = 0;
+
   //TODO - 
   //
   //  FEATURES:
@@ -45,6 +47,9 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
           if (tag != "") {
             if ($scope.allTags[tag]) {
               $scope.allTags[tag]++;
+              if ($scope.allTags[tag] > $scope.maxTagCount) {
+                $scope.maxTagCount = $scope.allTags[tag];
+              }
             } else {
               $scope.allTags[tag] = 1;
             }
@@ -131,6 +136,24 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
         $scope.parseLiturgicalDay(homiliesByName, homiliesArr, c, j);
       }
     }
+  }
+  $log.debug('$scope.maxTagCount: ' + $scope.maxTagCount);
+  $scope.allTagSizes = {};
+  for (var tKey in $scope.allTags) {
+    var count = $scope.allTags[tKey];
+    var minFontSize = 80;
+    var maxFactor = 12;
+    var maxFontSize = 6 * minFontSize;
+    var pctOfMax = count / $scope.maxTagCount;
+    var size = maxFactor * minFontSize * pctOfMax;
+    if (size < minFontSize) {
+      size = minFontSize;
+    }
+    if (size > maxFontSize) {
+      size = maxFontSize;
+    }
+    $log.debug('size: ' + size + ' count: ' + count + ' pctOfMax: ' + pctOfMax);
+    $scope.allTagSizes[tKey] = size;
   }
   $log.debug('$scope.allTags:');
   $log.debug($scope.allTags);
@@ -410,7 +433,7 @@ cpApp.controller('DailyHomiliesController', function($scope, $location, $routePa
       $scope.searchRelated(d);
       $scope.modalInstance = $uibModal.open({
         animation: true,
-        templateUrl: 'partials/course_specific/daily_session.html?cbp=20180408ai',
+        templateUrl: 'partials/course_specific/daily_session.html?cbp=20180418edci',
         controller: ModalInstanceCtrl,
         size: 'lg',
         scope: $scope,

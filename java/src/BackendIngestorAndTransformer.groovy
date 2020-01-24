@@ -21,7 +21,7 @@ ops.add("json");
 //ops.add("wp");
 ops.add("podcast");
 
-configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "11/15/2016").toCalendar().getTimeInMillis();
+configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "11/15/2018").toCalendar().getTimeInMillis();
 
 def mockRun = false;
 
@@ -63,6 +63,7 @@ def jsonClassArr = []
 //     1233971849 - adult education
 //     1501128082 - wed
 //for (gid in [469482974, 5]) {
+//for (gid in [1]) {
 for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
   def responseStr = null;
@@ -345,7 +346,9 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
   }
 
 }
-def jsonStr = new JsonBuilder( jsonClassArr ).toPrettyString()
+//def jsonStr = new JsonBuilder( jsonClassArr ).toPrettyString()
+//def jsonStr = new JsonBuilder( jsonClassArr ).toString()
+def jsonStr = JsonOutput.prettyPrint(JsonOutput.toJson(jsonClassArr))
 jsonStr = "cp = " + jsonStr;
 //jsonStr = "cp = " + jsonStr.replaceAll('"', '\\\\"');
 new File("../web/cp.json").withWriter { out -> out.write(jsonStr) };

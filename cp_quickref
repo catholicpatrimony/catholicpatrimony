@@ -1,4 +1,0 @@
-$ curl -k 'https://docs.google.com/spreadsheet/pub?key=0AkWmZX8HtwWHdENUNFcxdG9XdzBTaWhlVkZ0RU1QcXc&output=csv'
-
-$ type=wp; xsltproc ./xsl/${type}.xsl ./xml/missal.xml  |  putclip
-

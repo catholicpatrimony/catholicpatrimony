@@ -1,0 +1,14 @@
+<span ng-if="d.cpObj != null"  style="cursor: pointer;">
+  <div ng-repeat="ld in d.cpObj.liturgical_day" ng-click="showDay(d.cpObj);">
+    <hr ng-if="$index != 0" class="day_divider" />
+    <span>{{ld}}</span>
+    <!--
+    <hr ng-if="d.cpObj.rssDate.substring(0,3) == 'Sun'" class="day_divider" />
+    -->
+  </div>
+    <br ng-if="d.cpObj.rssDate.substring(0,3) == 'Sun'" class="day_divider" />
+    <span style="font-size: 80%; font-style: italic;" ng-if="d.cpObj.rssDate.substring(0,3) == 'Sun'">{{d.cpObj.detail}}</span>
+</span>
+<span ng-if="d.cpObj == null">
+  &nbsp;
+</span>

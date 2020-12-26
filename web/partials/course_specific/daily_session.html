@@ -1,0 +1,105 @@
+<div class="body-clone">
+<div class="opacity-wrapper">
+<span style="float: right; margin: 10px; font-size: 150%; cursor: pointer;"
+      ng-click="ok();"
+  >X</span>
+<div ng-if="sd" class="container">
+  <div>
+    <br />
+    <div ng-if="c.title">
+      <strong>{{c.date}} - {{c.title}}</strong>
+      <br />
+    </div>
+    <!--
+    <div ng-if="!c.title">
+      <strong>Search</strong>
+      <br />
+    </div>
+    -->
+    <span ng-if="c.detail">{{c.detail}}</span>
+    <!--
+    <div style="max-width=: 70%;">
+    <div style="margin-top: 20px;">
+    -->
+    <div style="margin-top: 20px;" ng-if="c.title">
+      <span ng-include="'partials/audio_and_docs.html?cbp=20020112bbedci'"></span>
+    </div>
+    <span ng-if="c.tags">
+      <br />
+      <table>
+        <tr><td>&nbsp;&nbsp; TAGS:&nbsp;&nbsp;</td>
+          <td>
+            <a ng-if="tagsfirstline" href="javascript:void(null)" ng-click="searchText1.val = tagsfirstline; searchText2.val = '';" class="link">{{ tagsfirstlinedisplay }}</a>
+          </td>
+        </tr>
+        <tr ng-repeat="t in tagssubsequentlines">
+          <td>&nbsp;</td>
+          <td>
+            <a href="javascript:void(null)" ng-click="searchText1.val = t; searchText2.val = '';" class="link">{{ tagssubsequentlinesdisplay[$index] }}</a>
+          </td>
+        </tr>
+      </table>
+    </span>
+    <br />
+    <br />
+    <div ng-if="c.title">Search for <a href="javascript:void(null)" ng-click="searchRelated(c);">related homilies</a>:</div>
+    <div ng-if="!c.title">Search:</div>
+    <div ng-if="sd.normalized_name == 'daily_homilies'">
+      <input type="text" ng-model="searchText1.val" style="width: 300px;"/>
+      or
+      <input type="text" ng-model="searchText2.val" style="width: 300px;" />
+      <br />
+      <br />
+      <!--
+      <span ng-if="!c.tags">
+      -->
+      <span>
+        <span ng-if="showingAllTags" ng-click="toggleShowAllTags()">
+          <a href="">hide tags</a>
+          <br />
+        </span>
+        <span ng-if="!showingAllTags" ng-click="toggleShowAllTags()">
+          <a href="">show all tags</a>
+        </span>
+        <span ng-if="showingAllTags">
+          <br />
+          <span ng-repeat="(tag, count) in allTags">
+            <a style="word-break: keep-all; font-size: {{allTagSizes[tag]}}%;" href="javascript:void(null)" ng-click="searchText1.val = tag; searchText2.val = ''; toggleShowAllTags();" class="link">{{tag}}&nbsp;[{{count}}]</a>&nbsp; / &nbsp;
+          </span>
+        </span>
+      </span>
+      <br />
+      <br />
+      <div ng-if="!tooManyResults" ng-repeat="ma in matchingArr track by $index">
+        <a href="javascript:void(null);" ng-click="showDay(ma);">{{ma.date}} {{ma.title}}</a>
+      </div>
+      <div ng-if="tooManyResults">
+        Too many results.  Refine your search.
+      </div>
+      <div ng-if="noResults">
+        no results
+      </div>
+    </div>
+    <br />
+    <span ng-if="!show_disqus">
+      <!--
+      <a ng-click="show_disqus = true;">show comments</a>
+      -->
+      <a ng-if="c.title" href="javascript:void(null);" ng-click="showComments()">show comments</a>
+    </span>
+    <span ng-if="show_disqus">
+      <dir-disqus config="disqusConfig"></dir-disqus>
+      
+      <dir-disqus disqus-shortname="catholicpatrimony"
+           disqus-identifier="{{ myDisqus_identifier }}"
+           disqus-title="{{ myDisqus_title }}"
+           disqus-url="{{ myDisqus_url }}"
+           ready-to-bind="{{ myDisqus_contentLoaded }}">
+      </dir-disqus>
+    </span>
+    <br />
+    <br />
+  </div>
+</div>
+</div>
+</div>

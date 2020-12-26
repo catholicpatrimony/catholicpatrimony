@@ -1,0 +1,41 @@
+<div ng-if="sd" ng-class="'container-'+sd.normalized_name" class="container">
+  <h3 ng-if="sd.normalized_name != 'daily_homilies'">{{sd.title}}</h3>
+  <div style="margin-left: 20px">
+    <div ng-if="classes">Subscribe via <a href="/{{sd.normalized_name}}/podcast.xml">podcast</a>.</div>
+  <p ng-if="sd.gdoc_above_classes" ng-include="trustSrc(sd.gdoc_above_classes)" onload="gdoc_loaded();"></p>
+  <p ng-if="sd.customTemplate" ng-include="'partials/course_specific/' + sd.normalized_name + '.html?cbp=20020112bbedci'">{{sd.normalized_name}}.html</p>
+
+  <div ng-if="classes && sd.includeZips" style="font-weight: bold">Bundled Downloads</div>
+  <div style="margin-left: 20px">
+    <div ng-if="sd.includeZips">Download all audio files as a zip <a href="/{{sd.normalized_name}}/{{sd.normalized_name}}-audio.zip">here</a>.</div>
+    <div ng-if="sd.includeZips">Download all doc files as a zip <a href="/{{sd.normalized_name}}/{{sd.normalized_name}}-docs.zip">here</a>.</div>
+<!--
+  or <a href="itms://www.catholicpatrimony.com/{{sd.normalized_name}}/podcast.xml">open in iTunes</a>.
+-->
+  </div>
+<!--
+  or <a href="itms://www.catholicpatrimony.com/{{sd.normalized_name}}/podcast.xml">open in iTunes</a>.
+-->
+  </div>
+  <div ng-repeat="c in classes" ng-if="sd.normalized_name != 'daily_homilies'">
+    <br />
+    <div>
+      <strong>{{c.title}}</strong>
+    </div>
+    <span ng-if="c.detail">{{c.detail}}</span><br ng-if="c.detail"/>
+
+    <span ng-include="'partials/audio_and_docs.html?cbp=20020112bbedci'"></span>
+    <div class="row">
+      <div class="col-xs-1 col-md-1">
+        <a href="" class="cp-icon" ng-click="sessionClicked(c);" style="text-decoration:none">
+          <img src="img/disqus-social-icon-blue-white.png" width="16"/>
+        </a>
+      </div>
+      <div class="col-xs-10 col-md-10">
+        <a href="" ng-click="sessionClicked(c);" style="text-decoration:none">
+          Comments
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

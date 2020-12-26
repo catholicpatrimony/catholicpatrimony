@@ -1,0 +1,16 @@
+<div style="padding: 20px; text-align: center; display: block; margin-left: auto; margin-right: auto;>
+  <div>
+    <strong>{{day2show.dateStr}}</strong>
+  </div>
+  <!--
+  <div>
+    <strong>{{day2show.litdaySelected}}</strong>
+  </div>
+  -->
+  <div>
+    <span ng-repeat="ld in day2show.cpObj.liturgical_day">
+      <span ng-if="$index != 0" > / </span>
+      <span> {{ld}} </span>
+  </div>
+  <span ng-if="c" ng-include="'partials/audio_and_docs.html?cbp=20020112bbedci'"></span>
+</div>

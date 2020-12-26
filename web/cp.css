@@ -1,0 +1,143 @@
+/* Responsive iFrame */
+ 
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.responsive-iframe-container iframe,  
+.vresponsive-iframe-container object, 
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:visited {
+    text-decoration: none;
+}
+
+a, u {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.cp-icon {
+  margin-left: 10px;
+}
+
+.container-daily_homilies {
+  max-width: none;
+}
+
+.cal_table {
+  font-size: 85%; 
+  /*
+  border-color: #DCDCDC;
+  border-spacing: 0;
+  border-width: 1px;
+  border-collapse: collapse;
+  border-color: red;
+  */
+  border-color: #DCDCDC;
+  border-style: solid;
+}
+
+.cal_color {
+  border-color: #DCDCDC;
+}
+
+@media (max-width: 767px) {
+  .cal_cell {
+    font-size: 8px;
+    text-align: center; 
+    padding: 5px; 
+    height: 110px;
+  }
+}
+@media (min-width: 768px) {
+  .cal_cell {
+    text-align: center; 
+    padding: 5px; 
+    height: 110px;
+  }
+}
+
+.day_divider {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.grey_bg {
+  background-color: #f5f5f0;
+  background: #f5f5f0;
+}
+
+  /*
+*/
+body {
+  background-image: url("img/bg1_smaller.jpg");
+  z-index: -1;
+  background-color: #cccccc;
+  background-color:rgba(0, 0, 0, 0.5);
+
+  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.body-clone {
+  background-image: url("img/bg1_smaller.jpg");
+  z-index: -1;
+  background-color: #cccccc;
+  background-color:rgba(0, 0, 0, 0.5);
+
+  background-repeat: no-repeat;
+  background-position: center center !important;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*
+.wrapper_outer {
+  opacity: 1.0;
+}
+*/
+
+.opacity-wrapper {
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.wrapper {
+  opacity: 1.0;
+}
+.opacity-nav {
+  background-color: #ffffff;
+  opacity: 1.0;
+  z-index: 10;
+}
+
+.flex-container {
+    display:flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}

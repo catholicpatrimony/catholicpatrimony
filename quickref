@@ -1,2 +1,15 @@
-$ find ./web/ | xargs grep cbp 2> /dev/null
-$ find ./web/ | xargs grep cbp 2> /dev/null | gawk -F : '{print $1}' | xargs sed -i 's/cbp=20160224/20160305/g'
+
+
+#find ../web/ -name \*.js -o -name \*.html | xargs sed -i 's/cbp=......../cbp=20160704b/g'
+#s3cmd -P sync --dry-run --exclude "*json*" ./web/ s3://www.catholicpatrimony.com/
+
+#vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd -P sync --exclude cp.json ./ s3://www.catholicpatrimony.com/
+#vagrant@vagrant-ubuntu-trusty-64:/mydev/catholicpatrimony/web$ s3cmd sync --add-header=Cache-Control:no-cache -P --guess-mime-type index.html s3://www.catholicpatrimony.com/
+#
+#
+
+# guru meditation - the virtualbox won't start
+$ VBoxManage controlvm andersonbd1-ubuntu6 poweroff
+find ./web/ -type f | grep -v cp.json | xargs sed -i 's/2017[0-9][^\x27\x22]*/20171210a/g'
+
+$ find ./web | xargs grep -i 'CBP=' 2> /dev/null | gawk -F':' '{print $1}' | sort -u | xargs sed -i 's/cbp=\([0-9a-bA-B]*\)/cbp=20180408/g'

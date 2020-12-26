@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<series>
+  <title>The New Roman Missal</title>
+  <normalizedTitle>new_roman_missal</normalizedTitle>
+  <description>Understanding the New Roman Missal, Understanding Our Liturgy</description>
+  <session>
+    <title>Opening Rites</title>
+    <detail>History of the Eucharistic Liturgy, Introductory Rites, Sign of the Cross, Opening Greeting, Penitential Act, Kyrie, Gloria</detail>
+    <audio>
+      <date>Fri, 27 Oct 2012 19:00:00 -0700</date>
+      <length>54:01</length>
+      <link>http://tedesche.s3.amazonaws.com/new_mass_translation/missal_class_for_jan17.MP3</link>
+    </audio>
+    <docs>
+      <doc>
+        <link>http://tedesche.s3.amazonaws.com/new_mass_translation/docs/Session01-OpeningRites.pdf</link>
+        <title>Handout</title>
+      </doc>
+    </docs>
+  </session>
+  <session>
+    <title>Sacrosanctum Concilium</title>
+    <detail>The Second Vatican Council's Sacrosanctum concilium and the Liturgy as a participation in Christ's own Priestly Service to the Father.</detail>
+    <audio>
+      <length>54:00</length>
+      <link>http://tedesche.s3.amazonaws.com/new_mass_translation/missal_class_for_jan24.MP3</link>
+    </audio>
+    <docs>
+      <doc>
+        <link>http://tedesche.s3.amazonaws.com/new_mass_translation/docs/Session02-SacrosanctumConcilium.pdf</link>
+        <title>Handout</title>
+      </doc>
+    </docs>
+  </session>
+</series>
+

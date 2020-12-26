@@ -1,0 +1,34 @@
+<div ng-if="sd" class="container">
+  <div>
+    <h3>{{sd.title}}</h3>
+    <br ng-if="c.title"/>
+    <div>
+      <strong>{{c.title}}</strong>
+    </div>
+    <span ng-if="c.detail">{{c.detail}}</span><br />
+    <!--
+    <div style="max-width=: 70%;">
+    -->
+    <span ng-include="'partials/audio_and_docs.html?cbp=20020112bbedci'"></span>
+    <div ng-if="sd.normalized_name == 'daily_homilies'">
+      <input >
+    {{sd.title}}
+      <div>
+        <div>
+        </div>
+      </div>
+    </div>
+    <dir-disqus config="disqusConfig"></dir-disqus>
+    
+    <!--
+    <dir-disqus disqus-shortname="catholicpatrimony"
+         disqus-identifier="{{ myDisqus_identifier }}"
+         disqus-title="{{ myDisqus_title }}"
+         disqus-url="{{ myDisqus_url }}"
+         ready-to-bind="{{ myDisqus_contentLoaded }}">
+    </dir-disqus>
+    -->
+    <br />
+    <br />
+  </div>
+</div>

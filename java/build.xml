@@ -45,10 +45,7 @@
 
 
   <target name="groovy" depends="init">
-    <!--
-    <groovy src="src/com/catholicpatrimony/HttpTest.groovy" classpathref="runtime.classpath" />
-    -->
-    <groovy src="src/com/catholicpatrimony/GDocTransformerGr.groovy" classpathref="runtime.classpath" />
+    <groovy src="src/BackendIngestorAndTransformer.groovy" classpathref="runtime.classpath" />
   </target>
 
 </project>

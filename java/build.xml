@@ -38,6 +38,7 @@
           target: resolve              
          ================================= -->
   <target name="resolve" depends="init" >
+    <ivy:settings file="ivy-settings.xml"/>
     <ivy:resolve />
     <ivy:retrieve />
     <copy file="vcs_lib/opencsv-2.3.jar" todir="lib" />

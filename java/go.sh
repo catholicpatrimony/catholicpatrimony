@@ -4,12 +4,14 @@
 # crontab
 # */5 * * * * cd /mydev/course2web/java && flock -n go.lockfile ./go.sh > ./go.out
 
+cmd.exe --% /c copy  'g:\My Drive\catholic\tedesche\uploads\daily_homilies\audio' 'C:\dev\audio'
+
 #while [ true ]
 #do
   #sudo service ntp stop
   PD1=$(pwd)
-  cd ~/gdrive/catholic/tedesche/uploads/daily_homilies
-  drive pull
+  #cd ~/gdrive/catholic/tedesche/uploads/daily_homilies
+  #drive pull
   cd $PD1
   export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
   #sudo ntpdate ntp.ubuntu.com
@@ -17,7 +19,8 @@
 
   # this is not preserving the timestamp
   #cp -puR /google_drive/catholic/tedesche/uploads/* ./orig
-  rsync -rt ~/gdrive/catholic/tedesche/uploads/daily_homilies ./orig
+  #rsync -rt ~/gdrive/catholic/tedesche/uploads/daily_homilies ./orig
+  rsync -rt /mnt/c/dev/audio ./orig/daily_homilies
   #rsync -rt /google_drive/catholic/tedesche/uploads/Sunday_Homilies ./orig
   #rsync -rt /google_drive/catholic/tedesche/uploads/wednesday_night_talks ./orig
   #rsync -rt /google_drive/catholic/tedesche/uploads/adult_education ./orig
@@ -25,6 +28,7 @@
   # run groovy
   # ant groovy; 
   #groovy -cp 'lib/*' src/test.groovy
+  mv lib/groovy/lib/groovy-1.7.11.jar  lib/groovy/lib/groovy-1.7.11.jar.bak 2> /dev/null
   groovy -cp 'lib/*' src/BackendIngestorAndTransformer.groovy
   #groovy -v
   

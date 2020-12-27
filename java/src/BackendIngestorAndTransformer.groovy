@@ -21,7 +21,7 @@ ops.add("json");
 //ops.add("wp");
 ops.add("podcast");
 
-configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "09/13/2020").toCalendar().getTimeInMillis();
+configCreateAudioIfNewerThanMillis = Date.parse("MM/dd/yyyy", "12/23/2020").toCalendar().getTimeInMillis();
 
 def mockRun = false;
 
@@ -62,7 +62,7 @@ def jsonClassArr = []
 // 9 - 728325633 - tyburn patrology
 //     1233971849 - adult education
 //     1501128082 - wed
-//for (gid in [469482974, 5]) {
+//for (gid in [469482974]) {
 //for (gid in [1]) {
 for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
   println 'gid: '+gid;
@@ -166,7 +166,7 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
           for (def i=0; i < c.liturgical_day.size; i++) {
             c.title += c.liturgical_day[i] + ' / ';
           }
-          c.title = c.title.take(c.title.size() - 3);
+          c.title = c.title.take((int) c.title.size() - 3);
         } else {
           c.title = c.liturgical_day;
         }
@@ -262,6 +262,14 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
           println ("no rssDate for c: " + c)
         }
         if (createAudio && !mockRun && shouldCreatePerConfig) {
+          if (origFileStr ==~ '.*m4a') {
+            println ('contains m4a!')
+            newMp3AsOrig = origFileStr.replaceFirst(/m4a/, "mp3")
+            proc(["ffmpeg", "-n", "-i", origFileStr, "-acodec", "libmp3lame", "-ab", "256k",  newMp3AsOrig]);
+            origFileStr = newMp3AsOrig;
+          } else {
+            println ('no m4a!')
+          }
           proc(["sox", "-v", c.volume_boost, origFileStr, "-r", "24k", "-c", "1", newFileStr]);
           proc(["id3v2", "-a", "David Tedesche", "-A", seriesData.normalized_name, "-t", c.title, "-T", c.id, newFileStr]);
         }

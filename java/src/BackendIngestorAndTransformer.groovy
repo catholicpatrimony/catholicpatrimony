@@ -62,9 +62,10 @@ def jsonClassArr = []
 // 9 - 728325633 - tyburn patrology
 //     1233971849 - adult education
 //     1501128082 - wed
-//for (gid in [469482974]) {
+// for (gid in [469482974]) {
 //for (gid in [1]) {
-for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
+for (gid in [1233971849, 1019442815, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
+//for (gid in [ 1019442815]) {
   println 'gid: '+gid;
   def responseStr = null;
 
@@ -161,6 +162,8 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
     }
     if (c.title == null) {
       if (c['liturgical_day'] != null) {
+        println ("c['liturgical_day']")
+        println (c['liturgical_day'])
         if (c['liturgical_day'] instanceof Collection) {
           c.title = '';
           for (def i=0; i < c.liturgical_day.size; i++) {
@@ -234,6 +237,15 @@ for (gid in [1233971849, 1501128082, 827677169, 469482974, 6, 4, 3, 2, 0, 1]) {
       if (c.audio) {
         def origFileStr = "orig/${seriesData.normalized_name}/audio/${c.audio}"
         def newFileStr = "build/${seriesData.normalized_name}/audio/${c.newAudio}"
+
+        // if ref is youtube and origFile is missing, then generate it
+        if (c.audio.contains('youtube')) {
+            origFileStr = "orig/${seriesData.normalized_name}/audio/${c.newAudio}"
+            if (!new File(origFileStr).exists()) {
+                proc(["yt-dlp", "-f", "bestaudio", "--extract-audio", "--audio-format", "mp3", 
+                    "--audio-quality", "0", "-o", origFileStr, c.audio])
+            }
+        }
 
         def createAudio = fileNewerThan(origFileStr, newFileStr, c.updated_on_date);
 
